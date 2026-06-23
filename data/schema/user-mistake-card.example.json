@@ -1,0 +1,12 @@
+{
+  "userId": 1,
+  "wrong": "할 예정이에요",
+  "correct": "할 예정입니다",
+  "reasonVi": "Câu 51 là thông báo trang trọng — dùng 습니다체, không 해요.",
+  "patternId": "p51-plan-yejeong",
+  "questionType": 51,
+  "nextReviewDate": "2026-05-28",
+  "intervalDays": 3,
+  "source": "ai-grading",
+  "officialQuestionId": null
+}

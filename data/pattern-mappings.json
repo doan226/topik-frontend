@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "updated": "2026-05-24",
+  "sourceNote": "Rule gợi ý: substring lỗi ngữ pháp → patternId (cho SRS / mistake cards)",
+  "mappings": [
+    {
+      "match": "예정",
+      "patternId": "p51-plan-yejeong",
+      "questionType": 51
+    },
+    {
+      "match": "려고 합니다",
+      "patternId": "p51-plan-ryeogo",
+      "questionType": 51
+    },
+    {
+      "match": "생각입니다",
+      "patternId": "p51-plan-saenggak",
+      "questionType": 51
+    },
+    {
+      "match": "계획입니다",
+      "patternId": "p51-plan-saenggak",
+      "questionType": 51
+    },
+    {
+      "match": "실 수 없습니다",
+      "patternId": "p51-cannot-siseol",
+      "questionType": 51
+    },
+    {
+      "match": "불가능합니다",
+      "patternId": "p51-cannot-bulganeung",
+      "questionType": 51
+    },
+    {
+      "match": "왜냐하면",
+      "patternId": "p52-waeimyeon",
+      "questionType": 52
+    },
+    {
+      "match": "때문이다",
+      "patternId": "p52-talri",
+      "questionType": 52
+    },
+    {
+      "match": "면 안",
+      "patternId": "p52-myeon-andoe",
+      "questionType": 52
+    },
+    {
+      "match": "어렵",
+      "patternId": "p52-eoryeopda",
+      "questionType": 52
+    },
+    {
+      "match": "에 따라",
+      "patternId": "p52-e-dara",
+      "questionType": 52
+    },
+    {
+      "match": "습니다",
+      "patternId": "p51-formal-endings",
+      "questionType": 51
+    },
+    {
+      "match": "ㅂ니다",
+      "patternId": "p51-formal-endings",
+      "questionType": 51
+    }
+  ]
+}

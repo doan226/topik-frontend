@@ -1,0 +1,1074 @@
+{
+  "version": 1,
+  "updated": "2026-05-25",
+  "sourceNote": "Biên soạn từ Quyển Viết hoàn chỉnh (Tiếng Hàn Thu Huế). Giải thích tiếng Việt đã paraphrase; đáp án bài tập gợi ý — cần review thêm.",
+  "stats": {
+    "patterns": 42,
+    "vocabGroups": 12,
+    "connectors": 7,
+    "exercises": 38
+  },
+  "items": [
+    {
+      "id": "p51-formal-endings",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "Đuôi câu trang trọng (습니다체)",
+      "forms": ["N입니다", "A/V습니다/ㅂ니다", "A/V았/었/했습니다", "A/V겠습니다", "A/V을/ㄹ 겁니다"],
+      "reasonVi": "Câu 51 thường là email, thông báo, quảng cáo — dùng thể trang trọng, không dùng 반말.",
+      "commonWrong": ["해요/해", "한다/이다 (văn viết 52)", "과거 không khớp ngữ cảnh"],
+      "topic": "formal-style",
+      "source": "quyen-viet-part1 p.1"
+    },
+    {
+      "id": "p51-plan-ryeogo",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+(으)려고 합니다",
+      "exampleKo": "무료로 드리려고 합니다",
+      "reasonVi": "Diễn tả kế hoạch/dự định sẽ làm gì trong văn trang trọng.",
+      "commonWrong": ["V+(으)려고 해요", "V+을 것입니다 (sát nghĩa hơn là 예정)"],
+      "topic": "plan",
+      "source": "quyen-viet-part1 p.4"
+    },
+    {
+      "id": "p51-plan-yejeong",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+을/ㄹ 예정입니다",
+      "exampleKo": "다음 주 월요일은 도서관 내부 공사를 할 예정입니다",
+      "reasonVi": "Thông báo kế hoạch đã lên lịch — hay gặp trong 공지, 안내.",
+      "commonWrong": ["할 것입니다", "했습니다", "하겠습니다 (thiếu nghĩa 'dự kiến')"],
+      "topic": "announcement",
+      "source": "quyen-viet-part1 p.4"
+    },
+    {
+      "id": "p51-plan-saenggak",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+을/ㄹ 생각입니다 / V+을/ㄹ 계획입니다",
+      "reasonVi": "Kế hoạch cá nhân trong thư hoặc thông báo nhẹ hơn 공식.",
+      "commonWrong": ["생각해요", "계획이에요"],
+      "topic": "plan",
+      "source": "quyen-viet-part1 p.4"
+    },
+    {
+      "id": "p51-cannot-siseol",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+(으)실 수 없습니다",
+      "exampleKo": "건물 전체에서 담배를 피우실 수 없습니다",
+      "reasonVi": "Cấm/không thể — kính ngữ trang trọng trong 안내.",
+      "commonWrong": ["피울 수 없어요", "피우지 마세요 (mệnh lệnh, khác sắc thái)", "못 피웁니다 (khẩu ngữ)"],
+      "topic": "prohibition",
+      "source": "quyen-viet-part1 p.5"
+    },
+    {
+      "id": "p51-cannot-bulganeung",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+기가 불가능합니다",
+      "exampleKo": "이날은 도서관을 이용하실 수 없습니다 → 이용이 불가능합니다",
+      "reasonVi": "Thông báo không thể sử dụng dịch vụ/cơ sở.",
+      "commonWrong": ["안 됩니다 (quá ngắn)", "못합니다"],
+      "topic": "prohibition",
+      "source": "quyen-viet-part1 p.5"
+    },
+    {
+      "id": "p51-possible",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+(으)실 수 있습니다 / N(이/가) 가능합니다",
+      "exampleKo": "화요일부터는 정상적으로 이용하실 수 있습니다",
+      "reasonVi": "Thông báo có thể làm gì — đối lập với 불가능.",
+      "commonWrong": ["할 수 있어요", "됩니다 (thiếu kính ngữ)"],
+      "topic": "possibility",
+      "source": "quyen-viet-part1 p.5"
+    },
+    {
+      "id": "p51-difficult",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+기(가) 어려울 것 같습니다",
+      "reasonVi": "Diễn tả việc có vẻ khó thực hiện — thường trong email xin lỗi/giải thích.",
+      "commonWrong": ["어려워요", "힘듭니다 (khác grammar)"],
+      "topic": "possibility",
+      "source": "quyen-viet-part1 p.5"
+    },
+    {
+      "id": "p51-time-question",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "N+이/가 되십니까? / N+이/가 괜찮으십니까?",
+      "exampleKo": "다음 주 토요일과 일요일 중에 언제 시간이 되십니까?",
+      "reasonVi": "Hỏi thời gian/lịch trình lịch sự trong email.",
+      "commonWrong": ["돼요?", "괜찮아요? (반말/thân mật)"],
+      "topic": "email",
+      "source": "quyen-viet-part1 p.6"
+    },
+    {
+      "id": "p51-request-jusigi",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+아/어/해 주시기 바랍니다",
+      "exampleKo": "010-1234-5678로 연락해 주시기 바랍니다",
+      "reasonVi": "Nhờ vả trang trọng — rất phổ biến câu 51.",
+      "commonWrong": ["주세요", "해 주세요 (kém trang trọng)", "바랍니다 thiếu 주시"],
+      "topic": "request",
+      "source": "quyen-viet-part1 p.8"
+    },
+    {
+      "id": "p51-request-jusigip",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+아/어/해 주시겠습니까?",
+      "exampleKo": "다음주 수요일에 선생님께 상담을 받을 수 있겠습니까?",
+      "reasonVi": "Hỏi ý kiến/xin phép lịch sự.",
+      "commonWrong": ["주세요?", "할 수 있어요? (không kính ngữ)"],
+      "topic": "request",
+      "source": "quyen-viet-part1 p.8"
+    },
+    {
+      "id": "p51-must",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+아/어/해야 합니다",
+      "exampleKo": "화장실은 깨끗이 사용해야 합니다",
+      "reasonVi": "Nghĩa vụ/trách nhiệm trong 안내 công cộng.",
+      "commonWrong": ["해야 해요", "해야겠습니다 (sẽ phải — khác nuance)"],
+      "topic": "obligation",
+      "source": "quyen-viet-part1 p.7"
+    },
+    {
+      "id": "p51-gratitude",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+아/어/해 주셔서 감사합니다",
+      "exampleKo": "지난번에 댁에 초대해 주셔서 감사합니다",
+      "reasonVi": "Cảm ơn vì ai đó đã làm gì — email cá nhân.",
+      "commonWrong": ["고마워요", "감사해요"],
+      "topic": "gratitude",
+      "source": "quyen-viet-part1 p.7"
+    },
+    {
+      "id": "p51-negation-adverb",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "아직/전혀/절대로/조금도 + 부정",
+      "exampleKo": "아직 일을 잘하지 못합니다",
+      "reasonVi": "Phủ định kết hợp trạng từ — chú ý đuôi trang trọng.",
+      "commonWrong": ["안 해요", "못해 (thiếu 합니다)"],
+      "topic": "negation",
+      "source": "quyen-viet-part1 p.9"
+    },
+    {
+      "id": "p51-experience",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+아/어/해 본 적이 있습니다/없습니다",
+      "exampleKo": "책을 사고 전혀 읽어 본 적이 없습니다",
+      "reasonVi": "Đã từng/chưa từng làm — quảng cáo, 후기.",
+      "commonWrong": ["봤어요", "해 봤다 (văn viết 52)"],
+      "topic": "experience",
+      "source": "quyen-viet-part1 p.10"
+    },
+    {
+      "id": "p51-indirect-speech",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+는/ㄴ다고 합니다 / A+다고 합니다",
+      "exampleKo": "일기예보에 의하면 내일 비가 온다고 합니다",
+      "reasonVi": "Trích dẫn gián tiếp — thông báo, 공지 du lịch.",
+      "commonWrong": ["온대요", "옵니다 (không phải trích dẫn)"],
+      "topic": "indirect-speech",
+      "source": "quyen-viet-part1 p.11-13"
+    },
+    {
+      "id": "p51-prohibition-dont",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+지 말아 주십시오 / V+지 않도록 합니다",
+      "exampleKo": "물어보기만 하실 분은 연락하지 말아 주십시오",
+      "reasonVi": "Cấm/nhờ đừng làm — quảng cáo, 분실, 규칙.",
+      "commonWrong": ["하지 마세요 (kém trang trọng)"],
+      "topic": "prohibition",
+      "source": "quyen-viet-part1 p.13"
+    },
+    {
+      "id": "p51-if-enough",
+      "type": "pattern",
+      "questionType": 51,
+      "patternKo": "V+(으)면 됩니다",
+      "reasonVi": "Chỉ cần làm gì thì được — hướng dẫn đơn giản.",
+      "commonWrong": ["하면 돼요", "해야 합니다 (bắt buộc, không phải 'đủ')"],
+      "topic": "instruction",
+      "source": "quyen-viet-part1 p.14"
+    },
+    {
+      "id": "p52-written-style",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "Thể văn viết (는/ㄴ다체)",
+      "forms": ["N이다", "A/V는/ㄴ다", "A/V았/었다", "A/V겠다", "A/V을/ㄹ 것이다", "V지 않는다"],
+      "reasonVi": "Câu 52 là đoạn luận ngắn — bắt buộc đuôi -는/ㄴ다, không dùng -습니다.",
+      "commonWrong": ["합니다", "해요", "이다 vs 다 nhầm loại từ"],
+      "topic": "written-style",
+      "source": "quyen-viet-part1 p.38"
+    },
+    {
+      "id": "p52-geuraeya",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "그래야 V+을/ㄹ 수 있다 / V+기 때문이다",
+      "reasonVi": "Phải như vậy thì mới... — liên kết điều kiện–kết quả.",
+      "commonWrong": ["그러면 (chỉ 'nếu vậy', thiếu 'phải')", "그래서 (kết quả, không phải điều kiện)"],
+      "topic": "connector",
+      "source": "quyen-viet-part1 p.39"
+    },
+    {
+      "id": "p52-bandae",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "반대로 ...",
+      "reasonVi": "Nội dung trái ngược câu trước — học cặp từ đối nghĩa.",
+      "commonWrong": ["그러나 (chỉ tương phản nhẹ)", "그리고 (bổ sung, không đối lập)"],
+      "topic": "connector",
+      "source": "quyen-viet-part1 p.39"
+    },
+    {
+      "id": "p52-geureomeuro",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "그러므로/그래서/따라서 + V+아/어/해야 한다",
+      "exampleKo": "그러므로 증상이 심하지 않다면 반드시 약을 먹을 필요는 없다",
+      "reasonVi": "Kết luận từ lập luận trước — hay ở cuối đoạn.",
+      "commonWrong": ["그런데", "하지만"],
+      "topic": "connector",
+      "source": "quyen-viet-part1 p.40"
+    },
+    {
+      "id": "p52-gido-hajiman",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "A/V+기도 하고/하지만 ... A/V+기도 하다",
+      "exampleKo": "성공으로 인해 기뻐하기도 하고 실패로 인해 슬퍼하기도 한다",
+      "reasonVi": "Vừa... vừa... — hai mặt của vấn đề.",
+      "commonWrong": ["고 하고 (sai cấu trúc)", "그리고 (liệt kê, không song song)"],
+      "topic": "contrast",
+      "source": "quyen-viet-part1 p.43"
+    },
+    {
+      "id": "p52-eoryeopda",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "V+기(가) 어렵다/힘들다/쉽다",
+      "reasonVi": "Làm gì thì khó/dễ — giải thích nguyên nhân hành vi.",
+      "commonWrong": ["어려워요", "하기 어렵습니다 (sai thể)"],
+      "topic": "difficulty",
+      "source": "quyen-viet-part1 p.43"
+    },
+    {
+      "id": "p52-not-always",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "V+는/ㄴ다고 해서 항상 A+은/ㄴ 것만은 아니다",
+      "exampleKo": "약을 먹는다고 해서 감기가 바로 나는 것만은 아니다",
+      "reasonVi": "Không phải cứ... thì luôn... — phủ định tuyệt đối hóa.",
+      "commonWrong": ["안 된다 (quá mạnh)", "아니다 một mình không đủ"],
+      "topic": "nuance",
+      "source": "quyen-viet-part1 p.43-44"
+    },
+    {
+      "id": "p52-waeimyeon",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "왜냐하면 ... A/V+기 때문이다",
+      "exampleKo": "왜냐하면 책은 지식과 정보를 얻을 수 있는 귀중한 것이기 때문이다",
+      "reasonVi": "Giải thích nguyên nhân — câu sau ( ) thường là 이유 cho câu trước.",
+      "commonWrong": ["그래서 (kết quả, không phải nguyên nhân)", "때문에 thiếu 왜냐하면"],
+      "topic": "cause",
+      "source": "quyen-viet-part2 p.45"
+    },
+    {
+      "id": "p52-e-dara",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "N1(이/가) N2에 따라 다르다",
+      "exampleKo": "사람들의 기분은 날씨에 따라 다르다",
+      "reasonVi": "Khác nhau tùy theo — hay gặp khi so sánh điều kiện.",
+      "commonWrong": ["따라서 (vì vậy — khác từ)", "에 따라 alone thiếu subject"],
+      "topic": "comparison",
+      "source": "quyen-viet-part2 p.45-46"
+    },
+    {
+      "id": "p52-cannot-written",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "V+지 못하다 / V+을/ㄹ 수 없다",
+      "reasonVi": "Không thể — văn viết không dùng 못/안 trần.",
+      "commonWrong": ["못 한다", "안 한다"],
+      "topic": "negation",
+      "source": "quyen-viet-part2 p.46"
+    },
+    {
+      "id": "p52-dorok-nodeoryeok",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "V+을/ㄹ 수 있도록 노력하다 / V+지 않도록 노력한다",
+      "reasonVi": "Nỗ lực để có thể / để không... — lời khuyên câu 52.",
+      "commonWrong": ["하려고 한다 (muốn, không phải nỗ lực)"],
+      "topic": "effort",
+      "source": "quyen-viet-part2 p.47"
+    },
+    {
+      "id": "p52-myeon-andoe",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "V+(으)면 안 된다",
+      "exampleKo": "지식과 정보를 얻을 수 있는 책을 함부로 버리면 안 된다",
+      "reasonVi": "Nếu làm... thì không được — kết luận đạo đức/lời khuyên.",
+      "commonWrong": ["안 된다 without 면", "하지 마라 (too strong spoken)"],
+      "topic": "prohibition",
+      "source": "quyen-viet-part2 p.47"
+    },
+    {
+      "id": "p52-definition",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "N1(이)란 ... N2이다 / V+는 것이다",
+      "exampleKo": "작심삼일이란 마음먹은 일이 사흘을 못 간다는 뜻이다",
+      "reasonVi": "Định nghĩa khái niệm — mở đoạn văn giải thích.",
+      "commonWrong": ["는 것 means without 이다", "이라고 한다 (trích dẫn, khác định nghĩa)"],
+      "topic": "definition",
+      "source": "quyen-viet-part2 p.48"
+    },
+    {
+      "id": "p52-dalryeo",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "N+은/는 V+기에 달려 있다",
+      "exampleKo": "우리의 미래는 얼마나 좋은 선택을 하느냐에 달려 있다",
+      "reasonVi": "Phụ thuộc vào — kết quả tùy hành động/lựa chọn.",
+      "commonWrong": ["depend on wrong particle", "있다 alone"],
+      "topic": "dependency",
+      "source": "quyen-viet-part2 p.48"
+    },
+    {
+      "id": "p52-bbunman",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "A/V+을/ㄹ 뿐만 아니라 ... 도",
+      "reasonVi": "Không những... mà còn — mở rộng lập luận.",
+      "commonWrong": ["고 also only", "뿐이다 (chỉ, nghĩa ngược)"],
+      "topic": "addition",
+      "source": "quyen-viet-part2 p.49"
+    },
+    {
+      "id": "p52-euroseo",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "A/V+(으)므로 / N(이)므로",
+      "reasonVi": "Vì... nên — văn viết trang trọng hơn 그래서.",
+      "commonWrong": ["because 해서 in written essay", "으로서 confused with 으므로"],
+      "topic": "cause",
+      "source": "quyen-viet-part2 p.49"
+    },
+    {
+      "id": "p52-pilyo-eopda",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "반드시 V+을/ㄹ 필요는 없다",
+      "exampleKo": "증상이 심하지 않다면 반드시 약을 먹을 필요는 없다",
+      "reasonVi": "Không nhất thiết phải — phủ định quan niệm sai.",
+      "commonWrong": ["안 해도 된다 (spoken)", "필요 없다 missing 반드시 nuance"],
+      "topic": "nuance",
+      "source": "quyen-viet-part2 p.50"
+    },
+    {
+      "id": "p52-importanteuro",
+      "type": "pattern",
+      "questionType": 52,
+      "patternKo": "V+는 것보다 V+는 것이 중요하다",
+      "exampleKo": "결심은 하는 것보다 실천하는 것이 중요하다",
+      "reasonVi": "Việc gì quan trọng hơn — so sánh hai hành động.",
+      "commonWrong": ["더 중요하다 without 것보다", "중요합니다 (wrong style)"],
+      "topic": "comparison",
+      "source": "quyen-viet-part2 p.50"
+    },
+    {
+      "id": "v51-mojip",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "recruitment",
+      "topicKo": "모집",
+      "terms": [
+        { "ko": "모집하다", "vi": "Tuyển, mời gọi" },
+        { "ko": "신청하다", "vi": "Đăng ký" },
+        { "ko": "참가하다", "vi": "Tham gia (trực tiếp)" },
+        { "ko": "참여하다", "vi": "Có liên quan, tham dự" },
+        { "ko": "지원하다", "vi": "Ứng tuyển" },
+        { "ko": "선착순", "vi": "Theo thứ tự đến trước" },
+        { "ko": "누구나", "vi": "Ai cũng có thể" }
+      ],
+      "source": "quyen-viet-part1 p.2"
+    },
+    {
+      "id": "v51-announcement",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "announcement",
+      "topicKo": "안내",
+      "terms": [
+        { "ko": "안내", "vi": "Hướng dẫn, thông báo" },
+        { "ko": "알리다", "vi": "Thông báo" },
+        { "ko": "공지", "vi": "Công bố" },
+        { "ko": "협조", "vi": "Hợp tác" },
+        { "ko": "양해", "vi": "Thông cảm" }
+      ],
+      "source": "quyen-viet-part1 p.2-3"
+    },
+    {
+      "id": "v51-free-give",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "free-giveaway",
+      "topicKo": "나눔/드림",
+      "terms": [
+        { "ko": "무료", "vi": "Miễn phí" },
+        { "ko": "드리다", "vi": "Tặng, cho (kính ngữ)" },
+        { "ko": "연락하다", "vi": "Liên lạc" },
+        { "ko": "문의하다", "vi": "Hỏi thăm, liên hệ" },
+        { "ko": "필요하다", "vi": "Cần" }
+      ],
+      "source": "quyen-viet-part1 p.3"
+    },
+    {
+      "id": "v51-lost-found",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "lost-found",
+      "topicKo": "분실",
+      "terms": [
+        { "ko": "분실물", "vi": "Đồ thất lạc" },
+        { "ko": "잃어버리다", "vi": "Làm mất" },
+        { "ko": "찾다", "vi": "Tìm" },
+        { "ko": "보관하다", "vi": "Giữ hộ" },
+        { "ko": "사례하다", "vi": "Cảm ơn/reward" }
+      ],
+      "source": "quyen-viet-part1 p.3"
+    },
+    {
+      "id": "v51-change-cancel",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "change-cancel",
+      "topicKo": "변경/취소",
+      "terms": [
+        { "ko": "변경하다", "vi": "Thay đổi" },
+        { "ko": "취소하다", "vi": "Hủy" },
+        { "ko": "연기하다", "vi": "Hoãn" },
+        { "ko": "날짜", "vi": "Ngày" }
+      ],
+      "source": "quyen-viet-part1 p.3"
+    },
+    {
+      "id": "v51-review",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "review",
+      "topicKo": "이용 후기",
+      "terms": [
+        { "ko": "만족하다", "vi": "Hài lòng" },
+        { "ko": "마음에 들다", "vi": "Ưng ý" },
+        { "ko": "불만족스럽다", "vi": "Không hài lòng" },
+        { "ko": "공사 중", "vi": "Đang thi công" }
+      ],
+      "source": "quyen-viet-part1 p.3"
+    },
+    {
+      "id": "v51-facility",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "facility",
+      "topicKo": "고장/이용",
+      "terms": [
+        { "ko": "고장이 나다", "vi": "Hỏng" },
+        { "ko": "이용하다", "vi": "Sử dụng" },
+        { "ko": "수리하다", "vi": "Sửa chữa" },
+        { "ko": "반납하다", "vi": "Trả (mượn)" },
+        { "ko": "연체하다", "vi": "Trễ hạn" }
+      ],
+      "source": "quyen-viet-part1 p.2-3"
+    },
+    {
+      "id": "v51-email",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "email",
+      "topicKo": "편지/이메일",
+      "terms": [
+        { "ko": "부탁드립니다", "vi": "Nhờ anh/chị" },
+        { "ko": "상담", "vi": "Tư vấn" },
+        { "ko": "편한", "vi": "Thuận tiện" },
+        { "ko": "말씀해 주시다", "vi": "Nói cho (kính ngữ)" }
+      ],
+      "source": "quyen-viet-part1 p.3"
+    },
+    {
+      "id": "v51-warning",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "warning",
+      "topicKo": "경고",
+      "terms": [
+        { "ko": "금연", "vi": "Cấm hút thuốc" },
+        { "ko": "금지되다", "vi": "Bị cấm" },
+        { "ko": "주의하다", "vi": "Chú ý" },
+        { "ko": "벌금", "vi": "Phạt tiền" }
+      ],
+      "source": "quyen-viet-part1 p.3"
+    },
+    {
+      "id": "v51-invitation",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "invitation",
+      "topicKo": "초대",
+      "terms": [
+        { "ko": "초대하다", "vi": "Mời" },
+        { "ko": "참석하다", "vi": "Tham dự" },
+        { "ko": "집들이", "vi": "Tiệc nhà mới" },
+        { "ko": "시간이 되다", "vi": "Có thời gian rảnh" }
+      ],
+      "source": "quyen-viet-part1 p.3"
+    },
+    {
+      "id": "v51-refund",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "refund",
+      "topicKo": "환불/교환",
+      "terms": [
+        { "ko": "환불하다", "vi": "Hoàn tiền" },
+        { "ko": "교환하다", "vi": "Đổi hàng" },
+        { "ko": "영수증", "vi": "Hóa đơn" },
+        { "ko": "가능하다", "vi": "Có thể" }
+      ],
+      "source": "quyen-viet-part1 p.3"
+    },
+    {
+      "id": "v51-event",
+      "type": "vocab-group",
+      "questionType": 51,
+      "topic": "event",
+      "topicKo": "대회/행사",
+      "terms": [
+        { "ko": "대회", "vi": "Cuộc thi" },
+        { "ko": "개최하다", "vi": "Tổ chức" },
+        { "ko": "참가하다", "vi": "Tham gia" },
+        { "ko": "연주하다", "vi": "Biểu diễn (nhạc)" }
+      ],
+      "source": "quyen-viet-part1 p.2"
+    },
+    {
+      "id": "c52-manil",
+      "type": "connector",
+      "questionType": 52,
+      "patternKo": "만일/만약 ... (으)면/다면",
+      "reasonVi": "Giả định 'nếu' — mở tình huống giả định.",
+      "source": "quyen-viet-part1 p.39"
+    },
+    {
+      "id": "c52-hana-un",
+      "type": "connector",
+      "questionType": 52,
+      "patternKo": "하나는 ... 것이다. 다른 하나는 ... 것이다",
+      "reasonVi": "Liệt kê hai khía cạnh đối song song.",
+      "source": "quyen-viet-part1 p.39"
+    },
+    {
+      "id": "c52-dasi-malha",
+      "type": "connector",
+      "questionType": 52,
+      "patternKo": "다시 말하면 ...",
+      "exampleKo": "다시 말하면 여자들은 여러 일을 동시에 할 수 있다",
+      "reasonVi": "Diễn giải lại ý — tóm tắt câu trước.",
+      "source": "quyen-viet-part2 ex.3"
+    },
+    {
+      "id": "c52-bandae",
+      "type": "connector",
+      "questionType": 52,
+      "patternKo": "반대로 / 반면에",
+      "reasonVi": "Đối lập trực tiếp với câu trước.",
+      "source": "quyen-viet-part1 p.39"
+    },
+    {
+      "id": "c52-waeimyeon",
+      "type": "connector",
+      "questionType": 52,
+      "patternKo": "왜냐하면 ... 기 때문이다",
+      "reasonVi": "Giải thích nguyên nhân.",
+      "source": "quyen-viet-part2 p.45"
+    },
+    {
+      "id": "c52-talri",
+      "type": "connector",
+      "questionType": 52,
+      "patternKo": "따라서 / 그러므로",
+      "reasonVi": "Kết luận từ lập luận.",
+      "source": "quyen-viet-part1 p.40"
+    },
+    {
+      "id": "c52-geureona",
+      "type": "connector",
+      "questionType": 52,
+      "patternKo": "그러나 / 하지만",
+      "reasonVi": "Tương phản — chuyển sang mặt trái của vấn đề.",
+      "source": "quyen-viet-part2 multiple"
+    },
+    {
+      "id": "ex51-001",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "free-giveaway",
+      "prompt": "무료로 드립니다\n저에게 사용하지 않는 책상이 있습니다\n그래서 ( ㉠ )\n필요하신 분은 010-1234-5678로 연락해 주시기 바랍니다.",
+      "blankCount": 1,
+      "suggestedCorrect": ["무료로 드리려고 합니다", "무료로 나눠 드리려고 합니다"],
+      "patternHints": ["p51-plan-ryeogo", "p51-request-jusigi"],
+      "source": "quyen-viet-part1 Luyện tập 1"
+    },
+    {
+      "id": "ex51-002",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "warning",
+      "prompt": "건물 내 금연 안내\n저희 건물은 금연 건물입니다\n그러므로 건물 전체에서 ( ㉠ )\n여러분의 협조 부탁드립니다",
+      "blankCount": 1,
+      "suggestedCorrect": ["담배를 피우실 수 없습니다", "흡연을 하실 수 없습니다"],
+      "patternHints": ["p51-cannot-siseol"],
+      "source": "quyen-viet-part1 Luyện tập 2"
+    },
+    {
+      "id": "ex51-003",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "email",
+      "prompt": "다음 주 월요일에 하는 회의 시간에 문의 메일을 보냅니다\n( ㉠ )?\n저희는 3시부터 가능합니다\n가능한 시간을 정해서 이메일로 알려 주시기 바랍니다.",
+      "blankCount": 1,
+      "suggestedCorrect": ["몇 시부터 괜찮으십니까", "몇 시부터 가능하십니까"],
+      "patternHints": ["p51-time-question"],
+      "source": "quyen-viet-part1 Luyện tập 3"
+    },
+    {
+      "id": "ex51-004",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "announcement",
+      "prompt": "화장실 이용 안내\n최근 화장실이 더럽다는 의견이 많습니다\n화장실은 우리 모두가 같이 사용하는 공간입니다.\n그러므로 ( ㉠ )",
+      "blankCount": 1,
+      "suggestedCorrect": ["깨끗이 사용해 주시기 바랍니다", "사용 후 깨끗이 해 주시기 바랍니다"],
+      "patternHints": ["p51-must", "p51-request-jusigi"],
+      "source": "quyen-viet-part1 Luyện tập 4"
+    },
+    {
+      "id": "ex51-005",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "invitation",
+      "prompt": "이미영 부장님께\n안녕하세요? 신입사원 왕준입니다\n지난번에 댁에 초대해 주셔서 이번에는 부장님을 저희 집으로 초대하고 싶습니다.\n제가 일은 아직 ( ㉠ ). 그렇지만 요리는 자신이 있습니다\n다음 주 토요일과 일요일 중에 언제 시간이 되십니까?\n저는 ( ㉡ ). 편한 요일을 말씀해 주시면 감사하겠습니다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["잘하지 못합니다", "서툴지만"],
+      "suggestedCorrect2": ["토요일과 일요일 모두 괜찮습니다", "두 날 모두 시간이 됩니다"],
+      "patternHints": ["p51-negation-adverb", "p51-time-question"],
+      "source": "quyen-viet-part1 Luyện tập 5"
+    },
+    {
+      "id": "ex51-006",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "sale",
+      "prompt": "새 책 팝니다\n한 달 전에 샀는데 시험을 안 보게 돼서 ( ㉠ )\n책을 사고 전혀 ( ㉡ )\n원래 가격은 20000원인데 15000원에 드릴 테니까 관심이 있으신 분은 아래의 연락처로 연락 주시기 바랍니다",
+      "blankCount": 2,
+      "suggestedCorrect": ["팔려고 합니다", "처분하려고 합니다"],
+      "suggestedCorrect2": ["읽어 보지 않았습니다", "사용하지 않았습니다"],
+      "patternHints": ["p51-plan-ryeogo", "p51-experience"],
+      "source": "quyen-viet-part1 Luyện tập 6"
+    },
+    {
+      "id": "ex51-007",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "recruitment",
+      "prompt": "기타 동호회 회원 모집\n저희 기타 동호회에서 함께 연주할 회원을 모집합니다\n기타에 관심이 있는 분이라면 ( ㉠ )\n( ㉡ )?\n그래도 걱정하지 마십시오\n저희가 친절하게 가르쳐 드립니다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["누구나 환영합니다", "참여하실 수 있습니다"],
+      "suggestedCorrect2": ["처음이십니까", "기타를 배워 보신 적이 없으십니까"],
+      "patternHints": ["v51-mojip", "p51-time-question"],
+      "source": "quyen-viet-part1 Luyện tập 7"
+    },
+    {
+      "id": "ex51-008",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "travel",
+      "prompt": "{공지 사항} 설악산 여행 안내\n모레 떠나는 설악산 여행에 대해 몇 가지 알려 드립니다\n가끔 구두를 신고 오시는 분들이 있는데 등산을 해야 하니까 ( ㉠ ). 그리고 일기예보에 의하면 ( ㉡ ). 그러니까 옷을 따뜻하게 입고 오시기 바랍니다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["운동화를 신으시기 바랍니다", "등산화를 준비해 주시기 바랍니다"],
+      "suggestedCorrect2": ["날씨가 많이 춥다고 합니다", "기온이 낮다고 합니다"],
+      "patternHints": ["p51-request-jusigi", "p51-indirect-speech"],
+      "source": "quyen-viet-part1 Luyện tập 8"
+    },
+    {
+      "id": "ex51-009",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "review",
+      "examSession": 70,
+      "prompt": "이용 후기\n대체로 만족스러웠습니다.\n수영장도 있었는데 공사 중이라서 수영을 ( ㉠ ).\n그래도 관광지가 가까워서 좋았습니다.\n호텔의 위치를 중요하게 생각하는 분이라면 분명 이 호텔을 ( ㉡ ).",
+      "blankCount": 2,
+      "suggestedCorrect": ["할 수 없었습니다", "즐기지 못했습니다"],
+      "suggestedCorrect2": ["추천합니다", "선택하실 것입니다"],
+      "patternHints": ["p51-cannot-bulganeung", "p51-possible"],
+      "source": "quyen-viet-part1 Luyện tập 9 (70회)"
+    },
+    {
+      "id": "ex51-010",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "email",
+      "examSession": 72,
+      "prompt": "이메일\n선생님, 안녕하십니까?\n저는 경영학과에 다니고 있는 외국인 유학생 마이클입니다.\n제가 요즘 전공 때문에 고민이 많습니다.\n지난 학기에 전공 수업을 들었는데 저에게 잘 ( ㉠ ).\n저에게 맞는 전공을 찾고 있습니다.\n다음주 수요일에 선생님께 상담을 ( ㉡ )?\n부탁드립니다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["맞지 않았습니다", "어울리지 않았습니다"],
+      "suggestedCorrect2": ["받을 수 있겠습니까", "신청해도 되겠습니까"],
+      "patternHints": ["p51-negation-adverb", "p51-request-jusigip"],
+      "source": "quyen-viet-part1 Luyện tập 10 (72회)"
+    },
+    {
+      "id": "ex51-011",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "personal-letter",
+      "examSession": 64,
+      "prompt": "수미 씨, 그동안 고마웠습니다.\n저는 다음 달이면 홍콩으로 일을 ( ㉠ ).\n제가 원하는 회사에 취직을 해서 기쁘지만 수미 씨를 자주 못 볼 것 같아 아쉽습니다.\n선물을 준비했는데 선물이 수미 씨 마음에 ( ㉡ ).",
+      "blankCount": 2,
+      "suggestedCorrect": ["하러 갑니다", "보러 갑니다"],
+      "suggestedCorrect2": ["드셨으면 좋겠습니다", "맞으셨으면 합니다"],
+      "patternHints": ["p51-plan-yejeong"],
+      "source": "quyen-viet-part1 Luyện tập 11 (64회)"
+    },
+    {
+      "id": "ex51-013",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "sale",
+      "prompt": "싸게 팝니다\n제가 제주도로 이사를 가게 돼서 쓰던 물건들을 정리해야 합니다.\n산 지 얼마 안 된 소파가 있는데 가져갈 수는 없어서 ( ㉠ ).\n사지 않고 전화로 물어보기만 하는 분이 많아서 힘듭니다.\n그러니까 ( ㉡ ). 물어보기만 하실 분은 연락하지 말아 주십시오.",
+      "blankCount": 2,
+      "suggestedCorrect": ["팔려고 합니다", "처분하려고 합니다"],
+      "suggestedCorrect2": ["사실 분만 연락해 주시기 바랍니다", "구매하실 분만 연락해 주십시오"],
+      "patternHints": ["p51-plan-ryeogo", "p51-prohibition-dont"],
+      "source": "quyen-viet-part1 Luyện tập 13"
+    },
+    {
+      "id": "ex51-014",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "lost-found",
+      "prompt": "지갑을 찾습니다\n금요일 오후에 7층 남자 휴게실에서 ( ㉠ ). 검은색 지갑인데 그 안에 있는 가족 사진은 저에게 매우 소중한 것입니다.\n주민등록증과 교통카드도 찾고 싶습니다. 혹시 지갑을 보셨거나 보관하고 계신 분이 있으면 ( ㉡ ).\n찾아 주신 분께 사례하겠습니다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["지갑을 잃어버렸습니다", "지갑을 두고 왔습니다"],
+      "suggestedCorrect2": ["연락해 주시기 바랍니다", "알려 주시기 바랍니다"],
+      "patternHints": ["v51-lost-found", "p51-request-jusigi"],
+      "source": "quyen-viet-part1 Luyện tập 14"
+    },
+    {
+      "id": "ex51-015",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "recruitment",
+      "prompt": "대학생 해외 봉사단 모집\n신청: 10/10 – 10/20\n봉사 활동: 11/12 – 12/12\n여러분, 방학을 의미 있게 보내고 싶지 않으십니까?\n이번에 저희 국제 협력처에서 ( ㉠ ).\n봉사 활동 기간은 11월 12일부터 한 달간이며 유럽에서 봉사 활동을 하게 됩니다.\n우리 학교 학생은 누구나 신청이 가능합니다.\n신청하실 이메일 주소는 bongsa@university.ac.kr 입니다.\n( ㉡ ).\n날짜를 꼭 지켜 주시기 바랍니다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["해외 봉사단원을 모집합니다", "봉사단을 모집합니다"],
+      "suggestedCorrect2": ["10월 20일까지 신청해 주시기 바랍니다", "신청 기간은 10월 20일까지입니다"],
+      "patternHints": ["v51-mojip", "p51-request-jusigi"],
+      "source": "quyen-viet-part1 Luyện tập 15"
+    },
+    {
+      "id": "ex51-023",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "request",
+      "examSession": 65,
+      "prompt": "선배님, 저 마이클입니다.\n부탁 드릴 것이 있습니다. 내일 제 친구가 한국에 올 겁니다.\n그래서 이번 태권도 모임에 친구와 같이 ( ㉠ )?\n친구가 태권도를 얼마나 ( ㉡ ).\n그래서 친구가 좋아하는 태권도를 꼭 보여주고 싶습니다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["가도 되겠습니까", "참석해도 되겠습니까"],
+      "suggestedCorrect2": ["좋아하는지", "관심이 있는지"],
+      "patternHints": ["p51-request-jusigip"],
+      "source": "quyen-viet-part1 Luyện tập 23 (65회)"
+    },
+    {
+      "id": "ex51-024",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "announcement",
+      "examSession": 66,
+      "prompt": "공지\n제목: 취업 특강에 초대합니다.\n유학생회에서 취업 특강을 준비했습니다,\n특강에 오면 취업에 성공한 선배들의 이야기를 ( ㉠ ).\n특강 후 선배와 상담도 가능하니 참석을 원하는 분은 이메일로 ( ㉡ ).\n일시 및 장소: 10월 10일 오후 5시, 학생회관 101호\n이메일: GLOBAL@hankook.ac.kr",
+      "blankCount": 2,
+      "suggestedCorrect": ["들을 수 있습니다", "들을 수 있을 것입니다"],
+      "suggestedCorrect2": ["신청해 주시기 바랍니다", "연락해 주시기 바랍니다"],
+      "patternHints": ["p51-possible", "p51-request-jusigi"],
+      "source": "quyen-viet-part1 Luyện tập 24 (66회)"
+    },
+    {
+      "id": "ex51-026",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "review",
+      "prompt": "제주도 맛집 \"제주 식당\" 후기\n이번 제주도 여행에서 마음에 드는 맛집을 찾았습니다.\n특별한 양념을 사용해서 그런지 아주 맛있었습니다.\n색깔이 빨개서 매울 줄 알았는데 생각보다 ( ㉠ ). 그런데 이 집은 준비한 걸 다 팔면 문을 닫으니까 늦게 가면 ( ㉡ ).\n식사를 하시려면 제시간에 가시기 바랍니다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["맵지 않았습니다", "덜 매웠습니다"],
+      "suggestedCorrect2": ["먹지 못할 수 있습니다", "식사를 하지 못할 수 있습니다"],
+      "patternHints": ["p51-possible", "p51-cannot-siseol"],
+      "source": "quyen-viet-part1 Luyện tập 26"
+    },
+    {
+      "id": "ex51-027",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "instruction",
+      "prompt": "실내 인테리어 상식\n실내 장식을 할 때 벽의 색깔은 중요한 역할을 합니다.\n왜냐하면 벽 색깔에 따라 ( ㉠ ).\n노란색은 따뜻한 분위기, 하얀색은 깔끔한 분위기를 만들 수 있습니다.\n여러분도 실내 분위기를 바꾸고 싶으면 벽 색깔을 ( ㉡ ).",
+      "blankCount": 2,
+      "suggestedCorrect": ["분위기가 달라집니다", "느낌이 달라집니다"],
+      "suggestedCorrect2": ["바꿔 보시기 바랍니다", "바꿔 보세요"],
+      "patternHints": ["p52-e-dara", "p51-request-jusigi"],
+      "source": "quyen-viet-part1 Luyện tập 27"
+    },
+    {
+      "id": "ex51-028",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "announcement",
+      "prompt": "가격 인상 안내\n그동안 우리 카페에서는 신선하고 맛있는 케이크를 다른 카페보다는 ( ㉠ ).\n그런데 더 이상 싼 가격을 유지하기가 어려워졌습니다.\n재료비가 올라서 다음 달부터 케이크 가격을 ( ㉡ ).\n가격 인상에 대한 여러분의 이해와 양해를 부탁드립니다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["저렴하게 판매했습니다", "싸게 판매해 왔습니다"],
+      "suggestedCorrect2": ["인상할 예정입니다", "올릴 예정입니다"],
+      "patternHints": ["p51-plan-yejeong"],
+      "source": "quyen-viet-part1 Luyện tập 28"
+    },
+    {
+      "id": "ex51-029",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "announcement",
+      "prompt": "양해 말씀 드립니다.\n죄송합니다.\n회원 여러분께 모임 날짜를 ( ㉠ ).\n21일인데 20일로 알려드린 점 양해 부탁드립니다.\n바뀐 날짜를 홈페이지를 통해 다시 공지하겠습니다.\n홈페이지 안내를 다시 한번 ( ㉡ ).\n확인 후, 궁금하신 점이 있으면 연락 주십시오.",
+      "blankCount": 2,
+      "suggestedCorrect": ["잘못 알려드렸습니다", "틀리게 알려드렸습니다"],
+      "suggestedCorrect2": ["확인해 주시기 바랍니다", "확인해 주십시오"],
+      "patternHints": ["p51-request-jusigi"],
+      "source": "quyen-viet-part1 Luyện tập 29"
+    },
+    {
+      "id": "ex51-030",
+      "type": "exercise",
+      "questionType": 51,
+      "topic": "review",
+      "prompt": "지난 주말에 \"별빛 축제\"에 갔던 외국인입니다.\n지금까지 살면서 이렇게 많은 별을 ( ㉠ ) 한 번도 없었습니다.\n별을 보고 공연도 구경해서 좋았습니다.\n혹시 이런 축제가 또 있습니까?\n있다면 이런 멋진 경험을 다시 ( ㉡ ).",
+      "blankCount": 2,
+      "suggestedCorrect": ["본 적이", "보기"],
+      "suggestedCorrect2": ["하고 싶습니다", "해 보고 싶습니다"],
+      "patternHints": ["p51-experience"],
+      "source": "quyen-viet-part1 Luyện tập 30"
+    },
+    {
+      "id": "ex52-001",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "life",
+      "prompt": "인간은 사는 동안 끊임없이 성공이나 실패를 경험한다. 성공으로 인해 기뻐하기도 하고 ( ㉠ ).",
+      "blankCount": 1,
+      "suggestedCorrect": ["실패로 인해 슬퍼하기도 한다", "실패해서 속상해하기도 한다"],
+      "patternHints": ["p52-gido-hajiman"],
+      "source": "quyen-viet-part2 Luyện tập 1"
+    },
+    {
+      "id": "ex52-002",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "psychology",
+      "prompt": "사람들의 기분은 ( ㉠ ). 맑은 날에는 기분이 좋아서 많이 웃기도 하고 긍정적인 태도를 보이지만 흐리거나 비가 오는 날에는 우울해지기 쉽다.",
+      "blankCount": 1,
+      "suggestedCorrect": ["날씨에 따라 다르다", "날씨에 영향을 받는다"],
+      "patternHints": ["p52-e-dara"],
+      "source": "quyen-viet-part2 Luyện tập 2"
+    },
+    {
+      "id": "ex52-003",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "multitasking",
+      "prompt": "여자들은 일을 하면서 전화를 받을 수도 있고 화장을 하면서 텔레비전을 볼 수 있다. 다시 말하면 ( ㉠ ).",
+      "blankCount": 1,
+      "suggestedCorrect": ["여러 일을 동시에 할 수 있다", "한꺼번에 여러 가지 일을 할 수 있다"],
+      "patternHints": ["c52-dasi-malha"],
+      "source": "quyen-viet-part2 Luyện tập 3"
+    },
+    {
+      "id": "ex52-004",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "food",
+      "prompt": "겨울철에는 음식을 밖에 두는 사람들이 많다. 그러나 아무리 시원한 곳에 음식을 둬도 냉장고 밖에다가 음식을 두면 음식이 상할 수가 있다. 따라서 ( ㉠ ).",
+      "blankCount": 1,
+      "suggestedCorrect": ["음식은 냉장고에 보관해야 한다", "음식을 실온에 두면 안 된다"],
+      "patternHints": ["c52-talri", "p52-myeon-andoe"],
+      "source": "quyen-viet-part2 Luyện tập 4"
+    },
+    {
+      "id": "ex52-005",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "culture",
+      "prompt": "더운 지방에서 ( ㉠ ). 반대로 추운 지방에서는 여러 겹으로 된 두껍고 긴 옷을 입는다. 또한 옷의 ( ㉡ ). 더운 지방에서는 햇볕을 막아 내기 위해 흰색 옷을 많이 입는다. 그러나 추운 지방이나 온대 지방에서는 여러 가지 색깔의 옷을 마음대로 골라 입을 수 있다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["얇고 시원한 옷을 입는다", "가벼운 옷을 선호한다"],
+      "suggestedCorrect2": ["색깔도 지역에 따라 다르다", "색 선택이 다르다"],
+      "patternHints": ["c52-bandae", "p52-e-dara"],
+      "source": "quyen-viet-part2 Luyện tập 5"
+    },
+    {
+      "id": "ex52-006",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "refusal",
+      "prompt": "거절하는 데 익숙하지 못한 사람이 많다. 가까운 사람이 어떤 일을 부탁할 때 ( ㉠ ). 그래서 하기 힘든 일인 줄 알면서도 부탁을 들어주는 경우가 있다. 하지만 일을 시작한 이상 그 일의 결과는 자신의 책임이다. 그러므로 ( ㉡ ).",
+      "blankCount": 2,
+      "suggestedCorrect": ["거절하기가 어렵다", "거절하지 못한다"],
+      "suggestedCorrect2": ["할 수 없는 일은 거절해야 한다", "거절하는 법을 배워야 한다"],
+      "patternHints": ["p52-eoryeopda", "c52-talri"],
+      "source": "quyen-viet-part2 Luyện tập 6"
+    },
+    {
+      "id": "ex52-008",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "health",
+      "prompt": "머리는 언제 감는 것이 좋을까요? 사람들은 보통 아침에 머리를 감는다. 그러나 더러워진 머리는 감고 자야 머릿결에 좋기 때문에 ( ㉠ ). 그런데 젖은 머리로 자면 머리결이 상하기 쉽다. 따라서 ( ㉡ ). 만약 머리를 말리기 어려우면 아침에 감는 것이 더 낫다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["저녁에 감는 것이 좋다", "밤에 감아야 한다"],
+      "suggestedCorrect2": ["머리를 잘 말리고 자야 한다", "완전히 말린 후에 자야 한다"],
+      "patternHints": ["p52-waeimyeon", "c52-talri"],
+      "source": "quyen-viet-part2 Luyện tập 8"
+    },
+    {
+      "id": "ex52-010",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "attitude",
+      "prompt": "어려운 일이 생겼을 때 그 일을 대하는 우리의 태도 크게 두 가지이다. ( ㉠ ). 다른 하나는 어려워서 불가능하다고 포기하는 것이다. 그런데 긍정적인 결과를 기대할수록 좋은 결과를 얻을 확률이 높다. 반대로 ( ㉡ ). 그러므로 우리는 시련이나 고난이 닥쳤을 때일수록 더욱 긍정적으로 생각할 필요가 있다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["하나는 긍정적으로 해결하려는 것이다", "적극적으로 노력하는 것이다"],
+      "suggestedCorrect2": ["부정적으로 생각하면 좋은 결과를 얻기 어렵다", "포기하면 성공하기 어렵다"],
+      "patternHints": ["c52-hana-un", "c52-bandae"],
+      "source": "quyen-viet-part2 Luyện tập 10"
+    },
+    {
+      "id": "ex52-011",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "education",
+      "prompt": "쓰레기통에 버려진 책을 보면 안타깝다. 왜냐하면 ( ㉠ ). 그러므로 지식과 정보를 얻을 수 있는 책을 함부로 버리면 안 된다.",
+      "blankCount": 1,
+      "suggestedCorrect": ["책은 지식과 정보를 담고 있는 귀중한 것이기 때문이다", "책은 다시 사용할 수 있는 자원이기 때문이다"],
+      "patternHints": ["p52-waeimyeon", "p52-myeon-andoe"],
+      "source": "quyen-viet-part2 Luyện tập 11"
+    },
+    {
+      "id": "ex52-012",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "health",
+      "prompt": "잠을 못 자는 이유는 정신적인 스트레스가 가장 흔하다.\n코골이나 수면 무호흡증 등의 수면 질환이 있으면 ( ㉠ ). 깊은 잠을 자기 위해서는 일정한 시간에 자고 깨는 것이 중요하다. 잠이 안 오면 침대에서 일어나 다른 활동을 하다가 잠이 올 때 ( ㉡ ). 잠이 오지 않는데 억지로 누워 잠을 청하는 행동은 전혀 되지 않는다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["깊이 잠들기 어렵다", "수면의 질이 떨어진다"],
+      "suggestedCorrect2": ["다시 침대에 눕는 것이 좋다", "침대에 돌아가면 된다"],
+      "patternHints": ["p52-eoryeopda"],
+      "source": "quyen-viet-part2 Luyện tập 12 (HOT TOPIK NEW 5회)"
+    },
+    {
+      "id": "ex52-013",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "health",
+      "examSession": 67,
+      "prompt": "긴장을 풀려면 숨을 깊이 쉬어야 하는데 숨을 깊이 쉬는 방법에는 무엇이 있을까? 바람을 깊이 들이마시고 굳어진 몸을 풀어 놓아야 숨을 깊이 ( ㉠ ). 긴장을 푸는 또 하나의 방법은 몸을 따뜻한 물에 ( ㉡ ). 따뜻한 물에 20분 정도 몸을 담그면 긴장을 푸는 데에 좋다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["쉴 수 있다", "쉬게 된다"],
+      "suggestedCorrect2": ["담그는 것이다", "담그면 된다"],
+      "patternHints": ["p52-if-enough"],
+      "source": "quyen-viet-part2 Luyện tập 13 (67회)"
+    },
+    {
+      "id": "ex52-014",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "nature",
+      "examSession": 72,
+      "prompt": "사막에는 늘 먹는 물이 부족하다. 사막에 사는 동물들은 다른 곳에 사는 동물에 비해 먹을 물을 ( ㉠ ). 그런데 물을 못 구하는 동물들도 살아남는 방법이 있다. 그것은 먹는 물 대신 식물의 줄기를 ( ㉡ ). 식물은 줄기에 물을 저장하기 때문이다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["구하기 어렵다", "얻기 힘들다"],
+      "suggestedCorrect2": ["먹는 것이다", "섭취하는 것이다"],
+      "patternHints": ["p52-eoryeopda", "p52-waeimyeon"],
+      "source": "quyen-viet-part2 Luyện tập 14 (72회)"
+    },
+    {
+      "id": "ex52-015",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "food",
+      "examSession": 63,
+      "prompt": "음식의 맛은 온도에 따라 느껴지는 정도가 다르다. 짠맛과 신맛은 낮은 온도에서 강하게 느껴지는 반면에 단맛은 조금 높은 온도에서 더 강하게 느껴진다. 따라서 과일을 달게 먹고 싶다면 냉장고 밖에 꺼내 두었다가 ( ㉠ ). 그 이유는 과일에서 차가운 기온이 사라질수록 단맛이 더 ( ㉡ ).",
+      "blankCount": 2,
+      "suggestedCorrect": ["먹는 것이 좋다", "실온에서 먹어야 한다"],
+      "suggestedCorrect2": ["진해지기 때문이다", "강해지기 때문이다"],
+      "patternHints": ["p52-e-dara", "p52-waeimyeon"],
+      "source": "quyen-viet-part2 Luyện tập 15 (63회)"
+    },
+    {
+      "id": "ex52-017",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "health",
+      "prompt": "사람들은 보통 운동 후에 물을 마시면 된다고 생각한다. 그러나 전문가들은 운동하기 전에 ( ㉠ ). 왜냐하면 운동을 심하게 할 경우 발생할 수 있는 두통을 예방할 수 있기 때문이다. 또한 운동할 때 땀을 많이 흘리게 되면 우리 몸에 ( ㉡ ). 따라서 운동 중에도 물을 마셔야 수분을 보충할 수 있다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["물을 마시는 것이 좋다", "수분을 섭취해야 한다"],
+      "suggestedCorrect2": ["수분이 부족해진다", "탈수 현상이 일어난다"],
+      "patternHints": ["p52-waeimyeon", "c52-talri"],
+      "source": "quyen-viet-part2 Luyện tập 17"
+    },
+    {
+      "id": "ex52-018",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "technology",
+      "prompt": "게임은 무조건 나쁘다고 생각하는 사람들이 있다. 그러나 게임이 나쁘기만 한 것은 아니다. 우선 스트레스 해소에 좋다. 공부나 일에 스트레스가 많은 사람들은 장소에 상관없이 게임으로 ( ㉠ ). 또한 흥미를 줄 수 있다. 하기 싫은 일도 게임을 활용하면 ( ㉡ ). 재미는 최고의 동기가 될 수 있다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["스트레스를 풀 수 있다", "긴장을 풀 수 있다"],
+      "suggestedCorrect2": ["재미있게 할 수 있다", "흥미를 느끼게 할 수 있다"],
+      "patternHints": ["p52-not-always", "p52-cannot-written"],
+      "source": "quyen-viet-part2 Luyện tập 18"
+    },
+    {
+      "id": "ex52-020",
+      "type": "exercise",
+      "questionType": 52,
+      "topic": "technology",
+      "prompt": "모바일 메신저가 현대인의 중요한 의사소통 수단이 된 지 오래다. 모바일 메신저의 장점은 메시지와 정보, 사진 등을 쉽게 ( ㉠ ). 그렇지만 전송이 쉽다는 장점 때문에 원하지 않는 정보도 받게 된다. 그래서 피로감을 느낀 사람들은 회사에서는 메신저를 켜 두지만 ( ㉡ ). 집은 휴식을 위한 공간이기 때문이다.",
+      "blankCount": 2,
+      "suggestedCorrect": ["보낼 수 있다", "공유할 수 있다"],
+      "suggestedCorrect2": ["집에서는 끄는 것이 좋다", "집에서는 사용하지 않는다"],
+      "patternHints": ["p52-bbunman", "c52-geureona"],
+      "source": "quyen-viet-part2 Luyện tập 20"
+    }
+  ]
+}

@@ -1,0 +1,1555 @@
+{
+  "version": 2,
+  "updated": "2026-05-24",
+  "source": "quyen-viet-supplement-4.pdf, quyen-viet-part3 p.151-166, quyen-viet-supplement-3",
+  "sourceNote": "Từ vựng câu 54 — 13 chủ đề text từ supplement-4; 7 chủ đề p.157–163 OCR supplement-3.",
+  "topics": [
+    {
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "topicVi": "Thời kì thanh thiếu niên",
+      "source": "quyen-viet-supplement-4 p.151",
+      "terms": [
+        {
+          "ko": "자아",
+          "vi": "cái tôi, bản ngã"
+        },
+        {
+          "ko": "중요한 시기",
+          "vi": "Thời kì quan trọng"
+        },
+        {
+          "ko": "형성되다",
+          "vi": "Được hình thành"
+        },
+        {
+          "ko": "불안정하다",
+          "vi": "Bất ổn định"
+        },
+        {
+          "ko": "진로",
+          "vi": "con đường tương lai"
+        },
+        {
+          "ko": "인간관계",
+          "vi": "đối nhân xử thế"
+        },
+        {
+          "ko": "일탈",
+          "vi": "sự lệch lạc"
+        },
+        {
+          "ko": "옳고 그름",
+          "vi": "đúng đắn và sai trái"
+        },
+        {
+          "ko": "해를 끼치는 행동",
+          "vi": "Hành động gây hại"
+        },
+        {
+          "ko": "압박감",
+          "vi": "cảm giác áp lực, căng thẳng"
+        },
+        {
+          "ko": "반항심",
+          "vi": "suy nghĩ chống đối, phản kháng"
+        },
+        {
+          "ko": "저항하다",
+          "vi": "chống cự, kháng cự"
+        },
+        {
+          "ko": "정립하다",
+          "vi": "xác lập, định ra"
+        },
+        {
+          "ko": "성장하다",
+          "vi": "trưởng thành"
+        },
+        {
+          "ko": "영향을 미치다",
+          "vi": "Gây ảnh hưởng"
+        }
+      ]
+    },
+    {
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "topicVi": "Giảm tỉ lệ sinh sản",
+      "source": "quyen-viet-supplement-4 p.152",
+      "terms": [
+        {
+          "ko": "감소하다",
+          "vi": "Giảm"
+        },
+        {
+          "ko": "개인적/ 사회적 요인",
+          "vi": "lý do cá nhân, lý do xã hội"
+        },
+        {
+          "ko": "결혼관의 변화",
+          "vi": "Thay đổi quan niệm kết hôn"
+        },
+        {
+          "ko": "자녀 양육에 대한 부담",
+          "vi": "Gánh nặng giáo dục con cái"
+        },
+        {
+          "ko": "경제적 불안",
+          "vi": "Lo lắng vấn đề kinh tế"
+        },
+        {
+          "ko": "인구의 감소",
+          "vi": "Giảm dân số"
+        },
+        {
+          "ko": "노년층의 수는 많아지다",
+          "vi": "Dân số già nhiều lên"
+        },
+        {
+          "ko": "을/를 차지하다",
+          "vi": "Chiếm .."
+        },
+        {
+          "ko": "인구 불균형",
+          "vi": "Mất cân bằng dân số"
+        },
+        {
+          "ko": "경제를 어렵게 만든다",
+          "vi": "Gây khó khăn cho nền kinh tế"
+        },
+        {
+          "ko": "경제적 지원하다",
+          "vi": "Hỗ trợ mặt kinh tế"
+        },
+        {
+          "ko": "사회적 지원하다",
+          "vi": "Hỗ trợ mặt xã hội"
+        },
+        {
+          "ko": "일자리를 늘리다",
+          "vi": "Tăng cơ hội việc làm"
+        },
+        {
+          "ko": "출산율의 감소를 막다",
+          "vi": "ngăn  giảm tỉ lệ sinh sản"
+        }
+      ]
+    },
+    {
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "topicVi": "Hút thuốc lá",
+      "source": "quyen-viet-supplement-4 p.152",
+      "terms": [
+        {
+          "ko": "호흡기 질환",
+          "vi": "Bệnh hô hấp"
+        },
+        {
+          "ko": "폐암",
+          "vi": "Ung thư phổi"
+        },
+        {
+          "ko": "후두암",
+          "vi": "ung thư thanh quản"
+        },
+        {
+          "ko": "심각한 질병",
+          "vi": "Bệnh nghiêm trọng"
+        },
+        {
+          "ko": "유발하다",
+          "vi": "gây ra, phát( bệnh)"
+        },
+        {
+          "ko": "해로운 타르나 니코딘, 일산화 탄소",
+          "vi": "Caacsbon monoxide, nicotin hoặc hắc in gây hại"
+        },
+        {
+          "ko": "흡연자",
+          "vi": "Người hút thuốc"
+        },
+        {
+          "ko": "간접 흡연자",
+          "vi": "Người hút thuốc gián tiếp"
+        },
+        {
+          "ko": "건강에 해로운 영향을 미치다",
+          "vi": "Gây hại cho sức khỏe"
+        },
+        {
+          "ko": "포함되다",
+          "vi": "Được bao gồm"
+        },
+        {
+          "ko": "담배 연기를 마시게 되다",
+          "vi": "Bị hít khói thuốc"
+        },
+        {
+          "ko": "담배값 인상",
+          "vi": "tăng giá thuốc"
+        },
+        {
+          "ko": "흡연율이 감소하다",
+          "vi": "Giảm tỉ lệ hút thuốc"
+        }
+      ]
+    },
+    {
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "topicVi": "Già hóa dân số",
+      "source": "quyen-viet-supplement-4 p.153",
+      "terms": [
+        {
+          "ko": "노령 인구",
+          "vi": "dân số già"
+        },
+        {
+          "ko": "경제적, 사회적 문제가 발생하다",
+          "vi": "phát sinh vấn đề mang tính kinh tế, xã hội"
+        },
+        {
+          "ko": "노동력이 부족하다",
+          "vi": "thiều nguồn lực lao động"
+        },
+        {
+          "ko": "노동 생산성이 감소하다",
+          "vi": "Năng suất lao động giảm"
+        },
+        {
+          "ko": "복지 예산이 늘다",
+          "vi": "Kinh phí phúc lợi tăng"
+        },
+        {
+          "ko": "국가 재정에 어려움이 생기다",
+          "vi": "Gây khó khăn cho tài chính quốc gia"
+        },
+        {
+          "ko": "국력이 약해지다",
+          "vi": "Sức mạnh dân tộc yếu đi"
+        },
+        {
+          "ko": "위협을 받다",
+          "vi": "Bị uy hiếp/ đàn áp"
+        },
+        {
+          "ko": "대책을 세우다",
+          "vi": "Xây dựng chiến lược"
+        },
+        {
+          "ko": "저출산 문제 해결",
+          "vi": "Giải quyết vấn đề sinh ít"
+        },
+        {
+          "ko": "해소하다",
+          "vi": "giải tỏa, hủy bỏ"
+        },
+        {
+          "ko": "근로 정년을 연장하다",
+          "vi": "Kéo dài tuổi lao động"
+        },
+        {
+          "ko": "일자리를 제공하다",
+          "vi": "Cung cấp cơ hội việc làm"
+        },
+        {
+          "ko": "지원하다",
+          "vi": "Hỗ trợ, chi viện"
+        }
+      ]
+    },
+    {
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "topicVi": "Trang thiết bị dành cho người khuyết tật",
+      "source": "quyen-viet-supplement-4 p.153",
+      "terms": [
+        {
+          "ko": "시설이 부족하다",
+          "vi": "thiếu trang thiết bị"
+        },
+        {
+          "ko": "고통을 겪다",
+          "vi": "Gặp khó khăn"
+        },
+        {
+          "ko": "불편하다/ 겪는 불편함",
+          "vi": "bất tiện"
+        },
+        {
+          "ko": "비장애인",
+          "vi": "Người bình thường"
+        },
+        {
+          "ko": "장애인이 되다",
+          "vi": "Trở thành người khuyết tật"
+        },
+        {
+          "ko": "횡단보도를 건너기 어렵다",
+          "vi": "khó sang đường"
+        },
+        {
+          "ko": "엘리베이터나 계단, 교통 수단을 이용하기 쉽지 않다",
+          "vi": "Dùng thang máy, thang bộ,"
+        },
+        {
+          "ko": "자유롭게 이용하다",
+          "vi": "Dùng một cách tự do"
+        },
+        {
+          "ko": "충분히 갖추다",
+          "vi": "trang bị đầy đủ"
+        },
+        {
+          "ko": "N에 관심을 가지다",
+          "vi": "Dành sự quan tâm đến."
+        },
+        {
+          "ko": "시설을 확충하기 위한 시행 계획을 세우다",
+          "vi": "Xây dựng kế hoạch thi hành để bổ sung"
+        },
+        {
+          "ko": "모금 운동",
+          "vi": "Vận động quyên góp"
+        },
+        {
+          "ko": "노력하다",
+          "vi": "nỗ lực"
+        }
+      ]
+    },
+    {
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "topicVi": "Nghiện thiết bị thông minh",
+      "source": "quyen-viet-supplement-4 p.154",
+      "terms": [
+        {
+          "ko": "편리함/ 편리성",
+          "vi": "Tính tiện lợi"
+        },
+        {
+          "ko": "손에서 놓지 못하다",
+          "vi": "Không thể rời tay"
+        },
+        {
+          "ko": "불안을 느끼다",
+          "vi": "Cảm thấy bất an"
+        },
+        {
+          "ko": "문제점을 유발하다",
+          "vi": "Gây ra vấn đề"
+        },
+        {
+          "ko": "신체적 문제가 나타나다",
+          "vi": "Xuất hiện vấn đề về cơ thể"
+        },
+        {
+          "ko": "눈이 아프다",
+          "vi": "Đau mắt"
+        },
+        {
+          "ko": "손가락 질병",
+          "vi": "bệnh về ngón tay"
+        },
+        {
+          "ko": "집중력을 줄이다",
+          "vi": "Giảm năng lực tập trung"
+        },
+        {
+          "ko": "심리적 증상이 생기다",
+          "vi": "Xuất hiện bất thường về tâm lý"
+        },
+        {
+          "ko": "주변 상황을 인식하지 못하다",
+          "vi": "không thể nhận thức được môi trường xung quanh"
+        },
+        {
+          "ko": "중독에서 벗어나다",
+          "vi": "Thoát khỏi sự nghiện.."
+        },
+        {
+          "ko": "사용 시간과 빈도를 줄이다",
+          "vi": "Giảm t hời gian và mật độ sử dụng"
+        },
+        {
+          "ko": "삶이 풍요로워지다",
+          "vi": "cuộc sống trở nên phong phú"
+        },
+        {
+          "ko": "새로운 취미를 가지다",
+          "vi": "tạo sở thích mới"
+        },
+        {
+          "ko": "중독되지 않도록 주의할 필요가 있다",
+          "vi": "Cần chú ý để không bị nghiện"
+        }
+      ]
+    },
+    {
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "topicVi": "Vấn đề đạo văn",
+      "source": "quyen-viet-supplement-4 p.155",
+      "terms": [
+        {
+          "ko": "동의 없이 임의로 사용",
+          "vi": "Tùy ý sử dụng không có sự đồng ý"
+        },
+        {
+          "ko": "끊임없이 발생하다",
+          "vi": "phát sinh không ngừng"
+        },
+        {
+          "ko": "표절 문제 해결",
+          "vi": "Giải quyết vấn đề sao chép ý tưởng"
+        },
+        {
+          "ko": "원작자의 동의없이",
+          "vi": "Không có sự đồng ý của tác giả"
+        },
+        {
+          "ko": "성과를 쉽게 얻다",
+          "vi": "Giành thành quả dễ dàng"
+        },
+        {
+          "ko": "편리하다",
+          "vi": "Tiện lợi"
+        },
+        {
+          "ko": "결과물을 훔치다",
+          "vi": "đánh cắp thành quả"
+        },
+        {
+          "ko": "인식하다",
+          "vi": "Nhận thức"
+        },
+        {
+          "ko": "기준이 없다",
+          "vi": "Không có tiêu chuẩn"
+        },
+        {
+          "ko": "창작물의 일부",
+          "vi": "Một phần của tác phẩm"
+        },
+        {
+          "ko": "표절의 범위를 정하기 쉬지 않다",
+          "vi": "Việc xác định hành vi đạo ý tưởng là không dễ dàng"
+        },
+        {
+          "ko": "표절이 범죄 행위임을 인식시키다",
+          "vi": "Yêu cầu nhận thức được hành vi đạo ý tưởng"
+        },
+        {
+          "ko": "납득하다",
+          "vi": "Hiểu ra được,  hiểu được"
+        },
+        {
+          "ko": "권리를 보호하다",
+          "vi": "Bảo vệ quyền lợi"
+        },
+        {
+          "ko": "올바른 창작 문화를 확립하다",
+          "vi": "Tạo ra văn hóa sáng tác lành mạnh"
+        }
+      ]
+    },
+    {
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "topicVi": "Giáo dục lịch sử của đất nước",
+      "source": "quyen-viet-supplement-4 p.156",
+      "terms": [
+        {
+          "ko": "중요한 일이라고 한다",
+          "vi": "Là việc quan trọng"
+        },
+        {
+          "ko": "과거의 일어난 일",
+          "vi": "Việc xảy ra trong quá khứ"
+        },
+        {
+          "ko": "기록하다",
+          "vi": "Ghi chép, kí lục"
+        },
+        {
+          "ko": "과거를 살펴보다/ 돌아보다",
+          "vi": "Nhìn lại quá khứ"
+        },
+        {
+          "ko": "정체성을 가지다",
+          "vi": "Mang theo bản sắc"
+        },
+        {
+          "ko": "고유하다",
+          "vi": "Đặc trưng, đặc thù"
+        },
+        {
+          "ko": "자기 나라의 역사를 인식하다",
+          "vi": "Nhận thức về lịch sử của đất nước mình"
+        },
+        {
+          "ko": "문화와 영토",
+          "vi": "văn hóa và lãnh thổ"
+        },
+        {
+          "ko": "확립하다",
+          "vi": "thiết lập, xác định"
+        },
+        {
+          "ko": "자긍심과 애국심을 가지다",
+          "vi": "Có lòng yêu nước và tự hào dân tộc"
+        },
+        {
+          "ko": "전통을 보존하다",
+          "vi": "Bảo tồn truyền thống"
+        },
+        {
+          "ko": "유지하다",
+          "vi": "duy trì"
+        },
+        {
+          "ko": "기록된 역사적인 사실을 분석하다",
+          "vi": "Phân tích sự thật lịch sử được ghi chép lại"
+        },
+        {
+          "ko": "교훈",
+          "vi": "giáo huấn"
+        },
+        {
+          "ko": "반영하다",
+          "vi": "phản ánh"
+        },
+        {
+          "ko": "밝은 미래를 만들어 가다",
+          "vi": "Tạo ra tương lại tươi sáng"
+        }
+      ]
+    },
+    {
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "topicVi": "Phát triển công nghệ di truyền",
+      "source": "quyen-viet-supplement-4 p.156",
+      "terms": [
+        {
+          "ko": "과학의 발달",
+          "vi": "Sự phát triển của khoa học"
+        },
+        {
+          "ko": "인공 장기와 유전자 조작 식물",
+          "vi": "Thực vật chế tạo gien di truyền và máy chạy nhân tạo"
+        },
+        {
+          "ko": "식물의 생산량이 증가할 수 있다( 옥수수, 콩...)",
+          "vi": "có thể tăng sản lượng sinh sản của"
+        },
+        {
+          "ko": "식량 부족을 해결하다",
+          "vi": "Giải quyết vấn đề thiếu lương thực"
+        },
+        {
+          "ko": "복제 생물 기술",
+          "vi": "Kỹ thuật sinh vật nhân bản"
+        },
+        {
+          "ko": "멸종 위기의 동물을 보존하다",
+          "vi": "Bảo tồn động vật có nguy cơ tuyệt chủng"
+        },
+        {
+          "ko": "생물계의 인위적인 변화를 일으키다",
+          "vi": "Dẫn đến sự thay đổi mang tính nhân tạo của"
+        },
+        {
+          "ko": "예측하다",
+          "vi": "Dự đoán trước"
+        },
+        {
+          "ko": "생명을 가볍게 여기다",
+          "vi": "coi nhẹ sự sống, sinh mạng"
+        },
+        {
+          "ko": "부작용이 나타나다",
+          "vi": "Gây tác dụng phụ"
+        },
+        {
+          "ko": "윤리성과 도덕성",
+          "vi": "Luân lý và đạo đức"
+        },
+        {
+          "ko": "고려되다",
+          "vi": "Cân nhắc, suy tính"
+        },
+        {
+          "ko": "개인적/ 사회적 이익",
+          "vi": "Lợi ích cá nhân,  lợi ích cộng đồng"
+        }
+      ]
+    },
+    {
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "topicVi": "Thái độ cần thiết trong thảo luận",
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3",
+      "importMethod": "ocr",
+      "terms": [
+        {
+          "ko": "공동체 생활",
+          "vi": "Cuộc sống cộng đồng"
+        },
+        {
+          "ko": "의사소통",
+          "vi": "Giao tiếp"
+        },
+        {
+          "ko": "N에 문제가 발생하다",
+          "vi": "Phát sinh vấn đề trong N"
+        },
+        {
+          "ko": "갈등을 겪다 / 일으키다",
+          "vi": "Trải qua / gây ra xung đột"
+        },
+        {
+          "ko": "갈등이 생기다 / 일어나다",
+          "vi": "Xung đột phát sinh"
+        },
+        {
+          "ko": "V+는 경우가 많다",
+          "vi": "Trường hợp V+는 thường gặp"
+        },
+        {
+          "ko": "V+ 는 일이 많다",
+          "vi": "Việc V+ 는 hay xảy ra"
+        },
+        {
+          "ko": "V/A + (으)므로",
+          "vi": "Bởi vì A/V"
+        },
+        {
+          "ko": "상대방을 설득하다",
+          "vi": "Thuyết phục đối phương"
+        },
+        {
+          "ko": "V + 는 동시에",
+          "vi": "Đồng thời V"
+        },
+        {
+          "ko": "주장을 내세우다",
+          "vi": "Đưa ra chủ trương"
+        },
+        {
+          "ko": "어떤 생각을 가지고 있다",
+          "vi": "Có suy nghĩ như thế nào"
+        },
+        {
+          "ko": "차이를 이해하다",
+          "vi": "Hiểu sự khác biệt"
+        },
+        {
+          "ko": "논리를 비판하다",
+          "vi": "Phê phán lập luận"
+        },
+        {
+          "ko": "효과적으로 설득하다",
+          "vi": "Thuyết phục hiệu quả"
+        }
+      ]
+    },
+    {
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "topicVi": "Tính cần thiết của giáo dục nghệ thuật",
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3",
+      "importMethod": "ocr",
+      "terms": [
+        {
+          "ko": "대부분의 학교에서",
+          "vi": "Ở hầu hết các trường học"
+        },
+        {
+          "ko": "교육이 이루어지고 있다",
+          "vi": "Giáo dục đang được tiến hành"
+        },
+        {
+          "ko": "기초 학문",
+          "vi": "Bộ môn cơ sở"
+        },
+        {
+          "ko": "N을/를 목적으로 하다",
+          "vi": "Lấy N làm mục đích"
+        },
+        {
+          "ko": "작품을 감상하다",
+          "vi": "Cảm thụ tác phẩm"
+        },
+        {
+          "ko": "N을/를 풍부하게 만들다",
+          "vi": "Làm phong phú N"
+        },
+        {
+          "ko": "감성, 정서",
+          "vi": "Xúc cảm, cảm xúc"
+        },
+        {
+          "ko": "효과가 있다",
+          "vi": "Mang lại hiệu quả"
+        },
+        {
+          "ko": "N + (으)로 나누어 볼 수 있다",
+          "vi": "Có thể chia thành N"
+        },
+        {
+          "ko": "개인적인 측면",
+          "vi": "Khía cạnh cá nhân"
+        },
+        {
+          "ko": "사회적인 측면",
+          "vi": "Khía cạnh xã hội"
+        },
+        {
+          "ko": "다양한 재료",
+          "vi": "Nguyên liệu đa dạng"
+        },
+        {
+          "ko": "악기",
+          "vi": "Nhạc cụ"
+        },
+        {
+          "ko": "음악 감상 교육",
+          "vi": "Giáo dục cảm thụ âm nhạc"
+        },
+        {
+          "ko": "N을/를 자유롭게 표현하다",
+          "vi": "Thể hiện N một cách tự do"
+        },
+        {
+          "ko": "N에 큰 도움이 되다",
+          "vi": "Giúp ích lớn cho N"
+        },
+        {
+          "ko": "향상시키다, 신장시키다, 키우다",
+          "vi": "Nâng cao, phát triển"
+        },
+        {
+          "ko": "창의력",
+          "vi": "Khả năng sáng tạo"
+        }
+      ]
+    },
+    {
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "topicVi": "Điều kiện của một cuộc sống hạnh phúc",
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3",
+      "importMethod": "ocr",
+      "terms": [
+        {
+          "ko": "충족되다",
+          "vi": "Được thỏa mãn"
+        },
+        {
+          "ko": "개인적 측면",
+          "vi": "Khía cạnh cá nhân"
+        },
+        {
+          "ko": "사회적 측면",
+          "vi": "Khía cạnh xã hội"
+        },
+        {
+          "ko": "N + (으)로 나누어 볼 수 있다",
+          "vi": "Có thể chia thành N"
+        },
+        {
+          "ko": "개인적 측면에서는",
+          "vi": "Xét trên khía cạnh cá nhân"
+        },
+        {
+          "ko": "개인의 욕구 충족",
+          "vi": "Thỏa mãn ham muốn cá nhân"
+        },
+        {
+          "ko": "신체적 건강",
+          "vi": "Sức khỏe thể chất"
+        },
+        {
+          "ko": "경제적 안정",
+          "vi": "Ổn định kinh tế"
+        },
+        {
+          "ko": "최우선 조건",
+          "vi": "Điều kiện tối ưu"
+        },
+        {
+          "ko": "만족도",
+          "vi": "Mức độ thỏa mãn"
+        },
+        {
+          "ko": "높아지다",
+          "vi": "Trở nên cao"
+        },
+        {
+          "ko": "N에 큰 의미를 두다",
+          "vi": "Đặt ý nghĩa lớn vào N"
+        },
+        {
+          "ko": "사회적 성취",
+          "vi": "Thành tựu trong xã hội"
+        },
+        {
+          "ko": "사회적 관계",
+          "vi": "Mối quan hệ xã hội"
+        },
+        {
+          "ko": "자신을 둘러싸다",
+          "vi": "Bao bọc lấy bản thân"
+        },
+        {
+          "ko": "안정되다",
+          "vi": "Được ổn định"
+        },
+        {
+          "ko": "편안하다",
+          "vi": "Bình an"
+        },
+        {
+          "ko": "의미 있는 역할을 하다",
+          "vi": "Nắm giữ vai trò có ý nghĩa"
+        },
+        {
+          "ko": "사회 속에서",
+          "vi": "Trong xã hội"
+        },
+        {
+          "ko": "삶 속에서",
+          "vi": "Trong cuộc sống"
+        }
+      ]
+    },
+    {
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "topicVi": "Tiêu chuẩn về thành công",
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3",
+      "importMethod": "ocr",
+      "terms": [
+        {
+          "ko": "N 중에 살아가다",
+          "vi": "Sống trong N"
+        },
+        {
+          "ko": "세상",
+          "vi": "Thế giới"
+        },
+        {
+          "ko": "아무도 없다",
+          "vi": "Không có ai cả"
+        },
+        {
+          "ko": "성공을 원하다",
+          "vi": "Mong muốn thành công"
+        },
+        {
+          "ko": "개념",
+          "vi": "Khái niệm"
+        },
+        {
+          "ko": "생각이 다르다",
+          "vi": "Suy nghĩ khác nhau"
+        },
+        {
+          "ko": "N1을/를 N2(이)라고 생각하는 사람도 있다",
+          "vi": "Cũng có người nghĩ N1 là N2"
+        },
+        {
+          "ko": "부",
+          "vi": "Nhiều tiền của"
+        },
+        {
+          "ko": "높은 지위에 오르다",
+          "vi": "Leo lên địa vị cao"
+        },
+        {
+          "ko": "명예를 얻다",
+          "vi": "Đạt được danh dự"
+        },
+        {
+          "ko": "N1을/를 N2(으)로 삼다",
+          "vi": "Coi N1 là N2"
+        },
+        {
+          "ko": "왜냐하면 / V/A + 기 때문이다",
+          "vi": "Bởi vì"
+        },
+        {
+          "ko": "N에 따라 기준이 달라지다",
+          "vi": "Tiêu chuẩn khác tùy theo N"
+        },
+        {
+          "ko": "N에 있지 않다",
+          "vi": "Không nằm ở N"
+        },
+        {
+          "ko": "그것을 이루다 / 달성하다",
+          "vi": "Đạt được điều đó"
+        },
+        {
+          "ko": "노력하는 과정",
+          "vi": "Quá trình nỗ lực"
+        },
+        {
+          "ko": "아무런 가치가 없다",
+          "vi": "Không có giá trị gì"
+        },
+        {
+          "ko": "V/A + (으)니는 (으)ㄴ 경우에는",
+          "vi": "Trong trường hợp V/A thì"
+        },
+        {
+          "ko": "하루하루의 삶",
+          "vi": "Cuộc sống từng ngày"
+        },
+        {
+          "ko": "자리 잡을 곳이 없다",
+          "vi": "Không có chỗ đứng"
+        },
+        {
+          "ko": "아무리 V/A + 아/어도 / 더라도",
+          "vi": "Dù có V/A thế nào"
+        },
+        {
+          "ko": "자신이 목표로 하다",
+          "vi": "Tự đặt mục tiêu"
+        },
+        {
+          "ko": "N 과정에서 V + 는 과정에서",
+          "vi": "Trong quá trình N, V"
+        },
+        {
+          "ko": "진정한 성공",
+          "vi": "Thành công chân chính"
+        },
+        {
+          "ko": "그것이야말로 ~ 아니겠는가",
+          "vi": "Đó chính là ~ phải không"
+        }
+      ]
+    },
+    {
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "topicVi": "Giá trị cá nhân và xã hội của phát triển bản thân",
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3",
+      "importMethod": "ocr",
+      "terms": [
+        {
+          "ko": "자기 계발",
+          "vi": "Phát triển bản thân"
+        },
+        {
+          "ko": "N에 큰 가치를 갖다 / 가지다",
+          "vi": "Mang lại giá trị lớn cho N"
+        },
+        {
+          "ko": "V/A + (으)ㄴ 뿐만 아니라",
+          "vi": "Không chỉ V/A mà còn"
+        },
+        {
+          "ko": "개인적 차원에서",
+          "vi": "Trên khía cạnh cá nhân"
+        },
+        {
+          "ko": "사회적 차원에서",
+          "vi": "Trên khía cạnh xã hội"
+        },
+        {
+          "ko": "N에 기여하다 / V + 는 데에 기여하다",
+          "vi": "Góp phần vào N"
+        },
+        {
+          "ko": "소질을 발견하다",
+          "vi": "Phát hiện tố chất"
+        },
+        {
+          "ko": "잠재되다 / 숨겨지다",
+          "vi": "Tiềm ẩn"
+        },
+        {
+          "ko": "N을/를 통해서 V + (으)ㅁ으로써",
+          "vi": "Thông qua N mà V"
+        },
+        {
+          "ko": "새로운 가능성을 열다",
+          "vi": "Mở ra khả năng mới"
+        },
+        {
+          "ko": "V + 기 위해서는",
+          "vi": "Để V thì"
+        },
+        {
+          "ko": "소질을 찾다",
+          "vi": "Tìm tố chất"
+        },
+        {
+          "ko": "자신도 알지 못하다",
+          "vi": "Bản thân cũng không biết"
+        },
+        {
+          "ko": "N에 참가하다 / 참여하다",
+          "vi": "Tham gia vào N"
+        },
+        {
+          "ko": "V + 는 것이 좋다",
+          "vi": "Nên V"
+        },
+        {
+          "ko": "취미 활동",
+          "vi": "Hoạt động sở thích"
+        },
+        {
+          "ko": "여가 활동",
+          "vi": "Hoạt động giải trí"
+        },
+        {
+          "ko": "다양한 분야",
+          "vi": "Nhiều lĩnh vực"
+        },
+        {
+          "ko": "아울러",
+          "vi": "Đồng thời"
+        },
+        {
+          "ko": "자기 가치를 높이다",
+          "vi": "Nâng cao giá trị bản thân"
+        },
+        {
+          "ko": "자격증 취득",
+          "vi": "Thi đạt chứng chỉ"
+        },
+        {
+          "ko": "N와/과 같은 + N",
+          "vi": "Giống như N"
+        },
+        {
+          "ko": "치열한 경쟁",
+          "vi": "Cạnh tranh khốc liệt"
+        },
+        {
+          "ko": "확보하다 / 보장하다",
+          "vi": "Đảm bảo"
+        },
+        {
+          "ko": "경쟁력",
+          "vi": "Sức cạnh tranh"
+        },
+        {
+          "ko": "N에 능동적으로 대처하다",
+          "vi": "Ứng phó chủ động với N"
+        }
+      ]
+    },
+    {
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "topicVi": "Chức năng của báo",
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3",
+      "importMethod": "ocr",
+      "terms": [
+        {
+          "ko": "정보화 사회",
+          "vi": "Xã hội thông tin hóa"
+        },
+        {
+          "ko": "경쟁력",
+          "vi": "Sức cạnh tranh"
+        },
+        {
+          "ko": "결정되다",
+          "vi": "Được quyết định"
+        },
+        {
+          "ko": "N에 의해",
+          "vi": "Bởi N"
+        },
+        {
+          "ko": "N에 따라",
+          "vi": "Phụ thuộc vào N"
+        },
+        {
+          "ko": "대부분",
+          "vi": "Hầu hết"
+        },
+        {
+          "ko": "제공되다",
+          "vi": "Được cung cấp"
+        },
+        {
+          "ko": "V/A + (으)므로",
+          "vi": "Vì A/V"
+        },
+        {
+          "ko": "대중 매체",
+          "vi": "Phương tiện truyền thông đại chúng"
+        },
+        {
+          "ko": "직능, 기능",
+          "vi": "Chức năng"
+        },
+        {
+          "ko": "담당하다",
+          "vi": "Đảm nhận"
+        },
+        {
+          "ko": "보다 강화되다",
+          "vi": "Được củng cố hơn"
+        },
+        {
+          "ko": "V/A + 니는다고 할 수 있다",
+          "vi": "Có thể nói V/A"
+        },
+        {
+          "ko": "신뢰성",
+          "vi": "Độ tin cậy"
+        },
+        {
+          "ko": "쉽게 접근하다",
+          "vi": "Tiếp cận dễ dàng"
+        },
+        {
+          "ko": "신뢰성이 떨어지다",
+          "vi": "Độ tin cậy giảm"
+        },
+        {
+          "ko": "제시되다",
+          "vi": "Được đưa ra"
+        },
+        {
+          "ko": "V/A + (으)니는 반면에 오히려",
+          "vi": "Trái lại thì V/A"
+        },
+        {
+          "ko": "대체로",
+          "vi": "Phần lớn"
+        },
+        {
+          "ko": "따라서",
+          "vi": "Theo đó"
+        },
+        {
+          "ko": "역할 기능을 담당하다 / 수행하다",
+          "vi": "Đảm nhận vai trò chức năng"
+        },
+        {
+          "ko": "정보를 제공하다",
+          "vi": "Cung cấp thông tin"
+        },
+        {
+          "ko": "무분별하게 정보가 산재하다",
+          "vi": "Thông tin phân tán bừa bãi"
+        }
+      ]
+    },
+    {
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "topicVi": "Mở rộng lắp đặt camera giám sát",
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3",
+      "importMethod": "ocr",
+      "terms": [
+        {
+          "ko": "몸살을 앓다",
+          "vi": "Đau nhức toàn thân (xã hội)"
+        },
+        {
+          "ko": "각종 범죄",
+          "vi": "Các loại tội phạm"
+        },
+        {
+          "ko": "범죄 유형",
+          "vi": "Loại hình tội phạm"
+        },
+        {
+          "ko": "범죄 수단; 방법",
+          "vi": "Thủ đoạn gây tội"
+        },
+        {
+          "ko": "잔인하다",
+          "vi": "Tàn nhẫn"
+        },
+        {
+          "ko": "V/A + (으)ㄹ 뿐만 아니라",
+          "vi": "Không chỉ V/A mà còn"
+        },
+        {
+          "ko": "터없이 부족하다",
+          "vi": "Thiếu thốn vô cùng"
+        },
+        {
+          "ko": "게다가",
+          "vi": "Thêm vào đó"
+        },
+        {
+          "ko": "성능",
+          "vi": "Tính năng"
+        },
+        {
+          "ko": "V+ 는 경우가 허다하다",
+          "vi": "Nhiều trường hợp V+ 는"
+        },
+        {
+          "ko": "설치를 확대하다",
+          "vi": "Mở rộng lắp đặt"
+        },
+        {
+          "ko": "~~V/A + 다고 생각하다",
+          "vi": "Nghĩ rằng V/A"
+        },
+        {
+          "ko": "범죄를 예방하다",
+          "vi": "Ngăn ngừa tội phạm"
+        },
+        {
+          "ko": "N을/를 대상으로",
+          "vi": "Nhằm vào đối tượng N"
+        },
+        {
+          "ko": "사회적 약자",
+          "vi": "Người yếu thế trong xã hội"
+        },
+        {
+          "ko": "N 이/가 늘고 있다",
+          "vi": "N đang gia tăng"
+        },
+        {
+          "ko": "위험한 상황에 처하다",
+          "vi": "Gặp phải tình huống nguy hiểm"
+        },
+        {
+          "ko": "저항하다, 대처하다, 항거하다",
+          "vi": "Chống cự, đối phó"
+        },
+        {
+          "ko": "피해자",
+          "vi": "Người bị hại"
+        },
+        {
+          "ko": "가해자",
+          "vi": "Người gây ra tội"
+        },
+        {
+          "ko": "권리",
+          "vi": "Quyền lợi"
+        },
+        {
+          "ko": "관용을 베풀다",
+          "vi": "Khoan dung"
+        },
+        {
+          "ko": "비윤리적인 범죄를 저지르다",
+          "vi": "Gây tội ác vô nhân tính"
+        },
+        {
+          "ko": "아이를 유괴하다",
+          "vi": "Bắt cóc trẻ em"
+        },
+        {
+          "ko": "여성 성폭력, 성희롱",
+          "vi": "Quấy rối tình dục phụ nữ"
+        },
+        {
+          "ko": "연쇄살인",
+          "vi": "Giết người hàng loạt"
+        },
+        {
+          "ko": "곳곳에",
+          "vi": "Khắp nơi"
+        },
+        {
+          "ko": "범죄 현장",
+          "vi": "Hiện trường phạm tội"
+        },
+        {
+          "ko": "뚜렷이 보여주다",
+          "vi": "Cho thấy rõ ràng"
+        },
+        {
+          "ko": "N을/를 최대한 줄이다",
+          "vi": "Giảm N tối đa"
+        },
+        {
+          "ko": "발생률",
+          "vi": "Tỉ lệ phát sinh"
+        }
+      ]
+    },
+    {
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "topicVi": "Văn hóa truyền thống của đất nước",
+      "source": "quyen-viet-supplement-4 p.164",
+      "terms": [
+        {
+          "ko": "고유한 민족정신을 담다",
+          "vi": "Chứa đựng tinh thần dân tộc"
+        },
+        {
+          "ko": "계승되다",
+          "vi": "Được kế thừa"
+        },
+        {
+          "ko": "보존되다",
+          "vi": "Được bảo tồn"
+        },
+        {
+          "ko": "정착하다",
+          "vi": "Đinh cư, bám rẽ, gắn chặt"
+        },
+        {
+          "ko": "민족의 고유한 생활",
+          "vi": "Sinh hoạt đặc trưng của dân tộc"
+        },
+        {
+          "ko": "조상의 지혜",
+          "vi": "Trí tuệ của cha ông"
+        },
+        {
+          "ko": "지탱하다",
+          "vi": "giữ vững, duy trì"
+        },
+        {
+          "ko": "다른 나라의 침략",
+          "vi": "Sự xâm lược của quốc gia khác"
+        },
+        {
+          "ko": "쉽게 무너지다",
+          "vi": "Dễ dàng sụp đổ"
+        },
+        {
+          "ko": "강대국/ 약소국",
+          "vi": "Nước mạnh, nước yếu"
+        },
+        {
+          "ko": "문화적 전파를 중시하다",
+          "vi": "Chú trọng truyền bá văn hóa"
+        },
+        {
+          "ko": "민족의 정체성을 지키고 유지하다",
+          "vi": "Bảo vệ và duy trì bản sắc dân tộc"
+        },
+        {
+          "ko": "과거와 현재를 이어주다",
+          "vi": "Nồi liền hiện tại và quá khứ"
+        },
+        {
+          "ko": "거듭하다",
+          "vi": "Tái sinh, sống lại"
+        },
+        {
+          "ko": "맞닥뜨린 문제를 해결하다",
+          "vi": "Giải quyết vấn đề gặp phải"
+        }
+      ]
+    },
+    {
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "topicVi": "Sự nóng lên của trái đất",
+      "source": "quyen-viet-supplement-4 p.164",
+      "terms": [
+        {
+          "ko": "산업화",
+          "vi": "công nghiệp hóa"
+        },
+        {
+          "ko": "인간의 생존을 위협하다",
+          "vi": "Uy hiếp sự sống còn của con người"
+        },
+        {
+          "ko": "지경에 이르다",
+          "vi": "Đạt đến ranh giới"
+        },
+        {
+          "ko": "몸살을 앓다",
+          "vi": "Đau nhức toàn thân"
+        },
+        {
+          "ko": "산림을 벌채하다",
+          "vi": "Chặt phá rừng"
+        },
+        {
+          "ko": "심각한 상황에 처한 지구 온난화",
+          "vi": "Sự nóng lên của trái đất rơi vào tình trạng nghiêm"
+        },
+        {
+          "ko": "수질 오염",
+          "vi": "Ô nhiễm nước"
+        },
+        {
+          "ko": "토양 오염",
+          "vi": "Ô nhiễm đất"
+        },
+        {
+          "ko": "대기 오염",
+          "vi": "Ô nhiễm không khí"
+        },
+        {
+          "ko": "해수면의 상승",
+          "vi": "Gia tăng mực nước biển"
+        },
+        {
+          "ko": "살림을 훼손시키다/ 살림에 영향을 미치다",
+          "vi": "Phá hủy sự sống, ảnh hưởng đến sự"
+        },
+        {
+          "ko": "가뭄과 홍수가 발생하다",
+          "vi": "Phát sinh hạn hán, lũ lụt"
+        },
+        {
+          "ko": "폭우/ 폭설/ 폭염/ 한파가 닥치다",
+          "vi": "Mưa lớn/ bão tuyết/nóng bức/ đợt lạnh kéo dài.."
+        },
+        {
+          "ko": "엄청난 재해가 생기다",
+          "vi": "Thiên tai khủng khiếp xuất hiện"
+        },
+        {
+          "ko": "질병이 만연하다",
+          "vi": "Bệnh tật lan truyền"
+        },
+        {
+          "ko": "생태계에 심각한 혼란을 초래하다",
+          "vi": "Dẫn đến hỗn loạn hệ sinh thái"
+        },
+        {
+          "ko": "대책을 마련하다",
+          "vi": "Chuẩn bị đối sách"
+        },
+        {
+          "ko": "문제를 다각으로 분석하다",
+          "vi": "Phân tích vấn đề trên mọi mặt"
+        },
+        {
+          "ko": "환경 보호를 노력하다",
+          "vi": "Nỗ lực bảo vệ môi trường"
+        }
+      ]
+    },
+    {
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "topicVi": "Ảnh hưởng của lời khen",
+      "source": "quyen-viet-supplement-4 p.165",
+      "terms": [
+        {
+          "ko": "나은 사람이 되다/낫다",
+          "vi": "Trở thành người tốt hơn"
+        },
+        {
+          "ko": "자신감이 생기다",
+          "vi": "Thêm tự tin"
+        },
+        {
+          "ko": "긍정적인 영향을 미치다",
+          "vi": "có ảnh hưởng tích cực"
+        },
+        {
+          "ko": "능력을 발휘하다",
+          "vi": "Phát huy năng lực"
+        },
+        {
+          "ko": "도전하다",
+          "vi": "Thử thách"
+        },
+        {
+          "ko": "N 을/를 발전시키는 힘을 가지다",
+          "vi": "Có sức mạnh phát triển việc gì"
+        },
+        {
+          "ko": "칭찬이 독이 되다",
+          "vi": "Lời khen trở thành độc"
+        },
+        {
+          "ko": "부담을 담기다",
+          "vi": "chứa gánh nặng, nỗi lo"
+        },
+        {
+          "ko": "기대에 부응하다",
+          "vi": "Đáp ứng mong đợi"
+        },
+        {
+          "ko": "실력을 제대로 발휘하지 못하다",
+          "vi": "Không thể phát huy đúng thực lực"
+        },
+        {
+          "ko": "과정보다 결과를 중시하다",
+          "vi": "quan trọng kết quả hơn quá trình"
+        },
+        {
+          "ko": "해내다/ 완성하다",
+          "vi": "hoàn thành"
+        },
+        {
+          "ko": "N은/는 부담에서 벗어나다",
+          "vi": "Thoát ra khỏi gánh nặng"
+        }
+      ]
+    },
+    {
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "topicVi": "Giáo dục sớm",
+      "source": "quyen-viet-supplement-4 p.166",
+      "terms": [
+        {
+          "ko": "학교에 들어가다",
+          "vi": "Vào trường học"
+        },
+        {
+          "ko": "다양한 교육을 실시하다",
+          "vi": "Tiến hành giáo dục đa dạng"
+        },
+        {
+          "ko": "재능을 발견하다",
+          "vi": "Phát hiện tài năng"
+        },
+        {
+          "ko": "잠재력을 극대화하다",
+          "vi": "Phát triển năng lực tiềm tàng"
+        },
+        {
+          "ko": "예체능",
+          "vi": "Năng khiếu nghệ thuật thể thao"
+        },
+        {
+          "ko": "체계적인 교육을 받다",
+          "vi": "Được giáo dục có hệ thống"
+        },
+        {
+          "ko": "학업 경쟁력을 높이다",
+          "vi": "Nâng cao năng lực cạnh tranh trong học tập"
+        },
+        {
+          "ko": "세계관을 넓히다",
+          "vi": "Mở rộng thế giới quan"
+        },
+        {
+          "ko": "압박감/ 압력과 스트레스를 받다",
+          "vi": "Bị áp lực"
+        },
+        {
+          "ko": "보호자",
+          "vi": "Người bảo hộ"
+        },
+        {
+          "ko": "학부모",
+          "vi": "Phụ huynh"
+        },
+        {
+          "ko": "교육이 과도하게 이루어지다",
+          "vi": "Giáo dục được thực hiện quá độ"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+.auth-screen-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--app-bg-subtle);
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.auth-screen-wrap.modal {
+  min-height: auto;
+  background: transparent;
+  padding: 0;
+}
+
+.auth-screen-card {
+  background: var(--app-modal-bg);
+  padding: clamp(24px, 5vw, 36px);
+  border-radius: 16px;
+  box-shadow: var(--app-shadow);
+  border: 1px solid var(--app-border);
+  width: 100%;
+  max-width: 420px;
+  color: var(--app-text);
+}
+
+.auth-screen-card.full {
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+.auth-screen-title {
+  color: var(--app-accent);
+  margin: 0 0 10px;
+  font-size: clamp(22px, 5vw, 28px);
+}
+
+.auth-screen-sub {
+  color: var(--app-text-muted);
+  margin: 0;
+}
+
+.auth-screen-error {
+  background: var(--app-danger-soft);
+  color: var(--app-danger-text);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.auth-screen-label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--app-text);
+  font-weight: bold;
+}
+
+.auth-screen-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid var(--app-border);
+  background: var(--app-input-bg);
+  color: var(--app-text);
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.auth-screen-input:focus {
+  outline: none;
+  border-color: var(--app-accent);
+  box-shadow: 0 0 0 2px var(--app-accent-soft);
+}
+
+.auth-screen-input.otp {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 4px;
+  border-color: var(--app-accent);
+}
+
+.auth-screen-submit {
+  padding: 15px;
+  background: linear-gradient(135deg, var(--app-accent), var(--app-purple));
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-screen-submit.verify {
+  background: linear-gradient(135deg, var(--app-success), #22c55e);
+}
+
+.auth-screen-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.auth-screen-switch {
+  text-align: center;
+  margin-top: 25px;
+  color: var(--app-text-muted);
+}
+
+.auth-screen-switch-link {
+  color: var(--app-accent);
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.auth-screen-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.auth-screen-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
