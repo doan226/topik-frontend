@@ -1,0 +1,26 @@
+export const SPECIALIZED_VOCAB = [
+  { word: '데이터베이스', meaning: 'Cơ sở dữ liệu', specialty: 'IT' },
+  { word: '알고리즘', meaning: 'Thuật toán', specialty: 'IT' },
+  { word: '엔진오일', meaning: 'Dầu động cơ xe ô tô', specialty: 'Ô Tô' },
+  { word: '브레이크', meaning: 'Phanh xe ô tô', specialty: 'Ô Tô' },
+  { word: '조리법', meaning: 'Công thức nấu ăn', specialty: 'Nấu Ăn' },
+  { word: '식재료', meaning: 'Nguyên liệu nấu ăn', specialty: 'Nấu Ăn' },
+  { word: '피부관리', meaning: 'Chăm sóc da', specialty: 'Làm Đẹp' },
+  { word: '화장품', meaning: 'Mỹ phẩm', specialty: 'Làm Đẹp' },
+  { word: '레이아웃', meaning: 'Bố cục thiết kế đồ họa', specialty: 'Thiết Kế Đồ Họa' },
+  { word: '일러스트', meaning: 'Hình minh họa', specialty: 'Thiết Kế Đồ Họa' },
+  { word: '경영전략', meaning: 'Chiến lược kinh doanh', specialty: 'Quản Trị Kinh Doanh' },
+  { word: '마케팅', meaning: 'Tiếp thị', specialty: 'Quản Trị Kinh Doanh' },
+  { word: '보도자료', meaning: 'Thông cáo báo chí', specialty: 'Truyền Thông' },
+  { word: '미디어', meaning: 'Phương tiện truyền thông', specialty: 'Truyền Thông' },
+  { word: '문법구조', meaning: 'Cấu trúc ngữ pháp văn học Hàn', specialty: 'Ngôn Ngữ Văn Học Hàn' },
+  { word: '시인', meaning: 'Nhà thơ', specialty: 'Ngôn Ngữ Văn Học Hàn' },
+  { word: '기어박스', meaning: 'Hộp số cơ khí', specialty: 'Cơ Khí' },
+  { word: '도면', meaning: 'Bản vẽ kỹ thuật', specialty: 'Cơ Khí' },
+  { word: '반도체', meaning: 'Bán dẫn', specialty: 'Điện Tử' },
+  { word: '회로도', meaning: 'Sơ đồ mạch điện tử', specialty: 'Điện Tử' },
+  { word: '선박조립', meaning: 'Lắp ráp thân tàu', specialty: 'Đóng Tàu' },
+  { word: '조선소', meaning: 'Xưởng đóng tàu', specialty: 'Đóng Tàu' },
+] as const;
+
+export const SPECIALTY_LIST = [...new Set(SPECIALIZED_VOCAB.map((v) => v.specialty))];

@@ -1,0 +1,232 @@
+{
+  "hanja-gia-家": {
+    "emoji": "🏠",
+    "hook": "Mái nhà + người → mọi từ 가 đều quanh gia đình",
+    "mnemonicVi": "Gia (âm 가): ngôi nhà có người — nhớ 가정 (gia đình), 국가 (quốc gia)."
+  },
+  "hanja-gi-c-角": {
+    "emoji": "📐",
+    "hook": "Sừng / góc nhọn → tam giác, góc vuông",
+    "mnemonicVi": "Giác (âm 각): nghĩ “góc” — 직각 (góc vuông), 삼각 (tam giác)."
+  },
+  "hanja-gian-間": {
+    "emoji": "🚪",
+    "hook": "Cửa giữa hai vách → khoảng trống, thời gian",
+    "mnemonicVi": "Gian (âm 간): cửa ở giữa — 공간 (không gian), 중간 (ở giữa), 기간 (kỳ hạn)."
+  },
+  "hanja-c-m-感": {
+    "emoji": "💓",
+    "hook": "Trái tim + cảm → cảm xúc, cảm giác",
+    "mnemonicVi": "Cảm (âm 감): tim đập — 감정 (tình cảm), 예감 (dự cảm)."
+  },
+  "hanja-c-ng-強": {
+    "emoji": "💪",
+    "hook": "Cường = mạnh → nhấn mạnh, cường quốc",
+    "mnemonicVi": "Cường (âm 강): “cường lực” — 강조 (nhấn mạnh), 강대국 (cường quốc)."
+  },
+  "hanja-kh-ch-客": {
+    "emoji": "🧳",
+    "hook": "Khách đến nhà → hành khách, khán giả",
+    "mnemonicVi": "Khách (âm 객): người từ xa tới — 승객 (hành khách), 관객 (khán giả)."
+  },
+  "hanja-kinh-京": {
+    "emoji": "🏙️",
+    "hook": "Kinh đô → Seoul, Bắc Kinh, Tokyo",
+    "mnemonicVi": "Kinh (âm 경): thủ đô — 상경 (lên Seoul), 북경 (Bắc Kinh)."
+  },
+  "hanja-c-古": {
+    "emoji": "🏛️",
+    "hook": "Cổ = xưa → đồ cổ, thời đại",
+    "mnemonicVi": "Cổ (âm 고): thời xưa — 고궁 (cung cổ), 고대 (thời cổ đại)."
+  },
+  "hanja-quan-觀": {
+    "emoji": "👁️",
+    "hook": "Quan = nhìn → quan điểm, quan sát",
+    "mnemonicVi": "Quan (âm 관): mắt quan sát — 관점 (quan điểm), 관찰 (quan sát)."
+  },
+  "hanja-gi-o-敎": {
+    "emoji": "📚",
+    "hook": "Giáo = dạy → giáo viên, giáo dục",
+    "mnemonicVi": "Giáo (âm 교): hành động dạy — 교사 (giáo viên), 교육 (giáo dục). Khác âm hiệu (trường)."
+  },
+  "hanja-c-機": {
+    "emoji": "⚙️",
+    "hook": "Cơ = máy móc → cơ hội, máy bay",
+    "mnemonicVi": "Cơ (âm 기): cánh + cơ khí — 기회 (cơ hội), 비행기 (máy bay)."
+  },
+  "hanja-kh-n-緊": {
+    "emoji": "⏱️",
+    "hook": "Khẩn = gấp → căng thẳng, khẩn cấp",
+    "mnemonicVi": "Khẩn (âm 긴): thắt chặt — 긴장 (căng thẳng), 긴급 (khẩn cấp)."
+  },
+  "hanja-c-t-吉": {
+    "emoji": "🍀",
+    "hook": "Cát = lành → ngày tốt, may mắn",
+    "mnemonicVi": "Cát (âm 길): điềm lành — 길일 (ngày tốt), ngược lại 불길 (xui)."
+  },
+  "hanja-na-那": {
+    "emoji": "⬇️",
+    "hook": "Na rơi → vực thẳm, bắt giữ",
+    "mnemonicVi": "Na (âm 나): hình “rơi xuống” — 나락 (địa ngục), 나포 (bắt giữ)."
+  },
+  "hanja-n-c-諾": {
+    "emoji": "🤝",
+    "hook": "Nặc = lời hứa → chấp nhận, đồng ý",
+    "mnemonicVi": "Nặc (âm 낙): lời cam kết — 수락 (chấp nhận), 승낙 (đồng ý)."
+  },
+  "hanja-n-女": {
+    "emoji": "👩",
+    "hook": "Nữ = phụ nữ → nam nữ, thiếu nữ",
+    "mnemonicVi": "Nữ (âm 녀): hình người phụ nữ — 여성, 소녀 (thiếu nữ)."
+  },
+  "hanja-ni-n-年": {
+    "emoji": "📅",
+    "hook": "Niên = năm → học niên, mỗi năm",
+    "mnemonicVi": "Niên (âm 년): thu hoạch qua năm — 학년 (năm học), 매년 (mỗi năm)."
+  },
+  "hanja-ni-m-念": {
+    "emoji": "🧠",
+    "hook": "Niệm = nhớ → kỷ niệm, khái niệm",
+    "mnemonicVi": "Niệm (âm 념): ghi trong tâm — 기념 (kỷ niệm), 개념 (khái niệm)."
+  },
+  "hanja-ninh-寧": {
+    "emoji": "☮️",
+    "hook": "Ninh = yên → 안녕 (xin chào)",
+    "mnemonicVi": "Ninh (âm 녕): nhà yên bình — 안녕하다 (bình an, khỏe)."
+  },
+  "hanja-a-多": {
+    "emoji": "➕",
+    "hook": "Đa = nhiều → đa dạng, đa văn hóa",
+    "mnemonicVi": "Đa (âm 다): hai phần chồng lên — 다양 (đa dạng), 다문화 (đa văn hóa)."
+  },
+  "hanja-i-大": {
+    "emoji": "🎓",
+    "hook": "Đại = lớn → đại học, đại gia đình",
+    "mnemonicVi": "Đại (âm 대): người giang tay — 대학교 (đại học), 확대 (mở rộng)."
+  },
+  "hanja-ng-冬": {
+    "emoji": "❄️",
+    "hook": "Đông = mùa đông → đồ đông, ngủ đông",
+    "mnemonicVi": "Đông (âm 동): tuyết rơi — 겨울, 동복 (áo đông)."
+  },
+  "hanja-danh-名": {
+    "emoji": "✨",
+    "hook": "Danh = tên → danh nhân, nổi tiếng",
+    "mnemonicVi": "Danh (âm 명): ánh sáng + miệng gọi tên — 유명 (nổi tiếng), 명사 (danh từ)."
+  },
+  "hanja-v-n-問": {
+    "emoji": "❓",
+    "hook": "Vấn = hỏi → vấn đề, học vấn",
+    "mnemonicVi": "Vấn (âm 문): cửa + miệng hỏi — 문제 (vấn đề), 학문 (học vấn)."
+  },
+  "hanja-m-美": {
+    "emoji": "🌸",
+    "hook": "Mỹ = đẹp → mỹ nhân, mỹ phẩm",
+    "mnemonicVi": "Mỹ (âm 미): cừu + vị đẹp — 미인 (mỹ nhân), 미용실 (tiệm tóc)."
+  },
+  "hanja-ban-班": {
+    "emoji": "👔",
+    "hook": "Ban = nhóm → lớp học, yangban",
+    "mnemonicVi": "Ban (âm 반): chia nhóm — 반 (lớp), 양반 (tầng lớp quý tộc)."
+  },
+  "hanja-b-o-保": {
+    "emoji": "🛡️",
+    "hook": "Bảo = giữ → bảo hiểm, bảo vệ",
+    "mnemonicVi": "Bảo (âm 보): ôm giữ an toàn — 보험 (bảo hiểm), 보호 (bảo vệ)."
+  },
+  "hanja-s-事": {
+    "emoji": "⚖️",
+    "hook": "Sự = việc → công tố, giám đốc",
+    "mnemonicVi": "Sự (âm 사): tay cầm việc — 검사, 이사, 사실 (sự thật)."
+  },
+  "hanja-sinh-生": {
+    "emoji": "🌱",
+    "hook": "Sinh = sống → sinh nhật, sinh hoạt",
+    "mnemonicVi": "Sinh (âm 생): mầm mọc — 생일 (sinh nhật), 학생 (học sinh)."
+  },
+  "hanja-ti-n-先": {
+    "emoji": "🥇",
+    "hook": "Tiên = trước → ưu tiên, tiền bối",
+    "mnemonicVi": "Tiên (âm 선): đi trước — 우선 (trước tiên), 선배 (đàn anh)."
+  },
+  "hanja-th-y-水": {
+    "emoji": "💧",
+    "hook": "Thủy = nước → bơi lội, lũ lụt",
+    "mnemonicVi": "Thủy (âm 수): giọt nước — 수영 (bơi), 생수 (nước uống)."
+  },
+  "hanja-th-i-時": {
+    "emoji": "🕐",
+    "hook": "Thời = giờ → thời đại, đồng hồ",
+    "mnemonicVi": "Thời (âm 시): mặt trời + bước chân — 시간, 시계 (đồng hồ)."
+  },
+  "hanja-th-c-食": {
+    "emoji": "🍽️",
+    "hook": "Thực = ăn → nhà hàng, thực phẩm",
+    "mnemonicVi": "Thực (âm 식): người ăn — 식당 (nhà hàng), 음식 (thức ăn)."
+  },
+  "hanja-t-n-新": {
+    "emoji": "✨",
+    "hook": "Tân = mới → tân nhân, đổi mới",
+    "mnemonicVi": "Tân (âm 신): cây mới mọc — 신입 (tân binh), 혁신 (đổi mới)."
+  },
+  "hanja-th-t-室": {
+    "emoji": "🏢",
+    "hook": "Thất = phòng → văn phòng, nhà vệ sinh",
+    "mnemonicVi": "Thất (âm 실): mái nhà bên trong — 교실, 화장실, 회의실."
+  },
+  "hanja-t-m-心": {
+    "emoji": "❤️",
+    "hook": "Tâm = lòng → chân thành, quan tâm",
+    "mnemonicVi": "Tâm (âm 심): hình trái tim — 진심 (chân thành), 관심 (quan tâm)."
+  },
+  "hanja-vi-n-員": {
+    "emoji": "👥",
+    "hook": "Viên = người trong nhóm → nhân viên",
+    "mnemonicVi": "Viên (âm 원): vòng tròn người — 사원 (nhân viên), 회원 (hội viên)."
+  },
+  "hanja-nh-n-人": {
+    "emoji": "🧑",
+    "hook": "Nhân = người → dân số, nhân quyền",
+    "mnemonicVi": "Nhân (âm 인): hai chân đứng — 인구 (dân số), 인권 (nhân quyền)."
+  },
+  "hanja-t-c-作": {
+    "emoji": "✍️",
+    "hook": "Tác = làm → tác phẩm, bắt đầu",
+    "mnemonicVi": "Tác (âm 작): tay làm — 작품 (tác phẩm), 시작 (bắt đầu)."
+  },
+  "hanja-i-n-電": {
+    "emoji": "⚡",
+    "hook": "Điện = điện → điện thoại, điện tử",
+    "mnemonicVi": "Điện (âm 전): mây + mưa sấm — 전화, 전자 (điện tử)."
+  },
+  "hanja-t-nh-情": {
+    "emoji": "💕",
+    "hook": "Tình = cảm → tình yêu, tình bạn",
+    "mnemonicVi": "Tình (âm 정): tim + thanh âm — 애정 (tình yêu), 우정 (tình bạn)."
+  },
+  "hanja-s-ch-冊": {
+    "emoji": "📖",
+    "hook": "Sách = cuốn → bàn học, sách vở",
+    "mnemonicVi": "Sách (âm 책): cuốn sách xếp — 책상 (bàn học), 책자 (ấn phẩm)."
+  },
+  "hanja-xu-t-出": {
+    "emoji": "🚶",
+    "hook": "Xuất = ra → lối ra, xuất khẩu",
+    "mnemonicVi": "Xuất (âm 출): bước chân ra ngoài — 출구, 수출 (xuất khẩu)."
+  },
+  "hanja-ph-m-品": {
+    "emoji": "📦",
+    "hook": "Phẩm = hàng → sản phẩm, chất lượng",
+    "mnemonicVi": "Phẩm (âm 품): ba hộp xếp — 제품, 품질 (chất lượng)."
+  },
+  "hanja-h-c-學": {
+    "emoji": "🎒",
+    "hook": "Học = học → trường học, khoa học",
+    "mnemonicVi": "Học (âm 학): trẻ dưới mái nhà học — 학교, 과학 (khoa học)."
+  },
+  "hanja-h-a-化": {
+    "emoji": "🔄",
+    "hook": "Hóa = biến đổi → văn hóa, tiến hóa",
+    "mnemonicVi": "Hóa (âm 화): người đổi hình — 문화, 변화, 진화."
+  }
+}

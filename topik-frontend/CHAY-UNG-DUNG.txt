@@ -1,0 +1,41 @@
+HUONG DAN CHAY TOPIK (Windows - PowerShell bi chan script)
+
+=== TU POWERSHELL (Cursor terminal) ===
+  cmd /c go
+  (KHONG dung npm run dev, dev.cmd, hay start-frontend.bat truc tiep)
+
+=== DOUBLE-CLICK ===
+  C:\topik-frontend\CHAY-TOPIK.bat
+  hoac C:\topik-frontend\go.bat
+
+=== KIEM TRA LOI ===
+  cmd /c "cd /d C:\topik-frontend && KIEM-TRA.bat --no-pause"
+
+=== LINK DUNG ===
+  http://localhost:5173
+  (Neu mo bang IP 192.168.x.x van OK sau khi fix API)
+
+=== CACH THU CONG ===
+
+=== BUOC 1: Dong server cu (neu loi port) ===
+  cd C:\Users\01666\Downloads\topikai\topikai
+  .\stop-servers.cmd
+
+=== BUOC 2: Backend (Spring Boot) ===
+  cd C:\Users\01666\Downloads\topikai\topikai
+  .\run-backend.cmd
+  (Doi dong "Started TopikaiApplication")
+
+=== BUOC 3: Frontend (React) - cua so CMD moi ===
+  cd C:\topik-frontend
+  .\start-frontend.bat
+  (Hoac double-click file start-frontend.bat)
+
+=== MO TRINH DUYET ===
+  http://localhost:5173
+
+LUU Y PowerShell:
+  - PHAI co dau .\ truoc ten file: .\dev.cmd  (KHONG go dev.cmd)
+  - KHONG dung: npm run dev (bi loi Execution Policy)
+
+Cham diem AI: dat bien moi truong GEMINI_API_KEY roi chay lai backend.

@@ -1,0 +1,6537 @@
+{
+  "meta": {
+    "version": 4,
+    "title": "Hán Hàn TOPIK — 100 từ + gốc âm",
+    "updated": "2026-05-25",
+    "source": "topikhanhan.docx + Báo cáo Hình thái học + dong-thai.docx",
+    "characterCount": 237,
+    "topik100Count": 100,
+    "topik90Count": 90
+  },
+  "packs": [
+    {
+      "packId": "topik100-frequent",
+      "titleVi": "100 từ Hán Hàn hay gặp TOPIK (Đọc · Nghe)",
+      "access": "free",
+      "charIds": [
+        "topik100-001-가속화",
+        "topik100-002-감소",
+        "topik100-003-강화",
+        "topik100-004-개발",
+        "topik100-005-개선",
+        "topik100-006-개최",
+        "topik100-007-거부",
+        "topik100-008-결정",
+        "topik100-009-경고",
+        "topik100-010-경쟁",
+        "topik100-011-경험",
+        "topik100-012-고려",
+        "topik100-013-공급",
+        "topik100-014-과장",
+        "topik100-015-구입",
+        "topik100-016-구해",
+        "topik100-017-극복",
+        "topik100-018-금지",
+        "topik100-019-급증",
+        "topik100-020-급감",
+        "topik100-021-기여",
+        "topik100-022-도모",
+        "topik100-023-도착",
+        "topik100-024-동의",
+        "topik100-025-반대",
+        "topik100-026-반영",
+        "topik100-027-발생",
+        "topik100-028-발전",
+        "topik100-029-방지",
+        "topik100-030-배출",
+        "topik100-031-변화",
+        "topik100-032-보장",
+        "topik100-033-보존",
+        "topik100-034-부족",
+        "topik100-035-분석",
+        "topik100-036-비판",
+        "topik100-037-상승",
+        "topik100-038-선택",
+        "topik100-039-소비",
+        "topik100-040-수정",
+        "topik100-041-수행",
+        "topik100-042-실천",
+        "topik100-043-심화",
+        "topik100-044-악화",
+        "topik100-045-안정",
+        "topik100-046-연기",
+        "topik100-047-예상",
+        "topik100-048-예방",
+        "topik100-049-요구",
+        "topik100-050-유지",
+        "topik100-051-의무",
+        "topik100-052-인정",
+        "topik100-053-일치",
+        "topik100-054-자제",
+        "topik100-055-장려",
+        "topik100-056-제외",
+        "topik100-057-제안",
+        "topik100-058-조절",
+        "topik100-059-증가",
+        "topik100-060-지속",
+        "topik100-061-가능성",
+        "topik100-062-가치관",
+        "topik100-063-갈등",
+        "topik100-064-개인주의",
+        "topik100-065-격차",
+        "topik100-066-결과",
+        "topik100-067-경제",
+        "topik100-068-고령화",
+        "topik100-069-공통점",
+        "topik100-070-구조",
+        "topik100-071-권리",
+        "topik100-072-규제",
+        "topik100-073-기준",
+        "topik100-074-대책",
+        "topik100-075-독창성",
+        "topik100-076-목적",
+        "topik100-077-문화재",
+        "topik100-078-부작용",
+        "topik100-079-분야",
+        "topik100-080-비율",
+        "topik100-081-사생활",
+        "topik100-082-상태",
+        "topik100-083-생태계",
+        "topik100-084-선입견",
+        "topik100-085-스트레스",
+        "topik100-086-심리",
+        "topik100-087-안전",
+        "topik100-088-영향",
+        "topik100-089-오염",
+        "topik100-090-원인",
+        "topik100-091-유형",
+        "topik100-092-의사소통",
+        "topik100-093-인구",
+        "topik100-094-인간관계",
+        "topik100-095-재능",
+        "topik100-096-전문가",
+        "topik100-097-정부",
+        "topik100-098-제도",
+        "topik100-099-차별",
+        "topik100-100-효과"
+      ]
+    },
+    {
+      "packId": "topik-premium-90",
+      "titleVi": "90 từ Động thái & Học thuật TOPIK (PREMIUM)",
+      "access": "pack:hanja-advanced",
+      "charIds": [
+        "topik90-001-도입",
+        "topik90-002-구축",
+        "topik90-003-전환",
+        "topik90-004-축소",
+        "topik90-005-보완",
+        "topik90-006-포함",
+        "topik90-007-확보",
+        "topik90-008-배제",
+        "topik90-009-차단",
+        "topik90-010-방치",
+        "topik90-011-유발",
+        "topik90-012-부합",
+        "topik90-013-접촉",
+        "topik90-014-수렴",
+        "topik90-015-반박",
+        "topik90-016-축적",
+        "topik90-017-동참",
+        "topik90-018-촉진",
+        "topik90-019-왜곡",
+        "topik90-020-대두",
+        "topik90-021-정체성",
+        "topik90-022-유대감",
+        "topik90-023-박탈감",
+        "topik90-024-시급성",
+        "topik90-025-투명성",
+        "topik90-026-취약점",
+        "topik90-027-정당성",
+        "topik90-028-차별성",
+        "topik90-029-유연성",
+        "topik90-030-일관성",
+        "topik90-031-부작용",
+        "topik90-032-시너지",
+        "topik90-033-사각지대",
+        "topik90-034-선순환",
+        "topik90-035-원동력",
+        "topik90-036-대안",
+        "topik90-037-소외계층",
+        "topik90-038-인프라",
+        "topik90-039-기후변화",
+        "topik90-040-가상현실",
+        "topik90-041-응고",
+        "topik90-042-풍화",
+        "topik90-043-진화",
+        "topik90-044-멸종",
+        "topik90-045-잠재력",
+        "topik90-046-포화",
+        "topik90-047-희소성",
+        "topik90-048-상호작용",
+        "topik90-049-인과관계",
+        "topik90-050-획일성",
+        "topik90-051-계승",
+        "topik90-052-왜곡-2",
+        "topik90-053-성찰",
+        "topik90-054-도출",
+        "topik90-055-입증",
+        "topik90-056-왜면",
+        "topik90-057-수용",
+        "topik90-058-절제",
+        "topik90-059-치유",
+        "topik90-060-부각",
+        "topik90-061-추론",
+        "topik90-062-미학",
+        "topik90-063-보편성",
+        "topik90-064-주관적",
+        "topik90-065-모순",
+        "topik90-066-위반",
+        "topik90-067-재범",
+        "topik90-068-분쟁",
+        "topik90-069-유입",
+        "topik90-070-양극화",
+        "topik90-071-고립",
+        "topik90-072-부양",
+        "topik90-073-복지",
+        "topik90-074-규제",
+        "topik90-075-보상",
+        "topik90-076-상실감",
+        "topik90-077-열등감",
+        "topik90-078-우월감",
+        "topik90-079-안도감",
+        "topik90-080-효능감",
+        "topik90-081-공감대",
+        "topik90-082-회의감",
+        "topik90-083-친밀감",
+        "topik90-084-자괴감",
+        "topik90-085-거부반응",
+        "topik90-086-상용화",
+        "topik90-087-순기능",
+        "topik90-088-보안",
+        "topik90-089-인공지능",
+        "topik90-090-가상공간"
+      ]
+    },
+    {
+      "packId": "beginner-core",
+      "titleVi": "Hán Hàn cơ bản (theo vần)",
+      "access": "free",
+      "charIds": [
+        "hanja-gia-家",
+        "hanja-gi-c-角",
+        "hanja-gian-間",
+        "hanja-c-m-感",
+        "hanja-c-ng-強",
+        "hanja-kh-ch-客",
+        "hanja-kinh-京",
+        "hanja-c-古",
+        "hanja-quan-觀",
+        "hanja-gi-o-敎",
+        "hanja-c-機",
+        "hanja-kh-n-緊",
+        "hanja-c-t-吉",
+        "hanja-na-那",
+        "hanja-n-c-諾",
+        "hanja-n-女",
+        "hanja-ni-n-年",
+        "hanja-ni-m-念",
+        "hanja-ninh-寧",
+        "hanja-a-多"
+      ]
+    },
+    {
+      "packId": "topik-intermediate",
+      "titleVi": "Hán Hàn trung cấp — 27 gốc âm nâng cao",
+      "access": "pack:hanja-advanced",
+      "charIds": [
+        "hanja-i-大",
+        "hanja-ng-冬",
+        "hanja-danh-名",
+        "hanja-v-n-問",
+        "hanja-m-美",
+        "hanja-ban-班",
+        "hanja-b-o-保",
+        "hanja-s-事",
+        "hanja-sinh-生",
+        "hanja-ti-n-先",
+        "hanja-th-y-水",
+        "hanja-th-i-時",
+        "hanja-th-c-食",
+        "hanja-t-n-新",
+        "hanja-th-t-室",
+        "hanja-t-m-心",
+        "hanja-vi-n-員",
+        "hanja-nh-n-人",
+        "hanja-t-c-作",
+        "hanja-i-n-電",
+        "hanja-t-nh-情",
+        "hanja-s-ch-冊",
+        "hanja-xu-t-出",
+        "hanja-ph-m-品",
+        "hanja-h-c-學",
+        "hanja-h-a-化",
+        "hanja-h-i-會"
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "id": "hanja-gia-家",
+      "char": "家",
+      "reading": "가",
+      "meaningKo": "가족",
+      "meaningVi": "Chủ gia đình",
+      "hanViet": "Gia",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "가장",
+          "vi": "Chủ gia đình"
+        },
+        {
+          "ko": "가구",
+          "vi": "Đồ gỗ, nội thất"
+        },
+        {
+          "ko": "가정",
+          "vi": "Gia đình"
+        },
+        {
+          "ko": "국가",
+          "vi": "Quốc gia."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-gi-c-角",
+      "char": "角",
+      "reading": "각",
+      "meaningKo": "각도",
+      "meaningVi": "Hình đa giác",
+      "hanViet": "Giác",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "다각형",
+          "vi": "Hình đa giác"
+        },
+        {
+          "ko": "시각",
+          "vi": "Góc nhìn, thị giác"
+        },
+        {
+          "ko": "직각",
+          "vi": "Góc vuông"
+        },
+        {
+          "ko": "삼각",
+          "vi": "Tam giác."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-gian-間",
+      "char": "間",
+      "reading": "간",
+      "meaningKo": "시간",
+      "meaningVi": "Không gian",
+      "hanViet": "Gian",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "공간",
+          "vi": "Không gian"
+        },
+        {
+          "ko": "인간",
+          "vi": "Nhân loại, con người"
+        },
+        {
+          "ko": "기간",
+          "vi": "Kỳ hạn, thời kỳ"
+        },
+        {
+          "ko": "중간",
+          "vi": "Khoảng giữa, trung gian."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-c-m-感",
+      "char": "感",
+      "reading": "감",
+      "meaningKo": "감동",
+      "meaningVi": "Tình cảm",
+      "hanViet": "Cảm",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "감정",
+          "vi": "Tình cảm"
+        },
+        {
+          "ko": "감각",
+          "vi": "Cảm giác"
+        },
+        {
+          "ko": "예감",
+          "vi": "Dự cảm"
+        },
+        {
+          "ko": "감기",
+          "vi": "Bệnh cảm cúm."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-c-ng-強",
+      "char": "強",
+      "reading": "강",
+      "meaningKo": "강력",
+      "meaningVi": "Cưỡng chế, ép buộc",
+      "hanViet": "Cường",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "강제",
+          "vi": "Cưỡng chế, ép buộc"
+        },
+        {
+          "ko": "강조하다",
+          "vi": "Nhấn mạnh"
+        },
+        {
+          "ko": "강대국",
+          "vi": "Cường quốc"
+        },
+        {
+          "ko": "막강하다",
+          "vi": "Vô cùng mạnh mẽ."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-kh-ch-客",
+      "char": "客",
+      "reading": "객",
+      "meaningKo": "고객",
+      "meaningVi": "Quan khách, khán giả",
+      "hanViet": "Khách",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "관객",
+          "vi": "Quan khách, khán giả"
+        },
+        {
+          "ko": "승객",
+          "vi": "Hành khách"
+        },
+        {
+          "ko": "객관",
+          "vi": "Khách quan"
+        },
+        {
+          "ko": "객석",
+          "vi": "Ghế khán giả."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-kinh-京",
+      "char": "京",
+      "reading": "경",
+      "meaningKo": "서울 (Kinh thành)",
+      "meaningVi": "Lên thủ đô",
+      "hanViet": "Kinh",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "상경하다",
+          "vi": "Lên thủ đô"
+        },
+        {
+          "ko": "귀경",
+          "vi": "Trở về thủ đô"
+        },
+        {
+          "ko": "북경",
+          "vi": "Bắc Kinh"
+        },
+        {
+          "ko": "동경",
+          "vi": "Đông Kinh (Tokyo)."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-c-古",
+      "char": "古",
+      "reading": "고",
+      "meaningKo": "고궁",
+      "meaningVi": "Đồ cổ",
+      "hanViet": "Cổ",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "고물",
+          "vi": "Đồ cổ"
+        },
+        {
+          "ko": "고서",
+          "vi": "Sách cổ"
+        },
+        {
+          "ko": "고대",
+          "vi": "Thời cổ đại"
+        },
+        {
+          "ko": "최고",
+          "vi": "Cổ nhất, lâu đời nhất."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-quan-觀",
+      "char": "觀",
+      "reading": "관",
+      "meaningKo": "관광",
+      "meaningVi": "Quan khách",
+      "hanViet": "Quan",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "관객",
+          "vi": "Quan khách"
+        },
+        {
+          "ko": "관점",
+          "vi": "Quan điểm"
+        },
+        {
+          "ko": "주관",
+          "vi": "Chủ quan"
+        },
+        {
+          "ko": "관찰하다",
+          "vi": "Quan sát."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-gi-o-敎",
+      "char": "敎",
+      "reading": "교",
+      "meaningKo": "교육",
+      "meaningVi": "Phòng học",
+      "hanViet": "Giáo",
+      "topics": [
+        "profession",
+        "education"
+      ],
+      "compounds": [
+        {
+          "ko": "교실",
+          "vi": "Phòng học"
+        },
+        {
+          "ko": "교사",
+          "vi": "Giáo viên"
+        },
+        {
+          "ko": "종교",
+          "vi": "Tôn giáo"
+        },
+        {
+          "ko": "교훈",
+          "vi": "Giáo huấn, bài học."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-c-機",
+      "char": "機",
+      "reading": "기",
+      "meaningKo": "기계",
+      "meaningVi": "Cơ hội",
+      "hanViet": "Cơ",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "기회",
+          "vi": "Cơ hội"
+        },
+        {
+          "ko": "위기",
+          "vi": "Nguy cơ, khủng hoảng"
+        },
+        {
+          "ko": "비행기",
+          "vi": "Máy bay"
+        },
+        {
+          "ko": "기관",
+          "vi": "Động cơ, cơ quan."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-kh-n-緊",
+      "char": "緊",
+      "reading": "긴",
+      "meaningKo": "긴급",
+      "meaningVi": "Căng thẳng, hồi hộp",
+      "hanViet": "Khẩn",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "긴장하다",
+          "vi": "Căng thẳng, hồi hộp"
+        },
+        {
+          "ko": "긴요하다",
+          "vi": "Trọng yếu, khẩn thiết"
+        },
+        {
+          "ko": "긴밀하다",
+          "vi": "Mật thiết, chặt chẽ."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-c-t-吉",
+      "char": "吉",
+      "reading": "길",
+      "meaningKo": "길조",
+      "meaningVi": "Ngày lành, ngày tốt",
+      "hanViet": "Cát",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "길일",
+          "vi": "Ngày lành, ngày tốt"
+        },
+        {
+          "ko": "불길하다",
+          "vi": "Bất thường, xui xẻo"
+        },
+        {
+          "ko": "흉길",
+          "vi": "Điềm dữ và điềm lành."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-na-那",
+      "char": "那",
+      "reading": "나",
+      "meaningKo": "찰나",
+      "meaningVi": "Địa ngục, vực thẳm",
+      "hanViet": "Na",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "나락",
+          "vi": "Địa ngục, vực thẳm"
+        },
+        {
+          "ko": "나포",
+          "vi": "Sự bắt giữ."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-n-c-諾",
+      "char": "諾",
+      "reading": "낙",
+      "meaningKo": "허락",
+      "meaningVi": "Chấp nhận",
+      "hanViet": "Nặc",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "수락하다",
+          "vi": "Chấp nhận"
+        },
+        {
+          "ko": "승낙하다",
+          "vi": "Bằng lòng, ưng thuận"
+        },
+        {
+          "ko": "응낙하다",
+          "vi": "Đáp lại và đồng ý."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-n-女",
+      "char": "女",
+      "reading": "녀",
+      "meaningKo": "여성",
+      "meaningVi": "Nam nữ",
+      "hanViet": "Nữ",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "남녀",
+          "vi": "Nam nữ"
+        },
+        {
+          "ko": "소녀",
+          "vi": "Thiếu nữ"
+        },
+        {
+          "ko": "여왕",
+          "vi": "Nữ hoàng"
+        },
+        {
+          "ko": "장녀",
+          "vi": "Trưởng nữ."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested",
+      "readingsAlt": [
+        "녀",
+        "여"
+      ]
+    },
+    {
+      "id": "hanja-ni-n-年",
+      "char": "年",
+      "reading": "년",
+      "meaningKo": "학년",
+      "meaningVi": "Mỗi năm",
+      "hanViet": "Niên",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "매년",
+          "vi": "Mỗi năm"
+        },
+        {
+          "ko": "내년",
+          "vi": "Năm sau"
+        },
+        {
+          "ko": "연도",
+          "vi": "Niên độ, năm tài chính"
+        },
+        {
+          "ko": "금년",
+          "vi": "Năm nay."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested",
+      "readingsAlt": [
+        "년",
+        "연"
+      ]
+    },
+    {
+      "id": "hanja-ni-m-念",
+      "char": "念",
+      "reading": "념",
+      "meaningKo": "개념",
+      "meaningVi": "Kỷ niệm, ghi nhớ",
+      "hanViet": "Niệm",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "기념하다",
+          "vi": "Kỷ niệm, ghi nhớ"
+        },
+        {
+          "ko": "신념",
+          "vi": "Tín niệm, niềm tin"
+        },
+        {
+          "ko": "이념",
+          "vi": "Hệ tư tưởng"
+        },
+        {
+          "ko": "잡념",
+          "vi": "Suy nghĩ miên man."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested",
+      "readingsAlt": [
+        "념",
+        "염"
+      ]
+    },
+    {
+      "id": "hanja-ninh-寧",
+      "char": "寧",
+      "reading": "녕",
+      "meaningKo": "안녕",
+      "meaningVi": "Bình an, khỏe mạnh",
+      "hanViet": "Ninh",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "안녕하다",
+          "vi": "Bình an, khỏe mạnh"
+        },
+        {
+          "ko": "귀녕",
+          "vi": "Về thăm cha mẹ đẻ."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested",
+      "readingsAlt": [
+        "녕",
+        "령"
+      ]
+    },
+    {
+      "id": "hanja-a-多",
+      "char": "多",
+      "reading": "다",
+      "meaningKo": "다수",
+      "meaningVi": "Đa văn hóa",
+      "hanViet": "Đa",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "다문화",
+          "vi": "Đa văn hóa"
+        },
+        {
+          "ko": "다양하다",
+          "vi": "Đa dạng"
+        },
+        {
+          "ko": "다행하다",
+          "vi": "May mắn"
+        },
+        {
+          "ko": "다정하다",
+          "vi": "Tình cảm, ngọt ngào."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-i-大",
+      "char": "大",
+      "reading": "대",
+      "meaningKo": "대학",
+      "meaningVi": "Trường đại học",
+      "hanViet": "Đại",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "대학교",
+          "vi": "Trường đại học"
+        },
+        {
+          "ko": "대문",
+          "vi": "Cửa lớn"
+        },
+        {
+          "ko": "대가족",
+          "vi": "Đại gia đình"
+        },
+        {
+          "ko": "확대하다",
+          "vi": "Mở rộng, phóng to."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-ng-冬",
+      "char": "冬",
+      "reading": "동",
+      "meaningKo": "겨울",
+      "meaningVi": "Đồng phục mùa đông",
+      "hanViet": "Đông",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "동복",
+          "vi": "Đồng phục mùa đông"
+        },
+        {
+          "ko": "동면",
+          "vi": "Ngủ đông"
+        },
+        {
+          "ko": "동지",
+          "vi": "Tiết đông chí"
+        },
+        {
+          "ko": "동기",
+          "vi": "Mùa đông, kỳ mùa đông."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-danh-名",
+      "char": "名",
+      "reading": "명",
+      "meaningKo": "유명",
+      "meaningVi": "Danh từ, danh nhân",
+      "hanViet": "Danh",
+      "topics": [
+        "profession"
+      ],
+      "compounds": [
+        {
+          "ko": "명사",
+          "vi": "Danh từ, danh nhân"
+        },
+        {
+          "ko": "가명",
+          "vi": "Tên giả"
+        },
+        {
+          "ko": "명곡",
+          "vi": "Ca khúc nổi tiếng"
+        },
+        {
+          "ko": "서명하다",
+          "vi": "Ký tên."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-v-n-問",
+      "char": "問",
+      "reading": "문",
+      "meaningKo": "질문",
+      "meaningVi": "Vấn đề",
+      "hanViet": "Vấn",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "문제",
+          "vi": "Vấn đề"
+        },
+        {
+          "ko": "의문",
+          "vi": "Nghi vấn, câu hỏi"
+        },
+        {
+          "ko": "방문하다",
+          "vi": "Thăm viếng"
+        },
+        {
+          "ko": "학문",
+          "vi": "Học vấn."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-m-美",
+      "char": "美",
+      "reading": "미",
+      "meaningKo": "미술",
+      "meaningVi": "Người đẹp, mỹ nhân",
+      "hanViet": "Mỹ",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "미인",
+          "vi": "Người đẹp, mỹ nhân"
+        },
+        {
+          "ko": "미용실",
+          "vi": "Tiệm làm tóc"
+        },
+        {
+          "ko": "완벽미",
+          "vi": "Vẻ đẹp hoàn mỹ"
+        },
+        {
+          "ko": "미관",
+          "vi": "Mỹ quan."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-ban-班",
+      "char": "班",
+      "reading": "반",
+      "meaningKo": "반장",
+      "meaningVi": "Giới quý tộc (lưỡng ban)",
+      "hanViet": "Ban",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "양반",
+          "vi": "Giới quý tộc (lưỡng ban)"
+        },
+        {
+          "ko": "일반",
+          "vi": "Thông thường, đại trà"
+        },
+        {
+          "ko": "합반",
+          "vi": "Gộp lớp"
+        },
+        {
+          "ko": "분반",
+          "vi": "Chia lớp."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-b-o-保",
+      "char": "保",
+      "reading": "보",
+      "meaningKo": "보호",
+      "meaningVi": "Y tế, bảo vệ sức khỏe",
+      "hanViet": "Bảo",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "보건",
+          "vi": "Y tế, bảo vệ sức khỏe"
+        },
+        {
+          "ko": "보관하다",
+          "vi": "Bảo quản"
+        },
+        {
+          "ko": "보증하다",
+          "vi": "Bảo lãnh, bảo đảm"
+        },
+        {
+          "ko": "보험",
+          "vi": "Bảo hiểm."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-s-事",
+      "char": "事",
+      "reading": "사",
+      "meaningKo": "판사",
+      "meaningVi": "Công tố viên",
+      "hanViet": "Sự",
+      "topics": [
+        "profession"
+      ],
+      "compounds": [
+        {
+          "ko": "검사",
+          "vi": "Công tố viên"
+        },
+        {
+          "ko": "이사",
+          "vi": "Giám đốc doanh nghiệp"
+        },
+        {
+          "ko": "감사",
+          "vi": "Thanh tra"
+        },
+        {
+          "ko": "사실",
+          "vi": "Sự thật."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-sinh-生",
+      "char": "生",
+      "reading": "생",
+      "meaningKo": "학생",
+      "meaningVi": "Sinh hoạt",
+      "hanViet": "Sinh",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "생활",
+          "vi": "Sinh hoạt"
+        },
+        {
+          "ko": "생일",
+          "vi": "Sinh nhật"
+        },
+        {
+          "ko": "발생하다",
+          "vi": "Phát sinh, xảy ra"
+        },
+        {
+          "ko": "일생",
+          "vi": "Cả đời, một đời."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-ti-n-先",
+      "char": "先",
+      "reading": "선",
+      "meaningKo": "선생",
+      "meaningVi": "Trước tiên",
+      "hanViet": "Tiên",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "우선",
+          "vi": "Trước tiên"
+        },
+        {
+          "ko": "선배",
+          "vi": "Tiền bối, đàn anh/chị"
+        },
+        {
+          "ko": "선진국",
+          "vi": "Nước tiên tiến"
+        },
+        {
+          "ko": "선입견",
+          "vi": "Định kiến, thành kiến."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-th-y-水",
+      "char": "水",
+      "reading": "수",
+      "meaningKo": "생수",
+      "meaningVi": "Bơi lội",
+      "hanViet": "Thủy",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "수영",
+          "vi": "Bơi lội"
+        },
+        {
+          "ko": "향수",
+          "vi": "Nước hoa"
+        },
+        {
+          "ko": "홍수",
+          "vi": "Lũ lụt"
+        },
+        {
+          "ko": "음료수",
+          "vi": "Đồ uống, nước giải khát."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-th-i-時",
+      "char": "時",
+      "reading": "시",
+      "meaningKo": "시간",
+      "meaningVi": "Thời đại",
+      "hanViet": "Thời",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "시대",
+          "vi": "Thời đại"
+        },
+        {
+          "ko": "시계",
+          "vi": "Đồng hồ"
+        },
+        {
+          "ko": "일시",
+          "vi": "Ngày giờ"
+        },
+        {
+          "ko": "시급하다",
+          "vi": "Cấp bách, khẩn cấp."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-th-c-食",
+      "char": "食",
+      "reading": "식",
+      "meaningKo": "식사",
+      "meaningVi": "Nhà hàng, nhà ăn",
+      "hanViet": "Thực",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "식당",
+          "vi": "Nhà hàng, nhà ăn"
+        },
+        {
+          "ko": "음식",
+          "vi": "Ẩm thực, thức ăn"
+        },
+        {
+          "ko": "간식",
+          "vi": "Đồ ăn vặt"
+        },
+        {
+          "ko": "식중독",
+          "vi": "Ngộ độc thực phẩm."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-t-n-新",
+      "char": "新",
+      "reading": "신",
+      "meaningKo": "신문",
+      "meaningVi": "Người mới vào",
+      "hanViet": "Tân",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "신입",
+          "vi": "Người mới vào"
+        },
+        {
+          "ko": "신제품",
+          "vi": "Sản phẩm mới"
+        },
+        {
+          "ko": "혁신",
+          "vi": "Sự đổi mới"
+        },
+        {
+          "ko": "신기하다",
+          "vi": "Tân kỳ, mới lạ."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-th-t-室",
+      "char": "室",
+      "reading": "실",
+      "meaningKo": "교실",
+      "meaningVi": "Trong nhà",
+      "hanViet": "Thất",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "실내",
+          "vi": "Trong nhà"
+        },
+        {
+          "ko": "화장실",
+          "vi": "Nhà vệ sinh"
+        },
+        {
+          "ko": "사무실",
+          "vi": "Văn phòng làm việc"
+        },
+        {
+          "ko": "회의실",
+          "vi": "Phòng họp."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-t-m-心",
+      "char": "心",
+      "reading": "심",
+      "meaningKo": "심장",
+      "meaningVi": "Lòng thành, sự chân thật",
+      "hanViet": "Tâm",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "진심",
+          "vi": "Lòng thành, sự chân thật"
+        },
+        {
+          "ko": "안심하다",
+          "vi": "Yên tâm"
+        },
+        {
+          "ko": "의심하다",
+          "vi": "Nghi ngờ"
+        },
+        {
+          "ko": "관심",
+          "vi": "Sự quan tâm."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-vi-n-員",
+      "char": "員",
+      "reading": "원",
+      "meaningKo": "인원",
+      "meaningVi": "Nhân viên",
+      "hanViet": "Viên",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "사원",
+          "vi": "Nhân viên"
+        },
+        {
+          "ko": "위원",
+          "vi": "Ủy viên hội đồng"
+        },
+        {
+          "ko": "회원",
+          "vi": "Hội viên"
+        },
+        {
+          "ko": "만원",
+          "vi": "Kín chỗ, hết người."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-nh-n-人",
+      "char": "人",
+      "reading": "인",
+      "meaningKo": "인간",
+      "meaningVi": "Dân số",
+      "hanViet": "Nhân",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "인구",
+          "vi": "Dân số"
+        },
+        {
+          "ko": "인물",
+          "vi": "Nhân vật"
+        },
+        {
+          "ko": "외국인",
+          "vi": "Người nước ngoài"
+        },
+        {
+          "ko": "인권",
+          "vi": "Nhân quyền."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-t-c-作",
+      "char": "作",
+      "reading": "작",
+      "meaningKo": "작업",
+      "meaningVi": "Tác phẩm",
+      "hanViet": "Tác",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "작품",
+          "vi": "Tác phẩm"
+        },
+        {
+          "ko": "작가",
+          "vi": "Tác giả"
+        },
+        {
+          "ko": "시작하다",
+          "vi": "Bắt đầu"
+        },
+        {
+          "ko": "부작용",
+          "vi": "Tác dụng phụ."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-i-n-電",
+      "char": "電",
+      "reading": "전",
+      "meaningKo": "전화",
+      "meaningVi": "Điện tử",
+      "hanViet": "Điện",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "전자",
+          "vi": "Điện tử"
+        },
+        {
+          "ko": "전기",
+          "vi": "Điện/điện khí"
+        },
+        {
+          "ko": "가전",
+          "vi": "Đồ điện gia dụng"
+        },
+        {
+          "ko": "충전하다",
+          "vi": "Sạc điện."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-t-nh-情",
+      "char": "情",
+      "reading": "정",
+      "meaningKo": "감정",
+      "meaningVi": "Tình yêu",
+      "hanViet": "Tình",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "애정",
+          "vi": "Tình yêu"
+        },
+        {
+          "ko": "다정하다",
+          "vi": "Tình cảm, ngọt ngào"
+        },
+        {
+          "ko": "우정",
+          "vi": "Tình bạn"
+        },
+        {
+          "ko": "사정",
+          "vi": "Sự tình, hoàn cảnh."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-s-ch-冊",
+      "char": "冊",
+      "reading": "책",
+      "meaningKo": "책방",
+      "meaningVi": "Bàn học",
+      "hanViet": "Sách",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "책상",
+          "vi": "Bàn học"
+        },
+        {
+          "ko": "책자",
+          "vi": "Sách báo, ấn phẩm"
+        },
+        {
+          "ko": "책갈피",
+          "vi": "Dấu trang sách"
+        },
+        {
+          "ko": "별책",
+          "vi": "Sách phụ lục."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-xu-t-出",
+      "char": "出",
+      "reading": "출",
+      "meaningKo": "출발",
+      "meaningVi": "Lối ra",
+      "hanViet": "Xuất",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "출구",
+          "vi": "Lối ra"
+        },
+        {
+          "ko": "외출하다",
+          "vi": "Đi ra ngoài"
+        },
+        {
+          "ko": "수출",
+          "vi": "Xuất khẩu"
+        },
+        {
+          "ko": "출석하다",
+          "vi": "Có mặt, điểm danh."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-ph-m-品",
+      "char": "品",
+      "reading": "품",
+      "meaningKo": "상품",
+      "meaningVi": "Sản phẩm",
+      "hanViet": "Phẩm",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "제품",
+          "vi": "Sản phẩm"
+        },
+        {
+          "ko": "화장품",
+          "vi": "Mỹ phẩm"
+        },
+        {
+          "ko": "품질",
+          "vi": "Chất lượng"
+        },
+        {
+          "ko": "식품",
+          "vi": "Thực phẩm."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-h-c-學",
+      "char": "學",
+      "reading": "학",
+      "meaningKo": "학생",
+      "meaningVi": "Trường học",
+      "hanViet": "Học",
+      "topics": [
+        "education"
+      ],
+      "compounds": [
+        {
+          "ko": "학교",
+          "vi": "Trường học"
+        },
+        {
+          "ko": "학원",
+          "vi": "Trung tâm học thêm"
+        },
+        {
+          "ko": "학습하다",
+          "vi": "Học tập"
+        },
+        {
+          "ko": "과학",
+          "vi": "Khoa học."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-h-a-化",
+      "char": "化",
+      "reading": "화",
+      "meaningKo": "문화",
+      "meaningVi": "Sự thay đổi",
+      "hanViet": "Hóa",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "변화",
+          "vi": "Sự thay đổi"
+        },
+        {
+          "ko": "소화",
+          "vi": "Tiêu hóa"
+        },
+        {
+          "ko": "진화",
+          "vi": "Tiến hóa"
+        },
+        {
+          "ko": "화장",
+          "vi": "Hóa trang, trang điểm."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "hanja-h-i-會",
+      "char": "會",
+      "reading": "회",
+      "meaningKo": "회사",
+      "meaningVi": "Cuộc họp",
+      "hanViet": "Hội",
+      "topics": [
+        "general"
+      ],
+      "compounds": [
+        {
+          "ko": "회의",
+          "vi": "Cuộc họp"
+        },
+        {
+          "ko": "기회",
+          "vi": "Cơ hội"
+        },
+        {
+          "ko": "사회",
+          "vi": "Xã hội"
+        },
+        {
+          "ko": "대회",
+          "vi": "Đại hội, cuộc thi."
+        }
+      ],
+      "source": "docx-bao-cao-hinh-thai-hoc",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-001-가속화",
+      "char": "加速化",
+      "reading": "가속화",
+      "meaningKo": "가속화",
+      "meaningVi": "Đẩy nhanh, tăng tốc",
+      "hanViet": "Gia tốc hóa",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "가속화",
+          "vi": "Đẩy nhanh, tăng tốc"
+        },
+        {
+          "ko": "가속화하다",
+          "vi": "Đẩy nhanh, tăng tốc"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-002-감소",
+      "char": "減少",
+      "reading": "감소",
+      "meaningKo": "감소",
+      "meaningVi": "Giảm bớt",
+      "hanViet": "Giảm thiểu",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "감소",
+          "vi": "Giảm bớt"
+        },
+        {
+          "ko": "감소하다",
+          "vi": "Giảm bớt"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-003-강화",
+      "char": "強化",
+      "reading": "강화",
+      "meaningKo": "강화",
+      "meaningVi": "Tăng cường, đẩy mạnh",
+      "hanViet": "Cường hóa",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "강화",
+          "vi": "Tăng cường, đẩy mạnh"
+        },
+        {
+          "ko": "강화하다",
+          "vi": "Tăng cường, đẩy mạnh"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-004-개발",
+      "char": "開發",
+      "reading": "개발",
+      "meaningKo": "개발",
+      "meaningVi": "Phát triển (tài nguyên, kĩ năng)",
+      "hanViet": "Khai phát",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "개발",
+          "vi": "Phát triển (tài nguyên, kĩ năng)"
+        },
+        {
+          "ko": "개발하다",
+          "vi": "Phát triển (tài nguyên, kĩ năng)"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-005-개선",
+      "char": "改善",
+      "reading": "개선",
+      "meaningKo": "개선",
+      "meaningVi": "Làm cho tốt lên",
+      "hanViet": "Cải thiện",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "개선",
+          "vi": "Làm cho tốt lên"
+        },
+        {
+          "ko": "개선하다",
+          "vi": "Làm cho tốt lên"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-006-개최",
+      "char": "開催",
+      "reading": "개최",
+      "meaningKo": "개최",
+      "meaningVi": "Tổ chức (đại hội, sự kiện)",
+      "hanViet": "Khai thôi",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "개최",
+          "vi": "Tổ chức (đại hội, sự kiện)"
+        },
+        {
+          "ko": "개최하다",
+          "vi": "Tổ chức (đại hội, sự kiện)"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-007-거부",
+      "char": "拒否",
+      "reading": "거부",
+      "meaningKo": "거부",
+      "meaningVi": "Từ chối, cự tuyệt",
+      "hanViet": "Cự phủ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "거부",
+          "vi": "Từ chối, cự tuyệt"
+        },
+        {
+          "ko": "거부하다",
+          "vi": "Từ chối, cự tuyệt"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-008-결정",
+      "char": "決定",
+      "reading": "결정",
+      "meaningKo": "결정",
+      "meaningVi": "Đưa ra lựa chọn cuối",
+      "hanViet": "Quyết định",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "결정",
+          "vi": "Đưa ra lựa chọn cuối"
+        },
+        {
+          "ko": "결정하다",
+          "vi": "Đưa ra lựa chọn cuối"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-009-경고",
+      "char": "警告",
+      "reading": "경고",
+      "meaningKo": "경고",
+      "meaningVi": "Cảnh báo",
+      "hanViet": "Cảnh cáo",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "경고",
+          "vi": "Cảnh báo"
+        },
+        {
+          "ko": "경고하다",
+          "vi": "Cảnh báo"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-010-경쟁",
+      "char": "競爭",
+      "reading": "경쟁",
+      "meaningKo": "경쟁",
+      "meaningVi": "Ganh đua, thi đua",
+      "hanViet": "Cạnh tranh",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "경쟁",
+          "vi": "Ganh đua, thi đua"
+        },
+        {
+          "ko": "경쟁하다",
+          "vi": "Ganh đua, thi đua"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-011-경험",
+      "char": "經驗",
+      "reading": "경험",
+      "meaningKo": "경험",
+      "meaningVi": "Trải nghiệm",
+      "hanViet": "Kinh nghiệm",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "경험",
+          "vi": "Trải nghiệm"
+        },
+        {
+          "ko": "경험하다",
+          "vi": "Trải nghiệm"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-012-고려",
+      "char": "考慮",
+      "reading": "고려",
+      "meaningKo": "고려",
+      "meaningVi": "Cân nhắc, xem xét",
+      "hanViet": "Khảo lự",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "고려",
+          "vi": "Cân nhắc, xem xét"
+        },
+        {
+          "ko": "고려하다",
+          "vi": "Cân nhắc, xem xét"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-013-공급",
+      "char": "供給",
+      "reading": "공급",
+      "meaningKo": "공급",
+      "meaningVi": "Cung cấp, phân phối",
+      "hanViet": "Cung cấp",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "공급",
+          "vi": "Cung cấp, phân phối"
+        },
+        {
+          "ko": "공급하다",
+          "vi": "Cung cấp, phân phối"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-014-과장",
+      "char": "誇張",
+      "reading": "과장",
+      "meaningKo": "과장",
+      "meaningVi": "Thổi phồng, phóng đại",
+      "hanViet": "Khoa trương",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "과장",
+          "vi": "Thổi phồng, phóng đại"
+        },
+        {
+          "ko": "과장하다",
+          "vi": "Thổi phồng, phóng đại"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-015-구입",
+      "char": "購入",
+      "reading": "구입",
+      "meaningKo": "구입",
+      "meaningVi": "Mua vào",
+      "hanViet": "Cấu nhập",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "구입",
+          "vi": "Mua vào"
+        },
+        {
+          "ko": "구입하다",
+          "vi": "Mua vào"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-016-구해",
+      "char": "救解",
+      "reading": "구해",
+      "meaningKo": "구해",
+      "meaningVi": "Giải cứu, cứu thoát",
+      "hanViet": "Cứu giải",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "구해",
+          "vi": "Giải cứu, cứu thoát"
+        },
+        {
+          "ko": "구해하다",
+          "vi": "Giải cứu, cứu thoát"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-017-극복",
+      "char": "克服",
+      "reading": "극복",
+      "meaningKo": "극복",
+      "meaningVi": "Vượt qua (khó khăn)",
+      "hanViet": "Khắc phục",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "극복",
+          "vi": "Vượt qua (khó khăn)"
+        },
+        {
+          "ko": "극복하다",
+          "vi": "Vượt qua (khó khăn)"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-018-금지",
+      "char": "禁止",
+      "reading": "금지",
+      "meaningKo": "금지",
+      "meaningVi": "Nghiêm cấm",
+      "hanViet": "Cấm chỉ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "금지",
+          "vi": "Nghiêm cấm"
+        },
+        {
+          "ko": "금지하다",
+          "vi": "Nghiêm cấm"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-019-급증",
+      "char": "急增",
+      "reading": "급증",
+      "meaningKo": "급증",
+      "meaningVi": "Tăng nhanh đột biến",
+      "hanViet": "Cấp tăng",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "급증",
+          "vi": "Tăng nhanh đột biến"
+        },
+        {
+          "ko": "급증하다",
+          "vi": "Tăng nhanh đột biến"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-020-급감",
+      "char": "急減",
+      "reading": "급감",
+      "meaningKo": "급감",
+      "meaningVi": "Giảm nhanh đột biến",
+      "hanViet": "Cấp giảm",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "급감",
+          "vi": "Giảm nhanh đột biến"
+        },
+        {
+          "ko": "급감하다",
+          "vi": "Giảm nhanh đột biến"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-021-기여",
+      "char": "寄與",
+      "reading": "기여",
+      "meaningKo": "기여",
+      "meaningVi": "Đóng góp, góp phần",
+      "hanViet": "Ký dữ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "기여",
+          "vi": "Đóng góp, góp phần"
+        },
+        {
+          "ko": "기여하다",
+          "vi": "Đóng góp, góp phần"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-022-도모",
+      "char": "圖謀",
+      "reading": "도모",
+      "meaningKo": "도모",
+      "meaningVi": "Thúc đẩy, mưu cầu",
+      "hanViet": "Đồ mưu",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "도모",
+          "vi": "Thúc đẩy, mưu cầu"
+        },
+        {
+          "ko": "도모하다",
+          "vi": "Thúc đẩy, mưu cầu"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-023-도착",
+      "char": "到着",
+      "reading": "도착",
+      "meaningKo": "도착",
+      "meaningVi": "Đến nơi",
+      "hanViet": "Đáo trước",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "도착",
+          "vi": "Đến nơi"
+        },
+        {
+          "ko": "도착하다",
+          "vi": "Đến nơi"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-024-동의",
+      "char": "同意",
+      "reading": "동의",
+      "meaningKo": "동의",
+      "meaningVi": "Đồng tình, nhất trí",
+      "hanViet": "Đồng ý",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "동의",
+          "vi": "Đồng tình, nhất trí"
+        },
+        {
+          "ko": "동의하다",
+          "vi": "Đồng tình, nhất trí"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-025-반대",
+      "char": "反對",
+      "reading": "반대",
+      "meaningKo": "반대",
+      "meaningVi": "Không đồng ý",
+      "hanViet": "Phản đối",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "반대",
+          "vi": "Không đồng ý"
+        },
+        {
+          "ko": "반대하다",
+          "vi": "Không đồng ý"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-026-반영",
+      "char": "反映",
+      "reading": "반영",
+      "meaningKo": "반영",
+      "meaningVi": "Thể hiện vào, soi rọi",
+      "hanViet": "Phản ánh",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "반영",
+          "vi": "Thể hiện vào, soi rọi"
+        },
+        {
+          "ko": "반영하다",
+          "vi": "Thể hiện vào, soi rọi"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-027-발생",
+      "char": "發生",
+      "reading": "발생",
+      "meaningKo": "발생",
+      "meaningVi": "Xảy ra, phát sinh",
+      "hanViet": "Phát sinh",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "발생",
+          "vi": "Xảy ra, phát sinh"
+        },
+        {
+          "ko": "발생하다",
+          "vi": "Xảy ra, phát sinh"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-028-발전",
+      "char": "發展",
+      "reading": "발전",
+      "meaningKo": "발전",
+      "meaningVi": "Mở rộng, tiến bộ",
+      "hanViet": "Phát triển",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "발전",
+          "vi": "Mở rộng, tiến bộ"
+        },
+        {
+          "ko": "발전하다",
+          "vi": "Mở rộng, tiến bộ"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-029-방지",
+      "char": "防止",
+      "reading": "방지",
+      "meaningKo": "방지",
+      "meaningVi": "Phòng chống, ngăn chặn",
+      "hanViet": "Phòng chỉ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "방지",
+          "vi": "Phòng chống, ngăn chặn"
+        },
+        {
+          "ko": "방지하다",
+          "vi": "Phòng chống, ngăn chặn"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-030-배출",
+      "char": "排出",
+      "reading": "배출",
+      "meaningKo": "배출",
+      "meaningVi": "Thải ra, xả ra",
+      "hanViet": "Bài xuất",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "배출",
+          "vi": "Thải ra, xả ra"
+        },
+        {
+          "ko": "배출하다",
+          "vi": "Thải ra, xả ra"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-031-변화",
+      "char": "變化",
+      "reading": "변화",
+      "meaningKo": "변화",
+      "meaningVi": "Thay đổi",
+      "hanViet": "Biến hóa",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "변화",
+          "vi": "Thay đổi"
+        },
+        {
+          "ko": "변화하다",
+          "vi": "Thay đổi"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-032-보장",
+      "char": "保障",
+      "reading": "보장",
+      "meaningKo": "보장",
+      "meaningVi": "Bảo đảm, cam kết",
+      "hanViet": "Bảo chướng",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "보장",
+          "vi": "Bảo đảm, cam kết"
+        },
+        {
+          "ko": "보장하다",
+          "vi": "Bảo đảm, cam kết"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-033-보존",
+      "char": "保存",
+      "reading": "보존",
+      "meaningKo": "보존",
+      "meaningVi": "Giữ gìn, bảo tồn",
+      "hanViet": "Bảo tồn",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "보존",
+          "vi": "Giữ gìn, bảo tồn"
+        },
+        {
+          "ko": "보존하다",
+          "vi": "Giữ gìn, bảo tồn"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-034-부족",
+      "char": "不足",
+      "reading": "부족",
+      "meaningKo": "부족",
+      "meaningVi": "Thiếu thốn, không đủ",
+      "hanViet": "Bất túc",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "부족",
+          "vi": "Thiếu thốn, không đủ"
+        },
+        {
+          "ko": "부족하다",
+          "vi": "Thiếu thốn, không đủ"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-035-분석",
+      "char": "分析",
+      "reading": "분석",
+      "meaningKo": "분석",
+      "meaningVi": "Phân tích (dữ liệu)",
+      "hanViet": "Phân tích",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "분석",
+          "vi": "Phân tích (dữ liệu)"
+        },
+        {
+          "ko": "분석하다",
+          "vi": "Phân tích (dữ liệu)"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-036-비판",
+      "char": "批判",
+      "reading": "비판",
+      "meaningKo": "비판",
+      "meaningVi": "Chỉ trích, phê bình",
+      "hanViet": "Phê phán",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "비판",
+          "vi": "Chỉ trích, phê bình"
+        },
+        {
+          "ko": "비판하다",
+          "vi": "Chỉ trích, phê bình"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-037-상승",
+      "char": "上昇",
+      "reading": "상승",
+      "meaningKo": "상승",
+      "meaningVi": "Tăng lên",
+      "hanViet": "Thượng thăng",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "상승",
+          "vi": "Tăng lên"
+        },
+        {
+          "ko": "상승하다",
+          "vi": "Tăng lên"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-038-선택",
+      "char": "選擇",
+      "reading": "선택",
+      "meaningKo": "선택",
+      "meaningVi": "Lựa chọn",
+      "hanViet": "Tuyển trạch",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "선택",
+          "vi": "Lựa chọn"
+        },
+        {
+          "ko": "선택하다",
+          "vi": "Lựa chọn"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-039-소비",
+      "char": "消費",
+      "reading": "소비",
+      "meaningKo": "소비",
+      "meaningVi": "Tiêu dùng, tiêu thụ",
+      "hanViet": "Tiêu phí",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "소비",
+          "vi": "Tiêu dùng, tiêu thụ"
+        },
+        {
+          "ko": "소비하다",
+          "vi": "Tiêu dùng, tiêu thụ"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-040-수정",
+      "char": "修正",
+      "reading": "수정",
+      "meaningKo": "수정",
+      "meaningVi": "Sửa đổi, chỉnh sửa",
+      "hanViet": "Tu chính",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "수정",
+          "vi": "Sửa đổi, chỉnh sửa"
+        },
+        {
+          "ko": "수정하다",
+          "vi": "Sửa đổi, chỉnh sửa"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-041-수행",
+      "char": "遂行",
+      "reading": "수행",
+      "meaningKo": "수행",
+      "meaningVi": "Tiến hành, hoàn thành",
+      "hanViet": "Toại hành",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "수행",
+          "vi": "Tiến hành, hoàn thành"
+        },
+        {
+          "ko": "수행하다",
+          "vi": "Tiến hành, hoàn thành"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-042-실천",
+      "char": "實踐",
+      "reading": "실천",
+      "meaningKo": "실천",
+      "meaningVi": "Thực hành, bắt tay vào làm",
+      "hanViet": "Thực tiễn",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "실천",
+          "vi": "Thực hành, bắt tay vào làm"
+        },
+        {
+          "ko": "실천하다",
+          "vi": "Thực hành, bắt tay vào làm"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-043-심화",
+      "char": "深化",
+      "reading": "심화",
+      "meaningKo": "심화",
+      "meaningVi": "Nghiêm trọng hóa, sâu sắc thêm",
+      "hanViet": "Thâm hóa",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "심화",
+          "vi": "Nghiêm trọng hóa, sâu sắc thêm"
+        },
+        {
+          "ko": "심화하다",
+          "vi": "Nghiêm trọng hóa, sâu sắc thêm"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-044-악화",
+      "char": "惡化",
+      "reading": "악화",
+      "meaningKo": "악화",
+      "meaningVi": "Xấu đi, tồi tệ đi",
+      "hanViet": "Ác hóa",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "악화",
+          "vi": "Xấu đi, tồi tệ đi"
+        },
+        {
+          "ko": "악화하다",
+          "vi": "Xấu đi, tồi tệ đi"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-045-안정",
+      "char": "安定",
+      "reading": "안정",
+      "meaningKo": "안정",
+      "meaningVi": "Ổn định",
+      "hanViet": "An định",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "안정",
+          "vi": "Ổn định"
+        },
+        {
+          "ko": "안정하다",
+          "vi": "Ổn định"
+        },
+        {
+          "ko": "안정되다",
+          "vi": "Ổn định"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-046-연기",
+      "char": "延期",
+      "reading": "연기",
+      "meaningKo": "연기",
+      "meaningVi": "Trì hoãn, lùi lịch",
+      "hanViet": "Duyên kỳ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "연기",
+          "vi": "Trì hoãn, lùi lịch"
+        },
+        {
+          "ko": "연기하다",
+          "vi": "Trì hoãn, lùi lịch"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-047-예상",
+      "char": "予想",
+      "reading": "예상",
+      "meaningKo": "예상",
+      "meaningVi": "Dự đoán",
+      "hanViet": "Dự tưởng",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "예상",
+          "vi": "Dự đoán"
+        },
+        {
+          "ko": "예상하다",
+          "vi": "Dự đoán"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-048-예방",
+      "char": "預防",
+      "reading": "예방",
+      "meaningKo": "예방",
+      "meaningVi": "Phòng ngừa",
+      "hanViet": "Dự phòng",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "예방",
+          "vi": "Phòng ngừa"
+        },
+        {
+          "ko": "예방하다",
+          "vi": "Phòng ngừa"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-049-요구",
+      "char": "要求",
+      "reading": "요구",
+      "meaningKo": "요구",
+      "meaningVi": "Đòi hỏi, yêu cầu",
+      "hanViet": "Yêu cầu",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "요구",
+          "vi": "Đòi hỏi, yêu cầu"
+        },
+        {
+          "ko": "요구하다",
+          "vi": "Đòi hỏi, yêu cầu"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-050-유지",
+      "char": "維持",
+      "reading": "유지",
+      "meaningKo": "유지",
+      "meaningVi": "Gìn giữ, duy trì",
+      "hanViet": "Duy trì",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "유지",
+          "vi": "Gìn giữ, duy trì"
+        },
+        {
+          "ko": "유지하다",
+          "vi": "Gìn giữ, duy trì"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-051-의무",
+      "char": "義務",
+      "reading": "의무",
+      "meaningKo": "의무",
+      "meaningVi": "Bắt buộc (nghĩa vụ hóa)",
+      "hanViet": "Nghĩa vụ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "의무",
+          "vi": "Bắt buộc (nghĩa vụ hóa)"
+        },
+        {
+          "ko": "의무화하다",
+          "vi": "Bắt buộc (nghĩa vụ hóa)"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-052-인정",
+      "char": "認定",
+      "reading": "인정",
+      "meaningKo": "인정",
+      "meaningVi": "Thừa nhận, công nhận",
+      "hanViet": "Nhận định",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "인정",
+          "vi": "Thừa nhận, công nhận"
+        },
+        {
+          "ko": "인정하다",
+          "vi": "Thừa nhận, công nhận"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-053-일치",
+      "char": "一致",
+      "reading": "일치",
+      "meaningKo": "일치",
+      "meaningVi": "Trùng khớp, giống nhau",
+      "hanViet": "Nhất trí",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "일치",
+          "vi": "Trùng khớp, giống nhau"
+        },
+        {
+          "ko": "일치하다",
+          "vi": "Trùng khớp, giống nhau"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-054-자제",
+      "char": "自制",
+      "reading": "자제",
+      "meaningKo": "자제",
+      "meaningVi": "Tự kiềm chế, hạn chế",
+      "hanViet": "Tự chế",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "자제",
+          "vi": "Tự kiềm chế, hạn chế"
+        },
+        {
+          "ko": "자제하다",
+          "vi": "Tự kiềm chế, hạn chế"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-055-장려",
+      "char": "獎勵",
+      "reading": "장려",
+      "meaningKo": "장려",
+      "meaningVi": "Khuyến khích, động viên",
+      "hanViet": "Tưởng lệ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "장려",
+          "vi": "Khuyến khích, động viên"
+        },
+        {
+          "ko": "장려하다",
+          "vi": "Khuyến khích, động viên"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-056-제외",
+      "char": "除外",
+      "reading": "제외",
+      "meaningKo": "제외",
+      "meaningVi": "Loại trừ, ngoại trừ",
+      "hanViet": "Trừ ngoại",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "제외",
+          "vi": "Loại trừ, ngoại trừ"
+        },
+        {
+          "ko": "제외하다",
+          "vi": "Loại trừ, ngoại trừ"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-057-제안",
+      "char": "提案",
+      "reading": "제안",
+      "meaningKo": "제안",
+      "meaningVi": "Đề xuất, kiến nghị",
+      "hanViet": "Đề án",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "제안",
+          "vi": "Đề xuất, kiến nghị"
+        },
+        {
+          "ko": "제안하다",
+          "vi": "Đề xuất, kiến nghị"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-058-조절",
+      "char": "調節",
+      "reading": "조절",
+      "meaningKo": "조절",
+      "meaningVi": "Điều chỉnh, tiết chế",
+      "hanViet": "Điều tiết",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "조절",
+          "vi": "Điều chỉnh, tiết chế"
+        },
+        {
+          "ko": "조절하다",
+          "vi": "Điều chỉnh, tiết chế"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-059-증가",
+      "char": "增加",
+      "reading": "증가",
+      "meaningKo": "증가",
+      "meaningVi": "Tăng lên",
+      "hanViet": "Tăng gia",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "증가",
+          "vi": "Tăng lên"
+        },
+        {
+          "ko": "증가하다",
+          "vi": "Tăng lên"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-060-지속",
+      "char": "持續",
+      "reading": "지속",
+      "meaningKo": "지속",
+      "meaningVi": "Tiếp diễn, liên tục",
+      "hanViet": "Trì tục",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "지속",
+          "vi": "Tiếp diễn, liên tục"
+        },
+        {
+          "ko": "지속하다",
+          "vi": "Tiếp diễn, liên tục"
+        },
+        {
+          "ko": "지속되다",
+          "vi": "Tiếp diễn, liên tục"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-061-가능성",
+      "char": "可能性",
+      "reading": "가능성",
+      "meaningKo": "가능성",
+      "meaningVi": "Tính khả thi, khả năng",
+      "hanViet": "Khả năng tính",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "가능성",
+          "vi": "Tính khả thi, khả năng"
+        },
+        {
+          "ko": "가능성하다",
+          "vi": "Tính khả thi, khả năng"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-062-가치관",
+      "char": "價値觀",
+      "reading": "가치관",
+      "meaningKo": "가치관",
+      "meaningVi": "Quan niệm sống, hệ giá trị",
+      "hanViet": "Giá trị quan",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "가치관",
+          "vi": "Quan niệm sống, hệ giá trị"
+        },
+        {
+          "ko": "가치관하다",
+          "vi": "Quan niệm sống, hệ giá trị"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-063-갈등",
+      "char": "葛藤",
+      "reading": "갈등",
+      "meaningKo": "갈등",
+      "meaningVi": "Mâu thuẫn, xung đột",
+      "hanViet": "Cát đằng",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "갈등",
+          "vi": "Mâu thuẫn, xung đột"
+        },
+        {
+          "ko": "갈등하다",
+          "vi": "Mâu thuẫn, xung đột"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-064-개인주의",
+      "char": "個人主義",
+      "reading": "개인주의",
+      "meaningKo": "개인주의",
+      "meaningVi": "Chủ nghĩa cá nhân",
+      "hanViet": "Cá nhân chủ nghĩa",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "개인주의",
+          "vi": "Chủ nghĩa cá nhân"
+        },
+        {
+          "ko": "개인주의하다",
+          "vi": "Chủ nghĩa cá nhân"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-065-격차",
+      "char": "格差",
+      "reading": "격차",
+      "meaningKo": "격차",
+      "meaningVi": "Khoảng cách, sự chênh lệch",
+      "hanViet": "Cách sai",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "격차",
+          "vi": "Khoảng cách, sự chênh lệch"
+        },
+        {
+          "ko": "격차하다",
+          "vi": "Khoảng cách, sự chênh lệch"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-066-결과",
+      "char": "結果",
+      "reading": "결과",
+      "meaningKo": "결과",
+      "meaningVi": "Hệ quả, kết quả",
+      "hanViet": "Kết quả",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "결과",
+          "vi": "Hệ quả, kết quả"
+        },
+        {
+          "ko": "결과하다",
+          "vi": "Hệ quả, kết quả"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-067-경제",
+      "char": "經濟",
+      "reading": "경제",
+      "meaningKo": "경제",
+      "meaningVi": "Kinh tế",
+      "hanViet": "Kinh tế",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "경제",
+          "vi": "Kinh tế"
+        },
+        {
+          "ko": "경제하다",
+          "vi": "Kinh tế"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-068-고령화",
+      "char": "高齡化",
+      "reading": "고령화",
+      "meaningKo": "고령화",
+      "meaningVi": "Già hóa dân số",
+      "hanViet": "Cao linh hóa",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "고령화",
+          "vi": "Già hóa dân số"
+        },
+        {
+          "ko": "고령화하다",
+          "vi": "Già hóa dân số"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-069-공통점",
+      "char": "共通點",
+      "reading": "공통점",
+      "meaningKo": "공통점",
+      "meaningVi": "Điểm chung",
+      "hanViet": "Cung thông điểm",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "공통점",
+          "vi": "Điểm chung"
+        },
+        {
+          "ko": "공통점하다",
+          "vi": "Điểm chung"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-070-구조",
+      "char": "構造",
+      "reading": "구조",
+      "meaningKo": "구조",
+      "meaningVi": "Cơ cấu, cấu trúc",
+      "hanViet": "Cấu tạo",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "구조",
+          "vi": "Cơ cấu, cấu trúc"
+        },
+        {
+          "ko": "구조하다",
+          "vi": "Cơ cấu, cấu trúc"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-071-권리",
+      "char": "權利",
+      "reading": "권리",
+      "meaningKo": "권리",
+      "meaningVi": "Quyền lợi, quyền hạn",
+      "hanViet": "Quyền lợi",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "권리",
+          "vi": "Quyền lợi, quyền hạn"
+        },
+        {
+          "ko": "권리하다",
+          "vi": "Quyền lợi, quyền hạn"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-072-규제",
+      "char": "規制",
+      "reading": "규제",
+      "meaningKo": "규제",
+      "meaningVi": "Quy định, kiểm soát",
+      "hanViet": "Quy chế",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "규제",
+          "vi": "Quy định, kiểm soát"
+        },
+        {
+          "ko": "규제하다",
+          "vi": "Quy định, kiểm soát"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-073-기준",
+      "char": "基準",
+      "reading": "기준",
+      "meaningKo": "기준",
+      "meaningVi": "Tiêu chuẩn, căn cứ",
+      "hanViet": "Cơ chuẩn",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "기준",
+          "vi": "Tiêu chuẩn, căn cứ"
+        },
+        {
+          "ko": "기준하다",
+          "vi": "Tiêu chuẩn, căn cứ"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-074-대책",
+      "char": "対策",
+      "reading": "대책",
+      "meaningKo": "대책",
+      "meaningVi": "Biện pháp, giải pháp",
+      "hanViet": "Đối sách",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "대책",
+          "vi": "Biện pháp, giải pháp"
+        },
+        {
+          "ko": "대책하다",
+          "vi": "Biện pháp, giải pháp"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-075-독창성",
+      "char": "獨創性",
+      "reading": "독창성",
+      "meaningKo": "독창성",
+      "meaningVi": "Tính độc đáo, sáng tạo",
+      "hanViet": "Độc sáng tính",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "독창성",
+          "vi": "Tính độc đáo, sáng tạo"
+        },
+        {
+          "ko": "독창성하다",
+          "vi": "Tính độc đáo, sáng tạo"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-076-목적",
+      "char": "目的",
+      "reading": "목적",
+      "meaningKo": "목적",
+      "meaningVi": "Mục tiêu, mục đích",
+      "hanViet": "Mục đích",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "목적",
+          "vi": "Mục tiêu, mục đích"
+        },
+        {
+          "ko": "목적하다",
+          "vi": "Mục tiêu, mục đích"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-077-문화재",
+      "char": "文化財",
+      "reading": "문화재",
+      "meaningKo": "문화재",
+      "meaningVi": "Di sản văn hóa",
+      "hanViet": "Văn hóa tài",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "문화재",
+          "vi": "Di sản văn hóa"
+        },
+        {
+          "ko": "문화재하다",
+          "vi": "Di sản văn hóa"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-078-부작용",
+      "char": "副作用",
+      "reading": "부작용",
+      "meaningKo": "부작용",
+      "meaningVi": "Tác dụng phụ, hệ lụy",
+      "hanViet": "Phó tác dụng",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "부작용",
+          "vi": "Tác dụng phụ, hệ lụy"
+        },
+        {
+          "ko": "부작용하다",
+          "vi": "Tác dụng phụ, hệ lụy"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-079-분야",
+      "char": "分野",
+      "reading": "분야",
+      "meaningKo": "분야",
+      "meaningVi": "Lĩnh vực",
+      "hanViet": "Phân dã",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "분야",
+          "vi": "Lĩnh vực"
+        },
+        {
+          "ko": "분야하다",
+          "vi": "Lĩnh vực"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-080-비율",
+      "char": "比率",
+      "reading": "비율",
+      "meaningKo": "비율",
+      "meaningVi": "Tỷ lệ",
+      "hanViet": "Tỷ suất",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "비율",
+          "vi": "Tỷ lệ"
+        },
+        {
+          "ko": "비율하다",
+          "vi": "Tỷ lệ"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-081-사생활",
+      "char": "私生活",
+      "reading": "사생활",
+      "meaningKo": "사생활",
+      "meaningVi": "Đời tư, cuộc sống cá nhân",
+      "hanViet": "Tư sinh hoạt",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "사생활",
+          "vi": "Đời tư, cuộc sống cá nhân"
+        },
+        {
+          "ko": "사생활하다",
+          "vi": "Đời tư, cuộc sống cá nhân"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-082-상태",
+      "char": "狀態",
+      "reading": "상태",
+      "meaningKo": "상태",
+      "meaningVi": "Tình trạng, trạng thái",
+      "hanViet": "Trạng thái",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "상태",
+          "vi": "Tình trạng, trạng thái"
+        },
+        {
+          "ko": "상태하다",
+          "vi": "Tình trạng, trạng thái"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-083-생태계",
+      "char": "生態系",
+      "reading": "생태계",
+      "meaningKo": "생태계",
+      "meaningVi": "Hệ sinh thái",
+      "hanViet": "Sinh thái hệ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "생태계",
+          "vi": "Hệ sinh thái"
+        },
+        {
+          "ko": "생태계하다",
+          "vi": "Hệ sinh thái"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-084-선입견",
+      "char": "先入見",
+      "reading": "선입견",
+      "meaningKo": "선입견",
+      "meaningVi": "Định kiến, thành kiến",
+      "hanViet": "Tiên nhập kiến",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "선입견",
+          "vi": "Định kiến, thành kiến"
+        },
+        {
+          "ko": "선입견하다",
+          "vi": "Định kiến, thành kiến"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-085-스트레스",
+      "char": "·",
+      "reading": "스트레스",
+      "meaningKo": "스트레스",
+      "meaningVi": "Áp lực, căng thẳng",
+      "hanViet": "",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept",
+        "loanword"
+      ],
+      "compounds": [
+        {
+          "ko": "스트레스",
+          "vi": "Áp lực, căng thẳng"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-086-심리",
+      "char": "心理",
+      "reading": "심리",
+      "meaningKo": "심리",
+      "meaningVi": "Tâm lý",
+      "hanViet": "Tâm lý",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "심리",
+          "vi": "Tâm lý"
+        },
+        {
+          "ko": "심리하다",
+          "vi": "Tâm lý"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-087-안전",
+      "char": "安全",
+      "reading": "안전",
+      "meaningKo": "안전",
+      "meaningVi": "Sự an toàn",
+      "hanViet": "An toàn",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "안전",
+          "vi": "Sự an toàn"
+        },
+        {
+          "ko": "안전하다",
+          "vi": "Sự an toàn"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-088-영향",
+      "char": "影響",
+      "reading": "영향",
+      "meaningKo": "영향",
+      "meaningVi": "Tác động, ảnh hưởng",
+      "hanViet": "Ảnh hưởng",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "영향",
+          "vi": "Tác động, ảnh hưởng"
+        },
+        {
+          "ko": "영향하다",
+          "vi": "Tác động, ảnh hưởng"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-089-오염",
+      "char": "汚染",
+      "reading": "오염",
+      "meaningKo": "오염",
+      "meaningVi": "Sự ô nhiễm",
+      "hanViet": "Ô nhiễm",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "오염",
+          "vi": "Sự ô nhiễm"
+        },
+        {
+          "ko": "오염하다",
+          "vi": "Sự ô nhiễm"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-090-원인",
+      "char": "原因",
+      "reading": "원인",
+      "meaningKo": "원인",
+      "meaningVi": "Lý do, nguyên nhân",
+      "hanViet": "Nguyên nhân",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "원인",
+          "vi": "Lý do, nguyên nhân"
+        },
+        {
+          "ko": "원인하다",
+          "vi": "Lý do, nguyên nhân"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-091-유형",
+      "char": "類型",
+      "reading": "유형",
+      "meaningKo": "유형",
+      "meaningVi": "Kiểu, loại, mô hình",
+      "hanViet": "Loại hình",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "유형",
+          "vi": "Kiểu, loại, mô hình"
+        },
+        {
+          "ko": "유형하다",
+          "vi": "Kiểu, loại, mô hình"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-092-의사소통",
+      "char": "意思疎通",
+      "reading": "의사소통",
+      "meaningKo": "의사소통",
+      "meaningVi": "Giao tiếp, thông hiểu nhau",
+      "hanViet": "Ý tư sơ thông",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "의사소통",
+          "vi": "Giao tiếp, thông hiểu nhau"
+        },
+        {
+          "ko": "의사소통하다",
+          "vi": "Giao tiếp, thông hiểu nhau"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-093-인구",
+      "char": "人口",
+      "reading": "인구",
+      "meaningKo": "인구",
+      "meaningVi": "Dân số",
+      "hanViet": "Nhân khẩu",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "인구",
+          "vi": "Dân số"
+        },
+        {
+          "ko": "인구하다",
+          "vi": "Dân số"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-094-인간관계",
+      "char": "人間關係",
+      "reading": "인간관계",
+      "meaningKo": "인간관계",
+      "meaningVi": "Quan hệ giữa người với người",
+      "hanViet": "Nhân gian quan hệ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "인간관계",
+          "vi": "Quan hệ giữa người với người"
+        },
+        {
+          "ko": "인간관계하다",
+          "vi": "Quan hệ giữa người với người"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-095-재능",
+      "char": "才能",
+      "reading": "재능",
+      "meaningKo": "재능",
+      "meaningVi": "Năng lực, tài năng",
+      "hanViet": "Tài năng",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "재능",
+          "vi": "Năng lực, tài năng"
+        },
+        {
+          "ko": "재능하다",
+          "vi": "Năng lực, tài năng"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-096-전문가",
+      "char": "專家",
+      "reading": "전문가",
+      "meaningKo": "전문가",
+      "meaningVi": "Người có chuyên môn",
+      "hanViet": "Chuyên gia",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "전문가",
+          "vi": "Người có chuyên môn"
+        },
+        {
+          "ko": "전문가하다",
+          "vi": "Người có chuyên môn"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-097-정부",
+      "char": "政府",
+      "reading": "정부",
+      "meaningKo": "정부",
+      "meaningVi": "Bộ máy nhà nước",
+      "hanViet": "Chính phủ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "정부",
+          "vi": "Bộ máy nhà nước"
+        },
+        {
+          "ko": "정부하다",
+          "vi": "Bộ máy nhà nước"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-098-제도",
+      "char": "制度",
+      "reading": "제도",
+      "meaningKo": "제도",
+      "meaningVi": "Hệ thống, chính sách, chế độ",
+      "hanViet": "Chế độ",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "제도",
+          "vi": "Hệ thống, chính sách, chế độ"
+        },
+        {
+          "ko": "제도하다",
+          "vi": "Hệ thống, chính sách, chế độ"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-099-차별",
+      "char": "差別",
+      "reading": "차별",
+      "meaningKo": "차별",
+      "meaningVi": "Sự phân biệt đối xử",
+      "hanViet": "Sai biệt",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "차별",
+          "vi": "Sự phân biệt đối xử"
+        },
+        {
+          "ko": "차별하다",
+          "vi": "Sự phân biệt đối xử"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik100-100-효과",
+      "char": "效果",
+      "reading": "효과",
+      "meaningKo": "효과",
+      "meaningVi": "Kết quả tốt, hiệu ứng",
+      "hanViet": "Hiệu quả",
+      "topics": [
+        "topik100",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "효과",
+          "vi": "Kết quả tốt, hiệu ứng"
+        },
+        {
+          "ko": "효과하다",
+          "vi": "Kết quả tốt, hiệu ứng"
+        }
+      ],
+      "source": "topikhanhan.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-001-도입",
+      "char": "導入",
+      "reading": "도입",
+      "meaningKo": "도입",
+      "meaningVi": "Áp dụng, đưa vào sử dụng (hệ thống, công nghệ mới)",
+      "hanViet": "Đạo nhập",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "도입",
+          "vi": "Áp dụng, đưa vào sử dụng (hệ thống, công nghệ mới)"
+        },
+        {
+          "ko": "도입하다",
+          "vi": "Áp dụng, đưa vào sử dụng (hệ thống, công nghệ mới)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-002-구축",
+      "char": "構築",
+      "reading": "구축",
+      "meaningKo": "구축",
+      "meaningVi": "Xây dựng, thiết lập (hệ thống mạng, cơ sở hạ tầng)",
+      "hanViet": "Cấu trúc",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "구축",
+          "vi": "Xây dựng, thiết lập (hệ thống mạng, cơ sở hạ tầng)"
+        },
+        {
+          "ko": "구축하다",
+          "vi": "Xây dựng, thiết lập (hệ thống mạng, cơ sở hạ tầng)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-003-전환",
+      "char": "轉換",
+      "reading": "전환",
+      "meaningKo": "전환",
+      "meaningVi": "Thay đổi hoàn toàn, chuyển đổi (mô hình, trạng thái)",
+      "hanViet": "Chuyển hoán",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "전환",
+          "vi": "Thay đổi hoàn toàn, chuyển đổi (mô hình, trạng thái)"
+        },
+        {
+          "ko": "전환하다",
+          "vi": "Thay đổi hoàn toàn, chuyển đổi (mô hình, trạng thái)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-004-축소",
+      "char": "縮小",
+      "reading": "축소",
+      "meaningKo": "축소",
+      "meaningVi": "Thu nhỏ, giảm quy mô (ngược với 확대 - mở rộng)",
+      "hanViet": "Súc tiểu",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "축소",
+          "vi": "Thu nhỏ, giảm quy mô (ngược với 확대 - mở rộng)"
+        },
+        {
+          "ko": "축소하다",
+          "vi": "Thu nhỏ, giảm quy mô (ngược với 확대 - mở rộng)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-005-보완",
+      "char": "補完",
+      "reading": "보완",
+      "meaningKo": "보완",
+      "meaningVi": "Bổ sung, hoàn thiện (lỗ hổng, chính sách)",
+      "hanViet": "Bổ hoàn",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "보완",
+          "vi": "Bổ sung, hoàn thiện (lỗ hổng, chính sách)"
+        },
+        {
+          "ko": "보완하다",
+          "vi": "Bổ sung, hoàn thiện (lỗ hổng, chính sách)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-006-포함",
+      "char": "包含",
+      "reading": "포함",
+      "meaningKo": "포함",
+      "meaningVi": "Bao gồm, tính cả",
+      "hanViet": "Bao hàm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "포함",
+          "vi": "Bao gồm, tính cả"
+        },
+        {
+          "ko": "포함하다",
+          "vi": "Bao gồm, tính cả"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-007-확보",
+      "char": "確保",
+      "reading": "확보",
+      "meaningKo": "확보",
+      "meaningVi": "Thu giữ, bảo đảm có được (nguồn hàng, nhân lực, ngân sách)",
+      "hanViet": "Xác bảo",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "확보",
+          "vi": "Thu giữ, bảo đảm có được (nguồn hàng, nhân lực, ngân sách)"
+        },
+        {
+          "ko": "확보하다",
+          "vi": "Thu giữ, bảo đảm có được (nguồn hàng, nhân lực, ngân sách)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-008-배제",
+      "char": "排除",
+      "reading": "배제",
+      "meaningKo": "배제",
+      "meaningVi": "Bài xích, loại trừ (khỏi danh sách, kế hoạch)",
+      "hanViet": "Bài trừ",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "배제",
+          "vi": "Bài xích, loại trừ (khỏi danh sách, kế hoạch)"
+        },
+        {
+          "ko": "배제하다",
+          "vi": "Bài xích, loại trừ (khỏi danh sách, kế hoạch)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-009-차단",
+      "char": "遮斷",
+      "reading": "차단",
+      "meaningKo": "차단",
+      "meaningVi": "Ngăn chặn hoàn toàn, cô lập (tin rác, nguồn lây nhiễm)",
+      "hanViet": "Già đoạn",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "차단",
+          "vi": "Ngăn chặn hoàn toàn, cô lập (tin rác, nguồn lây nhiễm)"
+        },
+        {
+          "ko": "차단하다",
+          "vi": "Ngăn chặn hoàn toàn, cô lập (tin rác, nguồn lây nhiễm)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-010-방치",
+      "char": "放置",
+      "reading": "방치",
+      "meaningKo": "방치",
+      "meaningVi": "Bỏ mặc, để mặc làm ngơ (vấn đề trẻ em, rác thải)",
+      "hanViet": "Phóng trí",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "방치",
+          "vi": "Bỏ mặc, để mặc làm ngơ (vấn đề trẻ em, rác thải)"
+        },
+        {
+          "ko": "방치하다",
+          "vi": "Bỏ mặc, để mặc làm ngơ (vấn đề trẻ em, rác thải)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-011-유발",
+      "char": "誘發",
+      "reading": "유발",
+      "meaningKo": "유발",
+      "meaningVi": "Kích động, khơi mào, dẫn đến (bệnh tật, xung đột)",
+      "hanViet": "Dụ phát",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "유발",
+          "vi": "Kích động, khơi mào, dẫn đến (bệnh tật, xung đột)"
+        },
+        {
+          "ko": "유발하다",
+          "vi": "Kích động, khơi mào, dẫn đến (bệnh tật, xung đột)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-012-부합",
+      "char": "符合",
+      "reading": "부합",
+      "meaningKo": "부합",
+      "meaningVi": "Trùng khớp, phù hợp (với tiêu chuẩn, mục đích)",
+      "hanViet": "Phù hợp",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "부합",
+          "vi": "Trùng khớp, phù hợp (với tiêu chuẩn, mục đích)"
+        },
+        {
+          "ko": "부합하다",
+          "vi": "Trùng khớp, phù hợp (với tiêu chuẩn, mục đích)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-013-접촉",
+      "char": "接觸",
+      "reading": "접촉",
+      "meaningKo": "접촉",
+      "meaningVi": "Tiếp xúc, va chạm (vật lý hoặc giao tiếp xã hội)",
+      "hanViet": "Tiếp xúc",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "접촉",
+          "vi": "Tiếp xúc, va chạm (vật lý hoặc giao tiếp xã hội)"
+        },
+        {
+          "ko": "접촉하다",
+          "vi": "Tiếp xúc, va chạm (vật lý hoặc giao tiếp xã hội)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-014-수렴",
+      "char": "收斂",
+      "reading": "수렴",
+      "meaningKo": "수렴",
+      "meaningVi": "Thu thập, tiếp thu (ý kiến, dư luận)",
+      "hanViet": "Thu liễm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "수렴",
+          "vi": "Thu thập, tiếp thu (ý kiến, dư luận)"
+        },
+        {
+          "ko": "수렴하다",
+          "vi": "Thu thập, tiếp thu (ý kiến, dư luận)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-015-반박",
+      "char": "反駁",
+      "reading": "반박",
+      "meaningKo": "반박",
+      "meaningVi": "Bẻ lại, phản bác (ý kiến của đối phương)",
+      "hanViet": "Phản bác",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "반박",
+          "vi": "Bẻ lại, phản bác (ý kiến của đối phương)"
+        },
+        {
+          "ko": "반박하다",
+          "vi": "Bẻ lại, phản bác (ý kiến của đối phương)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-016-축적",
+      "char": "蓄積",
+      "reading": "축적",
+      "meaningKo": "축적",
+      "meaningVi": "Tích lũy (kinh nghiệm, vốn, kiến thức qua thời gian)",
+      "hanViet": "Tích tích",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "축적",
+          "vi": "Tích lũy (kinh nghiệm, vốn, kiến thức qua thời gian)"
+        },
+        {
+          "ko": "축적하다",
+          "vi": "Tích lũy (kinh nghiệm, vốn, kiến thức qua thời gian)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-017-동참",
+      "char": "同參",
+      "reading": "동참",
+      "meaningKo": "동참",
+      "meaningVi": "Cùng tham gia (vào chiến dịch xã hội, phong trào)",
+      "hanViet": "Đồng tham",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "동참",
+          "vi": "Cùng tham gia (vào chiến dịch xã hội, phong trào)"
+        },
+        {
+          "ko": "동참하다",
+          "vi": "Cùng tham gia (vào chiến dịch xã hội, phong trào)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-018-촉진",
+      "char": "促進",
+      "reading": "촉진",
+      "meaningKo": "촉진",
+      "meaningVi": "Thúc đẩy nhanh hơn (quá trình tiêu hóa, phát triển)",
+      "hanViet": "Xúc tiến",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "촉진",
+          "vi": "Thúc đẩy nhanh hơn (quá trình tiêu hóa, phát triển)"
+        },
+        {
+          "ko": "촉진하다",
+          "vi": "Thúc đẩy nhanh hơn (quá trình tiêu hóa, phát triển)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-019-왜곡",
+      "char": "歪曲",
+      "reading": "왜곡",
+      "meaningKo": "왜곡",
+      "meaningVi": "Xuyên tạc, làm sai lệch (sự thật, lịch sử)",
+      "hanViet": "Oai khúc",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "왜곡",
+          "vi": "Xuyên tạc, làm sai lệch (sự thật, lịch sử)"
+        },
+        {
+          "ko": "왜곡하다",
+          "vi": "Xuyên tạc, làm sai lệch (sự thật, lịch sử)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-020-대두",
+      "char": "抬頭",
+      "reading": "대두",
+      "meaningKo": "대두",
+      "meaningVi": "Nổi lên, trở thành vấn đề nóng (được chú ý đến)",
+      "hanViet": "Đài đầu",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "action"
+      ],
+      "compounds": [
+        {
+          "ko": "대두",
+          "vi": "Nổi lên, trở thành vấn đề nóng (được chú ý đến)"
+        },
+        {
+          "ko": "대두되다",
+          "vi": "Nổi lên, trở thành vấn đề nóng (được chú ý đến)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-021-정체성",
+      "char": "主體性",
+      "reading": "정체성",
+      "meaningKo": "정체성",
+      "meaningVi": "Bản sắc, nét đặc trưng riêng biệt (Identity)",
+      "hanViet": "Chính thể tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "정체성",
+          "vi": "Bản sắc, nét đặc trưng riêng biệt (Identity)"
+        },
+        {
+          "ko": "정체성하다",
+          "vi": "Bản sắc, nét đặc trưng riêng biệt (Identity)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-022-유대감",
+      "char": "紐帶感",
+      "reading": "유대감",
+      "meaningKo": "유대감",
+      "meaningVi": "Cảm giác gắn kết, tình gắn bó (giữa người với người)",
+      "hanViet": "N纽 đới cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "유대감",
+          "vi": "Cảm giác gắn kết, tình gắn bó (giữa người với người)"
+        },
+        {
+          "ko": "유대감하다",
+          "vi": "Cảm giác gắn kết, tình gắn bó (giữa người với người)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-023-박탈감",
+      "char": "剝奪感",
+      "reading": "박탈감",
+      "meaningKo": "박탈감",
+      "meaningVi": "Cảm giác bị tước đoạt, hụt hẫng (khi thấy mình thua kém)",
+      "hanViet": "Bác đoạt cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "박탈감",
+          "vi": "Cảm giác bị tước đoạt, hụt hẫng (khi thấy mình thua kém)"
+        },
+        {
+          "ko": "박탈감하다",
+          "vi": "Cảm giác bị tước đoạt, hụt hẫng (khi thấy mình thua kém)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-024-시급성",
+      "char": "時急性",
+      "reading": "시급성",
+      "meaningKo": "시급성",
+      "meaningVi": "Tính khẩn cấp, cấp bách (của một vấn đề)",
+      "hanViet": "Thời cấp tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "시급성",
+          "vi": "Tính khẩn cấp, cấp bách (của một vấn đề)"
+        },
+        {
+          "ko": "시급성하다",
+          "vi": "Tính khẩn cấp, cấp bách (của một vấn đề)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-025-투명성",
+      "char": "透明性",
+      "reading": "투명성",
+      "meaningKo": "투명성",
+      "meaningVi": "Tính minh bạch, rõ ràng (trong quản lý tài chính)",
+      "hanViet": "Thấu minh tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "투명성",
+          "vi": "Tính minh bạch, rõ ràng (trong quản lý tài chính)"
+        },
+        {
+          "ko": "투명성하다",
+          "vi": "Tính minh bạch, rõ ràng (trong quản lý tài chính)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-026-취약점",
+      "char": "脆弱點",
+      "reading": "취약점",
+      "meaningKo": "취약점",
+      "meaningVi": "Điểm yếu, điểm dễ bị tổn thương",
+      "hanViet": "Thúy nhược điểm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "취약점",
+          "vi": "Điểm yếu, điểm dễ bị tổn thương"
+        },
+        {
+          "ko": "취약점하다",
+          "vi": "Điểm yếu, điểm dễ bị tổn thương"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-027-정당성",
+      "char": "正當性",
+      "reading": "정당성",
+      "meaningKo": "정당성",
+      "meaningVi": "Tính chính đáng, hợp lý, hợp pháp",
+      "hanViet": "Chính đáng tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "정당성",
+          "vi": "Tính chính đáng, hợp lý, hợp pháp"
+        },
+        {
+          "ko": "정당성하다",
+          "vi": "Tính chính đáng, hợp lý, hợp pháp"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-028-차별성",
+      "char": "差別性",
+      "reading": "차별성",
+      "meaningKo": "차별성",
+      "meaningVi": "Tính khác biệt, điểm độc đáo nổi bật",
+      "hanViet": "Sai biệt tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "차별성",
+          "vi": "Tính khác biệt, điểm độc đáo nổi bật"
+        },
+        {
+          "ko": "차별성하다",
+          "vi": "Tính khác biệt, điểm độc đáo nổi bật"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-029-유연성",
+      "char": "柔軟性",
+      "reading": "유연성",
+      "meaningKo": "유연성",
+      "meaningVi": "Tính linh hoạt, mềm dẻo (trong tư duy, chính sách)",
+      "hanViet": "Nhu nhuyễn tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "유연성",
+          "vi": "Tính linh hoạt, mềm dẻo (trong tư duy, chính sách)"
+        },
+        {
+          "ko": "유연성하다",
+          "vi": "Tính linh hoạt, mềm dẻo (trong tư duy, chính sách)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-030-일관성",
+      "char": "一貫性",
+      "reading": "일관성",
+      "meaningKo": "일관성",
+      "meaningVi": "Tính nhất quán, trước sau như một",
+      "hanViet": "Nhất quán tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "일관성",
+          "vi": "Tính nhất quán, trước sau như một"
+        },
+        {
+          "ko": "일관성하다",
+          "vi": "Tính nhất quán, trước sau như một"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-031-부작용",
+      "char": "副作用",
+      "reading": "부작용",
+      "meaningKo": "부작용",
+      "meaningVi": "Tác dụng phụ, hệ quả tiêu cực",
+      "hanViet": "Phó tác dụng",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "부작용",
+          "vi": "Tác dụng phụ, hệ quả tiêu cực"
+        },
+        {
+          "ko": "부작용하다",
+          "vi": "Tác dụng phụ, hệ quả tiêu cực"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-032-시너지",
+      "char": "·",
+      "reading": "시너지",
+      "meaningKo": "시너지",
+      "meaningVi": "-",
+      "hanViet": "",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept",
+        "loanword"
+      ],
+      "compounds": [
+        {
+          "ko": "시너지",
+          "vi": "-"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-033-사각지대",
+      "char": "死角地帶",
+      "reading": "사각지대",
+      "meaningKo": "사각지대",
+      "meaningVi": "Điểm mù, vùng phủ bóng (nơi chính sách chưa chạm tới)",
+      "hanViet": "Tử giác địa đới",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "사각지대",
+          "vi": "Điểm mù, vùng phủ bóng (nơi chính sách chưa chạm tới)"
+        },
+        {
+          "ko": "사각지대하다",
+          "vi": "Điểm mù, vùng phủ bóng (nơi chính sách chưa chạm tới)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-034-선순환",
+      "char": "善循環",
+      "reading": "선순환",
+      "meaningKo": "선순환",
+      "meaningVi": "Chu kỳ tốt, vòng tuần hoàn tích cực (ngược với 악순환)",
+      "hanViet": "Thiện tuần hoàn",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "선순환",
+          "vi": "Chu kỳ tốt, vòng tuần hoàn tích cực (ngược với 악순환)"
+        },
+        {
+          "ko": "선순환하다",
+          "vi": "Chu kỳ tốt, vòng tuần hoàn tích cực (ngược với 악순환)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-035-원동력",
+      "char": "原動力",
+      "reading": "원동력",
+      "meaningKo": "원동력",
+      "meaningVi": "Lực đẩy cốt lõi, động lực chính để phát triển",
+      "hanViet": "Nguyên động lực",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "원동력",
+          "vi": "Lực đẩy cốt lõi, động lực chính để phát triển"
+        },
+        {
+          "ko": "원동력하다",
+          "vi": "Lực đẩy cốt lõi, động lực chính để phát triển"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-036-대안",
+      "char": "代案",
+      "reading": "대안",
+      "meaningKo": "대안",
+      "meaningVi": "Phương án thay thế, giải pháp dự phòng",
+      "hanViet": "Đại án",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "대안",
+          "vi": "Phương án thay thế, giải pháp dự phòng"
+        },
+        {
+          "ko": "대안하다",
+          "vi": "Phương án thay thế, giải pháp dự phòng"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-037-소외계층",
+      "char": "疏外階層",
+      "reading": "소외계층",
+      "meaningKo": "소외계층",
+      "meaningVi": "Tầng lớp bị cô lập, người yếu thế trong xã hội",
+      "hanViet": "Sơ ngoại giai tầng",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "소외계층",
+          "vi": "Tầng lớp bị cô lập, người yếu thế trong xã hội"
+        },
+        {
+          "ko": "소외계층하다",
+          "vi": "Tầng lớp bị cô lập, người yếu thế trong xã hội"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-038-인프라",
+      "char": "·",
+      "reading": "인프라",
+      "meaningKo": "인프라",
+      "meaningVi": "-",
+      "hanViet": "",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept",
+        "loanword"
+      ],
+      "compounds": [
+        {
+          "ko": "인프라",
+          "vi": "-"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-039-기후변화",
+      "char": "氣候變化",
+      "reading": "기후변화",
+      "meaningKo": "기후변화",
+      "meaningVi": "Biến đổi khí hậu",
+      "hanViet": "Khí hậu biến hóa",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "기후변화",
+          "vi": "Biến đổi khí hậu"
+        },
+        {
+          "ko": "기후변화하다",
+          "vi": "Biến đổi khí hậu"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-040-가상현실",
+      "char": "假想現實",
+      "reading": "가상현실",
+      "meaningKo": "가상현실",
+      "meaningVi": "Thực tế ảo (VR) - xuất hiện nhiều trong bài khoa học",
+      "hanViet": "Giả tưởng hiện thực",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "concept"
+      ],
+      "compounds": [
+        {
+          "ko": "가상현실",
+          "vi": "Thực tế ảo (VR) - xuất hiện nhiều trong bài khoa học"
+        },
+        {
+          "ko": "가상현실하다",
+          "vi": "Thực tế ảo (VR) - xuất hiện nhiều trong bài khoa học"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-041-응고",
+      "char": "凝固",
+      "reading": "응고",
+      "meaningKo": "응고",
+      "meaningVi": "Đông đặc, đông kết lại (chất lỏng thành chất rắn)",
+      "hanViet": "Ngưng cố",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "응고",
+          "vi": "Đông đặc, đông kết lại (chất lỏng thành chất rắn)"
+        },
+        {
+          "ko": "응고되다",
+          "vi": "Đông đặc, đông kết lại (chất lỏng thành chất rắn)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-042-풍화",
+      "char": "風化",
+      "reading": "풍화",
+      "meaningKo": "풍화",
+      "meaningVi": "Quá trình phong hóa (đá bị bào mòn do gió, nước)",
+      "hanViet": "Phong hóa",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "풍화",
+          "vi": "Quá trình phong hóa (đá bị bào mòn do gió, nước)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-043-진화",
+      "char": "進化",
+      "reading": "진화",
+      "meaningKo": "진화",
+      "meaningVi": "Tiến hóa, phát triển lên hình thái cao hơn",
+      "hanViet": "Tiến hóa",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "진화",
+          "vi": "Tiến hóa, phát triển lên hình thái cao hơn"
+        },
+        {
+          "ko": "진화하다",
+          "vi": "Tiến hóa, phát triển lên hình thái cao hơn"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-044-멸종",
+      "char": "滅種",
+      "reading": "멸종",
+      "meaningKo": "멸종",
+      "meaningVi": "Tuyệt chủng (loài vật nguy cấp)",
+      "hanViet": "Diệt chủng",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "멸종",
+          "vi": "Tuyệt chủng (loài vật nguy cấp)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-045-잠재력",
+      "char": "潛在力",
+      "reading": "잠재력",
+      "meaningKo": "잠재력",
+      "meaningVi": "Potentials — Năng lực tiềm ẩn, tiềm năng",
+      "hanViet": "Tiềm tại lực",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "잠재력",
+          "vi": "Potentials — Năng lực tiềm ẩn, tiềm năng"
+        },
+        {
+          "ko": "잠재력하다",
+          "vi": "Potentials — Năng lực tiềm ẩn, tiềm năng"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-046-포화",
+      "char": "飽和",
+      "reading": "포화",
+      "meaningKo": "포화",
+      "meaningVi": "Trạng thái bão hòa (thị trường hoặc dung dịch)",
+      "hanViet": "Bão hòa",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "포화",
+          "vi": "Trạng thái bão hòa (thị trường hoặc dung dịch)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-047-희소성",
+      "char": "稀少性",
+      "reading": "희소성",
+      "meaningKo": "희소성",
+      "meaningVi": "Tính khan hiếm (quy luật cung cầu kinh tế)",
+      "hanViet": "Hiếm thiểu tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "희소성",
+          "vi": "Tính khan hiếm (quy luật cung cầu kinh tế)"
+        },
+        {
+          "ko": "희소성하다",
+          "vi": "Tính khan hiếm (quy luật cung cầu kinh tế)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-048-상호작용",
+      "char": "相互作用",
+      "reading": "상호작용",
+      "meaningKo": "상호작용",
+      "meaningVi": "Sự tương tác qua lại lẫn nhau",
+      "hanViet": "Tương hỗ tác dụng",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "상호작용",
+          "vi": "Sự tương tác qua lại lẫn nhau"
+        },
+        {
+          "ko": "상호작용하다",
+          "vi": "Sự tương tác qua lại lẫn nhau"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-049-인과관계",
+      "char": "因果關係",
+      "reading": "인과관계",
+      "meaningKo": "인과관계",
+      "meaningVi": "Mối quan hệ nguyên nhân - kết quả",
+      "hanViet": "Nhân quả quan hệ",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "인과관계",
+          "vi": "Mối quan hệ nguyên nhân - kết quả"
+        },
+        {
+          "ko": "인과관계하다",
+          "vi": "Mối quan hệ nguyên nhân - kết quả"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-050-획일성",
+      "char": "劃一性",
+      "reading": "획일성",
+      "meaningKo": "획일성",
+      "meaningVi": "Tính rập khuôn, đồng loạt (thiếu tính cá nhân)",
+      "hanViet": "Vạch nhất tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "획일성",
+          "vi": "Tính rập khuôn, đồng loạt (thiếu tính cá nhân)"
+        },
+        {
+          "ko": "획일성하다",
+          "vi": "Tính rập khuôn, đồng loạt (thiếu tính cá nhân)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-051-계승",
+      "char": "繼承",
+      "reading": "계승",
+      "meaningKo": "계승",
+      "meaningVi": "Tiếp nối, kế thừa (truyền thống, di sản)",
+      "hanViet": "Kế thừa",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "계승",
+          "vi": "Tiếp nối, kế thừa (truyền thống, di sản)"
+        },
+        {
+          "ko": "계승하다",
+          "vi": "Tiếp nối, kế thừa (truyền thống, di sản)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-052-왜곡-2",
+      "char": "歪曲",
+      "reading": "왜곡",
+      "meaningKo": "왜곡",
+      "meaningVi": "Xuyên tạc, làm bóp méo (sự thật, lịch sử)",
+      "hanViet": "Oai khúc",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "왜곡",
+          "vi": "Xuyên tạc, làm bóp méo (sự thật, lịch sử)"
+        },
+        {
+          "ko": "왜곡하다",
+          "vi": "Xuyên tạc, làm bóp méo (sự thật, lịch sử)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-053-성찰",
+      "char": "省察",
+      "reading": "성찰",
+      "meaningKo": "성찰",
+      "meaningVi": "Suy ngẫm, tự nhìn nhận lại bản thân (Self-reflection)",
+      "hanViet": "Tỉnh sát",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "성찰",
+          "vi": "Suy ngẫm, tự nhìn nhận lại bản thân (Self-reflection)"
+        },
+        {
+          "ko": "성찰하다",
+          "vi": "Suy ngẫm, tự nhìn nhận lại bản thân (Self-reflection)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-054-도출",
+      "char": "導出",
+      "reading": "도출",
+      "meaningKo": "도출",
+      "meaningVi": "Rút ra, đưa ra (kết luận, giải pháp sau nghiên cứu)",
+      "hanViet": "Đạo xuất",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "도출",
+          "vi": "Rút ra, đưa ra (kết luận, giải pháp sau nghiên cứu)"
+        },
+        {
+          "ko": "도출하다",
+          "vi": "Rút ra, đưa ra (kết luận, giải pháp sau nghiên cứu)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-055-입증",
+      "char": "立證",
+      "reading": "입증",
+      "meaningKo": "입증",
+      "meaningVi": "Chứng minh, đưa ra bằng chứng xác thực",
+      "hanViet": "Lập chứng",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "입증",
+          "vi": "Chứng minh, đưa ra bằng chứng xác thực"
+        },
+        {
+          "ko": "입증하다",
+          "vi": "Chứng minh, đưa ra bằng chứng xác thực"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-056-왜면",
+      "char": "外面",
+      "reading": "왜면",
+      "meaningKo": "왜면",
+      "meaningVi": "Phớt lờ, quay lưng, ngoảnh mặt làm ngơ",
+      "hanViet": "Ngoại diện",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "왜면",
+          "vi": "Phớt lờ, quay lưng, ngoảnh mặt làm ngơ"
+        },
+        {
+          "ko": "왜면하다",
+          "vi": "Phớt lờ, quay lưng, ngoảnh mặt làm ngơ"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-057-수용",
+      "char": "受容",
+      "reading": "수용",
+      "meaningKo": "수용",
+      "meaningVi": "Tiếp nhận, chấp nhận (ý kiến, văn hóa mới)",
+      "hanViet": "Thụ dung",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "수용",
+          "vi": "Tiếp nhận, chấp nhận (ý kiến, văn hóa mới)"
+        },
+        {
+          "ko": "수용하다",
+          "vi": "Tiếp nhận, chấp nhận (ý kiến, văn hóa mới)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-058-절제",
+      "char": "節制",
+      "reading": "절제",
+      "meaningKo": "절제",
+      "meaningVi": "Kìm nén, kiểm soát hành vi/cảm xúc vừa phải",
+      "hanViet": "Tiết chế",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "절제",
+          "vi": "Kìm nén, kiểm soát hành vi/cảm xúc vừa phải"
+        },
+        {
+          "ko": "절제하다",
+          "vi": "Kìm nén, kiểm soát hành vi/cảm xúc vừa phải"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-059-치유",
+      "char": "治癒",
+      "reading": "치유",
+      "meaningKo": "치유",
+      "meaningVi": "Chữa lành (vết thương thể xác hoặc tâm hồn)",
+      "hanViet": "Trị dũ",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "치유",
+          "vi": "Chữa lành (vết thương thể xác hoặc tâm hồn)"
+        },
+        {
+          "ko": "치유하다",
+          "vi": "Chữa lành (vết thương thể xác hoặc tâm hồn)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-060-부각",
+      "char": "浮刻",
+      "reading": "부각",
+      "meaningKo": "부각",
+      "meaningVi": "Nổi bật lên, được làm nổi bật (vấn đề, giải pháp)",
+      "hanViet": "Phù khắc",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "부각",
+          "vi": "Nổi bật lên, được làm nổi bật (vấn đề, giải pháp)"
+        },
+        {
+          "ko": "부각되다",
+          "vi": "Nổi bật lên, được làm nổi bật (vấn đề, giải pháp)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-061-추론",
+      "char": "推論",
+      "reading": "추론",
+      "meaningKo": "추론",
+      "meaningVi": "Suy luận, lập luận logic để đưa ra kết quả",
+      "hanViet": "Thôi luận",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "추론",
+          "vi": "Suy luận, lập luận logic để đưa ra kết quả"
+        },
+        {
+          "ko": "추론하다",
+          "vi": "Suy luận, lập luận logic để đưa ra kết quả"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-062-미학",
+      "char": "美學",
+      "reading": "미학",
+      "meaningKo": "미학",
+      "meaningVi": "Tính thẩm mỹ, môn mỹ học",
+      "hanViet": "Mỹ học",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "미학",
+          "vi": "Tính thẩm mỹ, môn mỹ học"
+        },
+        {
+          "ko": "미학하다",
+          "vi": "Tính thẩm mỹ, môn mỹ học"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-063-보편성",
+      "char": "普遍性",
+      "reading": "보편성",
+      "meaningKo": "보편성",
+      "meaningVi": "Tính phổ quát, mang tính chung cho mọi người",
+      "hanViet": "Phổ biến tính",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "보편성",
+          "vi": "Tính phổ quát, mang tính chung cho mọi người"
+        },
+        {
+          "ko": "보편성하다",
+          "vi": "Tính phổ quát, mang tính chung cho mọi người"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-064-주관적",
+      "char": "主觀的",
+      "reading": "주관적",
+      "meaningKo": "주관적",
+      "meaningVi": "Mang tính chủ quan (ngược với 객관적 - khách quan)",
+      "hanViet": "Chủ quan đích",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "주관적",
+          "vi": "Mang tính chủ quan (ngược với 객관적 - khách quan)"
+        },
+        {
+          "ko": "주관적하다",
+          "vi": "Mang tính chủ quan (ngược với 객관적 - khách quan)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-065-모순",
+      "char": "矛盾",
+      "reading": "모순",
+      "meaningKo": "모순",
+      "meaningVi": "Sự mâu thuẫn, nghịch lý (Logic trái ngược nhau)",
+      "hanViet": "Mâu thuẫn",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "모순",
+          "vi": "Sự mâu thuẫn, nghịch lý (Logic trái ngược nhau)"
+        },
+        {
+          "ko": "모순하다",
+          "vi": "Sự mâu thuẫn, nghịch lý (Logic trái ngược nhau)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-066-위반",
+      "char": "違反",
+      "reading": "위반",
+      "meaningKo": "위반",
+      "meaningVi": "Vi phạm (pháp luật, quy định, hợp đồng)",
+      "hanViet": "Vi phạm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "위반",
+          "vi": "Vi phạm (pháp luật, quy định, hợp đồng)"
+        },
+        {
+          "ko": "위반하다",
+          "vi": "Vi phạm (pháp luật, quy định, hợp đồng)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-067-재범",
+      "char": "再犯",
+      "reading": "재범",
+      "meaningKo": "재범",
+      "meaningVi": "Sự tái phạm tội (Tỷ lệ tái phạm tội)",
+      "hanViet": "Tái phạm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "재범",
+          "vi": "Sự tái phạm tội (Tỷ lệ tái phạm tội)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-068-분쟁",
+      "char": "紛爭",
+      "reading": "분쟁",
+      "meaningKo": "분쟁",
+      "meaningVi": "Tranh chấp, xích mích (đất đai, bản quyền)",
+      "hanViet": "Phân tranh",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "분쟁",
+          "vi": "Tranh chấp, xích mích (đất đai, bản quyền)"
+        },
+        {
+          "ko": "분쟁하다",
+          "vi": "Tranh chấp, xích mích (đất đai, bản quyền)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-069-유입",
+      "char": "流入",
+      "reading": "유입",
+      "meaningKo": "유입",
+      "meaningVi": "Đổ vào, tràn vào (dân số vùng quê đổ về đô thị)",
+      "hanViet": "Lưu nhập",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "유입",
+          "vi": "Đổ vào, tràn vào (dân số vùng quê đổ về đô thị)"
+        },
+        {
+          "ko": "유입되다",
+          "vi": "Đổ vào, tràn vào (dân số vùng quê đổ về đô thị)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-070-양극화",
+      "char": "兩極化",
+      "reading": "양극화",
+      "meaningKo": "양극화",
+      "meaningVi": "Sự phân cực (giàu nghèo, quan điểm chính trị)",
+      "hanViet": "Lưỡng cực hóa",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "양극화",
+          "vi": "Sự phân cực (giàu nghèo, quan điểm chính trị)"
+        },
+        {
+          "ko": "양극화하다",
+          "vi": "Sự phân cực (giàu nghèo, quan điểm chính trị)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-071-고립",
+      "char": "孤立",
+      "reading": "고립",
+      "meaningKo": "고립",
+      "meaningVi": "Bị tách biệt, rơi vào trạng thái cô đơn đơn độc",
+      "hanViet": "Cô lập",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "고립",
+          "vi": "Bị tách biệt, rơi vào trạng thái cô đơn đơn độc"
+        },
+        {
+          "ko": "고립되다",
+          "vi": "Bị tách biệt, rơi vào trạng thái cô đơn đơn độc"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-072-부양",
+      "char": "扶養",
+      "reading": "부양",
+      "meaningKo": "부양",
+      "meaningVi": "Nuôi dưỡng, cấp dưỡng (cha mẹ nuôi con, con cái nuôi cha mẹ)",
+      "hanViet": "Phù dưỡng",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "부양",
+          "vi": "Nuôi dưỡng, cấp dưỡng (cha mẹ nuôi con, con cái nuôi cha mẹ)"
+        },
+        {
+          "ko": "부양하다",
+          "vi": "Nuôi dưỡng, cấp dưỡng (cha mẹ nuôi con, con cái nuôi cha mẹ)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-073-복지",
+      "char": "福祉",
+      "reading": "복지",
+      "meaningKo": "복지",
+      "meaningVi": "Phúc lợi xã hội, hệ thống an sinh",
+      "hanViet": "Phúc lợi",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "복지",
+          "vi": "Phúc lợi xã hội, hệ thống an sinh"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-074-규제",
+      "char": "規制",
+      "reading": "규제",
+      "meaningKo": "규제",
+      "meaningVi": "Ràng buộc, kiểm soát, thắt chặt quy định",
+      "hanViet": "Quy chế",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "규제",
+          "vi": "Ràng buộc, kiểm soát, thắt chặt quy định"
+        },
+        {
+          "ko": "규제하다",
+          "vi": "Ràng buộc, kiểm soát, thắt chặt quy định"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-075-보상",
+      "char": "補償",
+      "reading": "보상",
+      "meaningKo": "보상",
+      "meaningVi": "Đền bù, bồi thường (thiệt hại, công sức)",
+      "hanViet": "Bổ thườn",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "보상",
+          "vi": "Đền bù, bồi thường (thiệt hại, công sức)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-076-상실감",
+      "char": "喪失感",
+      "reading": "상실감",
+      "meaningKo": "상실감",
+      "meaningVi": "Cảm giác mất mát (khi người thân qua đời hoặc mất việc)",
+      "hanViet": "Sáng thất cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "상실감",
+          "vi": "Cảm giác mất mát (khi người thân qua đời hoặc mất việc)"
+        },
+        {
+          "ko": "상실감하다",
+          "vi": "Cảm giác mất mát (khi người thân qua đời hoặc mất việc)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-077-열등감",
+      "char": "劣等感",
+      "reading": "열등감",
+      "meaningKo": "열등감",
+      "meaningVi": "Tự ti, cảm giác mình thấp kém hơn người khác",
+      "hanViet": "Liệt đẳng cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "열등감",
+          "vi": "Tự ti, cảm giác mình thấp kém hơn người khác"
+        },
+        {
+          "ko": "열등감하다",
+          "vi": "Tự ti, cảm giác mình thấp kém hơn người khác"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-078-우월감",
+      "char": "優越感",
+      "reading": "우월감",
+      "meaningKo": "우월감",
+      "meaningVi": "Tự phụ, cảm giác mình thượng đẳng, giỏi hơn người khác",
+      "hanViet": "Ưu việt cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "우월감",
+          "vi": "Tự phụ, cảm giác mình thượng đẳng, giỏi hơn người khác"
+        },
+        {
+          "ko": "우월감하다",
+          "vi": "Tự phụ, cảm giác mình thượng đẳng, giỏi hơn người khác"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-079-안도감",
+      "char": "安堵感",
+      "reading": "안도감",
+      "meaningKo": "안도감",
+      "meaningVi": "Cảm giác nhẹ nhõm, thở phào nhẹ nhõm",
+      "hanViet": "An đổ cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "안도감",
+          "vi": "Cảm giác nhẹ nhõm, thở phào nhẹ nhõm"
+        },
+        {
+          "ko": "안도감하다",
+          "vi": "Cảm giác nhẹ nhõm, thở phào nhẹ nhõm"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-080-효능감",
+      "char": "效能感",
+      "reading": "효능감",
+      "meaningKo": "효능감",
+      "meaningVi": "Cảm giác tự tin vào năng lực của bản thân (Self-efficacy)",
+      "hanViet": "Hiệu năng cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "효능감",
+          "vi": "Cảm giác tự tin vào năng lực của bản thân (Self-efficacy)"
+        },
+        {
+          "ko": "효능감하다",
+          "vi": "Cảm giác tự tin vào năng lực của bản thân (Self-efficacy)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-081-공감대",
+      "char": "共感帶",
+      "reading": "공감대",
+      "meaningKo": "공감대",
+      "meaningVi": "Sự đồng cảm chung, tiếng nói chung (giữa các thế hệ)",
+      "hanViet": "Cung cảm đới",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "공감대",
+          "vi": "Sự đồng cảm chung, tiếng nói chung (giữa các thế hệ)"
+        },
+        {
+          "ko": "공감대하다",
+          "vi": "Sự đồng cảm chung, tiếng nói chung (giữa các thế hệ)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-082-회의감",
+      "char": "懷疑感",
+      "reading": "회의감",
+      "meaningKo": "회의감",
+      "meaningVi": "Cảm giác hoài nghi, ngờ vực về việc mình đang làm",
+      "hanViet": "Hoài nghi cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "회의감",
+          "vi": "Cảm giác hoài nghi, ngờ vực về việc mình đang làm"
+        },
+        {
+          "ko": "회의감하다",
+          "vi": "Cảm giác hoài nghi, ngờ vực về việc mình đang làm"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-083-친밀감",
+      "char": "親密感",
+      "reading": "친밀감",
+      "meaningKo": "친밀감",
+      "meaningVi": "Cảm giác thân thuộc, gần gũi",
+      "hanViet": "Thân mật cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "친밀감",
+          "vi": "Cảm giác thân thuộc, gần gũi"
+        },
+        {
+          "ko": "친밀감하다",
+          "vi": "Cảm giác thân thuộc, gần gũi"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-084-자괴감",
+      "char": "自愧感",
+      "reading": "자괴감",
+      "meaningKo": "자괴감",
+      "meaningVi": "Cảm giác xấu hổ, tự trách móc chính mình",
+      "hanViet": "Tự quý cảm",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "자괴감",
+          "vi": "Cảm giác xấu hổ, tự trách móc chính mình"
+        },
+        {
+          "ko": "자괴감하다",
+          "vi": "Cảm giác xấu hổ, tự trách móc chính mình"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-085-거부반응",
+      "char": "拒否反應",
+      "reading": "거부반응",
+      "meaningKo": "거부반응",
+      "meaningVi": "Phản ứng bài xích, đào thải (y học) hoặc từ chối (tâm lý)",
+      "hanViet": "Cự phủ phản ứng",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "거부반응",
+          "vi": "Phản ứng bài xích, đào thải (y học) hoặc từ chối (tâm lý)"
+        },
+        {
+          "ko": "거부반응하다",
+          "vi": "Phản ứng bài xích, đào thải (y học) hoặc từ chối (tâm lý)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-086-상용화",
+      "char": "常用化",
+      "reading": "상용화",
+      "meaningKo": "상용화",
+      "meaningVi": "Thương mại hóa (đưa công nghệ mới vào dùng phổ biến rộng rãi)",
+      "hanViet": "Thường dụng hóa",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "상용화",
+          "vi": "Thương mại hóa (đưa công nghệ mới vào dùng phổ biến rộng rãi)"
+        },
+        {
+          "ko": "상용화되다",
+          "vi": "Thương mại hóa (đưa công nghệ mới vào dùng phổ biến rộng rãi)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-087-순기능",
+      "char": "順機能",
+      "reading": "순기능",
+      "meaningKo": "순기능",
+      "meaningVi": "Mặt tích cực, chức năng tốt (ngược với 역기능 - mặt tiêu cực)",
+      "hanViet": "Thuận cơ năng",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "순기능",
+          "vi": "Mặt tích cực, chức năng tốt (ngược với 역기능 - mặt tiêu cực)"
+        },
+        {
+          "ko": "순기능하다",
+          "vi": "Mặt tích cực, chức năng tốt (ngược với 역기능 - mặt tiêu cực)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-088-보안",
+      "char": "保安",
+      "reading": "보안",
+      "meaningKo": "보안",
+      "meaningVi": "Bảo mật, an ninh (an ninh mạng, bảo mật thông tin)",
+      "hanViet": "Bảo an",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "보안",
+          "vi": "Bảo mật, an ninh (an ninh mạng, bảo mật thông tin)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-089-인공지능",
+      "char": "人工智能",
+      "reading": "인공지능",
+      "meaningKo": "인공지능",
+      "meaningVi": "Trí tuệ nhân tạo (AI)",
+      "hanViet": "Nhân công trí năng",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "인공지능",
+          "vi": "Trí tuệ nhân tạo (AI)"
+        },
+        {
+          "ko": "인공지능하다",
+          "vi": "Trí tuệ nhân tạo (AI)"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    },
+    {
+      "id": "topik90-090-가상공간",
+      "char": "假想空間",
+      "reading": "가상공간",
+      "meaningKo": "가상공간",
+      "meaningVi": "Không gian ảo, môi trường mạng",
+      "hanViet": "Giả tưởng không gian",
+      "topics": [
+        "topik90",
+        "premium",
+        "read-listen",
+        "academic"
+      ],
+      "compounds": [
+        {
+          "ko": "가상공간",
+          "vi": "Không gian ảo, môi trường mạng"
+        },
+        {
+          "ko": "가상공간하다",
+          "vi": "Không gian ảo, môi trường mạng"
+        }
+      ],
+      "source": "dong-thai.docx",
+      "verified": "suggested"
+    }
+  ]
+}

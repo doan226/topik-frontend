@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "updated": "2026-05-24",
+  "sourceNote": "Placeholder — migrate từ ListenReadPractice.jsx; chờ nguồn mở rộng",
+  "items": [
+    {
+      "id": "lr-001",
+      "type": "reading",
+      "passage": "한국어 능력 시험(TOPIK)은 외국인과 재외 동포의 한국어 능력을 평가하는 시험입니다. 시험은 듣기, 읽기, 쓰기 영역으로 구성됩니다.",
+      "question": "TOPIK 시험의 구성 영역이 아닌 것은?",
+      "options": [
+        "듣기",
+        "읽기",
+        "쓰기",
+        "말하기 (공식 TOPIK I·II)"
+      ],
+      "correct": 3,
+      "explanation": "TOPIK I·II chính thức gồm nghe, đọc, viết; speaking là kỳ thi riêng (TOPIK Speaking).",
+      "source": "ListenReadPractice.jsx"
+    },
+    {
+      "id": "lr-002",
+      "type": "reading",
+      "passage": "쓰기 영역의 51번과 52번 문항은 짧은 문장을 완성하는 문제입니다. 각 문항 10점입니다.",
+      "question": "Câu 51 và 52 mỗi câu tối đa bao nhiêu điểm?",
+      "options": [
+        "5 điểm",
+        "10 điểm",
+        "30 điểm",
+        "50 điểm"
+      ],
+      "correct": 1,
+      "explanation": "Câu 51, 52 là dạng điền câu ngắn, mỗi câu 10 điểm.",
+      "source": "ListenReadPractice.jsx"
+    },
+    {
+      "id": "lr-003",
+      "type": "reading",
+      "passage": "시험 시간 관리가 중요합니다. 특히 54번 논술 문항은 50분이 주어집니다.",
+      "question": "Câu 54 thường được phân bổ bao nhiêu phút?",
+      "options": [
+        "15 phút",
+        "30 phút",
+        "50 phút",
+        "90 phút"
+      ],
+      "correct": 2,
+      "explanation": "Câu 54 (luận) thường 50 phút trong đề chuẩn TOPIK II.",
+      "source": "ListenReadPractice.jsx"
+    }
+  ]
+}

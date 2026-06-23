@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "updated": "2026-05-25",
+  "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151",
+  "sourceNote": "Rubric luận câu 54 — biên soạn từ Quyển Viết Thu Huế; bổ sung mẫu mở/thân/kết từ supplement-3",
+  "wordCount": {
+    "min": 600,
+    "max": 700
+  },
+  "items": [
+    {
+      "id": "qt-importance",
+      "type": "question-type",
+      "questionType": 54,
+      "labelKo": "중요성",
+      "labelVi": "Tầm quan trọng",
+      "tasks": [
+        "N은/는 왜 중요한가?",
+        "N이/가 어렵다면 그 이유는 무엇인가?",
+        "N이/가 잘 안 되면 어떤 문제가 생기는가?",
+        "N을/를 위해서는 어떤 방법이 필요한가?"
+      ],
+      "focus": [
+        "중요성",
+        "원인/이유",
+        "방안"
+      ]
+    },
+    {
+      "id": "qt-necessity",
+      "type": "question-type",
+      "questionType": 54,
+      "labelKo": "필요성",
+      "labelVi": "Tính cần thiết",
+      "tasks": [
+        "N은/는 언제/왜 필요한가?",
+        "N을/를 통해 얻을 수 있는 효과는 무엇인가?",
+        "N을/를 위해 어떻게 해야 하는가?",
+        "N을/를 위한 효과적인 방법은 무엇인가?"
+      ],
+      "focus": [
+        "필요성",
+        "효과",
+        "방안"
+      ]
+    },
+    {
+      "id": "qt-duality",
+      "type": "question-type",
+      "questionType": 54,
+      "labelKo": "양면성",
+      "labelVi": "Hai mặt",
+      "tasks": [
+        "N의 장점/단점은 무엇인가?",
+        "N(으)로 인해 생길 수 있는 문제점은 무엇인가?",
+        "N에 대해 찬성하는가? 반대하는가?",
+        "N의 긍정적인/부정적인 영향은 무엇인가?",
+        "이를 극복하기 위한 방법은 무엇인가?"
+      ],
+      "focus": [
+        "장단점",
+        "문제점",
+        "찬반의견",
+        "긍정/부정 영향",
+        "방안"
+      ]
+    },
+    {
+      "id": "qt-problem",
+      "type": "question-type",
+      "questionType": 54,
+      "labelKo": "문제점",
+      "labelVi": "Vấn đề",
+      "tasks": [
+        "N(으)로 인해 생길 수 있는 문제점은 무엇인가?",
+        "N의 원인은 무엇인가?",
+        "N을/를 해결할 수 있는 방안은 무엇인가?"
+      ],
+      "focus": [
+        "문제점",
+        "원인",
+        "방안"
+      ]
+    },
+    {
+      "id": "qt-definition",
+      "type": "question-type",
+      "questionType": 54,
+      "labelKo": "정의",
+      "labelVi": "Định nghĩa",
+      "tasks": [
+        "N(이)란 무엇인가?",
+        "N을/를 위해 무엇이 필요한가?"
+      ],
+      "focus": [
+        "정의",
+        "방안"
+      ]
+    },
+    {
+      "id": "qt-other",
+      "type": "question-type",
+      "questionType": 54,
+      "labelKo": "기타",
+      "labelVi": "Khác",
+      "tasks": [
+        "N이/가 갖추어야 할 조건은 무엇인가?",
+        "N의 역할은 무엇인가?",
+        "바람직한 N(이)란 무엇이라고 생각하는가?"
+      ],
+      "focus": [
+        "조건",
+        "역할",
+        "의견"
+      ]
+    },
+    {
+      "id": "opening-intro",
+      "type": "opening",
+      "questionType": 54,
+      "labelVi": "Mở bài — câu giới thiệu",
+      "templates": [
+        {
+          "ko": "최근 사람들은 N에 관심이 많다",
+          "vi": "Gần đây mọi người quan tâm nhiều tới N"
+        },
+        {
+          "ko": "요즈음 우리 사회가 N(으)로 대두되고 있다",
+          "vi": "Gần đây xã hội đang đối mặt với N"
+        },
+        {
+          "ko": "일반적으로 N은/는 ...으로 알려져 있다",
+          "vi": "Về cơ bản N được biết đến như là..."
+        },
+        {
+          "ko": "N이란 ...이라고 정의할 수 있다",
+          "vi": "N có thể được định nghĩa là..."
+        },
+        {
+          "ko": "N은/는 ...에게 긍정적인 역할을 한다",
+          "vi": "N có vai trò tích cực tới..."
+        },
+        {
+          "ko": "최근 사람들은 ...A/V 을/ㄹ 것이라고 생각한다",
+          "vi": "Gần đây mọi người nghĩ rằng sẽ A/V..."
+        },
+        {
+          "ko": "사람은 누구나 ...기 마련이다 / 고 싶어한다",
+          "vi": "Con người ai cũng..., muốn..."
+        },
+        {
+          "ko": "누구나 (한번쯤) ...은/ㄴ 경험이 있을 것이다",
+          "vi": "Ai cũng từng một lần..."
+        },
+        {
+          "ko": "N이란 ...이라고 정의할 수 있다",
+          "vi": "N có thể được định nghĩa là..."
+        }
+      ]
+    },
+    {
+      "id": "opening-thesis",
+      "type": "opening",
+      "questionType": 54,
+      "labelVi": "Mở bài — câu chủ đề",
+      "templates": [
+        {
+          "ko": "N의 필요성과 효과에 대하여 살펴보는 것은 의미가 크다",
+          "vi": "Xem xét tính cần thiết và hiệu quả của N có ý nghĩa lớn"
+        },
+        {
+          "ko": "N의 문제점과 방안에 대하여 논하고자 한다",
+          "vi": "Chúng ta hãy bàn về vấn đề và phương án của N"
+        },
+        {
+          "ko": "따라서 이 글을 통해 N의 필요성에 대해 살펴보고자 한다",
+          "vi": "Qua bài viết này ta sẽ xem xét tính cần thiết của N"
+        },
+        {
+          "ko": "N의 중요성과 부작용을 밝히고자 하다",
+          "vi": "Chúng ta hãy làm sáng tỏ tầm quan trọng và tác dụng phụ của N"
+        },
+        {
+          "ko": "N의 해결 방안을 모색해 보자",
+          "vi": "Hãy cùng tìm kiếm phương án giải quyết của N"
+        },
+        {
+          "ko": "이러한 문제를 해결하기 위해서 먼저 그 원인을 분석하고 그에 따라 해결책을 제시하고자 한다",
+          "vi": "Để giải quyết vấn đề này, phân tích nguyên nhân rồi đưa ra phương án"
+        }
+      ]
+    },
+    {
+      "id": "body-formula",
+      "type": "body-formula",
+      "questionType": 54,
+      "labelVi": "Thân bài — Chủ chốt–Giải thích–Ví dụ",
+      "steps": [
+        {
+          "step": "chủ-chốt",
+          "vi": "Trả lời trực tiếp câu hỏi, không vòng vo"
+        },
+        {
+          "step": "giải-thích",
+          "vi": "Triển khai logic bằng quan hệ nhân–quả, tương phản"
+        },
+        {
+          "step": "ví-dụ",
+          "vi": "Minh họa thuyết phục (không bắt buộc)"
+        }
+      ],
+      "connectors": [
+        "N1 ~ N2 보다 더/덜...",
+        "에 비해서 / 비하면",
+        "이와 달리",
+        "첫째로, / 둘째로, / 셋째로",
+        "무엇보다...",
+        "N은/는 크게 3가지로 나눌 수 있다. 우선/먼저 ~ 다음으로 ~ 마지막으로",
+        "첫 번째/두 번째/세 번째 + N",
+        "한 편 / 다른 편",
+        "그리고 나서 / 그후에 / 그 다음으로",
+        "N은/는 다음과 같다",
+        "N을/를 살펴보면 다음과 같다"
+      ]
+    },
+    {
+      "id": "body-example-env",
+      "type": "body-example",
+      "questionType": 54,
+      "labelVi": "Ví dụ thân bài — ô nhiễm môi trường",
+      "source": "quyen-viet-supplement-3 book-p.138",
+      "context": "환경 오염 문제가 심해지고 있음",
+      "answerOutline": {
+        "chủ-chốt": "일회용품 사용이 증가한 것",
+        "giải-thích": "편리함만 추구했기 때문이다",
+        "ví-dụ": "일회용 컵 등은 음식물과는 달리 시간이 지나도 잘 썩지 않는다. 그래서 많은 양이 쌓이게 되어 환경을 오염시키는 것이다"
+      }
+    },
+    {
+      "id": "closing",
+      "type": "closing",
+      "questionType": 54,
+      "labelVi": "Kết bài",
+      "templates": [
+        {
+          "ko": "요컨대",
+          "vi": "Tóm lại"
+        },
+        {
+          "ko": "요약하자면",
+          "vi": "Nếu tóm lại thì"
+        },
+        {
+          "ko": "결론은",
+          "vi": "Kết luận lại"
+        },
+        {
+          "ko": "따라서 = 그러므로",
+          "vi": "Do đó"
+        },
+        {
+          "ko": "N은/는 A/V다는 점에서 그 중요성이 크다고 할 수 있다",
+          "vi": "Có thể thấy N có tầm quan trọng lớn trong việc A/V"
+        },
+        {
+          "ko": "위에서 살펴본 내용을 요약하면",
+          "vi": "Tóm tắt nội dung đã trình bày ở trên"
+        },
+        {
+          "ko": "N은/는 A/V다는 점에서 필요하다 / 문제점이 있다",
+          "vi": "Có thể thấy N cần thiết / có vấn đề trong việc A/V"
+        },
+        {
+          "ko": "이상에서 언급한 바를 정리하면",
+          "vi": "Tóm lại những điểm đã nêu ở trên"
+        }
+      ]
+    }
+  ]
+}

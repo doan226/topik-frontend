@@ -1,0 +1,3851 @@
+{
+  "version": 1,
+  "updated": "2026-05-24",
+  "source": "vocab-54-topics.json + essay-54-templates.json",
+  "stats": {
+    "vocabCards": 345,
+    "expressionCards": 40,
+    "topics": 20,
+    "total": 385
+  },
+  "items": [
+    {
+      "id": "v-youth-0",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "자아",
+      "vi": "cái tôi, bản ngã",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-1",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "중요한 시기",
+      "vi": "Thời kì quan trọng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-2",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "형성되다",
+      "vi": "Được hình thành",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-3",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "불안정하다",
+      "vi": "Bất ổn định",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-4",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "진로",
+      "vi": "con đường tương lai",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-5",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "인간관계",
+      "vi": "đối nhân xử thế",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-6",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "일탈",
+      "vi": "sự lệch lạc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-7",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "옳고 그름",
+      "vi": "đúng đắn và sai trái",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-8",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "해를 끼치는 행동",
+      "vi": "Hành động gây hại",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-9",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "압박감",
+      "vi": "cảm giác áp lực, căng thẳng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-10",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "반항심",
+      "vi": "suy nghĩ chống đối, phản kháng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-11",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "저항하다",
+      "vi": "chống cự, kháng cự",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-12",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "정립하다",
+      "vi": "xác lập, định ra",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-13",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "성장하다",
+      "vi": "trưởng thành",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-youth-14",
+      "type": "vocab",
+      "topicId": "youth",
+      "topicKo": "청소년기",
+      "ko": "영향을 미치다",
+      "vi": "Gây ảnh hưởng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.151"
+    },
+    {
+      "id": "v-birth-rate-0",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "감소하다",
+      "vi": "Giảm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-1",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "개인적/ 사회적 요인",
+      "vi": "lý do cá nhân, lý do xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-2",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "결혼관의 변화",
+      "vi": "Thay đổi quan niệm kết hôn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-3",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "자녀 양육에 대한 부담",
+      "vi": "Gánh nặng giáo dục con cái",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-4",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "경제적 불안",
+      "vi": "Lo lắng vấn đề kinh tế",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-5",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "인구의 감소",
+      "vi": "Giảm dân số",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-6",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "노년층의 수는 많아지다",
+      "vi": "Dân số già nhiều lên",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-7",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "을/를 차지하다",
+      "vi": "Chiếm ..",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-8",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "인구 불균형",
+      "vi": "Mất cân bằng dân số",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-9",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "경제를 어렵게 만든다",
+      "vi": "Gây khó khăn cho nền kinh tế",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-10",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "경제적 지원하다",
+      "vi": "Hỗ trợ mặt kinh tế",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-11",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "사회적 지원하다",
+      "vi": "Hỗ trợ mặt xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-12",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "일자리를 늘리다",
+      "vi": "Tăng cơ hội việc làm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-birth-rate-13",
+      "type": "vocab",
+      "topicId": "birth-rate",
+      "topicKo": "출산율 감소",
+      "ko": "출산율의 감소를 막다",
+      "vi": "ngăn  giảm tỉ lệ sinh sản",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-0",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "호흡기 질환",
+      "vi": "Bệnh hô hấp",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-1",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "폐암",
+      "vi": "Ung thư phổi",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-2",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "후두암",
+      "vi": "ung thư thanh quản",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-3",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "심각한 질병",
+      "vi": "Bệnh nghiêm trọng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-4",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "유발하다",
+      "vi": "gây ra, phát( bệnh)",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-5",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "해로운 타르나 니코딘, 일산화 탄소",
+      "vi": "Caacsbon monoxide, nicotin hoặc hắc in gây hại",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-6",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "흡연자",
+      "vi": "Người hút thuốc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-7",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "간접 흡연자",
+      "vi": "Người hút thuốc gián tiếp",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-8",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "건강에 해로운 영향을 미치다",
+      "vi": "Gây hại cho sức khỏe",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-9",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "포함되다",
+      "vi": "Được bao gồm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-10",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "담배 연기를 마시게 되다",
+      "vi": "Bị hít khói thuốc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-11",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "담배값 인상",
+      "vi": "tăng giá thuốc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-smoking-12",
+      "type": "vocab",
+      "topicId": "smoking",
+      "topicKo": "흡연",
+      "ko": "흡연율이 감소하다",
+      "vi": "Giảm tỉ lệ hút thuốc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.152"
+    },
+    {
+      "id": "v-aging-0",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "노령 인구",
+      "vi": "dân số già",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-1",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "경제적, 사회적 문제가 발생하다",
+      "vi": "phát sinh vấn đề mang tính kinh tế, xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-2",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "노동력이 부족하다",
+      "vi": "thiều nguồn lực lao động",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-3",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "노동 생산성이 감소하다",
+      "vi": "Năng suất lao động giảm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-4",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "복지 예산이 늘다",
+      "vi": "Kinh phí phúc lợi tăng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-5",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "국가 재정에 어려움이 생기다",
+      "vi": "Gây khó khăn cho tài chính quốc gia",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-6",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "국력이 약해지다",
+      "vi": "Sức mạnh dân tộc yếu đi",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-7",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "위협을 받다",
+      "vi": "Bị uy hiếp/ đàn áp",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-8",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "대책을 세우다",
+      "vi": "Xây dựng chiến lược",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-9",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "저출산 문제 해결",
+      "vi": "Giải quyết vấn đề sinh ít",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-10",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "해소하다",
+      "vi": "giải tỏa, hủy bỏ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-11",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "근로 정년을 연장하다",
+      "vi": "Kéo dài tuổi lao động",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-12",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "일자리를 제공하다",
+      "vi": "Cung cấp cơ hội việc làm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-aging-13",
+      "type": "vocab",
+      "topicId": "aging",
+      "topicKo": "고령화 현상",
+      "ko": "지원하다",
+      "vi": "Hỗ trợ, chi viện",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-0",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "시설이 부족하다",
+      "vi": "thiếu trang thiết bị",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-1",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "고통을 겪다",
+      "vi": "Gặp khó khăn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-2",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "불편하다/ 겪는 불편함",
+      "vi": "bất tiện",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-3",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "비장애인",
+      "vi": "Người bình thường",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-4",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "장애인이 되다",
+      "vi": "Trở thành người khuyết tật",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-5",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "횡단보도를 건너기 어렵다",
+      "vi": "khó sang đường",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-6",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "엘리베이터나 계단, 교통 수단을 이용하기 쉽지 않다",
+      "vi": "Dùng thang máy, thang bộ,",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-7",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "자유롭게 이용하다",
+      "vi": "Dùng một cách tự do",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-8",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "충분히 갖추다",
+      "vi": "trang bị đầy đủ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-9",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "N에 관심을 가지다",
+      "vi": "Dành sự quan tâm đến.",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-10",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "시설을 확충하기 위한 시행 계획을 세우다",
+      "vi": "Xây dựng kế hoạch thi hành để bổ sung",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-11",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "모금 운동",
+      "vi": "Vận động quyên góp",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-disability-facilities-12",
+      "type": "vocab",
+      "topicId": "disability-facilities",
+      "topicKo": "장애인을 위한 편의 시설",
+      "ko": "노력하다",
+      "vi": "nỗ lực",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.153"
+    },
+    {
+      "id": "v-smart-device-addiction-0",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "편리함/ 편리성",
+      "vi": "Tính tiện lợi",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-1",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "손에서 놓지 못하다",
+      "vi": "Không thể rời tay",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-2",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "불안을 느끼다",
+      "vi": "Cảm thấy bất an",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-3",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "문제점을 유발하다",
+      "vi": "Gây ra vấn đề",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-4",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "신체적 문제가 나타나다",
+      "vi": "Xuất hiện vấn đề về cơ thể",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-5",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "눈이 아프다",
+      "vi": "Đau mắt",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-6",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "손가락 질병",
+      "vi": "bệnh về ngón tay",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-7",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "집중력을 줄이다",
+      "vi": "Giảm năng lực tập trung",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-8",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "심리적 증상이 생기다",
+      "vi": "Xuất hiện bất thường về tâm lý",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-9",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "주변 상황을 인식하지 못하다",
+      "vi": "không thể nhận thức được môi trường xung quanh",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-10",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "중독에서 벗어나다",
+      "vi": "Thoát khỏi sự nghiện..",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-11",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "사용 시간과 빈도를 줄이다",
+      "vi": "Giảm t hời gian và mật độ sử dụng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-12",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "삶이 풍요로워지다",
+      "vi": "cuộc sống trở nên phong phú",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-13",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "새로운 취미를 가지다",
+      "vi": "tạo sở thích mới",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-smart-device-addiction-14",
+      "type": "vocab",
+      "topicId": "smart-device-addiction",
+      "topicKo": "스마트 기기 중독",
+      "ko": "중독되지 않도록 주의할 필요가 있다",
+      "vi": "Cần chú ý để không bị nghiện",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.154"
+    },
+    {
+      "id": "v-plagiarism-0",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "동의 없이 임의로 사용",
+      "vi": "Tùy ý sử dụng không có sự đồng ý",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-1",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "끊임없이 발생하다",
+      "vi": "phát sinh không ngừng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-2",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "표절 문제 해결",
+      "vi": "Giải quyết vấn đề sao chép ý tưởng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-3",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "원작자의 동의없이",
+      "vi": "Không có sự đồng ý của tác giả",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-4",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "성과를 쉽게 얻다",
+      "vi": "Giành thành quả dễ dàng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-5",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "편리하다",
+      "vi": "Tiện lợi",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-6",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "결과물을 훔치다",
+      "vi": "đánh cắp thành quả",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-7",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "인식하다",
+      "vi": "Nhận thức",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-8",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "기준이 없다",
+      "vi": "Không có tiêu chuẩn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-9",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "창작물의 일부",
+      "vi": "Một phần của tác phẩm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-10",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "표절의 범위를 정하기 쉬지 않다",
+      "vi": "Việc xác định hành vi đạo ý tưởng là không dễ dàng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-11",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "표절이 범죄 행위임을 인식시키다",
+      "vi": "Yêu cầu nhận thức được hành vi đạo ý tưởng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-12",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "납득하다",
+      "vi": "Hiểu ra được,  hiểu được",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-13",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "권리를 보호하다",
+      "vi": "Bảo vệ quyền lợi",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-plagiarism-14",
+      "type": "vocab",
+      "topicId": "plagiarism",
+      "topicKo": "표절 문제",
+      "ko": "올바른 창작 문화를 확립하다",
+      "vi": "Tạo ra văn hóa sáng tác lành mạnh",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.155"
+    },
+    {
+      "id": "v-history-education-0",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "중요한 일이라고 한다",
+      "vi": "Là việc quan trọng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-1",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "과거의 일어난 일",
+      "vi": "Việc xảy ra trong quá khứ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-2",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "기록하다",
+      "vi": "Ghi chép, kí lục",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-3",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "과거를 살펴보다/ 돌아보다",
+      "vi": "Nhìn lại quá khứ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-4",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "정체성을 가지다",
+      "vi": "Mang theo bản sắc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-5",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "고유하다",
+      "vi": "Đặc trưng, đặc thù",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-6",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "자기 나라의 역사를 인식하다",
+      "vi": "Nhận thức về lịch sử của đất nước mình",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-7",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "문화와 영토",
+      "vi": "văn hóa và lãnh thổ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-8",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "확립하다",
+      "vi": "thiết lập, xác định",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-9",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "자긍심과 애국심을 가지다",
+      "vi": "Có lòng yêu nước và tự hào dân tộc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-10",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "전통을 보존하다",
+      "vi": "Bảo tồn truyền thống",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-11",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "유지하다",
+      "vi": "duy trì",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-12",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "기록된 역사적인 사실을 분석하다",
+      "vi": "Phân tích sự thật lịch sử được ghi chép lại",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-13",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "교훈",
+      "vi": "giáo huấn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-14",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "반영하다",
+      "vi": "phản ánh",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-history-education-15",
+      "type": "vocab",
+      "topicId": "history-education",
+      "topicKo": "나라의 역사 교육",
+      "ko": "밝은 미래를 만들어 가다",
+      "vi": "Tạo ra tương lại tươi sáng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-0",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "과학의 발달",
+      "vi": "Sự phát triển của khoa học",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-1",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "인공 장기와 유전자 조작 식물",
+      "vi": "Thực vật chế tạo gien di truyền và máy chạy nhân tạo",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-2",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "식물의 생산량이 증가할 수 있다( 옥수수, 콩...)",
+      "vi": "có thể tăng sản lượng sinh sản của",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-3",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "식량 부족을 해결하다",
+      "vi": "Giải quyết vấn đề thiếu lương thực",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-4",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "복제 생물 기술",
+      "vi": "Kỹ thuật sinh vật nhân bản",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-5",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "멸종 위기의 동물을 보존하다",
+      "vi": "Bảo tồn động vật có nguy cơ tuyệt chủng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-6",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "생물계의 인위적인 변화를 일으키다",
+      "vi": "Dẫn đến sự thay đổi mang tính nhân tạo của",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-7",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "예측하다",
+      "vi": "Dự đoán trước",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-8",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "생명을 가볍게 여기다",
+      "vi": "coi nhẹ sự sống, sinh mạng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-9",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "부작용이 나타나다",
+      "vi": "Gây tác dụng phụ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-10",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "윤리성과 도덕성",
+      "vi": "Luân lý và đạo đức",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-11",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "고려되다",
+      "vi": "Cân nhắc, suy tính",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-genetic-engineering-12",
+      "type": "vocab",
+      "topicId": "genetic-engineering",
+      "topicKo": "유전 공학 발달",
+      "ko": "개인적/ 사회적 이익",
+      "vi": "Lợi ích cá nhân,  lợi ích cộng đồng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.156"
+    },
+    {
+      "id": "v-debate-attitude-0",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "공동체 생활",
+      "vi": "Cuộc sống cộng đồng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-1",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "의사소통",
+      "vi": "Giao tiếp",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-2",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "N에 문제가 발생하다",
+      "vi": "Phát sinh vấn đề trong N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-3",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "갈등을 겪다 / 일으키다",
+      "vi": "Trải qua / gây ra xung đột",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-4",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "갈등이 생기다 / 일어나다",
+      "vi": "Xung đột phát sinh",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-5",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "V+는 경우가 많다",
+      "vi": "Trường hợp V+는 thường gặp",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-6",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "V+ 는 일이 많다",
+      "vi": "Việc V+ 는 hay xảy ra",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-7",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "V/A + (으)므로",
+      "vi": "Bởi vì A/V",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-8",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "상대방을 설득하다",
+      "vi": "Thuyết phục đối phương",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-9",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "V + 는 동시에",
+      "vi": "Đồng thời V",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-10",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "주장을 내세우다",
+      "vi": "Đưa ra chủ trương",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-11",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "어떤 생각을 가지고 있다",
+      "vi": "Có suy nghĩ như thế nào",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-12",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "차이를 이해하다",
+      "vi": "Hiểu sự khác biệt",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-13",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "논리를 비판하다",
+      "vi": "Phê phán lập luận",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-debate-attitude-14",
+      "type": "vocab",
+      "topicId": "debate-attitude",
+      "topicKo": "토론에 필요한 태도",
+      "ko": "효과적으로 설득하다",
+      "vi": "Thuyết phục hiệu quả",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.157, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-0",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "대부분의 학교에서",
+      "vi": "Ở hầu hết các trường học",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-1",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "교육이 이루어지고 있다",
+      "vi": "Giáo dục đang được tiến hành",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-2",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "기초 학문",
+      "vi": "Bộ môn cơ sở",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-3",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "N을/를 목적으로 하다",
+      "vi": "Lấy N làm mục đích",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-4",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "작품을 감상하다",
+      "vi": "Cảm thụ tác phẩm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-5",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "N을/를 풍부하게 만들다",
+      "vi": "Làm phong phú N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-6",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "감성, 정서",
+      "vi": "Xúc cảm, cảm xúc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-7",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "효과가 있다",
+      "vi": "Mang lại hiệu quả",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-8",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "N + (으)로 나누어 볼 수 있다",
+      "vi": "Có thể chia thành N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-9",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "개인적인 측면",
+      "vi": "Khía cạnh cá nhân",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-10",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "사회적인 측면",
+      "vi": "Khía cạnh xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-11",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "다양한 재료",
+      "vi": "Nguyên liệu đa dạng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-12",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "악기",
+      "vi": "Nhạc cụ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-13",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "음악 감상 교육",
+      "vi": "Giáo dục cảm thụ âm nhạc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-14",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "N을/를 자유롭게 표현하다",
+      "vi": "Thể hiện N một cách tự do",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-15",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "N에 큰 도움이 되다",
+      "vi": "Giúp ích lớn cho N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-16",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "향상시키다, 신장시키다, 키우다",
+      "vi": "Nâng cao, phát triển",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-art-education-17",
+      "type": "vocab",
+      "topicId": "art-education",
+      "topicKo": "예술 교육의 필요성",
+      "ko": "창의력",
+      "vi": "Khả năng sáng tạo",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-0",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "충족되다",
+      "vi": "Được thỏa mãn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-1",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "개인적 측면",
+      "vi": "Khía cạnh cá nhân",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-2",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "사회적 측면",
+      "vi": "Khía cạnh xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-3",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "N + (으)로 나누어 볼 수 있다",
+      "vi": "Có thể chia thành N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-4",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "개인적 측면에서는",
+      "vi": "Xét trên khía cạnh cá nhân",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-5",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "개인의 욕구 충족",
+      "vi": "Thỏa mãn ham muốn cá nhân",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-6",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "신체적 건강",
+      "vi": "Sức khỏe thể chất",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-7",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "경제적 안정",
+      "vi": "Ổn định kinh tế",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-8",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "최우선 조건",
+      "vi": "Điều kiện tối ưu",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-9",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "만족도",
+      "vi": "Mức độ thỏa mãn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-10",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "높아지다",
+      "vi": "Trở nên cao",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-11",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "N에 큰 의미를 두다",
+      "vi": "Đặt ý nghĩa lớn vào N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-12",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "사회적 성취",
+      "vi": "Thành tựu trong xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-13",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "사회적 관계",
+      "vi": "Mối quan hệ xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-14",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "자신을 둘러싸다",
+      "vi": "Bao bọc lấy bản thân",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-15",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "안정되다",
+      "vi": "Được ổn định",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-16",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "편안하다",
+      "vi": "Bình an",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-17",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "의미 있는 역할을 하다",
+      "vi": "Nắm giữ vai trò có ý nghĩa",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-18",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "사회 속에서",
+      "vi": "Trong xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-happy-life-19",
+      "type": "vocab",
+      "topicId": "happy-life",
+      "topicKo": "행복한 삶의 조건",
+      "ko": "삶 속에서",
+      "vi": "Trong cuộc sống",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.158, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-0",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "N 중에 살아가다",
+      "vi": "Sống trong N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-1",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "세상",
+      "vi": "Thế giới",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-2",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "아무도 없다",
+      "vi": "Không có ai cả",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-3",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "성공을 원하다",
+      "vi": "Mong muốn thành công",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-4",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "개념",
+      "vi": "Khái niệm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-5",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "생각이 다르다",
+      "vi": "Suy nghĩ khác nhau",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-6",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "N1을/를 N2(이)라고 생각하는 사람도 있다",
+      "vi": "Cũng có người nghĩ N1 là N2",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-7",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "부",
+      "vi": "Nhiều tiền của",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-8",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "높은 지위에 오르다",
+      "vi": "Leo lên địa vị cao",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-9",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "명예를 얻다",
+      "vi": "Đạt được danh dự",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-10",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "N1을/를 N2(으)로 삼다",
+      "vi": "Coi N1 là N2",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-11",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "왜냐하면 / V/A + 기 때문이다",
+      "vi": "Bởi vì",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-12",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "N에 따라 기준이 달라지다",
+      "vi": "Tiêu chuẩn khác tùy theo N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-13",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "N에 있지 않다",
+      "vi": "Không nằm ở N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-14",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "그것을 이루다 / 달성하다",
+      "vi": "Đạt được điều đó",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-15",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "노력하는 과정",
+      "vi": "Quá trình nỗ lực",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-16",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "아무런 가치가 없다",
+      "vi": "Không có giá trị gì",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-17",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "V/A + (으)니는 (으)ㄴ 경우에는",
+      "vi": "Trong trường hợp V/A thì",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-18",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "하루하루의 삶",
+      "vi": "Cuộc sống từng ngày",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-19",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "자리 잡을 곳이 없다",
+      "vi": "Không có chỗ đứng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-20",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "아무리 V/A + 아/어도 / 더라도",
+      "vi": "Dù có V/A thế nào",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-21",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "자신이 목표로 하다",
+      "vi": "Tự đặt mục tiêu",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-22",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "N 과정에서 V + 는 과정에서",
+      "vi": "Trong quá trình N, V",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-23",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "진정한 성공",
+      "vi": "Thành công chân chính",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-success-24",
+      "type": "vocab",
+      "topicId": "success",
+      "topicKo": "내가 생각하는 성공의 기준",
+      "ko": "그것이야말로 ~ 아니겠는가",
+      "vi": "Đó chính là ~ phải không",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.159, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-0",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "자기 계발",
+      "vi": "Phát triển bản thân",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-1",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "N에 큰 가치를 갖다 / 가지다",
+      "vi": "Mang lại giá trị lớn cho N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-2",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "V/A + (으)ㄴ 뿐만 아니라",
+      "vi": "Không chỉ V/A mà còn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-3",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "개인적 차원에서",
+      "vi": "Trên khía cạnh cá nhân",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-4",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "사회적 차원에서",
+      "vi": "Trên khía cạnh xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-5",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "N에 기여하다 / V + 는 데에 기여하다",
+      "vi": "Góp phần vào N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-6",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "소질을 발견하다",
+      "vi": "Phát hiện tố chất",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-7",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "잠재되다 / 숨겨지다",
+      "vi": "Tiềm ẩn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-8",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "N을/를 통해서 V + (으)ㅁ으로써",
+      "vi": "Thông qua N mà V",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-9",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "새로운 가능성을 열다",
+      "vi": "Mở ra khả năng mới",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-10",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "V + 기 위해서는",
+      "vi": "Để V thì",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-11",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "소질을 찾다",
+      "vi": "Tìm tố chất",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-12",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "자신도 알지 못하다",
+      "vi": "Bản thân cũng không biết",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-13",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "N에 참가하다 / 참여하다",
+      "vi": "Tham gia vào N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-14",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "V + 는 것이 좋다",
+      "vi": "Nên V",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-15",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "취미 활동",
+      "vi": "Hoạt động sở thích",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-16",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "여가 활동",
+      "vi": "Hoạt động giải trí",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-17",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "다양한 분야",
+      "vi": "Nhiều lĩnh vực",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-18",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "아울러",
+      "vi": "Đồng thời",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-19",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "자기 가치를 높이다",
+      "vi": "Nâng cao giá trị bản thân",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-20",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "자격증 취득",
+      "vi": "Thi đạt chứng chỉ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-21",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "N와/과 같은 + N",
+      "vi": "Giống như N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-22",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "치열한 경쟁",
+      "vi": "Cạnh tranh khốc liệt",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-23",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "확보하다 / 보장하다",
+      "vi": "Đảm bảo",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-24",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "경쟁력",
+      "vi": "Sức cạnh tranh",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-self-development-25",
+      "type": "vocab",
+      "topicId": "self-development",
+      "topicKo": "자기 계발의 개인적, 사회적 가치",
+      "ko": "N에 능동적으로 대처하다",
+      "vi": "Ứng phó chủ động với N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.160, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-0",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "정보화 사회",
+      "vi": "Xã hội thông tin hóa",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-1",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "경쟁력",
+      "vi": "Sức cạnh tranh",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-2",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "결정되다",
+      "vi": "Được quyết định",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-3",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "N에 의해",
+      "vi": "Bởi N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-4",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "N에 따라",
+      "vi": "Phụ thuộc vào N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-5",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "대부분",
+      "vi": "Hầu hết",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-6",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "제공되다",
+      "vi": "Được cung cấp",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-7",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "V/A + (으)므로",
+      "vi": "Vì A/V",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-8",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "대중 매체",
+      "vi": "Phương tiện truyền thông đại chúng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-9",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "직능, 기능",
+      "vi": "Chức năng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-10",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "담당하다",
+      "vi": "Đảm nhận",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-11",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "보다 강화되다",
+      "vi": "Được củng cố hơn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-12",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "V/A + 니는다고 할 수 있다",
+      "vi": "Có thể nói V/A",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-13",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "신뢰성",
+      "vi": "Độ tin cậy",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-14",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "쉽게 접근하다",
+      "vi": "Tiếp cận dễ dàng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-15",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "신뢰성이 떨어지다",
+      "vi": "Độ tin cậy giảm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-16",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "제시되다",
+      "vi": "Được đưa ra",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-17",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "V/A + (으)니는 반면에 오히려",
+      "vi": "Trái lại thì V/A",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-18",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "대체로",
+      "vi": "Phần lớn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-19",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "따라서",
+      "vi": "Theo đó",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-20",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "역할 기능을 담당하다 / 수행하다",
+      "vi": "Đảm nhận vai trò chức năng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-21",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "정보를 제공하다",
+      "vi": "Cung cấp thông tin",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-newspaper-22",
+      "type": "vocab",
+      "topicId": "newspaper",
+      "topicKo": "신문의 기능",
+      "ko": "무분별하게 정보가 산재하다",
+      "vi": "Thông tin phân tán bừa bãi",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.162, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-0",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "몸살을 앓다",
+      "vi": "Đau nhức toàn thân (xã hội)",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-1",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "각종 범죄",
+      "vi": "Các loại tội phạm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-2",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "범죄 유형",
+      "vi": "Loại hình tội phạm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-3",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "범죄 수단; 방법",
+      "vi": "Thủ đoạn gây tội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-4",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "잔인하다",
+      "vi": "Tàn nhẫn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-5",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "V/A + (으)ㄹ 뿐만 아니라",
+      "vi": "Không chỉ V/A mà còn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-6",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "터없이 부족하다",
+      "vi": "Thiếu thốn vô cùng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-7",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "게다가",
+      "vi": "Thêm vào đó",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-8",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "성능",
+      "vi": "Tính năng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-9",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "V+ 는 경우가 허다하다",
+      "vi": "Nhiều trường hợp V+ 는",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-10",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "설치를 확대하다",
+      "vi": "Mở rộng lắp đặt",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-11",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "~~V/A + 다고 생각하다",
+      "vi": "Nghĩ rằng V/A",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-12",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "범죄를 예방하다",
+      "vi": "Ngăn ngừa tội phạm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-13",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "N을/를 대상으로",
+      "vi": "Nhằm vào đối tượng N",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-14",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "사회적 약자",
+      "vi": "Người yếu thế trong xã hội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-15",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "N 이/가 늘고 있다",
+      "vi": "N đang gia tăng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-16",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "위험한 상황에 처하다",
+      "vi": "Gặp phải tình huống nguy hiểm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-17",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "저항하다, 대처하다, 항거하다",
+      "vi": "Chống cự, đối phó",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-18",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "피해자",
+      "vi": "Người bị hại",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-19",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "가해자",
+      "vi": "Người gây ra tội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-20",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "권리",
+      "vi": "Quyền lợi",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-21",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "관용을 베풀다",
+      "vi": "Khoan dung",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-22",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "비윤리적인 범죄를 저지르다",
+      "vi": "Gây tội ác vô nhân tính",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-23",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "아이를 유괴하다",
+      "vi": "Bắt cóc trẻ em",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-24",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "여성 성폭력, 성희롱",
+      "vi": "Quấy rối tình dục phụ nữ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-25",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "연쇄살인",
+      "vi": "Giết người hàng loạt",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-26",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "곳곳에",
+      "vi": "Khắp nơi",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-27",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "범죄 현장",
+      "vi": "Hiện trường phạm tội",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-28",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "뚜렷이 보여주다",
+      "vi": "Cho thấy rõ ràng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-29",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "N을/를 최대한 줄이다",
+      "vi": "Giảm N tối đa",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-cctv-30",
+      "type": "vocab",
+      "topicId": "cctv",
+      "topicKo": "감시 카메라 설치 확대",
+      "ko": "발생률",
+      "vi": "Tỉ lệ phát sinh",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.163, quyen-viet-supplement-3"
+    },
+    {
+      "id": "v-traditional-culture-0",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "고유한 민족정신을 담다",
+      "vi": "Chứa đựng tinh thần dân tộc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-1",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "계승되다",
+      "vi": "Được kế thừa",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-2",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "보존되다",
+      "vi": "Được bảo tồn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-3",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "정착하다",
+      "vi": "Đinh cư, bám rẽ, gắn chặt",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-4",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "민족의 고유한 생활",
+      "vi": "Sinh hoạt đặc trưng của dân tộc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-5",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "조상의 지혜",
+      "vi": "Trí tuệ của cha ông",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-6",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "지탱하다",
+      "vi": "giữ vững, duy trì",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-7",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "다른 나라의 침략",
+      "vi": "Sự xâm lược của quốc gia khác",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-8",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "쉽게 무너지다",
+      "vi": "Dễ dàng sụp đổ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-9",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "강대국/ 약소국",
+      "vi": "Nước mạnh, nước yếu",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-10",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "문화적 전파를 중시하다",
+      "vi": "Chú trọng truyền bá văn hóa",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-11",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "민족의 정체성을 지키고 유지하다",
+      "vi": "Bảo vệ và duy trì bản sắc dân tộc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-12",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "과거와 현재를 이어주다",
+      "vi": "Nồi liền hiện tại và quá khứ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-13",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "거듭하다",
+      "vi": "Tái sinh, sống lại",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-traditional-culture-14",
+      "type": "vocab",
+      "topicId": "traditional-culture",
+      "topicKo": "나라의 전통문화",
+      "ko": "맞닥뜨린 문제를 해결하다",
+      "vi": "Giải quyết vấn đề gặp phải",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-0",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "산업화",
+      "vi": "công nghiệp hóa",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-1",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "인간의 생존을 위협하다",
+      "vi": "Uy hiếp sự sống còn của con người",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-2",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "지경에 이르다",
+      "vi": "Đạt đến ranh giới",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-3",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "몸살을 앓다",
+      "vi": "Đau nhức toàn thân",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-4",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "산림을 벌채하다",
+      "vi": "Chặt phá rừng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-5",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "심각한 상황에 처한 지구 온난화",
+      "vi": "Sự nóng lên của trái đất rơi vào tình trạng nghiêm",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-6",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "수질 오염",
+      "vi": "Ô nhiễm nước",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-7",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "토양 오염",
+      "vi": "Ô nhiễm đất",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-8",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "대기 오염",
+      "vi": "Ô nhiễm không khí",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-9",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "해수면의 상승",
+      "vi": "Gia tăng mực nước biển",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-10",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "살림을 훼손시키다/ 살림에 영향을 미치다",
+      "vi": "Phá hủy sự sống, ảnh hưởng đến sự",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-11",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "가뭄과 홍수가 발생하다",
+      "vi": "Phát sinh hạn hán, lũ lụt",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-12",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "폭우/ 폭설/ 폭염/ 한파가 닥치다",
+      "vi": "Mưa lớn/ bão tuyết/nóng bức/ đợt lạnh kéo dài..",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-13",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "엄청난 재해가 생기다",
+      "vi": "Thiên tai khủng khiếp xuất hiện",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-14",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "질병이 만연하다",
+      "vi": "Bệnh tật lan truyền",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-15",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "생태계에 심각한 혼란을 초래하다",
+      "vi": "Dẫn đến hỗn loạn hệ sinh thái",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-16",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "대책을 마련하다",
+      "vi": "Chuẩn bị đối sách",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-17",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "문제를 다각으로 분석하다",
+      "vi": "Phân tích vấn đề trên mọi mặt",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-global-warming-18",
+      "type": "vocab",
+      "topicId": "global-warming",
+      "topicKo": "지구 온난화",
+      "ko": "환경 보호를 노력하다",
+      "vi": "Nỗ lực bảo vệ môi trường",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.164"
+    },
+    {
+      "id": "v-praise-0",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "나은 사람이 되다/낫다",
+      "vi": "Trở thành người tốt hơn",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-1",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "자신감이 생기다",
+      "vi": "Thêm tự tin",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-2",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "긍정적인 영향을 미치다",
+      "vi": "có ảnh hưởng tích cực",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-3",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "능력을 발휘하다",
+      "vi": "Phát huy năng lực",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-4",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "도전하다",
+      "vi": "Thử thách",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-5",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "N 을/를 발전시키는 힘을 가지다",
+      "vi": "Có sức mạnh phát triển việc gì",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-6",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "칭찬이 독이 되다",
+      "vi": "Lời khen trở thành độc",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-7",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "부담을 담기다",
+      "vi": "chứa gánh nặng, nỗi lo",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-8",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "기대에 부응하다",
+      "vi": "Đáp ứng mong đợi",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-9",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "실력을 제대로 발휘하지 못하다",
+      "vi": "Không thể phát huy đúng thực lực",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-10",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "과정보다 결과를 중시하다",
+      "vi": "quan trọng kết quả hơn quá trình",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-11",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "해내다/ 완성하다",
+      "vi": "hoàn thành",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-praise-12",
+      "type": "vocab",
+      "topicId": "praise",
+      "topicKo": "칭찬의 영향",
+      "ko": "N은/는 부담에서 벗어나다",
+      "vi": "Thoát ra khỏi gánh nặng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.165"
+    },
+    {
+      "id": "v-early-education-0",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "학교에 들어가다",
+      "vi": "Vào trường học",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-1",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "다양한 교육을 실시하다",
+      "vi": "Tiến hành giáo dục đa dạng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-2",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "재능을 발견하다",
+      "vi": "Phát hiện tài năng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-3",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "잠재력을 극대화하다",
+      "vi": "Phát triển năng lực tiềm tàng",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-4",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "예체능",
+      "vi": "Năng khiếu nghệ thuật thể thao",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-5",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "체계적인 교육을 받다",
+      "vi": "Được giáo dục có hệ thống",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-6",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "학업 경쟁력을 높이다",
+      "vi": "Nâng cao năng lực cạnh tranh trong học tập",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-7",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "세계관을 넓히다",
+      "vi": "Mở rộng thế giới quan",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-8",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "압박감/ 압력과 스트레스를 받다",
+      "vi": "Bị áp lực",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-9",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "보호자",
+      "vi": "Người bảo hộ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-10",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "학부모",
+      "vi": "Phụ huynh",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "v-early-education-11",
+      "type": "vocab",
+      "topicId": "early-education",
+      "topicKo": "조기 교육",
+      "ko": "교육이 과도하게 이루어지다",
+      "vi": "Giáo dục được thực hiện quá độ",
+      "questionType": 54,
+      "source": "quyen-viet-supplement-4 p.166"
+    },
+    {
+      "id": "qt-qt-importance",
+      "type": "question-type",
+      "labelKo": "중요성",
+      "labelVi": "Tầm quan trọng",
+      "ko": "중요성",
+      "vi": "Tầm quan trọng",
+      "tasks": [
+        "N은/는 왜 중요한가?",
+        "N이/가 어렵다면 그 이유는 무엇인가?",
+        "N이/가 잘 안 되면 어떤 문제가 생기는가?",
+        "N을/를 위해서는 어떤 방법이 필요한가?"
+      ],
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "qt-qt-necessity",
+      "type": "question-type",
+      "labelKo": "필요성",
+      "labelVi": "Tính cần thiết",
+      "ko": "필요성",
+      "vi": "Tính cần thiết",
+      "tasks": [
+        "N은/는 언제/왜 필요한가?",
+        "N을/를 통해 얻을 수 있는 효과는 무엇인가?",
+        "N을/를 위해 어떻게 해야 하는가?",
+        "N을/를 위한 효과적인 방법은 무엇인가?"
+      ],
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "qt-qt-duality",
+      "type": "question-type",
+      "labelKo": "양면성",
+      "labelVi": "Hai mặt",
+      "ko": "양면성",
+      "vi": "Hai mặt",
+      "tasks": [
+        "N의 장점/단점은 무엇인가?",
+        "N(으)로 인해 생길 수 있는 문제점은 무엇인가?",
+        "N에 대해 찬성하는가? 반대하는가?",
+        "N의 긍정적인/부정적인 영향은 무엇인가?",
+        "이를 극복하기 위한 방법은 무엇인가?"
+      ],
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "qt-qt-problem",
+      "type": "question-type",
+      "labelKo": "문제점",
+      "labelVi": "Vấn đề",
+      "ko": "문제점",
+      "vi": "Vấn đề",
+      "tasks": [
+        "N(으)로 인해 생길 수 있는 문제점은 무엇인가?",
+        "N의 원인은 무엇인가?",
+        "N을/를 해결할 수 있는 방안은 무엇인가?"
+      ],
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "qt-qt-definition",
+      "type": "question-type",
+      "labelKo": "정의",
+      "labelVi": "Định nghĩa",
+      "ko": "정의",
+      "vi": "Định nghĩa",
+      "tasks": [
+        "N(이)란 무엇인가?",
+        "N을/를 위해 무엇이 필요한가?"
+      ],
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "qt-qt-other",
+      "type": "question-type",
+      "labelKo": "기타",
+      "labelVi": "Khác",
+      "ko": "기타",
+      "vi": "Khác",
+      "tasks": [
+        "N이/가 갖추어야 할 조건은 무엇인가?",
+        "N의 역할은 무엇인가?",
+        "바람직한 N(이)란 무엇이라고 생각하는가?"
+      ],
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-intro-0",
+      "type": "opening",
+      "labelVi": "Mở bài — câu giới thiệu",
+      "ko": "최근 사람들은 N에 관심이 많다",
+      "vi": "Gần đây mọi người quan tâm nhiều tới N",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-intro-1",
+      "type": "opening",
+      "labelVi": "Mở bài — câu giới thiệu",
+      "ko": "요즈음 우리 사회가 N(으)로 대두되고 있다",
+      "vi": "Gần đây xã hội đang đối mặt với N",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-intro-2",
+      "type": "opening",
+      "labelVi": "Mở bài — câu giới thiệu",
+      "ko": "일반적으로 N은/는 ...으로 알려져 있다",
+      "vi": "Về cơ bản N được biết đến như là...",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-intro-3",
+      "type": "opening",
+      "labelVi": "Mở bài — câu giới thiệu",
+      "ko": "N이란 ...이라고 정의할 수 있다",
+      "vi": "N có thể được định nghĩa là...",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-intro-4",
+      "type": "opening",
+      "labelVi": "Mở bài — câu giới thiệu",
+      "ko": "N은/는 ...에게 긍정적인 역할을 한다",
+      "vi": "N có vai trò tích cực tới...",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-intro-5",
+      "type": "opening",
+      "labelVi": "Mở bài — câu giới thiệu",
+      "ko": "최근 사람들은 ...A/V 을/ㄹ 것이라고 생각한다",
+      "vi": "Gần đây mọi người nghĩ rằng sẽ A/V...",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-intro-6",
+      "type": "opening",
+      "labelVi": "Mở bài — câu giới thiệu",
+      "ko": "사람은 누구나 ...기 마련이다 / 고 싶어한다",
+      "vi": "Con người ai cũng..., muốn...",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-intro-7",
+      "type": "opening",
+      "labelVi": "Mở bài — câu giới thiệu",
+      "ko": "누구나 (한번쯤) ...은/ㄴ 경험이 있을 것이다",
+      "vi": "Ai cũng từng một lần...",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-intro-8",
+      "type": "opening",
+      "labelVi": "Mở bài — câu giới thiệu",
+      "ko": "N이란 ...이라고 정의할 수 있다",
+      "vi": "N có thể được định nghĩa là...",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-thesis-0",
+      "type": "opening",
+      "labelVi": "Mở bài — câu chủ đề",
+      "ko": "N의 필요성과 효과에 대하여 살펴보는 것은 의미가 크다",
+      "vi": "Xem xét tính cần thiết và hiệu quả của N có ý nghĩa lớn",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-thesis-1",
+      "type": "opening",
+      "labelVi": "Mở bài — câu chủ đề",
+      "ko": "N의 문제점과 방안에 대하여 논하고자 한다",
+      "vi": "Chúng ta hãy bàn về vấn đề và phương án của N",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-thesis-2",
+      "type": "opening",
+      "labelVi": "Mở bài — câu chủ đề",
+      "ko": "따라서 이 글을 통해 N의 필요성에 대해 살펴보고자 한다",
+      "vi": "Qua bài viết này ta sẽ xem xét tính cần thiết của N",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-thesis-3",
+      "type": "opening",
+      "labelVi": "Mở bài — câu chủ đề",
+      "ko": "N의 중요성과 부작용을 밝히고자 하다",
+      "vi": "Chúng ta hãy làm sáng tỏ tầm quan trọng và tác dụng phụ của N",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-thesis-4",
+      "type": "opening",
+      "labelVi": "Mở bài — câu chủ đề",
+      "ko": "N의 해결 방안을 모색해 보자",
+      "vi": "Hãy cùng tìm kiếm phương án giải quyết của N",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-opening-thesis-5",
+      "type": "opening",
+      "labelVi": "Mở bài — câu chủ đề",
+      "ko": "이러한 문제를 해결하기 위해서 먼저 그 원인을 분석하고 그에 따라 해결책을 제시하고자 한다",
+      "vi": "Để giải quyết vấn đề này, phân tích nguyên nhân rồi đưa ra phương án",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-0",
+      "type": "connector",
+      "ko": "N1 ~ N2 보다 더/덜...",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-1",
+      "type": "connector",
+      "ko": "에 비해서 / 비하면",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-2",
+      "type": "connector",
+      "ko": "이와 달리",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-3",
+      "type": "connector",
+      "ko": "첫째로, / 둘째로, / 셋째로",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-4",
+      "type": "connector",
+      "ko": "무엇보다...",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-5",
+      "type": "connector",
+      "ko": "N은/는 크게 3가지로 나눌 수 있다. 우선/먼저 ~ 다음으로 ~ 마지막으로",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-6",
+      "type": "connector",
+      "ko": "첫 번째/두 번째/세 번째 + N",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-7",
+      "type": "connector",
+      "ko": "한 편 / 다른 편",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-8",
+      "type": "connector",
+      "ko": "그리고 나서 / 그후에 / 그 다음으로",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-9",
+      "type": "connector",
+      "ko": "N은/는 다음과 같다",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "conn-body-formula-10",
+      "type": "connector",
+      "ko": "N을/를 살펴보면 다음과 같다",
+      "vi": "Liên từ / mắc xích thân bài",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-closing-0",
+      "type": "closing",
+      "labelVi": "Kết bài",
+      "ko": "요컨대",
+      "vi": "Tóm lại",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-closing-1",
+      "type": "closing",
+      "labelVi": "Kết bài",
+      "ko": "요약하자면",
+      "vi": "Nếu tóm lại thì",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-closing-2",
+      "type": "closing",
+      "labelVi": "Kết bài",
+      "ko": "결론은",
+      "vi": "Kết luận lại",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-closing-3",
+      "type": "closing",
+      "labelVi": "Kết bài",
+      "ko": "따라서 = 그러므로",
+      "vi": "Do đó",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-closing-4",
+      "type": "closing",
+      "labelVi": "Kết bài",
+      "ko": "N은/는 A/V다는 점에서 그 중요성이 크다고 할 수 있다",
+      "vi": "Có thể thấy N có tầm quan trọng lớn trong việc A/V",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-closing-5",
+      "type": "closing",
+      "labelVi": "Kết bài",
+      "ko": "위에서 살펴본 내용을 요약하면",
+      "vi": "Tóm tắt nội dung đã trình bày ở trên",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-closing-6",
+      "type": "closing",
+      "labelVi": "Kết bài",
+      "ko": "N은/는 A/V다는 점에서 필요하다 / 문제점이 있다",
+      "vi": "Có thể thấy N cần thiết / có vấn đề trong việc A/V",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    },
+    {
+      "id": "expr-closing-7",
+      "type": "closing",
+      "labelVi": "Kết bài",
+      "ko": "이상에서 언급한 바를 정리하면",
+      "vi": "Tóm lại những điểm đã nêu ở trên",
+      "questionType": 54,
+      "source": "quyen-viet-part3 p.129-151, quyen-viet-supplement-3 p.134-151"
+    }
+  ]
+}

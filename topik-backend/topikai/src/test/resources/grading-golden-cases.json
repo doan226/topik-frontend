@@ -1,0 +1,101 @@
+[
+  {
+    "id": "q51-excellent",
+    "questionType": 51,
+    "questionPrompt": "무료로 드립니다.\n유학생인데 공부를 마치고 다음 주에 고향으로 돌아갑니다. 그래서 지금 저는 ( ㉠ ). 책상, 의자, 컴퓨터, 전공 책 등이 있습니다. 이번 주 금요일까지 ( ㉡ ). 연락 기다리겠습니다.",
+    "referenceAnswer": "㉠ 제가 쓰던 물건들을 정리하고 있습니다.\n㉡ 방을 비워 줘야 하기 때문입니다.",
+    "studentText": "㉠ 제가 쓰던 물건들을 정리하고 있습니다.\n㉡ 방을 비워 줘야 하기 때문입니다.",
+    "scoreMin": 8,
+    "scoreMax": 10,
+    "mustHaveErrors": false,
+    "promptMustContain": ["Câu 51", "습니다체", "ĐÁP ÁN MẪU"]
+  },
+  {
+    "id": "q51-weak",
+    "questionType": 51,
+    "questionPrompt": "무료로 드립니다.\n유학생인데 공부를 마치고 다음 주에 고향으로 돌아갑니다. 그래서 지금 저는 ( ㉠ ).",
+    "referenceAnswer": "㉠ 제가 쓰던 물건들을 정리하고 있습니다.",
+    "studentText": "㉠ 물건을 팔고 있다.",
+    "scoreMin": 0,
+    "scoreMax": 6,
+    "mustHaveErrors": true,
+    "promptMustContain": ["chấm NGHIÊM"]
+  },
+  {
+    "id": "q52-average",
+    "questionType": 52,
+    "questionPrompt": "사람들은 거짓말을 할 때 평소와 다른 행동을 한다. 그 중 하나가 코를 만지는 것이다. 왜냐하면 거짓말을 하면 혈압이 높아져서 코 안쪽이 ( ㉠ ). 그래서 코가 가려워져서 자기도 모르게 코를 ( ㉡ ).",
+    "referenceAnswer": "㉠ 붓기 때문이다.\n㉡ 만지게 되는 것이다.",
+    "studentText": "㉠ 부어 오르기 때문이다.\n㉡ 만지게 된다.",
+    "scoreMin": 4,
+    "scoreMax": 9,
+    "mustHaveErrors": false,
+    "promptMustContain": ["한다체", "Câu 52"]
+  },
+  {
+    "id": "q52-weak",
+    "questionType": 52,
+    "questionPrompt": "왜냐하면 혈압이 높아져서 코 안쪽이 ( ㉠ ).",
+    "referenceAnswer": "㉠ 붓기 때문이다.",
+    "studentText": "㉠ 아프다.",
+    "scoreMin": 0,
+    "scoreMax": 5,
+    "mustHaveErrors": true,
+    "promptMustContain": ["mạch luận"]
+  },
+  {
+    "id": "q53-good",
+    "questionType": 53,
+    "questionPrompt": "",
+    "referenceAnswer": "30대와 60대 성인 남녀를 대상으로 필요하다고 생각하는 공공시설에 대한 설문조사를 실시하였다. 조사 결과 30대의 경우 공연장·문화센터가 40%로 가장 높게 나타났으며 병원·약국이 28%로 그 뒤를 이었다.",
+    "studentText": "30대와 60대를 대상으로 공공시설 필요성 설문을 실시하였다. 30대는 공연장·문화센터가 40%로 가장 높았고 병원·약국이 28%였다. 60대는 병원·약국이 50%로 가장 높았다.",
+    "scoreMin": 18,
+    "scoreMax": 28,
+    "mustHaveErrors": false,
+    "promptMustContain": ["GROUND TRUTH", "content_issues"]
+  },
+  {
+    "id": "q53-wrong-data",
+    "questionType": 53,
+    "questionPrompt": "",
+    "referenceAnswer": "30대의 경우 공연장·문화센터가 40%로 가장 높게 나타났으며 병원·약국이 28%로 그 뒤를 이었다.",
+    "studentText": "30대는 공연장이 70%로 가장 높았고 병원은 5%였다. 60대는 공원이 90%를 차지했다.",
+    "scoreMin": 0,
+    "scoreMax": 15,
+    "mustHaveErrors": true,
+    "promptMustContain": ["bịa số"]
+  },
+  {
+    "id": "q54-average",
+    "questionType": 54,
+    "questionPrompt": "훌륭한 지도자는 집단을 성공으로 이끌기도 하고, 그렇지 못한 지도자는 집단을 위기에 빠뜨리기도 합니다. '지도자가 갖추어야 할 조건'에 대해 아래의 내용을 중심으로 600~700자로 글을 쓰십시오.\n1. 훌륭한 지도자가 필요한 이유는 무엇인가?\n2. 훌륭한 지도자가 갖추어야 할 조건은 무엇인가?\n3. 그러한 조건을 갖추기 위해 어떤 노력을 해야 하는가?",
+    "referenceAnswer": "지도자가 갖추어야 할 조건에 대한 모범 답안",
+    "studentText": "지도자는 집단의 방향을 제시하는 중요한 역할을 한다. 먼저 훌륭한 지도자가 필요한 이유는 집단이 목표를 달성하려면 명확한 비전과 신뢰가 필요하기 때문이다. 예를 들어 기업이 위기에 처했을 때 지도자의 판단이 생존을 좌우한다. 둘째, 지도자는 소통 능력과 책임감을 갖추어야 한다. 구성원의 의견을 듣고 공정하게 결정해야 한다. 셋째, 이러한 조건을 갖추기 위해 자기 성찰과 지속적인 학습이 필요하다. 결론적으로 좋은 지도자는 집단의 성공을 위해 끊임없이 노력해야 한다.",
+    "scoreMin": 20,
+    "scoreMax": 38,
+    "mustHaveErrors": false,
+    "promptMustContain": ["25–35/50", "3 ý"]
+  },
+  {
+    "id": "q54-weak",
+    "questionType": 54,
+    "questionPrompt": "지도자가 갖추어야 할 조건에 대해 글을 쓰십시오.",
+    "referenceAnswer": "모범 답안",
+    "studentText": "지도자는 중요하다. 좋은 지도자가 필요하다.",
+    "scoreMin": 0,
+    "scoreMax": 15,
+    "mustHaveErrors": true,
+    "promptMustContain": ["600~700"]
+  },
+  {
+    "id": "q53-prevalidation-keywords",
+    "questionType": 53,
+    "questionPrompt": "3553",
+    "referenceAnswer": "30대와 60대 성인 남녀를 대상으로",
+    "studentText": "30대는 공연장·문화센터가 40%로 가장 높게 나타났으며",
+    "scoreMin": 0,
+    "scoreMax": 30,
+    "mustHaveErrors": false,
+    "promptMustContain": ["rewrite_tasks", "structure_map", "estimated_level"]
+  }
+]

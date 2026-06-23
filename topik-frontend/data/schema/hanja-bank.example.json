@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "version": 1,
+    "title": "Hán Hàn TOPIK",
+    "updated": "2026-05-25"
+  },
+  "packs": [
+    {
+      "packId": "beginner-100",
+      "titleVi": "100 chữ cơ bản",
+      "access": "free",
+      "charIds": ["hanja-xue", "hanja-ren"]
+    },
+    {
+      "packId": "topik-basic",
+      "titleVi": "TOPIK cơ bản (~200 chữ)",
+      "access": "free",
+      "charIds": ["hanja-shui"]
+    },
+    {
+      "packId": "topik-premium-90",
+      "titleVi": "90 từ Động thái & Học thuật",
+      "access": "pack:hanja-advanced",
+      "charIds": []
+    },
+    {
+      "packId": "topik-intermediate",
+      "titleVi": "Hán Hàn trung cấp — 27 gốc âm",
+      "access": "pack:hanja-advanced",
+      "charIds": []
+    },
+    {
+      "packId": "advanced",
+      "titleVi": "Nâng cao",
+      "access": "pack:hanja-advanced",
+      "charIds": []
+    }
+  ],
+  "characters": [
+    {
+      "id": "hanja-xue",
+      "char": "學",
+      "reading": "학",
+      "meaningKo": "배울",
+      "meaningVi": "Học",
+      "radical": "子",
+      "strokeCount": 16,
+      "grade": "8급",
+      "topics": ["education"],
+      "packId": "beginner-100",
+      "mnemonicVi": "Trẻ con (子) ngồi dưới mái nhà (冖) học bài.",
+      "compounds": [
+        { "ko": "학교", "hanja": "學校", "vi": "Trường học" },
+        { "ko": "학생", "hanja": "學生", "vi": "Học sinh" }
+      ],
+      "examples": [
+        { "ko": "한국어를 배우고 싶어요.", "vi": "Tôi muốn học tiếng Hàn." }
+      ]
+    },
+    {
+      "id": "hanja-ren",
+      "char": "人",
+      "reading": "인",
+      "meaningKo": "사람",
+      "meaningVi": "Người",
+      "radical": "人",
+      "strokeCount": 2,
+      "grade": "8급",
+      "topics": ["basic"],
+      "compounds": [
+        { "ko": "한국인", "hanja": "韓國人", "vi": "Người Hàn Quốc" }
+      ]
+    },
+    {
+      "id": "hanja-shui",
+      "char": "水",
+      "reading": "수",
+      "meaningKo": "물",
+      "meaningVi": "Nước",
+      "radical": "水",
+      "strokeCount": 4,
+      "grade": "8급",
+      "topics": ["nature"],
+      "compounds": [
+        { "ko": "수영", "hanja": "水泳", "vi": "Bơi lội" }
+      ]
+    }
+  ]
+}

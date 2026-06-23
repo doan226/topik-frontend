@@ -1,0 +1,251 @@
+/* ── Global theme tokens (light / dark) ── */
+
+html {
+  color-scheme: light dark;
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+
+  --app-bg: #0d1117;
+  --app-bg-subtle: #111827;
+  --app-surface: #161b22;
+  --app-surface-2: #1c2333;
+  --app-surface-hover: #21262d;
+  --app-border: #30363d;
+  --app-border-light: #3d444d;
+  --app-text: #e6edf3;
+  --app-text-muted: #8b949e;
+  --app-text-dim: #6e7681;
+  --app-accent: #3b82f6;
+  --app-accent-hover: #2563eb;
+  --app-accent-soft: rgba(59, 130, 246, 0.12);
+  --app-success: #22c55e;
+  --app-success-soft: rgba(34, 197, 94, 0.12);
+  --app-success-text: #86efac;
+  --app-warning: #f59e0b;
+  --app-warning-text: #fbbf24;
+  --app-warning-soft: rgba(245, 158, 11, 0.12);
+  --app-danger: #ef4444;
+  --app-danger-text: #fca5a5;
+  --app-danger-soft: rgba(239, 68, 68, 0.1);
+  --app-purple: #8b5cf6;
+  --app-purple-text: #a78bfa;
+  --app-orange: #f97316;
+  --app-pink: #ec4899;
+  --app-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+  --app-nav-bg: rgba(13, 17, 23, 0.92);
+  --app-overlay: rgba(0, 0, 0, 0.55);
+  --app-progress-track: rgba(255, 255, 255, 0.08);
+  --app-input-bg: var(--app-surface);
+  --app-modal-bg: var(--app-surface);
+
+  --chart-tick: #8b949e;
+  --chart-grid: rgba(255, 255, 255, 0.06);
+  --chart-grid-x: rgba(255, 255, 255, 0.04);
+  --chart-accent-fill: rgba(59, 130, 246, 0.15);
+  --chart-success-fill: rgba(34, 197, 94, 0.6);
+
+  --lp-blue: #60a5fa;
+  --lp-blue-dark: #3b82f6;
+  --lp-blue-light: rgba(59, 130, 246, 0.15);
+  --lp-navy: #e6edf3;
+  --lp-purple: #a78bfa;
+  --lp-pink: #f472b6;
+  --lp-orange: #fb923c;
+  --lp-teal: #2dd4bf;
+  --lp-gray: #8b949e;
+  --lp-bg: #0d1117;
+  --lp-white: #161b22;
+  --lp-card: #161b22;
+  --lp-border: #30363d;
+  --lp-header-bg: rgba(13, 17, 23, 0.92);
+  --lp-header-border: rgba(48, 54, 61, 0.8);
+  --lp-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+  --lp-shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.45);
+  --lp-feature-bg: #161b22;
+  --lp-feature-border: #30363d;
+  --lp-featured-bg: linear-gradient(145deg, rgba(59, 130, 246, 0.12) 0%, rgba(139, 92, 246, 0.1) 100%);
+  --lp-why-bg: linear-gradient(180deg, rgba(59, 130, 246, 0.08) 0%, #0d1117 100%);
+  --lp-footer-bg: #010409;
+  --lp-footer-text: #8b949e;
+  --lp-omr-bg: rgba(245, 158, 11, 0.08);
+  --lp-omr-border: rgba(245, 158, 11, 0.35);
+  --lp-omr-title: #fbbf24;
+  --lp-omr-cell-bg: #21262d;
+  --lp-omr-cell-border: #3d444d;
+  --lp-omr-cell-text: #8b949e;
+  --lp-omr-filled-bg: rgba(245, 158, 11, 0.18);
+  --lp-omr-filled-text: #fcd34d;
+  --lp-check-secondary-bg: #21262d;
+  --lp-divider: #30363d;
+  --lp-auth-overlay: rgba(0, 0, 0, 0.65);
+  --lp-auth-close-bg: #21262d;
+  --lp-auth-close-hover: #30363d;
+
+  --index-text: #8b949e;
+  --index-text-h: #e6edf3;
+  --index-bg: #0d1117;
+  --index-border: #30363d;
+  --index-code-bg: #161b22;
+
+  --p51-accent: #10b981;
+  --p51-accent-text: #6ee7b7;
+  --p51-accent-soft: rgba(16, 185, 129, 0.15);
+  --p51-hero-gradient: linear-gradient(135deg, rgba(16, 185, 129, 0.18) 0%, rgba(59, 130, 246, 0.1) 100%);
+
+  --p52-accent: #8b5cf6;
+  --p52-accent-text: #a78bfa;
+  --p52-accent-soft: rgba(139, 92, 246, 0.15);
+  --p52-hero-gradient: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(236, 72, 153, 0.08) 100%);
+}
+
+html[data-theme='light'] {
+  color-scheme: light;
+
+  --app-bg: #f1f5f9;
+  --app-bg-subtle: #e2e8f0;
+  --app-surface: #ffffff;
+  --app-surface-2: #f8fafc;
+  --app-surface-hover: #f1f5f9;
+  --app-border: #e2e8f0;
+  --app-border-light: #cbd5e1;
+  --app-text: #1e293b;
+  --app-text-muted: #64748b;
+  --app-text-dim: #94a3b8;
+  --app-accent: #2563eb;
+  --app-accent-hover: #1d4ed8;
+  --app-accent-soft: rgba(37, 99, 235, 0.1);
+  --app-success: #16a34a;
+  --app-success-soft: rgba(22, 163, 74, 0.1);
+  --app-success-text: #15803d;
+  --app-warning: #d97706;
+  --app-warning-text: #b45309;
+  --app-warning-soft: rgba(217, 119, 6, 0.1);
+  --app-danger: #dc2626;
+  --app-danger-text: #b91c1c;
+  --app-danger-soft: rgba(220, 38, 38, 0.08);
+  --app-purple: #7c3aed;
+  --app-purple-text: #6d28d9;
+  --app-orange: #ea580c;
+  --app-pink: #db2777;
+  --app-shadow: 0 4px 24px rgba(15, 23, 42, 0.08);
+  --app-nav-bg: rgba(255, 255, 255, 0.92);
+  --app-overlay: rgba(15, 23, 42, 0.45);
+  --app-progress-track: rgba(15, 23, 42, 0.08);
+  --app-input-bg: #ffffff;
+  --app-modal-bg: #ffffff;
+
+  --chart-tick: #64748b;
+  --chart-grid: rgba(15, 23, 42, 0.08);
+  --chart-grid-x: rgba(15, 23, 42, 0.05);
+  --chart-accent-fill: rgba(37, 99, 235, 0.12);
+  --chart-success-fill: rgba(22, 163, 74, 0.55);
+
+  --lp-blue: #2563eb;
+  --lp-blue-dark: #1d4ed8;
+  --lp-blue-light: #dbeafe;
+  --lp-navy: #0f172a;
+  --lp-purple: #6366f1;
+  --lp-pink: #f472b6;
+  --lp-orange: #f97316;
+  --lp-teal: #14b8a6;
+  --lp-gray: #64748b;
+  --lp-bg: #f8fafc;
+  --lp-white: #ffffff;
+  --lp-card: #ffffff;
+  --lp-border: #e2e8f0;
+  --lp-header-bg: rgba(255, 255, 255, 0.92);
+  --lp-header-border: rgba(37, 99, 235, 0.08);
+  --lp-shadow: 0 4px 24px rgba(37, 99, 235, 0.08);
+  --lp-shadow-lg: 0 20px 60px rgba(15, 23, 42, 0.12);
+  --lp-feature-bg: #f8fafc;
+  --lp-feature-border: #e2e8f0;
+  --lp-featured-bg: linear-gradient(145deg, #eff6ff 0%, #f5f3ff 100%);
+  --lp-why-bg: linear-gradient(180deg, #eff6ff 0%, #f8fafc 100%);
+  --lp-footer-bg: #0f172a;
+  --lp-footer-text: #94a3b8;
+  --lp-omr-bg: #fefce8;
+  --lp-omr-border: #ca8a04;
+  --lp-omr-title: #854d0e;
+  --lp-omr-cell-bg: #ffffff;
+  --lp-omr-cell-border: #d4d4d8;
+  --lp-omr-cell-text: #71717a;
+  --lp-omr-filled-bg: #fef3c7;
+  --lp-omr-filled-text: #92400e;
+  --lp-check-secondary-bg: #f1f5f9;
+  --lp-divider: #f1f5f9;
+  --lp-auth-overlay: rgba(15, 23, 42, 0.6);
+  --lp-auth-close-bg: #ffffff;
+  --lp-auth-close-hover: #f1f5f9;
+
+  --index-text: #64748b;
+  --index-text-h: #0f172a;
+  --index-bg: #f8fafc;
+  --index-border: #e2e8f0;
+  --index-code-bg: #f1f5f9;
+
+  --p51-accent: #059669;
+  --p51-accent-text: #047857;
+  --p51-accent-soft: rgba(5, 150, 105, 0.12);
+  --p51-hero-gradient: linear-gradient(135deg, rgba(16, 185, 129, 0.14) 0%, rgba(59, 130, 246, 0.08) 100%);
+
+  --p52-accent: #7c3aed;
+  --p52-accent-text: #6d28d9;
+  --p52-accent-soft: rgba(124, 58, 237, 0.12);
+  --p52-hero-gradient: linear-gradient(135deg, rgba(124, 58, 237, 0.14) 0%, rgba(219, 39, 119, 0.06) 100%);
+}
+
+/* ── Theme toggle button ── */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border: 1px solid var(--app-border);
+  border-radius: 999px;
+  background: var(--app-surface);
+  color: var(--app-text-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  color: var(--app-text);
+  border-color: var(--app-border-light);
+  background: var(--app-surface-hover);
+}
+
+.theme-toggle-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.theme-toggle-label {
+  line-height: 1;
+}
+
+.landing .theme-toggle {
+  border-color: var(--lp-border);
+  background: var(--lp-white);
+  color: var(--lp-gray);
+}
+
+.landing .theme-toggle:hover {
+  color: var(--lp-blue);
+  border-color: var(--lp-blue);
+  background: var(--lp-blue-light);
+}
+
+@media (max-width: 600px) {
+  .theme-toggle-label {
+    display: none;
+  }
+
+  .theme-toggle {
+    padding: 8px 10px;
+  }
+}

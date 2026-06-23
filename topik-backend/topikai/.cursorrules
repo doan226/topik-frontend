@@ -1,0 +1,14 @@
+# BỐI CẢNH DỰ ÁN
+- Tên: TOPIK AI Backend.
+- Stack: Java Spring Boot, Hibernate/JPA, MySQL.
+- Luồng chính: Xử lý Webhook thanh toán Casso, cấp quyền PREMIUM_USER, và API chấm điểm tự động AI.
+
+# QUY TẮC PHẢN HỒI (TỐI ƯU TOKEN)
+- Bỏ qua các câu chào hỏi, giải thích dài dòng. Đi thẳng vào giải pháp và code.
+- Chỉ in ra phần code bị thay đổi hoặc file mới. Không in lại toàn bộ file nếu không cần thiết.
+
+# QUY TẮC VIẾT CODE BACKEND (JAVA)
+- Tuân thủ nghiêm ngặt mô hình MVC (Controller -> Service -> Repository). Không viết logic xử lý nghiệp vụ (Business Logic) trực tiếp trong Controller.
+- An toàn dữ liệu: Luôn giữ lại các logic dự phòng cũ (như VNPay) trừ khi được yêu cầu xóa.
+- Bắt lỗi (Exception Handling): Phải có try-catch rõ ràng, đặc biệt ở các API liên quan đến tiền bạc (Casso Webhook) và gọi AI. Trả về đúng mã HTTP Status (200, 400, 500).
+- Bảo mật: Không bao giờ hard-code mật khẩu DB hay Token vào mã nguồn. Giả định luôn dùng file cấu hình application.properties hoặc .env.

@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "updated": "2026-05-25",
+  "source": "quyen-viet-part2 p.67-104, part3 p.100-104, quyen-viet-supplement-3",
+  "sourceNote": "Biểu đồ câu 53 — số liệu PDF là ảnh. File supplement-3 bổ sung trang biểu đồ 88, 102–115, 122–123.",
+  "charts": [
+    {
+      "id": "chart-book-p88",
+      "type": "chart",
+      "questionType": 53,
+      "title": "Biểu đồ sách tr.88",
+      "needsManualEntry": true,
+      "source": "quyen-viet-supplement-3 book-p.88",
+      "bookPage": 88,
+      "dataPoints": [],
+      "labels": [],
+      "unit": null,
+      "sampleEssay": null
+    },
+    {
+      "id": "chart-book-p102-115",
+      "type": "chart-group",
+      "questionType": 53,
+      "title": "Biểu đồ sách tr.102–115",
+      "needsManualEntry": true,
+      "source": "quyen-viet-supplement-3 book-p.102-115",
+      "bookPages": [102, 103, 104, 105, 108, 109, 111, 112, 113, 114, 115],
+      "dataPoints": [],
+      "labels": [],
+      "unit": null,
+      "sampleEssay": null
+    },
+    {
+      "id": "chart-book-p122-123",
+      "type": "chart-group",
+      "questionType": 53,
+      "title": "Biểu đồ sách tr.122–123",
+      "needsManualEntry": true,
+      "source": "quyen-viet-supplement-3 book-p.122-123",
+      "bookPages": [122, 123],
+      "dataPoints": [],
+      "labels": [],
+      "unit": null,
+      "sampleEssay": null
+    },
+    {
+      "id": "chart-skeleton-part2",
+      "type": "chart",
+      "questionType": 53,
+      "title": "Biểu đồ part2 tr.67–104",
+      "needsManualEntry": true,
+      "source": "quyen-viet-part2 p.67-104",
+      "dataPoints": [],
+      "labels": [],
+      "unit": null,
+      "sampleEssay": null
+    },
+    {
+      "id": "sample-pets",
+      "type": "sample-essay",
+      "questionType": 53,
+      "topic": "반려동물이 아이들에게 미치는 영향",
+      "topicVi": "Ảnh hưởng thú cưng tới trẻ em",
+      "source": "quyen-viet-part3 p.146, quyen-viet-supplement-3 p.146",
+      "verified": "suggested",
+      "sampleEssay": "반려 동물이 아이들에게 미치는 영향은 크게 두 가지를 들 수 있다. 첫째, 정서적인 면에서는 아이들의 공감 능력을 키워 줄 수 있다. 둘째, 신체적인 면에서는 면역력을 높이는 데에 도움을 줄 수 있다."
+    },
+    {
+      "id": "sample-stress",
+      "type": "sample-essay",
+      "questionType": 53,
+      "topic": "스트레스가 우리 생활에 미치는 영향",
+      "topicVi": "Ảnh hưởng stress tới cuộc sống",
+      "source": "quyen-viet-part3 p.146, quyen-viet-supplement-3 p.146",
+      "verified": "suggested",
+      "sampleEssay": "스트레스가 우리 생활에 미치는 영향은 크게 두 가지 면에서 나타날 수 있다. 먼저 긍정적인 영향으로는 생활에 자극이 될 수 있다는 것이다. 그래서 어려운 일에도 적극적으로 도전하게 된다. 반면에 부정적인 영향도 있는데 스트레스는 각종 질병의 원인이 될 수 있다."
+    },
+    {
+      "id": "sample-game-addiction",
+      "type": "situation-outline",
+      "questionType": 53,
+      "topic": "게임 중독",
+      "topicVi": "Nghiện game",
+      "source": "quyen-viet-supplement-3 book-p.142",
+      "bullets": [
+        "게임에 빠져 가족의 시간이 줄다",
+        "대인 관계가 단절되다",
+        "게임은 하지 않을 때 불안감을 느끼다"
+      ]
+    },
+    {
+      "id": "sample-parking",
+      "type": "situation-outline",
+      "questionType": 53,
+      "topic": "주택의 주차 공간 부족",
+      "topicVi": "Thiếu chỗ đậu xe nhà ở",
+      "source": "quyen-viet-supplement-3 book-p.142",
+      "bullets": [
+        "거주지의 주차 공간이 충분하지 않아 갈등이 발생하다",
+        "주차할 곳이 없어 어쩔 수 없이 불법 주차를 하다",
+        "화재가 발생하면 소방차가 골목으로 진입하지 못해 더 큰 피해로 이어지다"
+      ]
+    }
+  ]
+}

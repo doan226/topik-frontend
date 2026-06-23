@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "updated": "2026-05-25",
+  "backupPath": "data/backups/2026-05-25",
+  "pdfSources": {
+    "status": "complete",
+    "received": "2026-05-25",
+    "downloads": {
+      "part1": "Quyển Viết hoàn chỉnh.pdf",
+      "part2": "Quyển Viết hoàn chỉnh (1).pdf",
+      "part3": "Quyển Viết hoàn chỉnh (2).pdf"
+    },
+    "repo": ["quyen-viet-part1.pdf", "quyen-viet-part2.pdf", "quyen-viet-part3.pdf"]
+  },
+  "answerKeyPolicy": {
+    "status": "deferred",
+    "note": "Team tạo đáp án chuẩn sau khi hoàn thiện DB; PDF không có đáp án — dùng verified:suggested"
+  },
+  "landingClaims": {
+    "vocab6000": false,
+    "note": "6000+ từ trên landing chưa có data — không tạo file giả"
+  },
+  "files": [
+    {
+      "path": "patterns-51-52.json",
+      "items": 103,
+      "status": "ready-review"
+    },
+    {
+      "path": "vocab-54-topics.json",
+      "items": 20,
+      "status": "imported-supplement4"
+    },
+    {
+      "path": "expressions-54-bank.json",
+      "items": 385,
+      "status": "generated"
+    },
+    {
+      "path": "essay-54-templates.json",
+      "items": 11,
+      "status": "imported-supplement3"
+    },
+    {
+      "path": "chart-53-bank.json",
+      "items": 8,
+      "status": "partial-supplement3"
+    },
+    {
+      "path": "antonyms-52.json",
+      "items": 0,
+      "status": "deferred"
+    },
+    {
+      "path": "pattern-mappings.json",
+      "items": 13,
+      "status": "ready"
+    },
+    {
+      "path": "listen-read-bank.json",
+      "items": 3,
+      "status": "placeholder"
+    },
+    {
+      "path": "writing-question-bank.json",
+      "items": 56,
+      "status": "synced"
+    }
+  ],
+  "userInputRequired": "data/USER-INPUT-CHECKLIST.md",
+  "missingDataReport": "data/MISSING-DATA-REPORT.md"
+}

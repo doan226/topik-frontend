@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "updated": "2026-05-25",
+  "sourceNote": "Tổng hợp công thức câu 53 — Quyển Viết + TOPIKLab, KoniKorean, WANG, Super Real Korean",
+  "overview": {
+    "length": "200–300자 (ký tự Hàn, không tính khoảng trắng)",
+    "score": 30,
+    "timeMinutes": 10,
+    "style": "Khách quan, mô tả số liệu — không bắt buộc ý kiến cá nhân",
+    "endings": "Kết thúc câu bằng -다/-이다 (văn viết trung립)",
+    "rules": [
+      "Không viết tiêu đề đề bài (단, 글의 제목은 쓰지 마시오)",
+      "Không bịa số liệu — chỉ dùng thông tin trên biểu đồ/đề",
+      "Mô tả đủ số liệu chính, ưu tiên cao → thấp hoặc theo thời gian",
+      "Có thể dùng ngữ pháp cơ bản; không cần ngữ pháp nâng cao"
+    ]
+  },
+  "readingSteps": [
+    { "step": "제목", "ko": "그래프 제목 / 주제", "vi": "Đọc tiêu đề — biết đề bài nói về gì" },
+    { "step": "항목", "ko": "비교 대상, 연령별, 분야별", "vi": "Đọc các mục/hạng mục so sánh" },
+    { "step": "수치", "ko": "%, 명, 건, 배", "vi": "Đọc số liệu, %, đơn vị, năm" },
+    { "step": "원인/전망", "ko": "이유, 원인, 기대, 전망", "vi": "Nếu có mục nguyên nhân/dự báo — phải viết" }
+  ],
+  "essayStructure": [
+    { "step": 1, "ko": "서론", "vi": "Giới thiệu chủ đề, cơ quan khảo sát, đối tượng, thời gian" },
+    { "step": 2, "ko": "본론 — 추이/순위", "vi": "Mô tả xu hướng hoặc xếp hạng số liệu (cao→thấp hoặc theo năm)" },
+    { "step": 3, "ko": "본론 — 원인/비교", "vi": "Nguyên nhân, so sánh nam/nữ, giáo viên/học sinh… nếu đề có" },
+    { "step": 4, "ko": "결론", "vi": "Tóm tắt kết quả hoặc dự báo (~전망된다)" }
+  ],
+  "chartTypes": [
+    { "ko": "막대그래프", "vi": "Biểu đồ cột — so sánh nhiều mục" },
+    { "ko": "꺾은선그래프", "vi": "Biểu đồ đường — thay đổi theo thời gian" },
+    { "ko": "원그래프", "vi": "Biểu đồ tròn — tỉ lệ phần trăm" },
+    { "ko": "표", "vi": "Bảng số liệu — liệt kê + so sánh" }
+  ],
+  "sections": [
+    {
+      "id": "opening",
+      "titleVi": "Mở bài — giới thiệu khảo sát",
+      "templates": [
+        { "ko": "N1에서 N2을/를 대상으로 N3에 대해 조사를 실시하였다", "vi": "Cơ quan N1 khảo sát N3 trên đối tượng N2" },
+        { "ko": "N1의 조사에 따르면 …는 것으로 나타났다", "vi": "Theo khảo sát N1 thì…" },
+        { "ko": "N1에 의하면 …는 것으로 나타났다", "vi": "Theo N1 thì…" },
+        { "ko": "최근 N1의 자료에 따르면 …", "vi": "Theo số liệu gần đây của N1…" },
+        { "ko": "…에 대한 조사 결과는 다음과 같다", "vi": "Kết quả khảo sát về… như sau" },
+        { "ko": "…에 대해 조사한 결과는 다음과 같다", "vi": "Kết quả điều tra về… như sau" }
+      ]
+    },
+    {
+      "id": "ranking",
+      "titleVi": "Liệt kê thứ tự (cao → thấp)",
+      "templates": [
+        { "ko": "N이/가 …%(으)로 가장 높게 나타났다", "vi": "N cao nhất với …%" },
+        { "ko": "이어서 N이/가 …%(으)로 뒤를 이었다", "vi": "Tiếp theo N với …%" },
+        { "ko": "다음으로 N1 …%, N2 …%, N3 …%(으)로 나타났다", "vi": "Tiếp theo lần lượt N1 …%, N2 …%…" },
+        { "ko": "마지막으로 N은/는 …%(으)로 가장 낮은 것으로 나타났다", "vi": "Cuối cùng N thấp nhất …%" },
+        { "ko": "N이/가 …%(으)로 가장 높았으며, … 그 뒤를 이었다", "vi": "N cao nhất …%, tiếp theo là…" }
+      ]
+    },
+    {
+      "id": "trend",
+      "titleVi": "Xu hướng tăng / giảm theo thời gian",
+      "templates": [
+        { "ko": "…년 …%(에서) …년 …%(으)로 증가/감소하였다", "vi": "Từ năm … …% đến năm … …% tăng/giảm" },
+        { "ko": "꾸준히/지속적으로 증가/감소하였다", "vi": "Tăng/giảm đều đặn" },
+        { "ko": "급격히/크게 증가/감소하였다", "vi": "Tăng/giảm mạnh" },
+        { "ko": "…%(으)로 두 배/세 배 가까이 증가하였다", "vi": "Tăng gấp đôi/gấp ba" },
+        { "ko": "…년에는 …%(으)로 감소했다가 …년에는 …%(으)로 다시 증가하였다", "vi": "Năm … giảm còn …%, năm … tăng lại …%" },
+        { "ko": "…%(에) 불과했지만 …%(으)로 증가하였다", "vi": "Chỉ …% nhưng đã tăng lên …%" },
+        { "ko": "…%(에) 달하였다 / …%(을/를) 차지하였다", "vi": "Đạt …% / chiếm …%" },
+        { "ko": "전체의 …%를 차지하며", "vi": "Chiếm …% tổng thể" },
+        { "ko": "…%(에) 불과하였다", "vi": "Chỉ vỏn vẹn …%" },
+        { "ko": "…%(으)로 유지되었다", "vi": "Duy trì ở mức …%" },
+        { "ko": "…%(으)로 소폭 상승/하락하였다", "vi": "Tăng/giảm nhẹ …%" },
+        { "ko": "…%(으)로 대폭 증가/감소하였다", "vi": "Tăng/giảm mạnh …%" },
+        { "ko": "…%(으)로 나타났다 / …%(에) 이를 것으로 예상/전망된다", "vi": "Đạt …% / dự kiến đạt …%" }
+      ]
+    },
+    {
+      "id": "comparison",
+      "titleVi": "So sánh / đối chiếu",
+      "templates": [
+        { "ko": "반면 / 한편 / 이와 달리", "vi": "Trái lại / Một mặt / Khác với…" },
+        { "ko": "N1에 비해 N2가 더/덜 …", "vi": "So với N1 thì N2 hơn/kém…" },
+        { "ko": "…에 비해서 …", "vi": "So với…" },
+        { "ko": "…%p 차이를 보였다", "vi": "Chênh lệch … điểm phần trăm" },
+        { "ko": "…%p 높았/낮았다", "vi": "Cao/thấp hơn …%p" },
+        { "ko": "남자는 …%, 여자는 …%였다", "vi": "Nam …%, nữ …%" },
+        { "ko": "교사는 …%, 학생은 …%로 …", "vi": "Giáo viên …%, học sinh …%" }
+      ]
+    },
+    {
+      "id": "cause",
+      "titleVi": "Nguyên nhân (원인 / 이유)",
+      "templates": [
+        { "ko": "N의 원인으로 …을/를 들 수 있다", "vi": "Nguyên nhân N là…" },
+        { "ko": "N의 원인으로 두 가지를 들 수 있다. 첫째, …기 때문이다. 둘째, …", "vi": "Có 2 nguyên nhân. Thứ nhất… Thứ hai…" },
+        { "ko": "증가/감소 원인으로는 …", "vi": "Nguyên nhân tăng/giảm là…" },
+        { "ko": "…(으)로 인해 …", "vi": "Do… nên…" }
+      ]
+    },
+    {
+      "id": "forecast",
+      "titleVi": "Dự báo / kỳ vọng (전망 / 기대)",
+      "templates": [
+        { "ko": "…%(에) 이를 것으로 예상/기대된다", "vi": "Dự kiến đạt …%" },
+        { "ko": "…년에는 …%에 이를 것으로 전망된다", "vi": "Năm … dự báo đạt …%" },
+        { "ko": "이러한 현상이 지속될 경우 … 문제가 심화될 것으로 전망된다", "vi": "Nếu tiếp tục, vấn đề … sẽ nghiêm trọng hơn" }
+      ]
+    },
+    {
+      "id": "classification",
+      "titleVi": "Phân loại / liệt kê hoạt động",
+      "templates": [
+        { "ko": "N은/는 N1, N2, N3 (으)로 나누어 볼 수 있다", "vi": "N có thể chia thành N1, N2, N3" },
+        { "ko": "… 등을 하는 것으로 나타났다", "vi": "Được cho là làm… v.v." },
+        { "ko": "주요 …으로는 …", "vi": "Chủ yếu là…" }
+      ]
+    },
+    {
+      "id": "connectors",
+      "titleVi": "Liên từ nối câu",
+      "templates": [
+        { "ko": "먼저 / 우선", "vi": "Trước hết" },
+        { "ko": "이어서 / 다음으로 / 또한", "vi": "Tiếp theo / Hơn nữa" },
+        { "ko": "한편 / 반면 / 이와 달리", "vi": "Một mặt / Trái lại" },
+        { "ko": "마지막으로 / 한편", "vi": "Cuối cùng" },
+        { "ko": "따라서 / 그러므로", "vi": "Do đó" },
+        { "ko": "…을/를 살펴보면", "vi": "Nếu xem xét…" }
+      ]
+    },
+    {
+      "id": "closing",
+      "titleVi": "Kết bài — tóm tắt",
+      "templates": [
+        { "ko": "조사 결과를 통해 …다는 것을 알 수 있다", "vi": "Qua kết quả khảo sát thấy rằng…" },
+        { "ko": "이상에서 살펴본 바와 같이 …", "vi": "Như đã xem xét ở trên…" },
+        { "ko": "…로 나타났다 / …로 조사되었다", "vi": "Được cho thấy là… / được điều tra là…" }
+      ]
+    }
+  ],
+  "vocabulary": [
+    { "ko": "조사 기관", "vi": "Cơ quan khảo sát" },
+    { "ko": "조사 대상", "vi": "Đối tượng khảo sát" },
+    { "ko": "비율", "vi": "Tỉ lệ" },
+    { "ko": "증가하다/감소하다", "vi": "Tăng / giảm" },
+    { "ko": "늘어나다/줄어들다", "vi": "Tăng lên / giảm xuống" },
+    { "ko": "상승하다/하락하다", "vi": "Tăng / giảm (formal)" },
+    { "ko": "꾸준히", "vi": "Đều đặn" },
+    { "ko": "급격히", "vi": "Đột ngột, mạnh" },
+    { "ko": "소폭", "vi": "Nhẹ, ít" },
+    { "ko": "대폭", "vi": "Mạnh, lớn" },
+    { "ko": "나타나다", "vi": "Xuất hiện, được cho thấy" },
+    { "ko": "~%(에) 달하다", "vi": "Đạt mức …%" },
+    { "ko": "~%(을/를) 차지하다", "vi": "Chiếm …%" },
+    { "ko": "~%(에) 불과하다", "vi": "Chỉ …%" },
+    { "ko": "전망되다/예상되다", "vi": "Dự báo" },
+    { "ko": "원인/이유", "vi": "Nguyên nhân / lý do" },
+    { "ko": "대상", "vi": "Đối tượng" },
+    { "ko": "추이", "vi": "Xu hướng biến động" },
+    { "ko": "현상", "vi": "Hiện tượng" }
+  ],
+  "scoringTips": [
+    "Nội dung: mô tả đủ số liệu chính + nguyên nhân/전망 nếu đề có",
+    "Cấu trúc 4 bước: 서론 → 본론(추이/순위) → 본론(원인/비교) → 결론",
+    "Từ vựng: dùng lại mẫu câu cố định — không cần từ hiếm",
+    "Ngữ pháp: đúng -다체, liên từ 반면/이어서/또한",
+    "Phân tích: thêm '두 배 가까이', '약 3배' thay vì chỉ liệt kê số",
+    "Độ dài: 250–280자 thường an toàn hơn quá ngắn",
+    "Không bịa số — chỉ dùng số trên biểu đồ/đề bài"
+  ]
+}

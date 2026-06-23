@@ -1,0 +1,26 @@
+# Dependencies & build
+node_modules/
+**/target/
+**/dist/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env.backend
+**/.env.render*
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Logs & local data
+*.log
+logs/
+**/data/dictionary.db
+
+# Agent / local
+.agent/
