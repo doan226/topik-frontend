@@ -1,0 +1,12 @@
+﻿=== raw_64th-TOPIK-I-Listening-Test-Paper_ocr.txt ===
+--Q2 (len 0) opts=0--
+--Q4 (len 0) opts=0--
+--Q6 (len 0) opts=0--
+--Q9 (len 0) opts=0--
+--Q23 (len 56) opts=0--
+=== raw_64th-TOPIK-I-Listening-Transcript_ocr.txt ===
+--Q2 (len 0) opts=0--
+--Q4 (len 0) opts=0--
+--Q6 (len 0) opts=0--
+--Q9 (len 0) opts=0--
+--Q23 (len 173) opts=0--

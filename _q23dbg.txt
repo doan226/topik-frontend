@@ -1,0 +1,16 @@
+﻿block lines:
+python : Traceback (most recent call last):
+At C:\Users\mrdoa\AppData\Local\Temp\ps-script-df9d6663-3e03-45ec-8e36-857deb75296a.ps1:77 char:34
++ cd c:\WEDTOPIKAI\topik-frontend; python -c "
++                                  ~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 10, in <module>
+    for ln in b.splitlines(): print(' ',repr(ln))
+                              ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\mrdoa\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 1-2: character maps to <undefined>
+  
