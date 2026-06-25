@@ -54,6 +54,7 @@ public class GradingScoreValidator {
             attachPreValidation(obj, preValidation);
             ensureExtendedFields(obj);
             ensureArrays(obj);
+            obj.put("grade_letter", computeGradeLetter(totalScore, maxScore));
             return objectMapper.writeValueAsString(obj);
         } catch (Exception e) {
             System.err.println("GradingScoreValidator: " + e.getMessage());
@@ -178,6 +179,50 @@ public class GradingScoreValidator {
         if (!obj.has("estimated_level")) {
             obj.put("estimated_level", "");
         }
+        if (!obj.has("detailed_criteria") || !obj.get("detailed_criteria").isArray()) {
+            obj.set("detailed_criteria", objectMapper.createArrayNode());
+        }
+        if (!obj.has("paragraph_analysis") || !obj.get("paragraph_analysis").isArray()) {
+            obj.set("paragraph_analysis", objectMapper.createArrayNode());
+        }
+        if (!obj.has("roadmap") || !obj.get("roadmap").isArray()) {
+            obj.set("roadmap", objectMapper.createArrayNode());
+        }
+        if (!obj.has("similar_questions") || !obj.get("similar_questions").isArray()) {
+            obj.set("similar_questions", objectMapper.createArrayNode());
+        }
+        if (!obj.has("swot") || !obj.get("swot").isObject()) {
+            ObjectNode swot = objectMapper.createObjectNode();
+            swot.set("S", objectMapper.createArrayNode());
+            swot.set("W", objectMapper.createArrayNode());
+            swot.set("O", objectMapper.createArrayNode());
+            swot.set("T", objectMapper.createArrayNode());
+            obj.set("swot", swot);
+        }
+        if (!obj.has("level_diagnosis") || !obj.get("level_diagnosis").isObject()) {
+            obj.set("level_diagnosis", objectMapper.createObjectNode());
+        }
+        if (!obj.has("sample_answers") || !obj.get("sample_answers").isObject()) {
+            ObjectNode sample = objectMapper.createObjectNode();
+            String fallback = obj.path("native_suggestion").asText("");
+            sample.put("co_ban", fallback);
+            sample.put("nang_cao", "");
+            obj.set("sample_answers", sample);
+        }
+    }
+
+    private String computeGradeLetter(int totalScore, int maxScore) {
+        if (maxScore <= 0) {
+            return "";
+        }
+        double ratio = (double) totalScore / maxScore;
+        if (ratio >= 0.9) return "A+";
+        if (ratio >= 0.8) return "A";
+        if (ratio >= 0.7) return "B+";
+        if (ratio >= 0.6) return "B";
+        if (ratio >= 0.5) return "C+";
+        if (ratio >= 0.4) return "C";
+        return "D";
     }
 
     private void appendJustification(ObjectNode obj, String note) {
@@ -200,10 +245,26 @@ public class GradingScoreValidator {
             obj.set("structure_map", objectMapper.createObjectNode());
             obj.set("model_phrases_to_learn", objectMapper.createArrayNode());
             obj.put("estimated_level", "");
+            obj.set("detailed_criteria", objectMapper.createArrayNode());
+            obj.set("paragraph_analysis", objectMapper.createArrayNode());
+            obj.set("roadmap", objectMapper.createArrayNode());
+            obj.set("similar_questions", objectMapper.createArrayNode());
+            ObjectNode swot = objectMapper.createObjectNode();
+            swot.set("S", objectMapper.createArrayNode());
+            swot.set("W", objectMapper.createArrayNode());
+            swot.set("O", objectMapper.createArrayNode());
+            swot.set("T", objectMapper.createArrayNode());
+            obj.set("swot", swot);
+            obj.set("level_diagnosis", objectMapper.createObjectNode());
+            ObjectNode sample = objectMapper.createObjectNode();
+            sample.put("co_ban", "");
+            sample.put("nang_cao", "");
+            obj.set("sample_answers", sample);
+            obj.put("grade_letter", "");
             obj.put("native_suggestion", "Lỗi bóc tách điểm.");
             return objectMapper.writeValueAsString(obj);
         } catch (Exception e) {
-            return "{\"total_score\": 0, \"criteria_scores\": {}, \"grammar_errors\": [], \"content_issues\": [], \"rewrite_tasks\": [], \"structure_map\": {}, \"model_phrases_to_learn\": [], \"estimated_level\": \"\", \"native_suggestion\": \"Lỗi bóc tách điểm.\"}";
+            return "{\"total_score\": 0, \"criteria_scores\": {}, \"grammar_errors\": [], \"content_issues\": [], \"rewrite_tasks\": [], \"structure_map\": {}, \"model_phrases_to_learn\": [], \"estimated_level\": \"\", \"detailed_criteria\": [], \"paragraph_analysis\": [], \"roadmap\": [], \"similar_questions\": [], \"swot\": {\"S\":[],\"W\":[],\"O\":[],\"T\":[]}, \"level_diagnosis\": {}, \"sample_answers\": {\"co_ban\":\"\",\"nang_cao\":\"\"}, \"grade_letter\": \"\", \"native_suggestion\": \"Lỗi bóc tách điểm.\"}";
         }
     }
 }

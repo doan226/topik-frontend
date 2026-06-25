@@ -67,4 +67,45 @@ class GradingScoreValidatorTest {
         assertTrue(node.get("grammar_errors").isArray());
         assertTrue(node.get("content_issues").isArray());
     }
+
+    @Test
+    void defaultsExtendedReportFieldsWhenMissing() throws Exception {
+        String raw = "{\"total_score\": 40, \"criteria_scores\": {\"ngu_phap\":10,\"tu_vung\":10,\"cau_truc\":10,\"noi_dung\":10}}";
+        String result = validator.validateAndNormalize(raw, 50);
+        JsonNode node = new ObjectMapper().readTree(result);
+        assertTrue(node.get("detailed_criteria").isArray());
+        assertTrue(node.get("paragraph_analysis").isArray());
+        assertTrue(node.get("roadmap").isArray());
+        assertTrue(node.get("similar_questions").isArray());
+        assertTrue(node.get("swot").isObject());
+        assertTrue(node.get("swot").get("S").isArray());
+        assertTrue(node.get("level_diagnosis").isObject());
+        assertTrue(node.get("sample_answers").isObject());
+        assertTrue(node.get("sample_answers").has("co_ban"));
+        assertTrue(node.get("sample_answers").has("nang_cao"));
+    }
+
+    @Test
+    void sampleAnswersFallBackToNativeSuggestion() throws Exception {
+        String raw = "{\"total_score\": 20, \"criteria_scores\": {}, \"native_suggestion\": \"고쳐 보세요\"}";
+        String result = validator.validateAndNormalize(raw, 50);
+        JsonNode node = new ObjectMapper().readTree(result);
+        assertEquals("고쳐 보세요", node.get("sample_answers").get("co_ban").asText());
+    }
+
+    @Test
+    void computesGradeLetterFromRatio() throws Exception {
+        String raw = "{\"total_score\": 42, \"criteria_scores\": {\"ngu_phap\":11,\"tu_vung\":11,\"cau_truc\":10,\"noi_dung\":10}}";
+        JsonNode node = new ObjectMapper().readTree(validator.validateAndNormalize(raw, 50));
+        assertEquals(42, node.get("total_score").asInt());
+        assertEquals("A", node.get("grade_letter").asText());
+    }
+
+    @Test
+    void keepsFourAxisCriteriaSumEqualToTotal() throws Exception {
+        String raw = "{\"total_score\": 80, \"criteria_scores\": {\"ngu_phap\":20,\"tu_vung\":18,\"cau_truc\":21,\"noi_dung\":21}}";
+        JsonNode node = new ObjectMapper().readTree(validator.validateAndNormalize(raw, 100));
+        assertEquals(80, node.get("total_score").asInt());
+        assertEquals("A", node.get("grade_letter").asText());
+    }
 }
