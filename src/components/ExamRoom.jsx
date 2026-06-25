@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 import OMRGrid from '../OMRGrid.jsx';
 import Timer from '../Timer.jsx';
 import ExamRoomSidebar from './ExamRoomSidebar';
-import GradingResultPanel from './GradingResultPanel';
+import Essay54ReportCard from './Essay54ReportCard';
 import HighlightedTextarea from './HighlightedTextarea';
 import WritingMicroGuide from './WritingMicroGuide';
 import { apiFetch, apiUrl } from '../api/client';
@@ -13,6 +13,7 @@ import Essay54Hints from './Essay54Hints';
 import Question53Chart from './Question53Chart';
 import { addMistakesFromGrading } from '../utils/mistakeCards';
 import { saveRewriteScore } from '../utils/rewriteScores';
+import { loadSavedVocab54, toggleSavedVocab54 } from '../utils/savedVocab54';
 import {
   buildPreSubmitChecklist,
   countCharsForQuestion,
@@ -55,7 +56,24 @@ export default function ExamRoom({
   const [quota, setQuota] = useState(null);
   const [showChecklist, setShowChecklist] = useState(false);
   const [rewriteVersion, setRewriteVersion] = useState(0);
+  const [savedPhraseIds, setSavedPhraseIds] = useState(
+    () => new Set(loadSavedVocab54(userId).map((i) => i.id))
+  );
   const lastSubmitRef = useRef('');
+
+  const handleSavePhrase = ({ id, ko, vi }) => {
+    if (!userId) {
+      showToast?.('Cần đăng nhập để lưu cụm từ', 'warning');
+      return;
+    }
+    const { items } = toggleSavedVocab54(userId, {
+      id,
+      ko,
+      vi,
+      type: 'phrase',
+    });
+    setSavedPhraseIds(new Set(items.map((i) => i.id)));
+  };
 
   const officialQuestions = useMemo(
     () => questions.filter((q) => isOfficialQuestion(q) && q.topik > 0),
@@ -489,12 +507,15 @@ export default function ExamRoom({
         </div>
       )}
 
-      <GradingResultPanel
+      <Essay54ReportCard
         gradingResult={gradingResult}
         maxScore={currentQuestion.maxScore}
         sampleAnswer={currentQuestion.answer}
         questionType={currentQuestion.type}
         studentText={currentAnswer}
+        userId={userId}
+        onSavePhrase={handleSavePhrase}
+        savedPhraseIds={savedPhraseIds}
       />
 
       {showChecklist && (
