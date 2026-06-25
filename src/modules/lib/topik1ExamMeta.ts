@@ -1,12 +1,33 @@
-import { TOPIK1_EXAMS, type Topik1ExamMeta } from './topik1ExamMeta';
+export type Topik1ExamTier = 'free' | 'paid';
 
-const EXTRA_SESSIONS = [99, 100, 101, 102, 103, 104, 105];
+export interface Topik1ExamMeta {
+  examId: string;
+  title: string;
+  fullAudioUrl: string;
+  listeningMcqCount: number;
+  listeningAudioSegmentCount: number;
+  readingMcqCount: number;
+  tier: Topik1ExamTier;
+}
 
-function buildExamMeta(session: number, tier: 'free' | 'paid'): Topik1ExamMeta {
+const SESSIONS: { ky: number; tier: Topik1ExamTier }[] = [
+  { ky: 35, tier: 'paid' },
+  { ky: 36, tier: 'paid' },
+  { ky: 37, tier: 'paid' },
+  { ky: 41, tier: 'paid' },
+  { ky: 47, tier: 'paid' },
+  { ky: 52, tier: 'paid' },
+  { ky: 60, tier: 'free' },
+  { ky: 64, tier: 'paid' },
+  { ky: 83, tier: 'paid' },
+  { ky: 91, tier: 'free' },
+];
+
+function buildExamMeta(ky: number, tier: Topik1ExamTier): Topik1ExamMeta {
   return {
-    examId: `topik1-${session}`,
-    title: `TOPIK I — Kỳ ${session}`,
-    fullAudioUrl: `/audio/topik1-${session}-listen-full.mp3`,
+    examId: `topik1-${ky}`,
+    title: `TOPIK I — Kỳ ${ky}`,
+    fullAudioUrl: `/audio/topik1-${ky}-listen-full.mp3`,
     listeningMcqCount: 30,
     listeningAudioSegmentCount: 30,
     readingMcqCount: 40,
@@ -14,39 +35,12 @@ function buildExamMeta(session: number, tier: 'free' | 'paid'): Topik1ExamMeta {
   };
 }
 
-/** Đề TOPIK I — nghe + đọc, giải thích tiếng Việt (10 kỳ MVP). */
-export const TOPIK1_EXAMS: Topik1ExamMeta[] = [
-  {
-    examId: 'topik1-96',
-    title: 'TOPIK I — Kỳ 96',
-    fullAudioUrl: '/audio/topik1-96-listen-full.mp3',
-    listeningMcqCount: 30,
-    listeningAudioSegmentCount: 30,
-    readingMcqCount: 40,
-    tier: 'free',
-  },
-  {
-    examId: 'topik1-97',
-    title: 'TOPIK I — Kỳ 97',
-    fullAudioUrl: '/audio/topik1-97-listen-full.mp3',
-    listeningMcqCount: 30,
-    listeningAudioSegmentCount: 30,
-    readingMcqCount: 40,
-    tier: 'paid',
-  },
-  {
-    examId: 'topik1-98',
-    title: 'TOPIK I — Kỳ 98',
-    fullAudioUrl: '/audio/topik1-98-listen-full.mp3',
-    listeningMcqCount: 30,
-    listeningAudioSegmentCount: 30,
-    readingMcqCount: 40,
-    tier: 'paid',
-  },
-  ...EXTRA_SESSIONS.map((s) => buildExamMeta(s, 'paid')),
-];
+/** Đề TOPIK I — nghe + đọc, giải thích tiếng Việt (10 kỳ công bố). */
+export const TOPIK1_EXAMS: Topik1ExamMeta[] = SESSIONS.map(({ ky, tier }) =>
+  buildExamMeta(ky, tier)
+);
 
-export const DEFAULT_TOPIK1_EXAM = TOPIK1_EXAMS[0];
+export const DEFAULT_TOPIK1_EXAM = TOPIK1_EXAMS.find((e) => e.examId === 'topik1-60') ?? TOPIK1_EXAMS[0];
 
 export function isTopik1ExamId(examId: string): boolean {
   return examId.startsWith('topik1-');

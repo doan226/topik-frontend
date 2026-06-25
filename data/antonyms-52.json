@@ -1,9 +1,8 @@
 {
   "version": 1,
-  "updated": "2026-05-24",
+  "updated": "2026-06-25",
   "source": "quyen-viet-part1 p.42",
-  "sourceNote": "Trang 42 PDF là ảnh — team biên soạn sau khi hoàn thiện DB",
-  "needsUserInput": false,
-  "status": "deferred",
+  "sourceNote": "Trang 42 PDF là ảnh — cần user gửi bảng Hàn–Việt",
+  "needsUserInput": true,
   "pairs": []
 }

@@ -10,21 +10,25 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const FRONTEND_ROOT = path.resolve(__dirname, '..');
-const EXAM = process.argv[2];
-if (!EXAM || !/^\d+$/.test(EXAM)) {
-  console.error('Usage: node scripts/enrich-exam-offsets.mjs <ky>   (vd: 91, 60)');
+const levelArg = process.argv.find((a) => a === '--topik1' || a === '--level=1');
+const EXAM = process.argv.find((a) => /^\d+$/.test(a));
+if (!EXAM) {
+  console.error('Usage: node scripts/enrich-exam-offsets.mjs <ky> [--topik1]');
   process.exit(1);
 }
 
-const EXAM_ID = `topik2-${EXAM}`;
+const isTopik1 = Boolean(levelArg);
+const EXAM_ID = `${isTopik1 ? 'topik1' : 'topik2'}-${EXAM}`;
 const AUDIO_DIR = path.join(FRONTEND_ROOT, 'public', 'audio');
 const DATA_BANK = path.join(FRONTEND_ROOT, 'data', `${EXAM_ID}-bank.json`);
 const PUBLIC_BANK = path.join(FRONTEND_ROOT, 'public', 'data', `${EXAM_ID}-bank.json`);
 
-const QUESTION_ORDER = [
-  ...Array.from({ length: 20 }, (_, i) => String(i + 1)),
-  ...Array.from({ length: 15 }, (_, i) => `${21 + i * 2}_${22 + i * 2}`),
-];
+const QUESTION_ORDER = isTopik1
+  ? Array.from({ length: 30 }, (_, i) => String(i + 1))
+  : [
+      ...Array.from({ length: 20 }, (_, i) => String(i + 1)),
+      ...Array.from({ length: 15 }, (_, i) => `${21 + i * 2}_${22 + i * 2}`),
+    ];
 
 function estimateDurationMs(filePath) {
   const { size } = fs.statSync(filePath);
@@ -52,6 +56,7 @@ function buildOffsetMap() {
 }
 
 function segmentLabelForMcqNo(mcqNo) {
+  if (isTopik1) return String(mcqNo);
   const n = Number(mcqNo);
   if (!Number.isFinite(n)) return String(mcqNo);
   if (n <= 20) return String(n);

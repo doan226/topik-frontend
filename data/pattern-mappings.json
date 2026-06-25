@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-05-24",
+  "updated": "2026-06-25",
   "sourceNote": "Rule gợi ý: substring lỗi ngữ pháp → patternId (cho SRS / mistake cards)",
   "mappings": [
     {
