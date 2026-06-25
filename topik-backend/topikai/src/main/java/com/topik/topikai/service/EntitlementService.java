@@ -2,7 +2,6 @@ package com.topik.topikai.service;
 
 import com.topik.topikai.entity.EntitlementSku;
 import com.topik.topikai.entity.Role;
-import com.topik.topikai.entity.User;
 import com.topik.topikai.entity.UserEntitlement;
 import com.topik.topikai.repository.UserEntitlementRepository;
 import com.topik.topikai.repository.UserRepository;
@@ -68,11 +67,13 @@ public class EntitlementService {
     }
 
     public boolean hasHanja(Long userId) {
+        if (hasLegacyPremium(userId)) return true;
         if (hasAllIn(userId)) return true;
         return hasActiveEntitlement(userId, EntitlementSku.HANJA);
     }
 
     public boolean hasTopik1(Long userId) {
+        if (hasLegacyPremium(userId)) return true;
         if (hasAllIn(userId)) return true;
         return hasActiveEntitlement(userId, EntitlementSku.TOPIK1);
     }
@@ -133,6 +134,16 @@ public class EntitlementService {
     public void grantAllIn(Long userId) {
         grantEntitlement(userId, EntitlementSku.ALLIN, null);
         unlockHanjaAdvancedPacks(userId);
+        promoteToPremium(userId);
+    }
+
+    private void promoteToPremium(Long userId) {
+        userRepository.findById(userId).ifPresent(user -> {
+            if (user.getRole() != Role.PREMIUM_USER) {
+                user.setRole(Role.PREMIUM_USER);
+                userRepository.save(user);
+            }
+        });
     }
 
     @Transactional
@@ -142,13 +153,8 @@ public class EntitlementService {
 
     @Transactional
     public void grantWritingLife(Long userId) {
+        // Goi le: chi mo Viet qua SKU, tai khoan giu muc binh thuong (khong gan PREMIUM_USER)
         grantEntitlement(userId, EntitlementSku.WRITING_LIFE, null);
-        Optional<User> userOpt = userRepository.findById(userId);
-        if (userOpt.isPresent() && userOpt.get().getRole() != Role.PREMIUM_USER) {
-            User user = userOpt.get();
-            user.setRole(Role.PREMIUM_USER);
-            userRepository.save(user);
-        }
     }
 
     @Transactional
