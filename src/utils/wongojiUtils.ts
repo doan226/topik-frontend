@@ -27,12 +27,39 @@ export function countKoreanChars(text: string | null | undefined): number {
   return count;
 }
 
+/**
+ * Count characters the way they fill a 원고지 (manuscript) grid: every visible
+ * character — Korean, spaces, punctuation, numbers, letters — occupies one cell.
+ * Line breaks (\n, \r) are layout-only and do NOT take a cell.
+ * This matches the official TOPIK 글자 수 (띄어쓰기 포함) used for câu 53/54.
+ */
+export function countWongojiChars(text: string | null | undefined): number {
+  if (!text) return 0;
+  let count = 0;
+  for (const ch of text) {
+    if (ch === '\n' || ch === '\r') continue;
+    count++;
+  }
+  return count;
+}
+
+/** Char count used for length feedback: 원고지 cells for essay câu 53/54, Korean syllables otherwise. */
+export function countCharsForQuestion(
+  questionType: number,
+  text: string | null | undefined
+): number {
+  if (questionType === 53 || questionType === 54) {
+    return countWongojiChars(text);
+  }
+  return countKoreanChars(text);
+}
+
 export function getTargetRange(questionType: number): TargetRange | null {
   switch (questionType) {
     case 53:
-      return { min: 200, max: 300, label: '200–300 ký tự Hàn' };
+      return { min: 200, max: 300, label: '200–300 글자 (ô 원고지, gồm dấu cách)' };
     case 54:
-      return { min: 600, max: 700, label: '600–700 ký tự Hàn' };
+      return { min: 600, max: 700, label: '600–700 글자 (ô 원고지, gồm dấu cách)' };
     default:
       return null;
   }
@@ -90,7 +117,7 @@ export function buildPreSubmitChecklist(
 ): ChecklistItem[] {
   const items: ChecklistItem[] = [];
   const trimmed = (answer || '').trim();
-  const koreanCount = countKoreanChars(answer);
+  const koreanCount = countCharsForQuestion(questionType, answer);
 
   items.push({
     id: 'has-content',

@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
-  countKoreanChars,
+  countCharsForQuestion,
   getLengthProgress,
   parseQ51Q52Blanks,
   buildQ51Q52Text,
 } from './utils/wongojiUtils';
 
 function LengthProgressBar({ questionType, text }) {
-  const count = countKoreanChars(text);
+  const count = countCharsForQuestion(questionType, text);
   const progress = getLengthProgress(questionType, count);
   if (!progress) return null;
 
@@ -23,7 +23,7 @@ function LengthProgressBar({ questionType, text }) {
   return (
     <div className={`wongoji-progress ${statusClass}`}>
       <div className="wongoji-progress__header">
-        <span>Đếm ký tự Hàn: <strong>{progress.count}</strong> / {progress.max}</span>
+        <span>Đếm ô 원고지: <strong>{progress.count}</strong> / {progress.max}</span>
         <span className="wongoji-progress__target">Mục tiêu: {progress.label}</span>
       </div>
       <div className="progress-bar-track wongoji-progress__track">
@@ -42,19 +42,13 @@ function LengthProgressBar({ questionType, text }) {
 }
 
 function OMRGrid({ text, questionType: externalQuestionType, onTextChange, hideMainTextarea }) {
-  const [currentQuestion, setCurrentQuestion] = useState(51);
+  const currentQuestion = Number(externalQuestionType) || 51;
   const [gieok, setGieok] = useState('');
   const [nieun, setNieun] = useState('');
   const internalUpdate = useRef(false);
 
   const SQUARES_PER_ROW = 20;
   const MIN_SQUARES = 200;
-
-  useEffect(() => {
-    if (externalQuestionType) {
-      setCurrentQuestion(Number(externalQuestionType));
-    }
-  }, [externalQuestionType]);
 
   useEffect(() => {
     if (internalUpdate.current) {
@@ -96,7 +90,7 @@ function OMRGrid({ text, questionType: externalQuestionType, onTextChange, hideM
   const handleNieunChange = (e) => setNieun(e.target.value);
 
   const displayRealText = currentQuestion === 51 || currentQuestion === 52 ? '' : (text || '');
-  const chars = displayRealText.split('');
+  const chars = [...displayRealText].filter((c) => c !== '\n' && c !== '\r');
   const totalSquaresNeeded = Math.max(
     MIN_SQUARES,
     Math.ceil(chars.length / SQUARES_PER_ROW) * SQUARES_PER_ROW
