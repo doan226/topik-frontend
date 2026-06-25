@@ -36,10 +36,10 @@ public class PreGradingValidator {
         Map<String, Object> result = new LinkedHashMap<>();
         int questionType = ctx.getQuestionType();
         String studentText = ctx.getStudentText();
-        int koreanCharCount = countKoreanChars(studentText);
+        int charCount = countCharsForQuestion(questionType, studentText);
 
-        result.put("koreanCharCount", koreanCharCount);
-        result.put("charCountOutOfRange", isCharCountOutOfRange(questionType, koreanCharCount));
+        result.put("koreanCharCount", charCount);
+        result.put("charCountOutOfRange", isCharCountOutOfRange(questionType, charCount));
         result.put("wrongSpeechLevel", isWrongSpeechLevel(questionType, studentText));
 
         if (questionType == 53) {
@@ -85,6 +85,34 @@ public class PreGradingValidator {
             }
         }
         return count;
+    }
+
+    /**
+     * 원고지 (manuscript grid) count: every visible character — Korean, spaces,
+     * punctuation, numbers, letters — fills one cell. Line breaks do not count.
+     * Matches the official TOPIK 글자 수 (띄어쓰기 포함) used for câu 53/54.
+     */
+    public static int countWongojiChars(String text) {
+        if (text == null || text.isEmpty()) {
+            return 0;
+        }
+        int count = 0;
+        for (int i = 0; i < text.length(); i++) {
+            char c = text.charAt(i);
+            if (c == '\n' || c == '\r') {
+                continue;
+            }
+            count++;
+        }
+        return count;
+    }
+
+    /** Câu 53/54 are counted on the 원고지 grid; other types count Korean syllables. */
+    public static int countCharsForQuestion(int questionType, String text) {
+        if (questionType == 53 || questionType == 54) {
+            return countWongojiChars(text);
+        }
+        return countKoreanChars(text);
     }
 
     private boolean isCharCountOutOfRange(int questionType, int koreanCharCount) {

@@ -15,7 +15,7 @@ import { addMistakesFromGrading } from '../utils/mistakeCards';
 import { saveRewriteScore } from '../utils/rewriteScores';
 import {
   buildPreSubmitChecklist,
-  countKoreanChars,
+  countCharsForQuestion,
 } from '../utils/wongojiUtils';
 import RecentSubmissions from './RecentSubmissions';
 
@@ -122,10 +122,15 @@ export default function ExamRoom({
   useEffect(() => {
     if (!userId || !currentQuestion) return;
     const saved = loadDraft(userId, currentQuestion.id);
-    if (saved) {
-      setAnswers((prev) => ({ ...prev, [currentQuestion.id]: saved }));
-      setDraftSavedAt(Date.now());
+    if (!saved) return;
+    const isEssayQuestion = currentQuestion.type === 53 || currentQuestion.type === 54;
+    const isBlankTemplate = saved.includes('Đáp án của học viên') && saved.includes('(ㄱ)');
+    if (isEssayQuestion && isBlankTemplate) {
+      clearDraft(userId, currentQuestion.id);
+      return;
     }
+    setAnswers((prev) => ({ ...prev, [currentQuestion.id]: saved }));
+    setDraftSavedAt(Date.now());
   }, [userId, currentQuestion?.id]);
 
   useEffect(() => {
@@ -346,7 +351,8 @@ export default function ExamRoom({
 
   const canResubmit = !gradingResult || currentAnswer !== lastGradedText;
   const showHighlights = Boolean(gradingResult?.grammar_errors?.length && !viewingHistory);
-  const koreanCharCount = countKoreanChars(currentAnswer);
+  const isEssayQuestion = effectiveType === 53 || effectiveType === 54;
+  const koreanCharCount = countCharsForQuestion(effectiveType, currentAnswer);
   const rewriteTasks = gradingResult?.rewrite_tasks || [];
 
   const examTitle = currentQuestion
@@ -439,7 +445,7 @@ export default function ExamRoom({
             {draftSavedAt && !viewingHistory && (
               <span className="exam-room__draft-saved">✓ Đã lưu nháp</span>
             )}
-            <strong className="exam-room__char-count">{koreanCharCount}</strong> ký tự Hàn
+            <strong className="exam-room__char-count">{koreanCharCount}</strong> {isEssayQuestion ? 'ô 원고지 (gồm dấu cách)' : 'ký tự Hàn'}
           </span>
         </div>
         {!isBlankQuestion && (

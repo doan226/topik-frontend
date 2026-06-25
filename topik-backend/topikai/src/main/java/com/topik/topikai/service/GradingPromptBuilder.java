@@ -232,7 +232,7 @@ public class GradingPromptBuilder {
         if (count instanceof Number number) {
             return number.intValue();
         }
-        return PreGradingValidator.countKoreanChars(ctx.getStudentText());
+        return PreGradingValidator.countCharsForQuestion(ctx.getQuestionType(), ctx.getStudentText());
     }
 
     @SuppressWarnings("unchecked")
