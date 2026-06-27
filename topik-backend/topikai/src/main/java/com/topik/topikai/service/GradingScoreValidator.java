@@ -189,9 +189,6 @@ public class GradingScoreValidator {
         if (!obj.has("roadmap") || !obj.get("roadmap").isArray()) {
             obj.set("roadmap", objectMapper.createArrayNode());
         }
-        if (!obj.has("similar_questions") || !obj.get("similar_questions").isArray()) {
-            obj.set("similar_questions", objectMapper.createArrayNode());
-        }
         if (!obj.has("swot") || !obj.get("swot").isObject()) {
             ObjectNode swot = objectMapper.createObjectNode();
             swot.set("S", objectMapper.createArrayNode());
@@ -290,7 +287,6 @@ public class GradingScoreValidator {
             obj.set("detailed_criteria", objectMapper.createArrayNode());
             obj.set("paragraph_analysis", objectMapper.createArrayNode());
             obj.set("roadmap", objectMapper.createArrayNode());
-            obj.set("similar_questions", objectMapper.createArrayNode());
             ObjectNode swot = objectMapper.createObjectNode();
             swot.set("S", objectMapper.createArrayNode());
             swot.set("W", objectMapper.createArrayNode());
@@ -306,7 +302,7 @@ public class GradingScoreValidator {
             obj.put("native_suggestion", "Lỗi bóc tách điểm.");
             return objectMapper.writeValueAsString(obj);
         } catch (Exception e) {
-            return "{\"total_score\": 0, \"criteria_scores\": {}, \"grammar_errors\": [], \"content_issues\": [], \"rewrite_tasks\": [], \"structure_map\": {}, \"model_phrases_to_learn\": [], \"estimated_level\": \"\", \"detailed_criteria\": [], \"paragraph_analysis\": [], \"roadmap\": [], \"similar_questions\": [], \"swot\": {\"S\":[],\"W\":[],\"O\":[],\"T\":[]}, \"level_diagnosis\": {}, \"sample_answers\": {\"co_ban\":\"\",\"nang_cao\":\"\"}, \"grade_letter\": \"\", \"native_suggestion\": \"Lỗi bóc tách điểm.\"}";
+            return "{\"total_score\": 0, \"criteria_scores\": {}, \"grammar_errors\": [], \"content_issues\": [], \"rewrite_tasks\": [], \"structure_map\": {}, \"model_phrases_to_learn\": [], \"estimated_level\": \"\", \"detailed_criteria\": [], \"paragraph_analysis\": [], \"roadmap\": [], \"swot\": {\"S\":[],\"W\":[],\"O\":[],\"T\":[]}, \"level_diagnosis\": {}, \"sample_answers\": {\"co_ban\":\"\",\"nang_cao\":\"\"}, \"grade_letter\": \"\", \"native_suggestion\": \"Lỗi bóc tách điểm.\"}";
         }
     }
 }

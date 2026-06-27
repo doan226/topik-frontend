@@ -77,6 +77,30 @@ class PreGradingValidatorTest {
     }
 
     @Test
+    void flagsQ53LineBreaksAndPersonalOpinion() {
+        GradingContext ctx = new GradingContext(
+                53,
+                "이 그래프는 변화를 보여 준다.\n저는 이것이 좋다고 생각한다.",
+                "",
+                "official",
+                30,
+                3553,
+                35
+        );
+        Map<String, Object> result = validator.validate(ctx);
+        assertTrue((Boolean) result.get("q53HasLineBreaks"));
+        assertTrue((Boolean) result.get("q53PersonalOpinion"));
+    }
+
+    @Test
+    void flagsQ54BulletList() {
+        String essay = "1. 첫째 이유이다.\n2. 둘째 이유이다.\n3. 셋째 이유이다.";
+        GradingContext ctx = new GradingContext(54, essay, "1. 이유?\n2. 조건?\n3. 노력?", "model", 50, 3554, 35);
+        Map<String, Object> result = validator.validate(ctx);
+        assertTrue((Boolean) result.get("q54HasBulletList"));
+    }
+
+    @Test
     void promptBuilderInjectsPreValidationAndQ54Hints() {
         String prompt = """
                 1. 이유는?

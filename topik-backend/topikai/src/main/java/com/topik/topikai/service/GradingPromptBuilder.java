@@ -30,12 +30,11 @@ public class GradingPromptBuilder {
               "rewrite_tasks": ["<câu/đoạn cần viết lại>"],
               "structure_map": { "서론": "có|thiếu", "본론1": "có|thiếu", "본론2": "có|thiếu", "결론": "có|thiếu" },
               "paragraph_analysis": [
-                {"phan":"서론", "diem":<số>, "toi_da":<số>, "nhan_xet":"<nhận xét tiếng Việt>", "trich_dan":"<trích câu mở đầu đoạn>"}
+                {"phan":"Mở bài (서론)", "diem":<số>, "toi_da":<số>, "nhan_xet":"<nhận xét BẮT BUỘC bằng tiếng Việt>", "trich_dan":"<trích câu mở đầu đoạn (tiếng Hàn)>"}
               ],
               "swot": { "S": ["<điểm mạnh>"], "W": ["<điểm yếu>"], "O": ["<cơ hội cải thiện>"], "T": ["<rủi ro>"] },
               "level_diagnosis": { "hien_tai": "<vd 5급>", "muc_tieu": "<vd 6급>", "mo_ta": "<chẩn đoán tiếng Việt>" },
               "roadmap": ["<bước cải thiện 1>", "<bước cải thiện 2>"],
-              "similar_questions": [{"ky_thi":"TOPIK 47회", "de_bai":"<đề tương tự>"}],
               "model_phrases_to_learn": [{"ko":"<cụm từ mẫu tiếng Hàn>", "vi":"<nghĩa tiếng Việt>"}],
               "estimated_level": "<mức TOPIK dự đoán, ví dụ 4-5>"
             }""";
@@ -107,19 +106,31 @@ public class GradingPromptBuilder {
                 : ctx.getQuestionPrompt();
 
         return baseHeader(ctx, 53) + """
-                LOẠI BÀI: Câu 53 — mô tả biểu đồ/số liệu (200~300 ký tự Hàn).
+                LOẠI BÀI: Câu 53 — mô tả biểu đồ/số liệu (200~300 ký tự Hàn). Đây là bài BÁO CÁO DỮ LIỆU.
                 GROUND TRUTH SỐ LIỆU: dùng đáp án mẫu bên dưới làm chuẩn kiểm tra.
 
-                RUBRIC CHẤM CHẶT (tổng 30 điểm) — quy đổi sang 4 trục criteria_scores (tổng = total_score):
-                - noi_dung: số liệu chính xác, không bịa, đủ các nhóm so sánh chính
-                - cau_truc: mở bài (giới thiệu khảo sát) → thân (xu hướng/so sánh) → kết luận
-                - ngu_phap + tu_vung: -다/-이다, khách quan, không tiêu đề, không ý kiến cá nhân
+                3 TRỤ CỘT CHẤM (tổng 30 điểm, chia đều) — quy đổi sang 4 trục criteria_scores (tổng = total_score):
+                A. NỘI DUNG & THỰC HIỆN (noi_dung): đưa ĐỦ TẤT CẢ tiêu chí/số liệu của đề vào bài
+                   (thiếu 1 gạch đầu dòng/mục trong đề = trừ NẶNG); đọc ĐÚNG số liệu, không bịa.
+                B. CẤU TRÚC & MẠCH LẠC (cau_truc): mở bài (gom cơ quan+đối tượng+chủ đề) → thân (xu hướng/so sánh)
+                   → kết (tổng hợp xu hướng); từ nối (하지만/따라서/반면에…) chính xác, tự nhiên.
+                C. NGÔN NGỮ (ngu_phap + tu_vung): thể -다/-이다 khách quan; từ vựng-ngữ pháp trung/cao cấp,
+                   đa dạng; đúng 맞춤법 (chính tả) và 띄어쓰기 (giãn cách).
+
+                QUY TẮC "MẤT ĐIỂM OAN" CÂU 53 (kiểm RẤT kỹ):
+                - TUYỆT ĐỐI KHÔNG bê nguyên văn câu dẫn của đề (vd 다음 그래프를 보고…). Phải tự gom
+                  "Cơ quan + Đối tượng + Chủ đề" thành 1 câu mở bằng từ ngữ của mình → nếu chép câu dẫn: trừ NẶNG.
+                - SAI ĐƠN VỊ đo lường (đề cho % mà viết 명; đề cho 원 mà viết 건…) = lỗi HIỂU SAI DỮ LIỆU,
+                  trừ RẤT NẶNG. Bắt buộc đối chiếu đơn vị trong ngoặc của biểu đồ.
+                - KHÔNG viết kết luận/ý kiến cá nhân (저는…생각한다), không đề xuất giải pháp xã hội/môi trường
+                  nếu biểu đồ không có dữ liệu đó → có là trừ điểm và ghi vào content_issues.
+                - Toàn bài chỉ 1 ĐOẠN DUY NHẤT, KHÔNG xuống dòng/sang đoạn mới.
 
                 QUY TẮC CHẤM:
-                - Trừ 3–5 điểm mỗi số liệu sai hoặc thiếu nhóm so sánh quan trọng
-                - Tổng điểm ≤ 15 nếu bịa số hoặc sai >2 số liệu chính
+                - Trừ 3–5 điểm mỗi số liệu sai hoặc thiếu nhóm so sánh/tiêu chí quan trọng
+                - Tổng điểm ≤ 15 nếu bịa số, sai đơn vị, hoặc sai >2 số liệu chính
                 - Trừ 2–4 điểm nếu <180 hoặc >320 ký tự Hàn
-                - Liệt kê lỗi số liệu trong content_issues
+                - Liệt kê mọi lỗi số liệu/đơn vị/ý kiến cá nhân trong content_issues
                 - Điểm trung bình bài học viên: 15–22/30
 
                 ĐỀ BÀI / GHI CHÚ:
@@ -139,13 +150,22 @@ public class GradingPromptBuilder {
         StringBuilder prompt = new StringBuilder();
         prompt.append(baseHeader(ctx, 54));
         prompt.append("""
-                LOẠI BÀI: Câu 54 — nghị luận 600~700 ký tự Hàn, trả lời 3 gợi ý con.
+                LOẠI BÀI: Câu 54 — nghị luận 600~700 ký tự Hàn, trả lời 3 gợi ý con. Thể bắt buộc: 한다체.
 
-                RUBRIC CHẤM CHẶT (tổng 50 điểm) — quy đổi sang 4 trục criteria_scores (tổng = total_score):
-                - noi_dung: trả lời đủ 3 ý trong đề, có ví dụ cụ thể
-                - cau_truc: 서론–본론–결론, mạch logic rõ
-                - ngu_phap: độ chính xác ngữ pháp, đúng thể 한다체
-                - tu_vung: từ vựng trung-cao cấp, đa dạng biểu đạt
+                3 TRỤ CỘT CHẤM (tổng 50 điểm, chia đều) — quy đổi sang 4 trục criteria_scores (tổng = total_score):
+                A. NỘI DUNG & THỰC HIỆN (noi_dung): trả lời TRỰC DIỆN và ĐẦY ĐỦ cả 3 câu hỏi gợi ý;
+                   luận điểm có chiều sâu, có luận cứ/ví dụ hỗ trợ (thiếu hoặc trả lời lệch 1 ý = trừ nặng).
+                B. CẤU TRÚC & MẠCH LẠC (cau_truc): 서론–본론–결론, liên kết câu/đoạn rõ;
+                   từ nối (하지만/따라서/반면에…) chính xác; chia đoạn hợp lý.
+                C. NGÔN NGỮ (ngu_phap + tu_vung): độ chính xác ngữ pháp, đúng thể 한다체;
+                   từ vựng-ngữ pháp trung/cao cấp & đa dạng (dùng ngữ pháp sơ cấp = điểm thấp);
+                   đúng 맞춤법 (chính tả) và 띄어쓰기 (giãn cách).
+
+                QUY TẮC KHẮT KHE CÂU 54 (trừ điểm nếu vi phạm):
+                - KHÔNG viết tiêu đề (제목) → vào thẳng bài.
+                - KHÔNG gạch đầu dòng/đánh số (1., 2., 3., -, +) để liệt kê → phải viết thành văn xuôi.
+                - TRÁNH lạm dụng 저는/나 (xưng "tôi"); ưu tiên ẩn chủ ngữ hoặc chủ ngữ chung (우리는/현대인들은).
+                - PHÂN BỔ DUNG LƯỢNG ĐỀU cho 3 luận điểm; không dồn 1 ý quá dài rồi bỏ qua 2 ý còn lại.
 
                 QUY TẮC CHẤM:
                 - Chấm như giám khảo TOPIK thật — điểm trung bình học viên: 25–35/50
@@ -157,7 +177,7 @@ public class GradingPromptBuilder {
                  ký tự)
                 - Mỗi lỗi ngữ pháp nặng trừ 1–2 điểm tổng
                 - Điền structure_map theo 서론/본론1/본론2/결론; mỗi ý gợi ý con tương ứng 본론
-                - Điền paragraph_analysis cho từng đoạn 서론/본론1/본론2/결론 kèm điểm và nhận xét
+                - Điền paragraph_analysis cho từng đoạn 서론/본론1/본론2/결론 kèm điểm và nhận xét (nhan_xet bằng tiếng Việt)
 
                 3 GỢI Ý CON CẦN CHẤM RIÊNG:
                 """);
@@ -206,6 +226,11 @@ public class GradingPromptBuilder {
         return "Bạn là giám khảo TOPIK II chuyên nghiệp, chấm NGHIÊM và CÔNG BẰNG.\n"
                 + "CHỈ TRẢ VỀ JSON, KHÔNG CÓ MARKDOWN VĂN BẢN THỪA.\n"
                 + "Đang chấm Câu " + questionType + ". Điểm tối đa: " + maxScore + ".\n\n"
+                + "QUY TẮC TỬ HUYỆT — CHẤM 0 ĐIỂM NGAY (total_score=0, cả 4 trục=0):\n"
+                + "- Lạc đề hoàn toàn: nội dung không liên quan yêu cầu đề bài.\n"
+                + "- Chép y nguyên đề bài: chỉ copy lại câu hỏi/thông tin đề mà không thêm ngữ pháp/cấu trúc riêng.\n"
+                + "- Viết bằng ngôn ngữ khác: có câu viết bằng tiếng Việt/tiếng Anh hoặc phiên âm (trừ khi đề yêu cầu).\n"
+                + "Nếu dính 1 trong các lỗi trên: total_score=0 và ghi RÕ lý do trong score_justification.\n\n"
                 + "NGUYÊN TẮC CHẤM (BẮT BUỘC):\n"
                 + "- CHỈ chấm dựa trên đúng nội dung 'BÀI LÀM HỌC VIÊN' bên dưới. KHÔNG suy đoán, KHÔNG cho điểm/cấp độ mặc định.\n"
                 + "- Mọi nhận xét, lỗi (grammar_errors/content_issues), trích dẫn PHẢI lấy từ chính câu chữ học viên viết.\n"
@@ -214,9 +239,9 @@ public class GradingPromptBuilder {
                 + " và TỔNG 4 trục PHẢI BẰNG total_score.\n"
                 + "- detailed_criteria (7 mục) phải nhất quán với 4 trục: bài kém thì các mục cũng phải điểm thấp.\n\n"
                 + levelMappingBlock(maxScore)
-                + "Phản hồi SONG NGỮ Việt-Hàn: phần nhận xét/giải thích bằng tiếng Việt, ví dụ/câu mẫu bằng tiếng Hàn.\n"
+                + "Phản hồi SONG NGỮ Việt-Hàn: TẤT CẢ nhận xét/giải thích/chẩn đoán (gồm paragraph_analysis.nhan_xet) bằng tiếng Việt; chỉ ví dụ/câu mẫu/trích dẫn bằng tiếng Hàn.\n"
                 + "Bắt buộc điền: detailed_criteria (7 mục), paragraph_analysis, swot, level_diagnosis, roadmap,\n"
-                + "sample_answers (co_ban + nang_cao), similar_questions, rewrite_tasks, structure_map,\n"
+                + "sample_answers (co_ban + nang_cao), rewrite_tasks, structure_map,\n"
                 + "model_phrases_to_learn, estimated_level.\n\n";
     }
 
@@ -251,6 +276,16 @@ public class GradingPromptBuilder {
         Object missingFigures = preValidation.get("chartMissingFigures");
         if (missingFigures instanceof List<?> list && !list.isEmpty()) {
             block.append("- Số liệu thiếu/sai khả năng cao: ").append(list).append('\n');
+        }
+
+        if (Boolean.TRUE.equals(preValidation.get("q53HasLineBreaks"))) {
+            block.append("- q53HasLineBreaks: true (Câu 53 phải viết 1 đoạn duy nhất — bài có xuống dòng/nhiều đoạn → trừ điểm cấu trúc)\n");
+        }
+        if (Boolean.TRUE.equals(preValidation.get("q53PersonalOpinion"))) {
+            block.append("- q53PersonalOpinion: true (Câu 53 báo cáo dữ liệu — phát hiện ý kiến cá nhân (저는/생각…) → trừ điểm)\n");
+        }
+        if (Boolean.TRUE.equals(preValidation.get("q54HasBulletList"))) {
+            block.append("- q54HasBulletList: true (Câu 54 phải viết văn xuôi — phát hiện gạch đầu dòng/đánh số → trừ điểm định dạng)\n");
         }
 
         block.append("- q54MissingPoints: ").append(preValidation.getOrDefault("q54MissingPoints", false)).append('\n');

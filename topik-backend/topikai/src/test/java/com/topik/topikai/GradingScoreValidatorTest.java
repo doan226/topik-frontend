@@ -76,7 +76,6 @@ class GradingScoreValidatorTest {
         assertTrue(node.get("detailed_criteria").isArray());
         assertTrue(node.get("paragraph_analysis").isArray());
         assertTrue(node.get("roadmap").isArray());
-        assertTrue(node.get("similar_questions").isArray());
         assertTrue(node.get("swot").isObject());
         assertTrue(node.get("swot").get("S").isArray());
         assertTrue(node.get("level_diagnosis").isObject());

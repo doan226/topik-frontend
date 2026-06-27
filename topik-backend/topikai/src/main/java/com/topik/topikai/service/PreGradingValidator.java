@@ -28,6 +28,12 @@ public class PreGradingValidator {
             "\\d+(?:\\.\\d+)?%|\\d+대|\\d+만\\s*명|\\d+조"
     );
     private static final Pattern KOREAN_KEYWORD_PATTERN = Pattern.compile("[가-힣]{2,}");
+    private static final Pattern PERSONAL_OPINION_PATTERN = Pattern.compile(
+            "저는|제\\s*생각|내\\s*생각|생각한다|생각합니다|생각해|것\\s*같다|것\\s*같습니다"
+    );
+    private static final Pattern BULLET_LIST_PATTERN = Pattern.compile(
+            "(?m)^\\s*(?:\\d+[.)]|[-+•·▪◦*])\\s+"
+    );
 
     private final ObjectMapper objectMapper = new ObjectMapper();
     private JsonNode chartAnswersRoot;
@@ -46,9 +52,13 @@ public class PreGradingValidator {
             ChartCheck chartCheck = checkChartData(ctx, studentText);
             result.put("chartDataMismatch", chartCheck.mismatch);
             result.put("chartMissingFigures", chartCheck.missingFigures);
+            result.put("q53HasLineBreaks", hasMultipleParagraphs(studentText));
+            result.put("q53PersonalOpinion", hasPersonalOpinion(studentText));
         } else {
             result.put("chartDataMismatch", false);
             result.put("chartMissingFigures", List.of());
+            result.put("q53HasLineBreaks", false);
+            result.put("q53PersonalOpinion", false);
         }
 
         if (questionType == 54) {
@@ -57,10 +67,12 @@ public class PreGradingValidator {
             result.put("q54SubPrompts", subPrompts);
             result.put("q54MissingPoints", !missingPoints.isEmpty());
             result.put("q54MissingPointDetails", missingPoints);
+            result.put("q54HasBulletList", hasBulletList(studentText));
         } else {
             result.put("q54SubPrompts", List.of());
             result.put("q54MissingPoints", false);
             result.put("q54MissingPointDetails", List.of());
+            result.put("q54HasBulletList", false);
         }
 
         return result;
@@ -121,6 +133,34 @@ public class PreGradingValidator {
             case 54 -> koreanCharCount < 600 || koreanCharCount > 700;
             default -> false;
         };
+    }
+
+    private boolean hasMultipleParagraphs(String studentText) {
+        if (studentText == null || studentText.isBlank()) {
+            return false;
+        }
+        String[] paragraphs = studentText.trim().split("\\R{1,}");
+        int nonEmpty = 0;
+        for (String p : paragraphs) {
+            if (!p.isBlank()) {
+                nonEmpty++;
+            }
+        }
+        return nonEmpty > 1;
+    }
+
+    private boolean hasPersonalOpinion(String studentText) {
+        if (studentText == null || studentText.isBlank()) {
+            return false;
+        }
+        return PERSONAL_OPINION_PATTERN.matcher(studentText).find();
+    }
+
+    private boolean hasBulletList(String studentText) {
+        if (studentText == null || studentText.isBlank()) {
+            return false;
+        }
+        return BULLET_LIST_PATTERN.matcher(studentText).find();
     }
 
     private boolean isWrongSpeechLevel(int questionType, String studentText) {

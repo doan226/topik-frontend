@@ -354,38 +354,6 @@ function ModelPhrases({ phrases, savedIds, onSave }) {
   );
 }
 
-function SimilarQuestions({ items }) {
-  if (!items?.length) return null;
-  return (
-    <Section icon={FileText} title="Đề tương tự đã ra">
-      <div className="gr-similar">
-        {items.map((q, i) => (
-          <div key={i} className="gr-similar__item">
-            <span className="gr-similar__tag">{q.ky_thi || `Đề ${i + 1}`}</span>
-            <span className="gr-similar__text">{q.de_bai || (typeof q === 'string' ? q : '')}</span>
-          </div>
-        ))}
-      </div>
-    </Section>
-  );
-}
-
-function NextTasks({ tasks }) {
-  if (!tasks?.length) return null;
-  return (
-    <Section icon={ListChecks} title="Nhiệm vụ tiếp theo">
-      <ol className="gr-roadmap">
-        {tasks.map((t, i) => (
-          <li key={i}>
-            <span className="gr-roadmap__num">{i + 1}</span>
-            {typeof t === 'string' ? t : (t.task || JSON.stringify(t))}
-          </li>
-        ))}
-      </ol>
-    </Section>
-  );
-}
-
 export default function Essay54ReportCard({
   gradingResult,
   maxScore,
@@ -428,10 +396,6 @@ export default function Essay54ReportCard({
     },
   };
 
-  const nextTasks = gradingResult.rewrite_tasks?.length
-    ? gradingResult.rewrite_tasks
-    : gradingResult.roadmap;
-
   return (
     <div className="gr-report">
       <h3 className="gr-report__heading"><Sparkles size={20} /> Báo cáo chấm điểm AI</h3>
@@ -466,9 +430,6 @@ export default function Essay54ReportCard({
         savedIds={savedPhraseIds}
         onSave={userId ? onSavePhrase : null}
       />
-      <NextTasks tasks={nextTasks} />
-      <SimilarQuestions items={gradingResult.similar_questions} />
-
       {studentText && (questionType === 53 || questionType === 54) && (
         <button
           type="button"
