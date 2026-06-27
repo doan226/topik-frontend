@@ -55,6 +55,7 @@ public class GradingScoreValidator {
             ensureExtendedFields(obj);
             ensureArrays(obj);
             obj.put("grade_letter", computeGradeLetter(totalScore, maxScore));
+            enforceLevelConsistency(obj, totalScore, maxScore);
             return objectMapper.writeValueAsString(obj);
         } catch (Exception e) {
             System.err.println("GradingScoreValidator: " + e.getMessage());
@@ -209,6 +210,47 @@ public class GradingScoreValidator {
             sample.put("nang_cao", "");
             obj.set("sample_answers", sample);
         }
+    }
+
+    private void enforceLevelConsistency(ObjectNode obj, int totalScore, int maxScore) {
+        String level = computeTopikLevel(totalScore, maxScore);
+        String target = nextTopikLevel(level);
+
+        obj.put("estimated_level", level);
+
+        JsonNode diagNode = obj.get("level_diagnosis");
+        ObjectNode diag = (diagNode != null && diagNode.isObject())
+                ? (ObjectNode) diagNode
+                : objectMapper.createObjectNode();
+        diag.put("hien_tai", level);
+        diag.put("muc_tieu", target);
+        if (!diag.has("mo_ta") || diag.get("mo_ta").asText("").isBlank()) {
+            diag.put("mo_ta", "Trình độ hiện tại ước tính " + level
+                    + " dựa trên điểm " + totalScore + "/" + maxScore + ".");
+        }
+        obj.set("level_diagnosis", diag);
+    }
+
+    private String computeTopikLevel(int totalScore, int maxScore) {
+        if (maxScore <= 0) {
+            return "Dưới 3급";
+        }
+        double ratio = (double) totalScore / maxScore;
+        if (ratio >= 0.85) return "6급";
+        if (ratio >= 0.70) return "5급";
+        if (ratio >= 0.55) return "4급";
+        if (ratio >= 0.40) return "3급";
+        return "Dưới 3급";
+    }
+
+    private String nextTopikLevel(String level) {
+        return switch (level) {
+            case "6급" -> "6급";
+            case "5급" -> "6급";
+            case "4급" -> "5급";
+            case "3급" -> "4급";
+            default -> "3급";
+        };
     }
 
     private String computeGradeLetter(int totalScore, int maxScore) {

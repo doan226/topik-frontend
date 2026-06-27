@@ -102,6 +102,25 @@ class GradingScoreValidatorTest {
     }
 
     @Test
+    void overridesInconsistentHighLevelForLowScore() throws Exception {
+        String raw = "{\"total_score\": 15, \"criteria_scores\": {\"ngu_phap\":4,\"tu_vung\":4,\"cau_truc\":4,\"noi_dung\":3},"
+                + " \"estimated_level\": \"5급\", \"level_diagnosis\": {\"hien_tai\":\"5급\",\"muc_tieu\":\"6급\"}}";
+        JsonNode node = new ObjectMapper().readTree(validator.validateAndNormalize(raw, 50));
+        assertEquals(15, node.get("total_score").asInt());
+        assertEquals("Dưới 3급", node.get("estimated_level").asText());
+        assertEquals("Dưới 3급", node.get("level_diagnosis").get("hien_tai").asText());
+        assertEquals("3급", node.get("level_diagnosis").get("muc_tieu").asText());
+    }
+
+    @Test
+    void mapsScoreToLevelBands() throws Exception {
+        String raw = "{\"total_score\": 38, \"criteria_scores\": {\"ngu_phap\":10,\"tu_vung\":10,\"cau_truc\":9,\"noi_dung\":9}}";
+        JsonNode node = new ObjectMapper().readTree(validator.validateAndNormalize(raw, 50));
+        assertEquals("5급", node.get("estimated_level").asText());
+        assertEquals("6급", node.get("level_diagnosis").get("muc_tieu").asText());
+    }
+
+    @Test
     void keepsFourAxisCriteriaSumEqualToTotal() throws Exception {
         String raw = "{\"total_score\": 80, \"criteria_scores\": {\"ngu_phap\":20,\"tu_vung\":18,\"cau_truc\":21,\"noi_dung\":21}}";
         JsonNode node = new ObjectMapper().readTree(validator.validateAndNormalize(raw, 100));

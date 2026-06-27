@@ -205,13 +205,35 @@ public class GradingPromptBuilder {
         int axisMax = Math.round(maxScore / 4f);
         return "Bạn là giám khảo TOPIK II chuyên nghiệp, chấm NGHIÊM và CÔNG BẰNG.\n"
                 + "CHỈ TRẢ VỀ JSON, KHÔNG CÓ MARKDOWN VĂN BẢN THỪA.\n"
-                + "Đang chấm Câu " + questionType + ". Điểm tối đa: " + maxScore + ".\n"
-                + "criteria_scores BẮT BUỘC gồm đúng 4 trục: ngu_phap, tu_vung, cau_truc, noi_dung.\n"
-                + "Mỗi trục thang điểm ~" + axisMax + " và TỔNG 4 trục PHẢI BẰNG total_score.\n"
+                + "Đang chấm Câu " + questionType + ". Điểm tối đa: " + maxScore + ".\n\n"
+                + "NGUYÊN TẮC CHẤM (BẮT BUỘC):\n"
+                + "- CHỈ chấm dựa trên đúng nội dung 'BÀI LÀM HỌC VIÊN' bên dưới. KHÔNG suy đoán, KHÔNG cho điểm/cấp độ mặc định.\n"
+                + "- Mọi nhận xét, lỗi (grammar_errors/content_issues), trích dẫn PHẢI lấy từ chính câu chữ học viên viết.\n"
+                + "- Nếu bài TRỐNG, quá ngắn, sai đề, sai thể hoặc chép lại đề → điểm THẤP và cấp độ THẤP tương ứng (không nương tay).\n"
+                + "- criteria_scores gồm đúng 4 trục: ngu_phap, tu_vung, cau_truc, noi_dung; mỗi trục ~" + axisMax
+                + " và TỔNG 4 trục PHẢI BẰNG total_score.\n"
+                + "- detailed_criteria (7 mục) phải nhất quán với 4 trục: bài kém thì các mục cũng phải điểm thấp.\n\n"
+                + levelMappingBlock(maxScore)
                 + "Phản hồi SONG NGỮ Việt-Hàn: phần nhận xét/giải thích bằng tiếng Việt, ví dụ/câu mẫu bằng tiếng Hàn.\n"
                 + "Bắt buộc điền: detailed_criteria (7 mục), paragraph_analysis, swot, level_diagnosis, roadmap,\n"
                 + "sample_answers (co_ban + nang_cao), similar_questions, rewrite_tasks, structure_map,\n"
                 + "model_phrases_to_learn, estimated_level.\n\n";
+    }
+
+    private String levelMappingBlock(int maxScore) {
+        int t40 = (int) Math.round(maxScore * 0.40);
+        int t55 = (int) Math.round(maxScore * 0.55);
+        int t70 = (int) Math.round(maxScore * 0.70);
+        int t85 = (int) Math.round(maxScore * 0.85);
+        return "BẢNG QUY ĐỔI CẤP ĐỘ theo total_score (trên thang " + maxScore + ") — "
+                + "level_diagnosis.hien_tai VÀ estimated_level PHẢI khớp đúng bảng này, "
+                + "TUYỆT ĐỐI không tự gán 5급/6급 nếu điểm chưa đạt ngưỡng:\n"
+                + "- ≥ " + t85 + " điểm → 6급\n"
+                + "- " + t70 + "–" + (t85 - 1) + " điểm → 5급\n"
+                + "- " + t55 + "–" + (t70 - 1) + " điểm → 4급\n"
+                + "- " + t40 + "–" + (t55 - 1) + " điểm → 3급\n"
+                + "- < " + t40 + " điểm → Dưới 3급 (chưa đạt trung cấp)\n"
+                + "level_diagnosis.muc_tieu = cấp kế trên của hien_tai (6급 thì giữ 6급).\n\n";
     }
 
     private String preValidationBlock(GradingContext ctx) {
