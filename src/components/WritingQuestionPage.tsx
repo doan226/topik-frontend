@@ -4,7 +4,6 @@ import PageHeader from './PageHeader';
 import PatternPractice from './PatternPractice';
 import Chart53Practice from './Chart53Practice';
 import Essay54Practice from './Essay54Practice';
-import Essay54Wizard from './Essay54Wizard';
 import ExamRoom from './ExamRoom';
 import type { QuestionType, WritingMode } from '../navigation';
 import { WRITING_TAB_META, getWritingTabForQuestion } from '../navigation';
@@ -36,7 +35,6 @@ export default function WritingQuestionPage({
 }: WritingQuestionPageProps) {
   const navigate = useNavigate();
   const [mode, setMode] = useState<WritingMode>(initialMode);
-  const [wizardStep, setWizardStep] = useState(1);
   const tabId = getWritingTabForQuestion(questionType);
   const meta = tabId ? WRITING_TAB_META[tabId] : null;
 
@@ -65,8 +63,6 @@ export default function WritingQuestionPage({
       fixedQuestionType={questionType}
       initialTopik={initialTopik}
       onSwitchToTheory={() => goMode('theory')}
-      requireWizardReview={questionType === 54}
-      wizardStep={wizardStep}
     />
   );
 
@@ -127,13 +123,7 @@ export default function WritingQuestionPage({
       </div>
 
       <div className={mode === 'omr' ? '' : 'exam-mode-hidden'} aria-hidden={mode !== 'omr'}>
-        {questionType === 54 ? (
-          <Essay54Wizard onStepChange={setWizardStep}>
-            {examRoom}
-          </Essay54Wizard>
-        ) : (
-          examRoom
-        )}
+        {examRoom}
       </div>
     </>
   );

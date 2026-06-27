@@ -38,8 +38,6 @@ export default function ExamRoom({
   fixedQuestionType,
   initialTopik,
   onSwitchToTheory,
-  requireWizardReview = false,
-  wizardStep = 3,
 }) {
   const userId = getUserId(user);
   const writingAccess = hasWriting ?? isPremium;
@@ -313,11 +311,6 @@ export default function ExamRoom({
         'warning'
       );
       onUpgradeClick();
-      return;
-    }
-
-    if (requireWizardReview && wizardStep < 4) {
-      showToast('Hoàn thành bước Review trong wizard trước khi chấm AI.', 'warning');
       return;
     }
 
