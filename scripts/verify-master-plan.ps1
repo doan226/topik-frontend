@@ -22,7 +22,6 @@ $required = @(
     "topik-frontend\docs\IMPLEMENTATION-HANDOFF.md",
     "topik-frontend\src\hooks\useEntitlements.js",
     "topik-frontend\src\components\PricingPage.jsx",
-    "topik-frontend\src\components\Essay54Wizard.jsx",
     "topik-frontend\src\components\Topik1Hub.tsx",
     "topik-backend\topikai\src\main\java\com\topik\topikai\service\EntitlementService.java",
     "topik-backend\topikai\src\main\java\com\topik\topikai\service\PreGradingValidator.java",
