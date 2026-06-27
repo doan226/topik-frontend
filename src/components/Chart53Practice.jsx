@@ -132,7 +132,7 @@ function FormulaPanel() {
           ))}
         </div>
         {formula.sections.filter((s) => s.id === openSection).map((sec) => (
-          <ul style={{ margin: 0, paddingLeft: 0, listStyle: 'none' }}>
+          <ul key={sec.id} style={{ margin: 0, paddingLeft: 0, listStyle: 'none' }}>
             {sec.templates.map((t, i) => (
               <li key={i} className="chart53-template-item">
                 <code className="theme-text" style={{ display: 'block', marginBottom: '4px' }}>{t.ko}</code>
