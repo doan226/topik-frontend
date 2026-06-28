@@ -11,6 +11,7 @@ import { useDraftSave, loadDraft, clearDraft } from '../hooks/useDraft';
 import { isExpansionQuestion, isOfficialQuestion } from '../utils/questionKey';
 import Essay54Hints from './Essay54Hints';
 import Question53Chart from './Question53Chart';
+import WritingPromptCard from './WritingPromptCard';
 import { addMistakesFromGrading } from '../utils/mistakeCards';
 import { saveRewriteScore } from '../utils/rewriteScores';
 import { loadSavedVocab54, toggleSavedVocab54 } from '../utils/savedVocab54';
@@ -423,10 +424,14 @@ export default function ExamRoom({
             compact
           />
         ) : null}
-        {!(currentQuestion.type === 53 && currentQuestion.imageUrl) && currentQuestion.prompt && (
-          <div className={`exam-room__prompt-text${currentQuestion.type === 53 ? ' exam-room__prompt-text--offset' : ''}`}>
-            {currentQuestion.prompt}
-          </div>
+        {[51, 52, 54].includes(currentQuestion.type) && currentQuestion.prompt ? (
+          <WritingPromptCard question={currentQuestion} />
+        ) : (
+          !(currentQuestion.type === 53 && currentQuestion.imageUrl) && currentQuestion.prompt && (
+            <div className={`exam-room__prompt-text${currentQuestion.type === 53 ? ' exam-room__prompt-text--offset' : ''}`}>
+              {currentQuestion.prompt}
+            </div>
+          )
         )}
         {currentQuestion.type !== 53 && currentQuestion.imageUrl && (
           <div className="exam-room__image-wrap">
