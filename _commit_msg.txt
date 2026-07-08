@@ -1,6 +1,0 @@
-Cap nhat 23 de mo rong (51-54) + bieu do Cau 53 Chart.js
-
-- Nap day expansionQuestionBank (92 cau, bo 1-23) thay mang rong
-- Them chart-53-exam-visuals.json voi 23 bieu do dong cho de mo rong
-- Dong bo writing-question-bank.json va anh expansion Q53
-- Kem sua AppShell crash va tinh nang ca nhan hoa (CoachBar, profile)
