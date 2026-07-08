@@ -8,5 +8,7 @@
   "nextReviewDate": "2026-05-28",
   "intervalDays": 3,
   "source": "ai-grading",
+  "externalRef": "mistake:<sha1 của sai→đúng>",
+  "cardId": null,
   "officialQuestionId": null
 }

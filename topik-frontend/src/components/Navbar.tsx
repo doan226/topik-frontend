@@ -14,6 +14,7 @@ interface NavbarProps {
   onUpgrade: () => void;
   onUserUpdate?: (user: any) => void;
   showToast?: (msg: string, type?: string) => void;
+  coachBadge?: number;
 }
 
 export default function Navbar({
@@ -25,6 +26,7 @@ export default function Navbar({
   onUpgrade,
   onUserUpdate,
   showToast,
+  coachBadge = 0,
 }: NavbarProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [writingOpen, setWritingOpen] = useState(false);
@@ -106,6 +108,7 @@ export default function Navbar({
             onClick={() => goTab('dashboard')}
           >
             Bảng điều khiển
+            {coachBadge > 0 && <span className="app-nav-badge">{coachBadge}</span>}
           </button>
 
           <div

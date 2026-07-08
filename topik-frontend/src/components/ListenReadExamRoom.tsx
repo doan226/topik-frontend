@@ -114,13 +114,13 @@ export default function ListenReadExamRoom({
       if (!hasPassage && !hasQuestion && !content.image_url) return true;
       if (isPlaceholderContent(content.passage) || isPlaceholderContent(content.question)) return true;
       const opts = Array.isArray(content.options) ? content.options : [];
-      if (opts.some((o) => isMissingOrPlaceholder(o))) return true;
+      if (opts.some((o: unknown) => isMissingOrPlaceholder(o))) return true;
       return false;
     }
     if (isPlaceholderContent(content.passage)) return true;
     if (qn >= 4) {
       const opts = Array.isArray(content.options) ? content.options : [];
-      if (opts.length === 0 || opts.every((o) => isMissingOrPlaceholder(o))) return true;
+      if (opts.length === 0 || opts.every((o: unknown) => isMissingOrPlaceholder(o))) return true;
     }
     return false;
   }, [question, content, section, currentIndex]);
@@ -496,6 +496,7 @@ export default function ListenReadExamRoom({
           activeSectionIndex={fullActiveSectionIndex}
           activeLineIndex={fullActiveLineIndex}
           isLoading={loadingQuestions || audioDurationMs <= 0}
+          subtitle={`${LISTENING_SEGMENT_COUNT} đoạn audio · ${LISTENING_MCQ_COUNT} câu hỏi`}
           onLineClick={seekAndPlay}
           onTextMouseUp={handleMouseUp}
         />

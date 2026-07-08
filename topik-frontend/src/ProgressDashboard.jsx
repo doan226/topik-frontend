@@ -40,19 +40,8 @@ const QUESTION_TYPES = [
   { num: 54, label: 'Câu 54', desc: 'Viết luận — ý kiến cá nhân', maxScore: 50, tab: 'writing54', badge: 'q54' },
 ];
 
-function getWeakestQuestionNum(learningPath, allHistory) {
-  if (learningPath?.progress) {
-    let weakest = 51;
-    let minPercent = 101;
-    for (const q of [51, 52, 53, 54]) {
-      const p = learningPath.progress[`q${q}`]?.percent ?? 0;
-      if (p < minPercent) {
-        minPercent = p;
-        weakest = q;
-      }
-    }
-    return weakest;
-  }
+function getWeakestQuestionNum(profile, allHistory) {
+  if (profile?.weakestQuestion) return profile.weakestQuestion;
   if (!allHistory?.length) return 51;
   let weakest = 51;
   let minAvg = Infinity;
@@ -121,6 +110,7 @@ export default function ProgressDashboard({
   userId,
   isPremium,
   hasHanja,
+  profile,
   showToast,
   onUpgradeClick,
   onNavigate,
@@ -135,7 +125,13 @@ export default function ProgressDashboard({
   const [miniAnswers, setMiniAnswers] = useState({});
   const [miniRevealed, setMiniRevealed] = useState({});
   const [quota, setQuota] = useState(null);
-  const [learningPath, setLearningPath] = useState(null);
+  const learningPath = profile
+    ? {
+        recommendation: profile.recommendation,
+        weeklyGoal: profile.weeklyGoal,
+        progress: profile.weeklyProgress,
+      }
+    : null;
   const [srsTick, setSrsTick] = useState(0);
   const { theme } = useTheme();
 
@@ -188,11 +184,7 @@ export default function ProgressDashboard({
       .then((r) => r.json())
       .then(setQuota)
       .catch(() => {});
-    apiFetch(`/api/v1/dashboard/learning-path/${userId}`)
-      .then((r) => r.json())
-      .then(setLearningPath)
-      .catch(() => {});
-  }, [userId, miniTest]);
+  }, [userId, miniTest, profile]);
 
   const filteredHistory = allHistory.filter((item) => Number(item.question_number) === activeSubTab);
   const rewriteComparisons = useMemo(
@@ -309,6 +301,44 @@ export default function ProgressDashboard({
     },
   }), [chartColors]);
 
+  const criteriaCompareBarData = useMemo(() => {
+    if (!chartData.length || !profile?.criteriaTrends) return null;
+    const latest = chartData[chartData.length - 1]?.aiData?.criteria_scores || {};
+    const keys = ['ngu_phap', 'tu_vung', 'cau_truc', 'noi_dung'].filter(
+      (k) => latest[k] != null || (profile.criteriaTrends[k]?.length > 0)
+    );
+    if (!keys.length) return null;
+    return {
+      labels: keys.map((k) => k.replace(/_/g, ' ')),
+      datasets: [
+        {
+          label: 'Bài mới nhất',
+          data: keys.map((k) => latest[k] || 0),
+          backgroundColor: chartColors.accent,
+        },
+        {
+          label: 'TB gần đây',
+          data: keys.map((k) => {
+            const arr = profile.criteriaTrends[k] || [];
+            if (!arr.length) return 0;
+            return arr.reduce((s, v) => s + v, 0) / arr.length;
+          }),
+          backgroundColor: chartColors.success,
+        },
+      ],
+    };
+  }, [chartData, profile, chartColors]);
+
+  const barCompareOptions = useMemo(() => ({
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: true, labels: { color: chartColors.tick } } },
+    scales: {
+      y: { beginAtZero: true, ticks: { color: chartColors.tick }, grid: { color: chartColors.grid } },
+      x: { ticks: { color: chartColors.tick }, grid: { display: false } },
+    },
+  }), [chartColors]);
+
   const handleGenerateTest = async () => {
     if (currentErrors.length === 0) {
       showToast(`Chưa có lỗi sai cho Câu ${activeSubTab} để tạo bài tập!`, 'warning');
@@ -374,7 +404,7 @@ export default function ProgressDashboard({
     ).toFixed(1);
   };
 
-  const weakestQ = getWeakestQuestionNum(learningPath, allHistory);
+  const weakestQ = getWeakestQuestionNum(profile, allHistory);
   const weakestTab = getWritingTabForQuestion(weakestQ);
 
   const startLearningPath = (qNum, mode = 'theory') => {
@@ -444,6 +474,11 @@ export default function ProgressDashboard({
           <h3 className="learning-path-title">🗺️ Lộ trình cá nhân</h3>
           <p className="learning-path-rec">{learningPath.recommendation}</p>
           <p className="learning-path-goal">{learningPath.weeklyGoal}</p>
+          {(profile?.writingStreak?.count ?? 0) > 0 && (
+            <p className="learning-path-rec" style={{ color: 'var(--app-accent)', fontWeight: 700 }}>
+              🔥 Streak viết: {profile.writingStreak.count} ngày
+            </p>
+          )}
           {learningPath.progress && (
             <div className="progress-grid">
               {[51, 52, 53, 54].map((q) => {
@@ -487,6 +522,33 @@ export default function ProgressDashboard({
           >
             Bắt đầu với Câu 51
           </button>
+        </div>
+      )}
+
+      {profile?.criteriaHeatmap && (
+        <div className="learning-path-card">
+          <h3 className="learning-path-title">🎯 Heatmap rubric (TB theo câu)</h3>
+          <div className="criteria-heatmap">
+            {['q51', 'q52', 'q53', 'q54'].map((qKey) => (
+              <div key={qKey} className="criteria-heatmap__row">
+                <span className="criteria-heatmap__label">{qKey.replace('q', 'Câu ')}</span>
+                {['ngu_phap', 'tu_vung', 'cau_truc', 'noi_dung'].map((crit) => {
+                  const val = profile.criteriaHeatmap[qKey]?.[crit] ?? 0;
+                  const pct = Math.min(100, Math.round((val / 10) * 100));
+                  return (
+                    <span
+                      key={crit}
+                      className="criteria-heatmap__cell"
+                      style={{ opacity: 0.35 + (pct / 100) * 0.65 }}
+                      title={`${crit}: ${val.toFixed(1)}`}
+                    >
+                      {val > 0 ? val.toFixed(1) : '—'}
+                    </span>
+                  );
+                })}
+              </div>
+            ))}
+          </div>
         </div>
       )}
 
@@ -698,6 +760,14 @@ export default function ProgressDashboard({
                       data={radarBarData}
                       options={barOptions}
                     />
+                  </div>
+                )}
+                {criteriaCompareBarData && (
+                  <div className="chart-wrap-sm">
+                    <h4 style={{ fontSize: '0.85rem', color: 'var(--app-text-muted)', margin: '0 0 8px' }}>
+                      So sánh bài mới vs TB gần đây
+                    </h4>
+                    <Bar data={criteriaCompareBarData} options={barCompareOptions} />
                   </div>
                 )}
               </div>

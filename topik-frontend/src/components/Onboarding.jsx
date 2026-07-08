@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { apiFetch } from '../api/client';
 
 const STEPS = [
   {
@@ -23,35 +24,98 @@ const STEPS = [
   },
 ];
 
+const TARGET_LEVELS = [
+  { value: '', label: 'Chưa xác định' },
+  { value: 'TOPIK_II_3', label: 'TOPIK II cấp 3' },
+  { value: 'TOPIK_II_4', label: 'TOPIK II cấp 4' },
+  { value: 'TOPIK_II_5', label: 'TOPIK II cấp 5' },
+  { value: 'TOPIK_II_6', label: 'TOPIK II cấp 6' },
+];
+
 export default function Onboarding({ userId, onComplete }) {
   const [step, setStep] = useState(0);
+  const [examDate, setExamDate] = useState('');
+  const [targetLevel, setTargetLevel] = useState('');
+  const [saving, setSaving] = useState(false);
   const storageKey = `topik_onboarding_done_${userId}`;
 
-  const finish = () => {
+  const finish = async () => {
+    setSaving(true);
+    try {
+      await apiFetch(`/api/v1/learner/goals/${userId}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          examDate: examDate || null,
+          targetLevel: targetLevel || null,
+          onboardingCompleted: true,
+        }),
+      });
+    } catch {
+      /* offline — still mark local */
+    }
     localStorage.setItem(storageKey, '1');
+    setSaving(false);
     onComplete();
   };
 
-  const isLast = step === STEPS.length - 1;
+  const isGoalsStep = step === STEPS.length;
+  const isLast = isGoalsStep;
 
   return (
     <div className="app-modal-overlay">
       <div className="app-modal-card">
-        <p className="onboarding-step-label">
-          HƯỚNG DẪN NHANH · {step + 1}/{STEPS.length}
-        </p>
-        <h3 className="onboarding-step-title">{STEPS[step].title}</h3>
-        <p className="onboarding-step-body">{STEPS[step].body}</p>
+        {!isGoalsStep ? (
+          <>
+            <p className="onboarding-step-label">
+              HƯỚNG DẪN NHANH · {step + 1}/{STEPS.length + 1}
+            </p>
+            <h3 className="onboarding-step-title">{STEPS[step].title}</h3>
+            <p className="onboarding-step-body">{STEPS[step].body}</p>
+          </>
+        ) : (
+          <>
+            <p className="onboarding-step-label">MỤC TIÊU CÁ NHÂN · {STEPS.length + 1}/{STEPS.length + 1}</p>
+            <h3 className="onboarding-step-title">WED sẽ theo dõi lộ trình của bạn</h3>
+            <p className="onboarding-step-body" style={{ marginBottom: 16 }}>
+              Chọn ngày thi và mục tiêu (có thể bỏ qua và cập nhật sau).
+            </p>
+            <label style={{ display: 'block', marginBottom: 12, fontSize: '0.9rem' }}>
+              Ngày thi dự kiến
+              <input
+                type="date"
+                value={examDate}
+                onChange={(e) => setExamDate(e.target.value)}
+                className="exam-sidebar__select"
+                style={{ display: 'block', width: '100%', marginTop: 6 }}
+              />
+            </label>
+            <label style={{ display: 'block', fontSize: '0.9rem' }}>
+              Mục tiêu TOPIK
+              <select
+                value={targetLevel}
+                onChange={(e) => setTargetLevel(e.target.value)}
+                className="exam-sidebar__select"
+                style={{ display: 'block', width: '100%', marginTop: 6 }}
+              >
+                {TARGET_LEVELS.map((opt) => (
+                  <option key={opt.value || 'none'} value={opt.value}>{opt.label}</option>
+                ))}
+              </select>
+            </label>
+          </>
+        )}
         <div className="onboarding-actions">
-          <button type="button" onClick={finish} className="onboarding-btn-skip">
+          <button type="button" onClick={finish} className="onboarding-btn-skip" disabled={saving}>
             Bỏ qua
           </button>
           <button
             type="button"
             onClick={() => (isLast ? finish() : setStep(step + 1))}
             className="onboarding-btn-next app-btn-primary"
+            disabled={saving}
           >
-            {isLast ? 'Bắt đầu học' : 'Tiếp theo'}
+            {saving ? 'Đang lưu...' : isLast ? 'Bắt đầu học' : 'Tiếp theo'}
           </button>
         </div>
       </div>

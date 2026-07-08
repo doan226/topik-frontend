@@ -14,11 +14,9 @@ const ROOT = path.join(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
 const MASTER = path.join(DATA, 'writing-question-bank.json');
 const BACKEND_QB = path.join(
-  'C:',
-  'Users',
-  '01666',
-  'Downloads',
-  'topikai',
+  ROOT,
+  '..',
+  'topik-backend',
   'topikai',
   'src',
   'main',

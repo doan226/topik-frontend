@@ -172,11 +172,14 @@ def split_audio(ky: str, src: str) -> dict[str, int]:
     print(f"  [audio] {len(bounds)} doan (can {LISTEN_COUNT})")
     if len(bounds) < LISTEN_COUNT:
         # fallback: equal split
+        # CẢNH BÁO: chia đều KHÔNG khớp audio với câu hỏi (mỗi đoạn ~77s tuỳ tiện).
+        # Sau khi import xong HÃY chạy:  npm run data:resegment-topik1
+        # (scripts/resegment-topik1-listening.py) để tách lại theo ranh giới câu thật.
         usable = total_ms - start_q1
         step = usable // LISTEN_COUNT
         bounds = [(start_q1 + i * step, start_q1 + (i + 1) * step) for i in range(LISTEN_COUNT)]
         bounds[-1] = (bounds[-1][0], total_ms)
-        print(f"  [audio] fallback chia deu {LISTEN_COUNT} doan")
+        print(f"  [audio] fallback chia deu {LISTEN_COUNT} doan -> CHAY 'npm run data:resegment-topik1' de sua")
     durations: dict[str, int] = {}
     os.makedirs(PUB_AUDIO, exist_ok=True)
     for idx, label in enumerate(SEG_LABELS):

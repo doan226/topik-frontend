@@ -113,7 +113,11 @@ function mergeContentJson(
   if (bankContent.image_url && !apiContent.image_url) {
     merged.image_url = bankContent.image_url;
   }
-  if (bankContent.transcript && (!apiContent.transcript || !Array.isArray(apiContent.transcript))) {
+  // Bank JSON tĩnh là nguồn transcript chuẩn (đã có mốc thời gian thật từ ASR).
+  // Ưu tiên transcript của bank hơn DB để tránh bản DB cũ (lineMs=0/placeholder) ghi đè.
+  if (Array.isArray(bankContent.transcript) && bankContent.transcript.length > 0) {
+    merged.transcript = bankContent.transcript;
+  } else if (bankContent.transcript && !apiContent.transcript) {
     merged.transcript = bankContent.transcript;
   }
 

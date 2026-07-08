@@ -21,9 +21,21 @@ public class UserAnswer {
     @Column(columnDefinition = "TEXT")
     private String aiFeedbackJson;
 
-    private int score; // 🎯 Cột mới: Lưu điểm số dạng số nguyên để vẽ biểu đồ nhanh
+    private int score;
+
+    @Column(name = "external_question_id", length = 32)
+    private String externalQuestionId;
+
+    @Column(name = "rewrite_version")
+    private Integer rewriteVersion = 1;
+
+    @Column(name = "parent_answer_id")
+    private Long parentAnswerId;
+
+    @Column(name = "topik_session")
+    private Integer topikSession;
 
     @CreationTimestamp
     @Column(nullable = false, updatable = false)
-    private LocalDate createdAt; // 🎯 Cột mới: Tự động lưu ngày nộp bài (YYYY-MM-DD)
+    private LocalDate createdAt;
 }

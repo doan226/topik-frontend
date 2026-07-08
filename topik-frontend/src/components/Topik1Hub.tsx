@@ -7,6 +7,7 @@ import {
   type SectionProgress,
 } from '../modules/lib/apiClient';
 import ListenReadExamRoom from './ListenReadExamRoom';
+import Topik1MockExamRoom from './Topik1MockExamRoom';
 import {
   loadListenReadResume,
   saveListenReadResume,
@@ -15,7 +16,7 @@ import {
 } from '../utils/listenReadResume';
 import { getExamMeta } from '../modules/lib/examMeta';
 
-type Zone = 'home' | 'exams' | 'examDetail' | 'room';
+type Zone = 'home' | 'exams' | 'examDetail' | 'room' | 'mock';
 
 const ZONES = [
   { id: 'home' as const, icon: '🏠', label: 'Tổng quan', hint: 'Tiếp tục & thống kê' },
@@ -128,6 +129,18 @@ export default function Topik1Hub({
     refreshProgress();
     setZone('examDetail');
   };
+
+  if (zone === 'mock' && selectedExamId) {
+    return (
+      <Topik1MockExamRoom
+        userId={userId}
+        examId={selectedExamId}
+        hasAccess={hasTopik1}
+        showToast={showToast}
+        onBack={handleBackFromRoom}
+      />
+    );
+  }
 
   if (zone === 'room' && selectedExamId) {
     return (
@@ -368,14 +381,26 @@ export default function Topik1Hub({
             </div>
           )}
 
-          <button
-            type="button"
-            className="app-btn-premium-action"
-            style={{ marginTop: 16 }}
-            onClick={() => startRoom(pendingSection)}
-          >
-            Bắt đầu làm — {pendingSection === 'listening' ? 'Nghe' : 'Đọc'}
-          </button>
+          <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap', marginTop: 16 }}>
+            <button
+              type="button"
+              className="app-btn-premium-action"
+              onClick={() => startRoom(pendingSection)}
+            >
+              Luyện từng phần — {pendingSection === 'listening' ? 'Nghe' : 'Đọc'}
+            </button>
+            <button
+              type="button"
+              className="practice-nav-btn"
+              style={{ fontWeight: 700 }}
+              onClick={() => {
+                if (!requireAccess()) return;
+                setZone('mock');
+              }}
+            >
+              📝 Thi thử cả đề (Câu 1–70)
+            </button>
+          </div>
         </>
       )}
     </div>

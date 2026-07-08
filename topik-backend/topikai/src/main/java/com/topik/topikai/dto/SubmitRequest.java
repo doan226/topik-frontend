@@ -8,6 +8,8 @@ public class SubmitRequest {
     private Integer questionId;
     private String questionPrompt;
     private String referenceAnswer;
+    private Integer rewriteVersion;
+    private Long parentAnswerId;
 
     public String getContent() {
         return content;
@@ -63,5 +65,21 @@ public class SubmitRequest {
 
     public void setReferenceAnswer(String referenceAnswer) {
         this.referenceAnswer = referenceAnswer;
+    }
+
+    public Integer getRewriteVersion() {
+        return rewriteVersion;
+    }
+
+    public void setRewriteVersion(Integer rewriteVersion) {
+        this.rewriteVersion = rewriteVersion;
+    }
+
+    public Long getParentAnswerId() {
+        return parentAnswerId;
+    }
+
+    public void setParentAnswerId(Long parentAnswerId) {
+        this.parentAnswerId = parentAnswerId;
     }
 }

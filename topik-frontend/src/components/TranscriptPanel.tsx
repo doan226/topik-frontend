@@ -17,6 +17,8 @@ interface TranscriptPanelFullProps {
   activeSectionIndex: number;
   activeLineIndex: number;
   isLoading?: boolean;
+  /** Dòng phụ đề mô tả số đoạn audio/câu (khác nhau giữa TOPIK I và II). */
+  subtitle?: string;
   onLineClick?: (globalMs: number) => void;
   onTextMouseUp?: (e: React.MouseEvent) => void;
 }
@@ -158,8 +160,8 @@ export default function TranscriptPanel(props: TranscriptPanelProps) {
         Transcript cả đề
       </p>
       <p style={{ margin: '0 0 12px', fontSize: 12, color: 'var(--app-text-muted)' }}>
-        {TOPIK91_EXAM_META.listeningAudioSegmentCount} đoạn audio · {TOPIK91_EXAM_META.listeningMcqCount} câu hỏi
-        (câu 21–50 theo cặp)
+        {props.subtitle ??
+          `${TOPIK91_EXAM_META.listeningAudioSegmentCount} đoạn audio · ${TOPIK91_EXAM_META.listeningMcqCount} câu hỏi (câu 21–50 theo cặp)`}
       </p>
       <div ref={scrollContainerRef} style={{ display: 'flex', flexDirection: 'column', gap: 16, maxHeight: 280, overflowY: 'auto' }} onMouseUp={props.onTextMouseUp}>
         {props.sections.map((section, sectionIdx) => {

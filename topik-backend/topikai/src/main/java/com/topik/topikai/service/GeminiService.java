@@ -1,5 +1,6 @@
 package com.topik.topikai.service;
 
+import com.topik.topikai.config.GeminiProperties;
 import com.topik.topikai.dto.GradingContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -10,7 +11,9 @@ import org.springframework.web.client.RestTemplate;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.util.concurrent.Semaphore;
 import java.util.concurrent.ThreadLocalRandom;
+import java.util.concurrent.TimeUnit;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,6 +22,15 @@ public class GeminiService {
 
     @Autowired
     private GradingPromptBuilder gradingPromptBuilder;
+
+    @Autowired
+    private GeminiProperties props;
+
+    @Autowired
+    private RestTemplate geminiRestTemplate;
+
+    @Autowired
+    private Semaphore geminiSemaphore;
 
     private static final String API_BASE =
             "https://generativelanguage.googleapis.com/v1beta/models/";
@@ -29,10 +41,6 @@ public class GeminiService {
             "gemini-2.0-flash-lite",
             "gemini-flash-latest"
     };
-
-    private static final int MAX_RETRIES = 5;
-    private static final long INITIAL_RETRY_MS = 2000;
-    private static final long MAX_RETRY_MS = 20000;
 
     @Value("${gemini.api.key:}")
     private String geminiApiKeyFromProps;
@@ -66,12 +74,28 @@ public class GeminiService {
                     "⚠️ Chưa cấu hình GEMINI_API_KEY. Thêm biến môi trường hoặc gemini.api.key trong application.properties.");
         }
 
-        RestTemplate restTemplate = new RestTemplate();
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_JSON);
+        boolean acquired = false;
+        try {
+            acquired = geminiSemaphore.tryAcquire(props.getAcquireTimeoutMs(), TimeUnit.MILLISECONDS);
+            if (!acquired) {
+                return apiErrorJson(true,
+                        "⚠️ Hệ thống đang bận do quá nhiều người chấm cùng lúc. Vui lòng thử lại sau ít phút. Lượt chấm không bị trừ.");
+            }
 
-        String systemPrompt = gradingPromptBuilder.build(context);
-        return callRealGeminiApi(restTemplate, headers, systemPrompt, true);
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(MediaType.APPLICATION_JSON);
+
+            String systemPrompt = gradingPromptBuilder.build(context);
+            return callRealGeminiApi(headers, systemPrompt, true);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            return apiErrorJson(true,
+                    "⚠️ Hệ thống đang bận, vui lòng thử lại sau ít phút. Lượt chấm không bị trừ.");
+        } finally {
+            if (acquired) {
+                geminiSemaphore.release();
+            }
+        }
     }
 
     public String generateWritingQuestionSet(int topikSession, String excludeTopics) {
@@ -80,7 +104,6 @@ public class GeminiService {
             return "{\"error\":\"Chưa cấu hình GEMINI_API_KEY.\"}";
         }
 
-        RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
 
@@ -105,7 +128,7 @@ public class GeminiService {
                 + "      \"timeLimit\": 150,\n      \"maxScore\": 10,\n"
                 + "      \"prompt\": \"...\",\n      \"answer\": \"...\",\n      \"imageUrl\": null\n    }\n  ]\n}";
 
-        return callRealGeminiApi(restTemplate, headers, systemPrompt, false);
+        return callRealGeminiApi(headers, systemPrompt, false);
     }
 
     public String analyzeErrorsAndGenerateTest(String errorHistory) {
@@ -114,7 +137,6 @@ public class GeminiService {
             return "{\"main_weakness\": \"Chưa cấu hình API\", \"analysis\": \"Thiếu GEMINI_API_KEY.\", \"mini_test\": []}";
         }
 
-        RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
 
@@ -122,24 +144,25 @@ public class GeminiService {
                 "\nCHỈ TRẢ VỀ JSON, KHÔNG DÙNG MARKDOWN VĂN BẢN THỪA:\n" +
                 "{\n  \"main_weakness\": \"...\",\n  \"analysis\": \"...\",\n  \"mini_test\": [\n    {\n      \"question\": \"...\",\n      \"options\": [\"A. ...\", \"B. ...\", \"C. ...\", \"D. ...\"],\n      \"correct_answer\": \"...\",\n      \"explanation\": \"...\"\n    }\n  ]\n}";
 
-        return callRealGeminiApi(restTemplate, headers, systemPrompt, false);
+        return callRealGeminiApi(headers, systemPrompt, false);
     }
 
-    private String callRealGeminiApi(RestTemplate restTemplate, HttpHeaders headers, String systemPrompt, boolean isGrading) {
+    private String callRealGeminiApi(HttpHeaders headers, String systemPrompt, boolean isGrading) {
         HttpEntity<String> request = buildRequest(headers, systemPrompt);
         HttpStatusCodeException lastError = null;
+        int maxRetries = Math.max(1, props.getMaxRetries());
 
         for (String model : resolveModelCandidates()) {
-            for (int attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+            for (int attempt = 1; attempt <= maxRetries; attempt++) {
                 try {
-                    return executeCall(restTemplate, buildApiUrl(model), request);
+                    return executeCall(buildApiUrl(model), request);
                 } catch (HttpStatusCodeException e) {
                     lastError = e;
                     int status = e.getStatusCode().value();
                     System.err.println("🔴 Google API [" + model + "] attempt " + attempt + ": " + e.getStatusCode());
                     System.err.println("🔴 CHI TIẾT: " + e.getResponseBodyAsString());
 
-                    if (isRetryableStatus(status) && attempt < MAX_RETRIES) {
+                    if (isRetryableStatus(status) && attempt < maxRetries) {
                         sleepBeforeRetry(attempt, e);
                         continue;
                     }
@@ -193,8 +216,8 @@ public class GeminiService {
         return new HttpEntity<>(jsonBody.toString(), headers);
     }
 
-    private String executeCall(RestTemplate restTemplate, String url, HttpEntity<String> request) {
-        ResponseEntity<String> response = restTemplate.postForEntity(url, request, String.class);
+    private String executeCall(String url, HttpEntity<String> request) {
+        ResponseEntity<String> response = geminiRestTemplate.postForEntity(url, request, String.class);
         JSONObject jsonObj = new JSONObject(response.getBody());
 
         String rawText = jsonObj.getJSONArray("candidates")
@@ -227,7 +250,7 @@ public class GeminiService {
     }
 
     private void sleepBeforeRetry(int attempt, HttpStatusCodeException e) {
-        long delay = Math.min(INITIAL_RETRY_MS * (1L << (attempt - 1)), MAX_RETRY_MS);
+        long delay = Math.min(props.getRetryInitialMs() * (1L << (attempt - 1)), props.getRetryMaxMs());
         delay += ThreadLocalRandom.current().nextLong(250, 750);
 
         HttpHeaders responseHeaders = e.getResponseHeaders();
@@ -275,14 +298,13 @@ public class GeminiService {
             return info;
         }
 
-        RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity<String> request = buildRequest(headers, "Reply with exactly: OK");
 
         for (String model : resolveModelCandidates()) {
             try {
-                String text = executeCall(restTemplate, buildApiUrl(model), request);
+                String text = executeCall(buildApiUrl(model), request);
                 info.put("status", "ok");
                 info.put("model", model);
                 info.put("sample", text.length() > 40 ? text.substring(0, 40) : text);

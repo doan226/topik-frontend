@@ -10,19 +10,15 @@
       "audio_url": "/audio/topik1-37-listen-q1.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "여자: 사전이있어요?"
-        },
-        {
-          "lineMs": 0,
-          "lineText": "남자: _____________________________"
+          "lineMs": 2064,
+          "lineText": "사전이 있어요?"
         }
       ],
       "options": [
-        "네,사전이많아요.",
-        "네,사전이없어요.",
-        "아니요,사전이에요.",
-        "아니요,사전이좋아요."
+        "네, 사전이 많아요.",
+        "네, 사전이 없어요.",
+        "아니요, 사전이에요.",
+        "아니요, 사전이 좋아요."
       ],
       "exam_offset_ms": 0
     },
@@ -45,21 +41,17 @@
       "audio_url": "/audio/topik1-37-listen-q2.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 사과가싸요?"
-        },
-        {
-          "lineMs": 0,
-          "lineText": "여자: _____________________________"
+          "lineMs": 1814,
+          "lineText": "사과가 쌓여?"
         }
       ],
       "options": [
-        "네,사과가작아요.",
-        "네,사과가있어요.",
-        "아니요,사과가비싸요.",
-        "아니요,사과가아니에요."
+        "네, 사과가 작아요.",
+        "네, 사과가 있어요.",
+        "아니요, 사과가 비싸요.",
+        "아니요, 사과가 아니에요."
       ],
-      "exam_offset_ms": 80371
+      "exam_offset_ms": 12566
     },
     "explanationVi": "Câu 2 (Nghe): dựa trên đoạn hội thoại \"남자:사과가싸요? 여자:_____________________________\", đáp án 3 là đúng.",
     "distractorNotes": {
@@ -80,21 +72,25 @@
       "audio_url": "/audio/topik1-37-listen-q3.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 주말에어디갔어요?"
+          "lineMs": 1700,
+          "lineText": "주말에"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: _____________________________"
+          "lineMs": 3860,
+          "lineText": "어디 갔어요?"
+        },
+        {
+          "lineMs": 8600,
+          "lineText": "주말에 어디 갔어요?"
         }
       ],
       "options": [
-        "어제갔어요.",
-        "공원에갔어요.",
-        "동생이갔어요.",
-        "저하고갔어요."
+        "어제 갔어요.",
+        "공원에 갔어요.",
+        "동생이 갔어요.",
+        "저하고 갔어요."
       ],
-      "exam_offset_ms": 160742
+      "exam_offset_ms": 23112
     },
     "explanationVi": "Câu 3 (Nghe): dựa trên đoạn hội thoại \"남자:주말에어디갔어요? 여자:_____________________________\", đáp án 2 là đúng.",
     "distractorNotes": {
@@ -109,35 +105,23 @@
     "section": "listening",
     "questionNo": "4",
     "tier": "paid",
-    "correct_ans": "1",
+    "correct_ans": "2",
     "content_json": {
       "passage": "다음을 듣고 <보기>와 같이 물음에 맞는 대답을 고르십시오.",
       "audio_url": "/audio/topik1-37-listen-q4.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 무슨운동을배우고있어요?"
-        },
-        {
-          "lineMs": 0,
-          "lineText": "여자: _____________________________"
-        },
-        {
-          "lineMs": 0,
-          "lineText": "가: 늦어서미안해요."
-        },
-        {
-          "lineMs": 0,
-          "lineText": "나: _____________________________"
+          "lineMs": 1934,
+          "lineText": "무슨 운동을 배우고 있어요?"
         }
       ],
       "options": [
-        "아침에배워요.",
-        "수영을배워요.",
-        "친구한테배워요.",
-        "운동장에서배워요."
+        "아침에 배워요.",
+        "수영을 배워요.",
+        "친구한테 배워요.",
+        "운동장에서 배워요."
       ],
-      "exam_offset_ms": 241113
+      "exam_offset_ms": 35523
     },
     "explanationVi": "Câu 4 (Nghe): dựa trên đoạn hội thoại \"남자:무슨운동을배우고있어요? 여자:_____________________________\", đáp án 1 là đúng.",
     "distractorNotes": {
@@ -158,21 +142,21 @@
       "audio_url": "/audio/topik1-37-listen-q5.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "여자: 다음에또오세요."
+          "lineMs": 108,
+          "lineText": "정답은 2번입니다."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: _____________________________"
+          "lineMs": 6468,
+          "lineText": "다음에 또 오세요."
         }
       ],
       "options": [
         "미안해요.",
         "괜찮아요.",
-        "여기앉으세요.",
-        "안녕히계세요."
+        "여기 앉으세요.",
+        "안녕히 계세요."
       ],
-      "exam_offset_ms": 321484
+      "exam_offset_ms": 48791
     },
     "explanationVi": "Câu 5 (Nghe): dựa trên đoạn hội thoại \"여자:다음에또오세요. 남자:_____________________________\", đáp án 4 là đúng.",
     "distractorNotes": {
@@ -193,29 +177,21 @@
       "audio_url": "/audio/topik1-37-listen-q6.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 여보세요,거기김수미씨집이지요?"
+          "lineMs": 1002,
+          "lineText": "여보세요."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: _____________________________"
-        },
-        {
-          "lineMs": 0,
-          "lineText": "가: 어서오세요."
-        },
-        {
-          "lineMs": 0,
-          "lineText": "나: 여기수박있어요?"
+          "lineMs": 3902,
+          "lineText": "거기 김수미 씨 집이지요?"
         }
       ],
       "options": [
-        "네,그런데요.",
-        "네,알겠습니다.",
-        "네,여기있어요.",
-        "네,들어오세요."
+        "네, 그런데요.",
+        "네, 알겠습니다.",
+        "네, 여기 있어요.",
+        "네, 들어오세요."
       ],
-      "exam_offset_ms": 401855
+      "exam_offset_ms": 65053
     },
     "explanationVi": "Câu 6 (Nghe): dựa trên đoạn hội thoại \"남자:여보세요,거기김수미씨집이지요? 여자:_____________________________\", đáp án 1 là đúng.",
     "distractorNotes": {
@@ -236,12 +212,20 @@
       "audio_url": "/audio/topik1-37-listen-q7.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 며칠동안주무실거예요?"
+          "lineMs": 2402,
+          "lineText": "며칠 동안 주무실 거예요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 11월5일부터7일까지요."
+          "lineMs": 7132,
+          "lineText": "11월 5일부터 7일까지요."
+        },
+        {
+          "lineMs": 17852,
+          "lineText": "몇 일 동안 주무실 거예요?"
+        },
+        {
+          "lineMs": 23362,
+          "lineText": "11월 5일부터 7일까지요."
         }
       ],
       "options": [
@@ -250,7 +234,7 @@
         "도서관",
         "기차역"
       ],
-      "exam_offset_ms": 482226
+      "exam_offset_ms": 82194
     },
     "explanationVi": "Câu 7 (Nghe): dựa trên đoạn hội thoại \"남자:며칠동안주무실거예요? 여자:11월5일부터7일까지요.\", đáp án 2 là đúng.",
     "distractorNotes": {
@@ -271,12 +255,12 @@
       "audio_url": "/audio/topik1-37-listen-q8.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "여자: 한국의옛날그림은몇층에있어요?"
+          "lineMs": 2220,
+          "lineText": "한국의 옛날 그림은 몇 층에 있어요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 2층에서보실수있습니다."
+          "lineMs": 10920,
+          "lineText": "2층에서 보실 수 있습니다."
         }
       ],
       "options": [
@@ -285,7 +269,7 @@
         "영화관",
         "문구점"
       ],
-      "exam_offset_ms": 562597
+      "exam_offset_ms": 110722
     },
     "explanationVi": "Câu 8 (Nghe): dựa trên đoạn hội thoại \"여자:한국의옛날그림은몇층에있어요? 남자:2층에서보실수있습니다.\", đáp án 1 là đúng.",
     "distractorNotes": {
@@ -306,12 +290,16 @@
       "audio_url": "/audio/topik1-37-listen-q9.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: (의사의말투로)어디가안좋으세요?"
+          "lineMs": 2100,
+          "lineText": "어디가 안 좋으세요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 어제부터머리가아프고열도많이나요."
+          "lineMs": 7060,
+          "lineText": "어제부터 머리가"
+        },
+        {
+          "lineMs": 9980,
+          "lineText": "아프고 열도 많이 나요."
         }
       ],
       "options": [
@@ -320,7 +308,7 @@
         "은행",
         "병원"
       ],
-      "exam_offset_ms": 642968
+      "exam_offset_ms": 144719
     },
     "explanationVi": "Câu 9 (Nghe): dựa trên đoạn hội thoại \"남자:(의사의말투로)어디가안좋으세요? 여자:어제부터머리가아프고열도많이나요.\", đáp án 4 là đúng.",
     "distractorNotes": {
@@ -341,20 +329,16 @@
       "audio_url": "/audio/topik1-37-listen-q10.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 2시간전에도착했는데제가방이아직안나왔어요."
+          "lineMs": 3420,
+          "lineText": "두 시간 전에 도착했는데 제 가방이 아직 안 나왔어요."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 그래요?비행기표좀보여주세요."
+          "lineMs": 11830,
+          "lineText": "그래요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "가: 누구예요?"
-        },
-        {
-          "lineMs": 0,
-          "lineText": "나: 이사람은형이고,이사람은동생이에요."
+          "lineMs": 14350,
+          "lineText": "비행기 표 좀 보여주세요."
         }
       ],
       "options": [
@@ -363,7 +347,7 @@
         "우체국",
         "여행사"
       ],
-      "exam_offset_ms": 723339
+      "exam_offset_ms": 179031
     },
     "explanationVi": "Câu 10 (Nghe): dựa trên đoạn hội thoại \"남자:2시간전에도착했는데제가방이아직안나왔어요. 여자:그래요?비행기표좀보여주세요.\", đáp án 2 là đúng.",
     "distractorNotes": {
@@ -384,12 +368,16 @@
       "audio_url": "/audio/topik1-37-listen-q11.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "여자: 점심드셨어요?"
+          "lineMs": 1764,
+          "lineText": "점심 드셨어요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 네.김밥먹었어요."
+          "lineMs": 7074,
+          "lineText": "네."
+        },
+        {
+          "lineMs": 8474,
+          "lineText": "김밥 먹었어요."
         }
       ],
       "options": [
@@ -398,7 +386,7 @@
         "시간",
         "건강"
       ],
-      "exam_offset_ms": 803710
+      "exam_offset_ms": 222955
     },
     "explanationVi": "Câu 11 (Nghe): dựa trên đoạn hội thoại \"여자:점심드셨어요? 남자:네.김밥먹었어요.\", đáp án 1 là đúng.",
     "distractorNotes": {
@@ -419,12 +407,12 @@
       "audio_url": "/audio/topik1-37-listen-q12.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 이번생일에뭘받고싶어요?"
+          "lineMs": 2680,
+          "lineText": "이번 생일에 뭘 받고 싶어요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 컴퓨터를받고싶어요."
+          "lineMs": 9820,
+          "lineText": "컴퓨터를 받고 싶어요."
         }
       ],
       "options": [
@@ -433,7 +421,7 @@
         "약속",
         "선물"
       ],
-      "exam_offset_ms": 884081
+      "exam_offset_ms": 251125
     },
     "explanationVi": "Câu 12 (Nghe): dựa trên đoạn hội thoại \"남자:이번생일에뭘받고싶어요? 여자:컴퓨터를받고싶어요.\", đáp án 4 là đúng.",
     "distractorNotes": {
@@ -454,12 +442,16 @@
       "audio_url": "/audio/topik1-37-listen-q13.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 지금비가와요?"
+          "lineMs": 2880,
+          "lineText": "지금 비가 와요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네.많이와요.그리고좀추워요."
+          "lineMs": 7220,
+          "lineText": "네, 많이 와요."
+        },
+        {
+          "lineMs": 10740,
+          "lineText": "그리고 좀 추워요"
         }
       ],
       "options": [
@@ -468,7 +460,7 @@
         "하루",
         "고향"
       ],
-      "exam_offset_ms": 964452
+      "exam_offset_ms": 284834
     },
     "explanationVi": "Câu 13 (Nghe): dựa trên đoạn hội thoại \"남자:지금비가와요? 여자:네.많이와요.그리고좀추워요.\", đáp án 1 là đúng.",
     "distractorNotes": {
@@ -489,12 +481,20 @@
       "audio_url": "/audio/topik1-37-listen-q14.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 여기서서울역까지가는버스가있어요?"
+          "lineMs": 2087,
+          "lineText": "여기서 서울역까지"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 한번에가는버스는없으니까지하철을타고가세요."
+          "lineMs": 5287,
+          "lineText": "가는 버스가 있어요?"
+        },
+        {
+          "lineMs": 9987,
+          "lineText": "한 번에 가는 버스는 없으니까"
+        },
+        {
+          "lineMs": 14667,
+          "lineText": "지하철을 타고 가세요."
         }
       ],
       "options": [
@@ -503,7 +503,7 @@
         "여행",
         "방학"
       ],
-      "exam_offset_ms": 1044823
+      "exam_offset_ms": 320729
     },
     "explanationVi": "Câu 14 (Nghe): dựa trên đoạn hội thoại \"남자:여기서서울역까지가는버스가있어요? 여자:한번에가는버스는없으니까지하철을타고가세요.\", đáp án 2 là đúng.",
     "distractorNotes": {
@@ -524,12 +524,24 @@
       "audio_url": "/audio/topik1-37-listen-q15.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "여자: 이거한번드셔보세요.여기오면저는항상이걸먹어요."
+          "lineMs": 145,
+          "lineText": "식당은 뭐가 맛있어요?"
+        },
+        {
+          "lineMs": 5635,
+          "lineText": "이거 한 번 드셔보세요."
+        },
+        {
+          "lineMs": 9155,
+          "lineText": "여기 오면 저는 항상 이걸 먹어요."
+        },
+        {
+          "lineMs": 23715,
+          "lineText": "이"
         }
       ],
       "options": [],
-      "exam_offset_ms": 1125194,
+      "exam_offset_ms": 363311,
       "image_url": "/topik_images/topik1-37-listen-q15.png"
     },
     "explanationVi": "Câu 15 (Nghe): dựa trên đoạn hội thoại \"여자:이거한번드셔보세요.여기오면저는항상이걸먹어요.\", đáp án 4 là đúng.",
@@ -551,20 +563,28 @@
       "audio_url": "/audio/topik1-37-listen-q16.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "여자: 좋아요.아주마음에들어요."
+          "lineMs": 2074,
+          "lineText": "안경을 쓰고 거울"
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 요즘한국어를공부해요?"
+          "lineMs": 5734,
+          "lineText": "한 번 보세요."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네.한국친구한테서한국어를배워요."
+          "lineMs": 8434,
+          "lineText": "어떠세요?"
+        },
+        {
+          "lineMs": 12384,
+          "lineText": "좋아요."
+        },
+        {
+          "lineMs": 14464,
+          "lineText": "아주 마음에 들어요."
         }
       ],
       "options": [],
-      "exam_offset_ms": 1205565,
+      "exam_offset_ms": 404452,
       "image_url": "/topik_images/topik1-37-listen-q16.png"
     },
     "explanationVi": "Câu 16 (Nghe): dựa trên đoạn hội thoại \"여자:좋아요.아주마음에들어요. 남자:요즘한국어를공부해요?\", đáp án 3 là đúng.",
@@ -586,21 +606,57 @@
       "audio_url": "/audio/topik1-37-listen-q17.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 그래요?내일은가져다줄수있어요?"
+          "lineMs": 664,
+          "lineText": "4번입니다."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네.그렇게할게요."
+          "lineMs": 7314,
+          "lineText": "민수 씨, 미안해요."
+        },
+        {
+          "lineMs": 12234,
+          "lineText": "지난번에 빌린 책을 오늘 못 가져왔어요."
+        },
+        {
+          "lineMs": 19354,
+          "lineText": "그래요?"
+        },
+        {
+          "lineMs": 22134,
+          "lineText": "내일은 가져다 줄 수 있어요?"
+        },
+        {
+          "lineMs": 27114,
+          "lineText": "네, 그렇게 할게요."
+        },
+        {
+          "lineMs": 38134,
+          "lineText": "민수 씨, 미안해요."
+        },
+        {
+          "lineMs": 43434,
+          "lineText": "지난번에 빌린 책을 오늘 못 가져왔어요."
+        },
+        {
+          "lineMs": 50294,
+          "lineText": "그래요?"
+        },
+        {
+          "lineMs": 53254,
+          "lineText": "내일은 가져다 줄 수 있어요?"
+        },
+        {
+          "lineMs": 58354,
+          "lineText": "네, 그렇게 할게요."
         }
       ],
       "options": [
-        "여자는내일책을가져올겁니다.",
-        "남자는여자에게책을빌렸습니다.",
-        "남자는지금책을가지고있습니다.",
-        "여자는남자에게책을받지못했습니다."
+        "여자는 내일 책을 가져올 겁니다.",
+        "남자는 여자에게 책을 빌렸습니다.",
+        "남자는 지금 책을 가지고 있습니다.",
+        "여자는 남자에게 책을 받지 못했습니다."
       ],
-      "exam_offset_ms": 1285936
+      "exam_offset_ms": 447465
     },
     "explanationVi": "Câu 17 (Nghe): dựa trên đoạn hội thoại \"남자:그래요?내일은가져다줄수있어요? 여자:네.그렇게할게요.\", đáp án 1 là đúng.",
     "distractorNotes": {
@@ -621,25 +677,45 @@
       "audio_url": "/audio/topik1-37-listen-q18.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 이아이가탈거예요?이쪽에서골라보세요."
+          "lineMs": 1580,
+          "lineText": "우리 아이가 탈 자전거 좀 보여주세요."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 이노란색자전거가예쁘네요.이걸로주세요.아,근데의자가우리"
+          "lineMs": 10270,
+          "lineText": "이 아이가 탈 거예요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 그럼요.이아이정도면탈때불편하진않을거예요."
+          "lineMs": 14090,
+          "lineText": "이쪽에서 골라보세요."
+        },
+        {
+          "lineMs": 19610,
+          "lineText": "이 노란색 자전거가 예쁘네요."
+        },
+        {
+          "lineMs": 24790,
+          "lineText": "이걸로 주세요."
+        },
+        {
+          "lineMs": 27450,
+          "lineText": "아, 근데 의자가"
+        },
+        {
+          "lineMs": 38110,
+          "lineText": "그럼요."
+        },
+        {
+          "lineMs": 40230,
+          "lineText": "이 아이정도면 탈 때 불편하진 않을 거예요."
         }
       ],
       "options": [
-        "여자는자전거가게에서일합니다.",
-        "여자는노란색자전거를살겁니다.",
-        "남자는아이와함께가게에왔습니다.",
-        "남자는아이에게자전거를선물했습니다."
+        "여자는 자전거 가게에서 일합니다.",
+        "여자는 노란색 자전거를 살 겁니다.",
+        "남자는 아이와 함께 가게에 왔습니다.",
+        "남자는 아이에게 자전거를 선물했습니다."
       ],
-      "exam_offset_ms": 1366307
+      "exam_offset_ms": 511017
     },
     "explanationVi": "Câu 18 (Nghe): dựa trên đoạn hội thoại \"남자:이아이가탈거예요?이쪽에서골라보세요. 여자:이노란색자전거가예쁘네요.이걸로주세요.아,근데의자가우리\", đáp án 2 là đúng.",
     "distractorNotes": {
@@ -660,25 +736,41 @@
       "audio_url": "/audio/topik1-37-listen-q19.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 네.제가외국으로이사를가서요."
+          "lineMs": 1460,
+          "lineText": "이 물건들 버리시는"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 아직쓸수있는물건이많은데제가가져가도돼요?"
+          "lineMs": 6260,
+          "lineText": "거예요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 네,필요하시면가져가세요."
+          "lineMs": 8880,
+          "lineText": "네."
+        },
+        {
+          "lineMs": 10300,
+          "lineText": "제가 외국으로 이사를 가서요."
+        },
+        {
+          "lineMs": 15340,
+          "lineText": "아직 쓸 수 있는 물건이 많은데 제가 가져가도 돼요?"
+        },
+        {
+          "lineMs": 26410,
+          "lineText": "네."
+        },
+        {
+          "lineMs": 28170,
+          "lineText": "필요하시면 가져가세요."
         }
       ],
       "options": [
-        "남자는사야할물건이많습니다.",
-        "남자는외국에서이사를왔습니다.",
-        "여자는외국으로물건을보냈습니다.",
-        "여자는남자의물건을가져가고싶어합니다."
+        "남자는 사야 할 물건이 많습니다.",
+        "남자는 외국에서 이사를 왔습니다.",
+        "여자는 외국으로 물건을 보냈습니다.",
+        "여자는 남자의 물건을 가져가고 싶어합니다."
       ],
-      "exam_offset_ms": 1446678
+      "exam_offset_ms": 610965
     },
     "explanationVi": "Câu 19 (Nghe): dựa trên đoạn hội thoại \"남자:네.제가외국으로이사를가서요. 여자:아직쓸수있는물건이많은데제가가져가도돼요?\", đáp án 4 là đúng.",
     "distractorNotes": {
@@ -699,25 +791,53 @@
       "audio_url": "/audio/topik1-37-listen-q20.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "여자: 네,손님.잠시만요.(타자두드리는소리)1시간후에있어요."
+          "lineMs": 2380,
+          "lineText": "부산까지 가려고 하는데요."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 저는혼자라서서서가도괜찮은데더빨리갈수없을까요?"
+          "lineMs": 7020,
+          "lineText": "기차가 몇 시에 있어요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 아,그러면20분후에출발하는기차가있어요."
+          "lineMs": 12780,
+          "lineText": "네, 손님."
+        },
+        {
+          "lineMs": 15360,
+          "lineText": "잠시만요."
+        },
+        {
+          "lineMs": 19030,
+          "lineText": "한 시간 후에 있어요."
+        },
+        {
+          "lineMs": 21330,
+          "lineText": "저는"
+        },
+        {
+          "lineMs": 24030,
+          "lineText": "혼자라서"
+        },
+        {
+          "lineMs": 25990,
+          "lineText": "서서 가도 괜찮은데"
+        },
+        {
+          "lineMs": 30070,
+          "lineText": "더 빨리 갈 수 없을까요?"
+        },
+        {
+          "lineMs": 35570,
+          "lineText": "아, 그러면 20분 후에 출발하는 기차가 있어요 다시"
         }
       ],
       "options": [
-        "남자는부산에빨리가고싶어합니다.",
-        "남자는친구와부산에가려고합니다.",
-        "남자는20분후에표를사려고합니다.",
-        "남자는부산까지앉아서가고싶어합니다."
+        "남자는 부산에 빨리 가고 싶어합니다.",
+        "남자는 친구와 부산에 가려고 합니다.",
+        "남자는 20분 후에 표를 사려고 합니다.",
+        "남자는 부산까지 앉아서 가고 싶어합니다."
       ],
-      "exam_offset_ms": 1527049
+      "exam_offset_ms": 681746
     },
     "explanationVi": "Câu 20 (Nghe): dựa trên đoạn hội thoại \"여자:네,손님.잠시만요.(타자두드리는소리)1시간후에있어요. 남자:저는혼자라서서서가도괜찮은데더빨리갈수없을까요?\", đáp án 1 là đúng.",
     "distractorNotes": {
@@ -738,25 +858,53 @@
       "audio_url": "/audio/topik1-37-listen-q21.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 아,네.만원을더내셔야하는데괜찮으시겠어요?"
+          "lineMs": 2551,
+          "lineText": "여보세요 여기 305호인데요."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 괜찮아요.그런데침대두개를빌릴수있어요?아이가둘이라서요."
+          "lineMs": 9171,
+          "lineText": "아이들이 잘 침대가 필요해요."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 죄송합니다,손님.침대는한방에하나만더들어갈수있습니다."
+          "lineMs": 15611,
+          "lineText": "아, 네."
+        },
+        {
+          "lineMs": 18971,
+          "lineText": "만원을 더 내셔야 하는데 괜찮으시겠어요?"
+        },
+        {
+          "lineMs": 25331,
+          "lineText": "괜찮아요."
+        },
+        {
+          "lineMs": 27891,
+          "lineText": "그런데 침대 두 개를 빌릴 수 있어요?"
+        },
+        {
+          "lineMs": 32771,
+          "lineText": "아이가"
+        },
+        {
+          "lineMs": 34711,
+          "lineText": "둘이라서요."
+        },
+        {
+          "lineMs": 39011,
+          "lineText": "죄송합니다, 손님."
+        },
+        {
+          "lineMs": 42071,
+          "lineText": "침대는 한 방에 하나만 더 들어갈 수 있습니다."
         }
       ],
       "options": [
-        "방에아이들침대가있습니다.",
-        "여자는방을예약하려고합니다.",
-        "무료로침대를빌릴수있습니다.",
-        "여자는침대두개가더필요합니다."
+        "방에 아이들 침대가 있습니다.",
+        "여자는 방을 예약하려고 합니다.",
+        "무료로 침대를 빌릴 수 있습니다.",
+        "여자는 침대 두 개가 더 필요합니다."
       ],
-      "exam_offset_ms": 1607420
+      "exam_offset_ms": 776209
     },
     "explanationVi": "Câu 21 (Nghe): dựa trên đoạn hội thoại \"남자:아,네.만원을더내셔야하는데괜찮으시겠어요? 여자:괜찮아요.그런데침대두개를빌릴수있어요?아이가둘이라서요.\", đáp án 4 là đúng.",
     "distractorNotes": {
@@ -777,25 +925,69 @@
       "audio_url": "/audio/topik1-37-listen-q22.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 네.저는친구들하고재미있게봤어요.우리팀이이겨서더좋았죠."
+          "lineMs": 2720,
+          "lineText": "민수 씨, 어제 축구"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 저도봤어요.우리선수한명이다쳐서걱정했는데이겨서다행"
+          "lineMs": 7760,
+          "lineText": "경기 봤어요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 그럴수있을까요?다음상대팀이너무잘해서요."
+          "lineMs": 9040,
+          "lineText": "네,"
+        },
+        {
+          "lineMs": 12200,
+          "lineText": "저는 친구들하고 재미있게 봤어요."
+        },
+        {
+          "lineMs": 17540,
+          "lineText": "우리 팀이 이겨서 더 좋았죠."
+        },
+        {
+          "lineMs": 23360,
+          "lineText": "수미 씨도 봤어요?"
+        },
+        {
+          "lineMs": 27340,
+          "lineText": "저도 봤어요."
+        },
+        {
+          "lineMs": 31080,
+          "lineText": "우리 선수 한 명이 다쳐서 걱정했는데 이겨서"
+        },
+        {
+          "lineMs": 37540,
+          "lineText": "다행이었어요."
+        },
+        {
+          "lineMs": 39260,
+          "lineText": "다음"
+        },
+        {
+          "lineMs": 41970,
+          "lineText": "경기도 이기면 좋겠네요."
+        },
+        {
+          "lineMs": 45850,
+          "lineText": "그럴 수 있겠죠?"
+        },
+        {
+          "lineMs": 50880,
+          "lineText": "그럴 수 있을까요?"
+        },
+        {
+          "lineMs": 54040,
+          "lineText": "다음 상대팀이 너무 잘해서요."
         }
       ],
       "options": [
-        "우리팀이계속이기면좋겠습니다.",
-        "친구들과같이봐서더신났습니다.",
-        "다음경기는이길수없을것같습니다.",
-        "상대팀선수가많이다쳐서걱정했습니다."
+        "우리 팀이 계속 이기면 좋겠습니다.",
+        "친구들과 같이 봐서 더 신났습니다.",
+        "다음 경기는 이길 수 없을 것 같습니다.",
+        "상대팀 선수가 많이 다쳐서 걱정했습니다."
       ],
-      "exam_offset_ms": 1687791
+      "exam_offset_ms": 881061
     },
     "explanationVi": "Câu 22 (Nghe): dựa trên đoạn hội thoại \"남자:네.저는친구들하고재미있게봤어요.우리팀이이겨서더좋았죠. 여자:저도봤어요.우리선수한명이다쳐서걱정했는데이겨서다행\", đáp án 1 là đúng.",
     "distractorNotes": {
@@ -816,25 +1008,57 @@
       "audio_url": "/audio/topik1-37-listen-q23.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 오랜만에여행왔는데벌써가요?자주오기도어려운데미술관만"
+          "lineMs": 3020,
+          "lineText": "우리 이제 그만"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 오늘은많이봤으니까미술관은내일봐요.저는좀쉬었으면"
+          "lineMs": 7260,
+          "lineText": "구경하고 가요."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 그래도조금만더보고가면안될까요?"
+          "lineMs": 11560,
+          "lineText": "오랜만에"
+        },
+        {
+          "lineMs": 13560,
+          "lineText": "여행 왔는데 벌써 가요?"
+        },
+        {
+          "lineMs": 18500,
+          "lineText": "자주 오기도 어려운데 미술관만"
+        },
+        {
+          "lineMs": 22480,
+          "lineText": "더 보고 가요."
+        },
+        {
+          "lineMs": 26890,
+          "lineText": "오늘은 많이 봤으니까 미술관은"
+        },
+        {
+          "lineMs": 32550,
+          "lineText": "내일 봐요."
+        },
+        {
+          "lineMs": 35930,
+          "lineText": "저는 좀 쉬었으면 좋겠어요."
+        },
+        {
+          "lineMs": 39550,
+          "lineText": "그래도"
+        },
+        {
+          "lineMs": 42130,
+          "lineText": "조금만 더 보고 가면 안 될까요?"
         }
       ],
       "options": [
-        "미술관에자주오고싶습니다.",
-        "오랜만에여행을가고싶습니다.",
-        "미술관구경은내일하고싶습니다.",
-        "여행을가서구경을많이하고싶습니다."
+        "미술관에 자주 오고 싶습니다.",
+        "오랜만에 여행을 가고 싶습니다.",
+        "미술관 구경은 내일 하고 싶습니다.",
+        "여행을 가서 구경을 많이 하고 싶습니다."
       ],
-      "exam_offset_ms": 1768162
+      "exam_offset_ms": 1004772
     },
     "explanationVi": "Câu 23 (Nghe): dựa trên đoạn hội thoại \"남자:오랜만에여행왔는데벌써가요?자주오기도어려운데미술관만 여자:오늘은많이봤으니까미술관은내일봐요.저는좀쉬었으면\", đáp án 3 là đúng.",
     "distractorNotes": {
@@ -855,29 +1079,45 @@
       "audio_url": "/audio/topik1-37-listen-q24.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 지금은몇시에갈수있을지잘모르겠어요."
+          "lineMs": 1174,
+          "lineText": "시쯤 물건을 받을 수 있을까요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 아,그래요?그런데앞으로는오는시간을미리알려주면좋겠어요."
+          "lineMs": 7854,
+          "lineText": "지금은 몇 시에 갈 수 있을지 잘 모르겠어요."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 죄송합니다.요즘배달할물건이많아서도착시간을말씀드리기"
+          "lineMs": 15994,
+          "lineText": "아, 그래요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 여러분,이쪽으로오세요.지금보시는이것은옛날신발인데요.옛날"
+          "lineMs": 18694,
+          "lineText": "그런데 앞으로는"
+        },
+        {
+          "lineMs": 22614,
+          "lineText": "오는 시간을 미리 알려주면 좋겠어요."
+        },
+        {
+          "lineMs": 29844,
+          "lineText": "죄송합니다."
+        },
+        {
+          "lineMs": 32904,
+          "lineText": "요즘 배달할 물건이 많아서 도착 시간을 말씀드리기 좀 어렵네요."
+        },
+        {
+          "lineMs": 50164,
+          "lineText": "오늘 몇"
         }
       ],
       "options": [
-        "물건을빨리보내야합니다.",
-        "물건은오늘중에도착해야합니다.",
-        "물건이도착하는시간을미리알려주어야합니다.",
-        "물건을많이보낼때에는전화를해주어야합니다."
+        "물건을 빨리 보내야 합니다.",
+        "물건은 오늘 중에 도착해야 합니다.",
+        "물건이 도착하는 시간을 미리 알려 주어야 합니다.",
+        "물건을 많이 보낼 때에는 전화를 해 주어야 합니다."
       ],
-      "exam_offset_ms": 1848533
+      "exam_offset_ms": 1104005
     },
     "explanationVi": "Câu 24 (Nghe): dựa trên đoạn hội thoại \"남자:지금은몇시에갈수있을지잘모르겠어요. 여자:아,그래요?그런데앞으로는오는시간을미리알려주면좋겠어요.\", đáp án 3 là đúng.",
     "distractorNotes": {
@@ -898,8 +1138,64 @@
       "audio_url": "/audio/topik1-37-listen-q25.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "여자: 여러분,이쪽으로오세요.지금보시는이것은옛날신발인데요.옛날"
+          "lineMs": 1170,
+          "lineText": "다음을 듣고 물음에 답하십시오."
+        },
+        {
+          "lineMs": 9000,
+          "lineText": "여러분, 이쪽으로 오세요."
+        },
+        {
+          "lineMs": 13540,
+          "lineText": "지금 보시는 이것은 옛날 신발인데요."
+        },
+        {
+          "lineMs": 20380,
+          "lineText": "옛날 사람들은 비가 올 때 이 신발을 신었습니다."
+        },
+        {
+          "lineMs": 28240,
+          "lineText": "신발의"
+        },
+        {
+          "lineMs": 30120,
+          "lineText": "앞과 뒤가 바닥보다 높아서"
+        },
+        {
+          "lineMs": 35840,
+          "lineText": "비가 올 때도 발이"
+        },
+        {
+          "lineMs": 39400,
+          "lineText": "물에 젖지 않고요 또 가벼운"
+        },
+        {
+          "lineMs": 45220,
+          "lineText": "나무로 만들었기 때문에 신었을 때 불편하지"
+        },
+        {
+          "lineMs": 51560,
+          "lineText": "않습니다 남자 신발과 여자 신발은 모양이"
+        },
+        {
+          "lineMs": 59560,
+          "lineText": "좀 다른데요."
+        },
+        {
+          "lineMs": 62620,
+          "lineText": "여자 신발은 꽃 그림을 그려서 예쁘게"
+        },
+        {
+          "lineMs": 68600,
+          "lineText": "만들었습니다."
+        },
+        {
+          "lineMs": 71180,
+          "lineText": "다 보셨으면 옆으로"
+        },
+        {
+          "lineMs": 74460,
+          "lineText": "가실까요?"
         }
       ],
       "options": [
@@ -908,7 +1204,7 @@
         "주문",
         "부탁"
       ],
-      "exam_offset_ms": 1928904
+      "exam_offset_ms": 1198333
     },
     "explanationVi": "Câu 25 (Nghe): đáp án đúng là lựa chọn 2 — \"설명\".",
     "distractorNotes": {
@@ -926,40 +1222,76 @@
     "correct_ans": "4",
     "content_json": {
       "passage": "다음을 듣고 물음에 답하십시오.",
-      "audio_url": "/audio/topik1-37-listen-q26.mp3",
+      "audio_url": "/audio/topik1-37-listen-q25.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 요즘퇴근후에뭐해요?매일일찍나가는것같아요."
+          "lineMs": 1170,
+          "lineText": "다음을 듣고 물음에 답하십시오."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 아,집근처가구만드는곳에가서책상을만들고있어요."
+          "lineMs": 9000,
+          "lineText": "여러분, 이쪽으로 오세요."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 책상요?책상을사지않고만들어요?"
+          "lineMs": 13540,
+          "lineText": "지금 보시는 이것은 옛날 신발인데요."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네.좀큰책상을갖고싶어서시작했는데아주재미있어요.그래서"
+          "lineMs": 20380,
+          "lineText": "옛날 사람들은 비가 올 때 이 신발을 신었습니다."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 그런걸할줄알아요?나는작은상자도못만드는데……."
+          "lineMs": 28240,
+          "lineText": "신발의"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 가구만드는곳에가면다가르쳐줘요.하고싶으면같이가요."
+          "lineMs": 30120,
+          "lineText": "앞과 뒤가 바닥보다 높아서"
+        },
+        {
+          "lineMs": 35840,
+          "lineText": "비가 올 때도 발이"
+        },
+        {
+          "lineMs": 39400,
+          "lineText": "물에 젖지 않고요 또 가벼운"
+        },
+        {
+          "lineMs": 45220,
+          "lineText": "나무로 만들었기 때문에 신었을 때 불편하지"
+        },
+        {
+          "lineMs": 51560,
+          "lineText": "않습니다 남자 신발과 여자 신발은 모양이"
+        },
+        {
+          "lineMs": 59560,
+          "lineText": "좀 다른데요."
+        },
+        {
+          "lineMs": 62620,
+          "lineText": "여자 신발은 꽃 그림을 그려서 예쁘게"
+        },
+        {
+          "lineMs": 68600,
+          "lineText": "만들었습니다."
+        },
+        {
+          "lineMs": 71180,
+          "lineText": "다 보셨으면 옆으로"
+        },
+        {
+          "lineMs": 74460,
+          "lineText": "가실까요?"
         }
       ],
       "options": [
-        "남자신발에는그림이있습니다.",
-        "물에들어갈때이신발을신습니다.",
-        "이신발은나무로만들어서불편합니다.",
-        "이신발은앞과뒤를높게만들었습니다."
+        "남자 신발에는 그림이 있습니다.",
+        "물에 들어갈 때 이 신발을 신습니다.",
+        "이 신발은 나무로 만들어서 불편합니다.",
+        "이 신발은 앞과 뒤를 높게 만들었습니다."
       ],
-      "exam_offset_ms": 2009275
+      "exam_offset_ms": 1198333
     },
     "explanationVi": "Câu 26 (Nghe): dựa trên đoạn hội thoại \"남자:요즘퇴근후에뭐해요?매일일찍나가는것같아요. 여자:아,집근처가구만드는곳에가서책상을만들고있어요.\", đáp án 4 là đúng.",
     "distractorNotes": {
@@ -980,37 +1312,85 @@
       "audio_url": "/audio/topik1-37-listen-q27.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 요즘퇴근후에뭐해요?매일일찍나가는것같아요."
+          "lineMs": 2021,
+          "lineText": "다음을 듣고 무름에 답하십시오."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 아,집근처가구만드는곳에가서책상을만들고있어요."
+          "lineMs": 7061,
+          "lineText": "요즘"
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 책상요?책상을사지않고만들어요?"
+          "lineMs": 9041,
+          "lineText": "퇴근 후에 뭐 해요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네.좀큰책상을갖고싶어서시작했는데아주재미있어요.그래서"
+          "lineMs": 13981,
+          "lineText": "매일 일찍 나가는 것 같아요."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 그런걸할줄알아요?나는작은상자도못만드는데……."
+          "lineMs": 18281,
+          "lineText": "아,"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 가구만드는곳에가면다가르쳐줘요.하고싶으면같이가요."
+          "lineMs": 21101,
+          "lineText": "집 근처 가구 만드는 곳에 가서 책상을"
+        },
+        {
+          "lineMs": 26641,
+          "lineText": "만들고 있어요."
+        },
+        {
+          "lineMs": 29221,
+          "lineText": "책상요?"
+        },
+        {
+          "lineMs": 31801,
+          "lineText": "책상을 사지 않고 만들어요?"
+        },
+        {
+          "lineMs": 35241,
+          "lineText": "네,"
+        },
+        {
+          "lineMs": 38901,
+          "lineText": "좀 큰 책상을 갖고 싶어서 시작했는데"
+        },
+        {
+          "lineMs": 45241,
+          "lineText": "아주 재미있어요"
+        },
+        {
+          "lineMs": 49241,
+          "lineText": "그래서 다음에는"
+        },
+        {
+          "lineMs": 52801,
+          "lineText": "식탁도 만들어 보려고요 그런"
+        },
+        {
+          "lineMs": 58701,
+          "lineText": "걸 할 줄 알아요?"
+        },
+        {
+          "lineMs": 60981,
+          "lineText": "나는 작은 상자도 못 만드는데."
+        },
+        {
+          "lineMs": 66841,
+          "lineText": "가고 만드는 곳에 가면 다 가르쳐 줘요."
+        },
+        {
+          "lineMs": 74281,
+          "lineText": "하고 싶으면 같이 가요."
         }
       ],
       "options": [
-        "가구를사는곳",
-        "회사의퇴근시간",
-        "퇴근후에하는일",
-        "가구를고르는방법"
+        "가구를 사는 곳",
+        "회사의 퇴근 시간",
+        "퇴근 후에 하는 일",
+        "가구를 고르는 방법"
       ],
-      "exam_offset_ms": 2089646
+      "exam_offset_ms": 1376874
     },
     "explanationVi": "Câu 27 (Nghe): đáp án đúng là lựa chọn 3 — \"퇴근후에하는일\".",
     "distractorNotes": {
@@ -1028,40 +1408,88 @@
     "correct_ans": "3",
     "content_json": {
       "passage": "다음을 듣고 물음에 답하십시오.",
-      "audio_url": "/audio/topik1-37-listen-q28.mp3",
+      "audio_url": "/audio/topik1-37-listen-q27.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 안녕하세요?여기행복마트인데요.지난주에주문한그릇때문에"
+          "lineMs": 2021,
+          "lineText": "다음을 듣고 무름에 답하십시오."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네,연락하려고했는데주문한그릇이왜이렇게안와요?"
+          "lineMs": 7061,
+          "lineText": "요즘"
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 원하시는색깔이가게에없어서공장에주문을했는데요.생각보다"
+          "lineMs": 9041,
+          "lineText": "퇴근 후에 뭐 해요?"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 그래요?그럼언제쯤받을수있어요?"
+          "lineMs": 13981,
+          "lineText": "매일 일찍 나가는 것 같아요."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 내일보낼거니까모레쯤은도착할겁니다."
+          "lineMs": 18281,
+          "lineText": "아,"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네,알겠습니다."
+          "lineMs": 21101,
+          "lineText": "집 근처 가구 만드는 곳에 가서 책상을"
+        },
+        {
+          "lineMs": 26641,
+          "lineText": "만들고 있어요."
+        },
+        {
+          "lineMs": 29221,
+          "lineText": "책상요?"
+        },
+        {
+          "lineMs": 31801,
+          "lineText": "책상을 사지 않고 만들어요?"
+        },
+        {
+          "lineMs": 35241,
+          "lineText": "네,"
+        },
+        {
+          "lineMs": 38901,
+          "lineText": "좀 큰 책상을 갖고 싶어서 시작했는데"
+        },
+        {
+          "lineMs": 45241,
+          "lineText": "아주 재미있어요"
+        },
+        {
+          "lineMs": 49241,
+          "lineText": "그래서 다음에는"
+        },
+        {
+          "lineMs": 52801,
+          "lineText": "식탁도 만들어 보려고요 그런"
+        },
+        {
+          "lineMs": 58701,
+          "lineText": "걸 할 줄 알아요?"
+        },
+        {
+          "lineMs": 60981,
+          "lineText": "나는 작은 상자도 못 만드는데."
+        },
+        {
+          "lineMs": 66841,
+          "lineText": "가고 만드는 곳에 가면 다 가르쳐 줘요."
+        },
+        {
+          "lineMs": 74281,
+          "lineText": "하고 싶으면 같이 가요."
         }
       ],
       "options": [
-        "여자는집에서책상을만들고있습니다.",
-        "남자는책상만드는방법을알고있습니다.",
-        "여자는퇴근후에가구만드는곳에갑니다.",
-        "남자는여자에게식탁을만들어주려고합니다."
+        "여자는 집에서 책상을 만들고 있습니다.",
+        "남자는 책상 만드는 방법을 알고 있습니다.",
+        "여자는 퇴근 후에 가구 만드는 곳에 갑니다.",
+        "남자는 여자에게 식탁을 만들어 주려고 합니다."
       ],
-      "exam_offset_ms": 2170017
+      "exam_offset_ms": 1376874
     },
     "explanationVi": "Câu 28 (Nghe): dựa trên đoạn hội thoại \"남자:안녕하세요?여기행복마트인데요.지난주에주문한그릇때문에 여자:네,연락하려고했는데주문한그릇이왜이렇게안와요?\", đáp án 3 là đúng.",
     "distractorNotes": {
@@ -1082,37 +1510,81 @@
       "audio_url": "/audio/topik1-37-listen-q29.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 안녕하세요?여기행복마트인데요.지난주에주문한그릇때문에"
+          "lineMs": 1969,
+          "lineText": "다음을 듣고 무릎에 답하십시오."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네,연락하려고했는데주문한그릇이왜이렇게안와요?"
+          "lineMs": 8749,
+          "lineText": "안녕하세요."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 원하시는색깔이가게에없어서공장에주문을했는데요.생각보다"
+          "lineMs": 11049,
+          "lineText": "여기 행복마트인데요."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 그래요?그럼언제쯤받을수있어요?"
+          "lineMs": 15049,
+          "lineText": "지난주에 주문한 그릇 때문에 전화드렸습니다."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 내일보낼거니까모레쯤은도착할겁니다."
+          "lineMs": 20349,
+          "lineText": "네,"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네,알겠습니다."
+          "lineMs": 23129,
+          "lineText": "연락하려고 했는데 주문한"
+        },
+        {
+          "lineMs": 26949,
+          "lineText": "그릇이 왜 이렇게 안 와요?"
+        },
+        {
+          "lineMs": 31589,
+          "lineText": "원하시는 색깔이 가게에 없어서 공장에"
+        },
+        {
+          "lineMs": 38709,
+          "lineText": "주문을 했는데요."
+        },
+        {
+          "lineMs": 41529,
+          "lineText": "생각보다 늦어져서요."
+        },
+        {
+          "lineMs": 46029,
+          "lineText": "죄송합니다."
+        },
+        {
+          "lineMs": 46829,
+          "lineText": "그래요?"
+        },
+        {
+          "lineMs": 50349,
+          "lineText": "그럼 언제쯤"
+        },
+        {
+          "lineMs": 52829,
+          "lineText": "받을 수 있어요?"
+        },
+        {
+          "lineMs": 56129,
+          "lineText": "내일 보낼 거니까 모레쯤은"
+        },
+        {
+          "lineMs": 60189,
+          "lineText": "도착할 겁니다 네,"
+        },
+        {
+          "lineMs": 64569,
+          "lineText": "알겠습니다"
         }
       ],
       "options": [
-        "그릇을가게에보내려고",
-        "공장에그릇을주문하려고",
-        "그릇을아직보내지못해서",
-        "주문한그릇의색깔을바꾸려고"
+        "그릇을 가게에 보내려고",
+        "공장에 그릇을 주문하려고",
+        "그릇을 아직 보내지 못해서",
+        "주문한 그릇의 색깔을 바꾸려고"
       ],
-      "exam_offset_ms": 2250388
+      "exam_offset_ms": 1575441
     },
     "explanationVi": "Câu 29 (Nghe): đáp án đúng là lựa chọn 3 — \"그릇을아직보내지못해서\".",
     "distractorNotes": {
@@ -1130,40 +1602,84 @@
     "correct_ans": "2",
     "content_json": {
       "passage": "다음을 듣고 물음에 답하십시오.",
-      "audio_url": "/audio/topik1-37-listen-q30.mp3",
+      "audio_url": "/audio/topik1-37-listen-q29.mp3",
       "transcript": [
         {
-          "lineMs": 0,
-          "lineText": "남자: 안녕하세요?여기행복마트인데요.지난주에주문한그릇때문에"
+          "lineMs": 1969,
+          "lineText": "다음을 듣고 무릎에 답하십시오."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네,연락하려고했는데주문한그릇이왜이렇게안와요?"
+          "lineMs": 8749,
+          "lineText": "안녕하세요."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 원하시는색깔이가게에없어서공장에주문을했는데요.생각보다"
+          "lineMs": 11049,
+          "lineText": "여기 행복마트인데요."
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 그래요?그럼언제쯤받을수있어요?"
+          "lineMs": 15049,
+          "lineText": "지난주에 주문한 그릇 때문에 전화드렸습니다."
         },
         {
-          "lineMs": 0,
-          "lineText": "남자: 내일보낼거니까모레쯤은도착할겁니다."
+          "lineMs": 20349,
+          "lineText": "네,"
         },
         {
-          "lineMs": 0,
-          "lineText": "여자: 네,알겠습니다."
+          "lineMs": 23129,
+          "lineText": "연락하려고 했는데 주문한"
+        },
+        {
+          "lineMs": 26949,
+          "lineText": "그릇이 왜 이렇게 안 와요?"
+        },
+        {
+          "lineMs": 31589,
+          "lineText": "원하시는 색깔이 가게에 없어서 공장에"
+        },
+        {
+          "lineMs": 38709,
+          "lineText": "주문을 했는데요."
+        },
+        {
+          "lineMs": 41529,
+          "lineText": "생각보다 늦어져서요."
+        },
+        {
+          "lineMs": 46029,
+          "lineText": "죄송합니다."
+        },
+        {
+          "lineMs": 46829,
+          "lineText": "그래요?"
+        },
+        {
+          "lineMs": 50349,
+          "lineText": "그럼 언제쯤"
+        },
+        {
+          "lineMs": 52829,
+          "lineText": "받을 수 있어요?"
+        },
+        {
+          "lineMs": 56129,
+          "lineText": "내일 보낼 거니까 모레쯤은"
+        },
+        {
+          "lineMs": 60189,
+          "lineText": "도착할 겁니다 네,"
+        },
+        {
+          "lineMs": 64569,
+          "lineText": "알겠습니다"
         }
       ],
       "options": [
-        "여자는남자에게그릇을보냈습니다.",
-        "여자는지난주에그릇을주문했습니다.",
-        "여자는가게에가서그릇을살겁니다.",
-        "여자는내일그릇을받을수있을겁니다."
+        "여자는 남자에게 그릇을 보냈습니다.",
+        "여자는 지난주에 그릇을 주문했습니다.",
+        "여자는 가게에 가서 그릇을 살 겁니다.",
+        "여자는 내일 그릇을 받을 수 있을 겁니다."
       ],
-      "exam_offset_ms": 2330759
+      "exam_offset_ms": 1575441
     },
     "explanationVi": "Câu 30 (Nghe): đáp án đúng là lựa chọn 2 — \"여자는지난주에그릇을주문했습니다.\".",
     "distractorNotes": {
@@ -1180,8 +1696,8 @@
     "tier": "paid",
     "correct_ans": "1",
     "content_json": {
-      "passage": "오늘은1월1일입니다.내일은1월2일입니다.",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "오늘은 1월 1일입니다. 내일은 1월 2일입니다.",
+      "question": "무엇에 대한 이야기입니까? <보기>와 같이 알맞은 것을 고르십시오.",
       "options": [
         "날짜",
         "방학",
@@ -1204,8 +1720,8 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "아버지는의사입니다.어머니는은행원입니다.",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "아버지는 의사입니다. 어머니는 은행원입니다.",
+      "question": "무엇에 대한 이야기입니까? <보기>와 같이 알맞은 것을 고르십시오.",
       "options": [
         "고향",
         "부모",
@@ -1228,8 +1744,8 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "토요일에수영을합니다.일요일에쉽니다.",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "토요일에 수영을 합니다. 일요일에 쉽니다.",
+      "question": "무엇에 대한 이야기입니까? <보기>와 같이 알맞은 것을 고르십시오.",
       "options": [
         "달력",
         "주말",
@@ -1252,8 +1768,8 @@
     "tier": "paid",
     "correct_ans": "1",
     "content_json": {
-      "passage": "민수씨는대학생입니다.수미씨()대학생입니다.",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "민수 씨는 대학생입니다. 수미 씨( ) 대학생입니다.",
+      "question": "<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
         "도",
         "에",
@@ -1276,8 +1792,8 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "방이춥습니다.창문을().",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "방이 춥습니다. 창문을 ( ).",
+      "question": "<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
         "그립니다",
         "놓습니다",
@@ -1300,8 +1816,8 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "시간을모릅니다.()를봅니다.",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "시간을 모릅니다. ( )를 봅니다.",
+      "question": "<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
         "잡지",
         "시계",
@@ -1324,8 +1840,8 @@
     "tier": "paid",
     "correct_ans": "1",
     "content_json": {
-      "passage": "운동을많이합니다.그래서().",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "운동을 많이 합니다. 그래서 ( ).",
+      "question": "<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
         "건강합니다",
         "깨끗합니다",
@@ -1348,8 +1864,8 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "가방에책이많습니다.가방이()무겁습니다.",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "가방에 책이 많습니다. 가방이 ( ) 무겁습니다.",
+      "question": "<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
         "가끔",
         "오래",
@@ -1372,8 +1888,8 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "기타를오래배웠습니다.그래서기타를잘().",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "기타를 오래 배웠습니다. 그래서 기타를 잘 ( ).",
+      "question": "<보기>와 같이 ( )에 들어갈 가장 알맞은 것을 고르십시오.",
       "options": [
         "붑니다",
         "칩니다",
@@ -1396,13 +1912,13 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "제37회 한국어능력시험I  B형(듣기, 읽기)",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "[인형 박물관 안내] 요일: 화요일~일요일 / 시간: 09:00~19:00 / 입장료: 5,000원 ※7세 이하 어린이에게 작은 인형을 드립니다.",
+      "question": "다음을 읽고 맞지 않는 것을 고르십시오.",
       "options": [
-        "오천원을냅니다.",
-        "월요일에문을엽니다.",
-        "어린이가갈수있습니다.",
-        "오후일곱시에끝납니다."
+        "오천 원을 냅니다.",
+        "월요일에 문을 엽니다.",
+        "어린이가 갈 수 있습니다.",
+        "오후 일곱 시에 끝납니다."
       ]
     },
     "explanationVi": "Câu 10 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 2 phù hợp nhất.",
@@ -1420,13 +1936,13 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "11. ",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "[외국인을 위한 한국 노래 모임] 한국 노래를 배우고 싶습니까? 그럼 우리 노래 모임에 오세요! 한국 친구들도 만날 수 있습니다. ♪일시: 금요일 오후 2~4시 ♪장소: 3층 309호 교실",
+      "question": "다음을 읽고 맞지 않는 것을 고르십시오.",
       "options": [
-        "삼층교실에서만납니다.",
-        "모임에서노래를배웁니다.",
-        "네시에모임을시작합니다.",
-        "모임에한국사람들이있습니다."
+        "삼 층 교실에서 만납니다.",
+        "모임에서 노래를 배웁니다.",
+        "네 시에 모임을 시작합니다.",
+        "모임에 한국 사람들이 있습니다."
       ]
     },
     "explanationVi": "Câu 11 (Đọc): theo đoạn văn \"11. \", đáp án 3 phù hợp nhất.",
@@ -1444,13 +1960,13 @@
     "tier": "paid",
     "correct_ans": "1",
     "content_json": {
-      "passage": "제37회 한국어능력시험I  B형(듣기, 읽기)",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "[약 봉투] 이름: 김민수. 1일 2회, 3일. (아침) 점심 (저녁). 식사 후 30분. 송송 약국.",
+      "question": "다음을 읽고 맞지 않는 것을 고르십시오.",
       "options": [
-        "점심에약을먹습니다.",
-        "밥을먹고약을먹습니다.",
-        "삼일동안약을먹습니다.",
-        "김민수씨가약을먹습니다."
+        "점심에 약을 먹습니다.",
+        "밥을 먹고 약을 먹습니다.",
+        "삼 일 동안 약을 먹습니다.",
+        "김민수 씨가 약을 먹습니다."
       ]
     },
     "explanationVi": "Câu 12 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 1 phù hợp nhất.",
@@ -1468,13 +1984,13 @@
     "tier": "paid",
     "correct_ans": "1",
     "content_json": {
-      "passage": "오늘은제생일입니다.그래서친구와밥을먹고파티를했습니다.친구는저에게양말을사주었습니다.",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "오늘은 제 생일입니다. 그래서 친구와 밥을 먹고 파티를 했습니다. 친구는 저에게 양말을 사 주었습니다.",
+      "question": "다음의 내용과 같은 것을 고르십시오.",
       "options": [
-        "저는생일선물을받았습니다.",
-        "저는오늘친구양말을샀습니다.",
-        "저는가족과생일파티를했습니다.",
-        "저는쇼핑하고친구와식사했습니다."
+        "저는 생일 선물을 받았습니다.",
+        "저는 오늘 친구 양말을 샀습니다.",
+        "저는 가족과 생일 파티를 했습니다.",
+        "저는 쇼핑하고 친구와 식사했습니다."
       ]
     },
     "explanationVi": "Câu 13 (Đọc): theo đoạn văn \"오늘은제생일입니다.그래서친구와밥을먹고파티를했습니다.친구는\", đáp án 1 phù hợp nhất.",
@@ -1492,13 +2008,13 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "어제형과스키장에처음갔습니다.그곳에는스키를타는사람들이많았습니다.우리도즐겁게스키를탔습니다.",
-      "question": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "passage": "어제 형과 스키장에 처음 갔습니다. 그곳에는 스키를 타는 사람들이 많았습니다. 우리도 즐겁게 스키를 탔습니다.",
+      "question": "다음의 내용과 같은 것을 고르십시오.",
       "options": [
-        "저는자주스키장에갑니다.",
-        "저는어제스키를탔습니다.",
-        "저는스키장에혼자갔습니다.",
-        "저는스키장에서형을만났습니다."
+        "저는 자주 스키장에 갑니다.",
+        "저는 어제 스키를 탔습니다.",
+        "저는 스키장에 혼자 갔습니다.",
+        "저는 스키장에서 형을 만났습니다."
       ]
     },
     "explanationVi": "Câu 14 (Đọc): theo đoạn văn \"어제형과스키장에처음갔습니다.그곳에는스키를타는사람들이많았\", đáp án 2 phù hợp nhất.",
@@ -1516,13 +2032,13 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "저는요리를못합니다.그래서매일학생식당에서밥을먹습니다.학생식당은음식값이싸고김치가맛있습니다.",
-      "question": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "저는 요리를 못합니다. 그래서 매일 학생 식당에서 밥을 먹습니다. 학생 식당은 음식 값이 싸고 김치가 맛있습니다.",
+      "question": "다음의 내용과 같은 것을 고르십시오.",
       "options": [
-        "학생식당은조금비쌉니다.",
-        "학생식당에김치가없습니다.",
-        "저는학생식당에날마다갑니다.",
-        "저는맛있는음식을잘만듭니다."
+        "학생 식당은 조금 비쌉니다.",
+        "학생 식당에 김치가 없습니다.",
+        "저는 학생 식당에 날마다 갑니다.",
+        "저는 맛있는 음식을 잘 만듭니다."
       ]
     },
     "explanationVi": "Câu 15 (Đọc): theo đoạn văn \"저는요리를못합니다.그래서매일학생식당에서밥을먹습니다.학생\", đáp án 3 phù hợp nhất.",
@@ -1540,13 +2056,13 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "저는휴일에친구집에가려고합니다.친구와같이드라마를보려고합니다.이야기도많이할겁니다.",
-      "question": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "저는 휴일에 친구 집에 가려고 합니다. 친구와 같이 드라마를 보려고 합니다. 이야기도 많이 할 겁니다.",
+      "question": "다음을 읽고 중심 생각을 고르십시오.",
       "options": [
-        "저는집에서드라마를보고싶습니다.",
-        "저는친구에게이야기를하러갈겁니다.",
-        "저는친구와드라마이야기를할겁니다.",
-        "저는친구와함께휴일을지내고싶습니다."
+        "저는 집에서 드라마를 보고 싶습니다.",
+        "저는 친구에게 이야기를 하러 갈 겁니다.",
+        "저는 친구와 드라마 이야기를 할 겁니다.",
+        "저는 친구와 함께 휴일을 지내고 싶습니다."
       ]
     },
     "explanationVi": "Câu 16 (Đọc): theo đoạn văn \"저는휴일에친구집에가려고합니다.친구와같이드라마를보려고\", đáp án 4 phù hợp nhất.",
@@ -1564,13 +2080,13 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "저는내년에대학교를졸업합니다.졸업을하면회사에서일하려고합니다.그래서요즘좋은회사를찾고있습니다.",
-      "question": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "저는 내년에 대학교를 졸업합니다. 졸업을 하면 회사에서 일하려고 합니다. 그래서 요즘 좋은 회사를 찾고 있습니다.",
+      "question": "다음을 읽고 중심 생각을 고르십시오.",
       "options": [
-        "저는학교에서일하고싶습니다.",
-        "저는좋은대학교를찾고싶습니다.",
-        "저는졸업후에회사원이되고싶습니다.",
-        "저는내년에학교를졸업하고싶습니다."
+        "저는 학교에서 일하고 싶습니다.",
+        "저는 좋은 대학교를 찾고 싶습니다.",
+        "저는 졸업 후에 회사원이 되고 싶습니다.",
+        "저는 내년에 학교를 졸업하고 싶습니다."
       ]
     },
     "explanationVi": "Câu 17 (Đọc): theo đoạn văn \"저는내년에대학교를졸업합니다.졸업을하면회사에서일하려고합니다.\", đáp án 3 phù hợp nhất.",
@@ -1588,13 +2104,13 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "민수씨는발이아주큽니다.보통신발가게에는민수씨발에맞는신발이없습니다.그래서민수씨는신발을사는것이힘듭니다.",
-      "question": "다음을 읽고 알맞은 것을 고르십시오.",
+      "passage": "민수 씨는 발이 아주 큽니다. 보통 신발 가게에는 민수 씨 발에 맞는 신발이 없습니다. 그래서 민수 씨는 신발을 사는 것이 힘듭니다.",
+      "question": "다음을 읽고 중심 생각을 고르십시오.",
       "options": [
-        "민수씨는조금큰신발을좋아합니다.",
-        "민수씨는신발이작아서걷기힘듭니다.",
-        "민수씨는가게에신발을사러갈겁니다.",
-        "민수씨는발이커서신발사기가어렵습니다."
+        "민수 씨는 조금 큰 신발을 좋아합니다.",
+        "민수 씨는 신발이 작아서 걷기 힘듭니다.",
+        "민수 씨는 가게에 신발을 사러 갈 겁니다.",
+        "민수 씨는 발이 커서 신발 사기가 어렵습니다."
       ]
     },
     "explanationVi": "Câu 18 (Đọc): theo đoạn văn \"민수씨는발이아주큽니다.보통신발가게에는민수씨발에맞는\", đáp án 4 phù hợp nhất.",
@@ -1612,8 +2128,8 @@
     "tier": "paid",
     "correct_ans": "1",
     "content_json": {
-      "passage": "㉠에들어갈알맞은말을고르십시오.",
-      "question": "다음을 읽고 중심 내용을 고르십시오.",
+      "passage": "저는 다음 주에 새 집으로 이사합니다. 그래서 오늘 제 물건을 정리했습니다. 먼저 필요 없는 물건들을 상자 안에 넣었습니다. 그런데 그 중에는 한 번도 쓰지 않은 새 물건이 많았습니다. 앞으로는 ( ㉠ ) 물건만 사야겠습니다.",
+      "question": "㉠에 들어갈 알맞은 말을 고르십시오.",
       "options": [
         "필요한",
         "새로운",
@@ -1636,13 +2152,13 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "이글의내용과같은것을고르십시오.",
-      "question": "다음을 읽고 중심 내용을 고르십시오.",
+      "passage": "저는 다음 주에 새 집으로 이사합니다. 그래서 오늘 제 물건을 정리했습니다. 먼저 필요 없는 물건들을 상자 안에 넣었습니다. 그런데 그 중에는 한 번도 쓰지 않은 새 물건이 많았습니다. 앞으로는 ( ㉠ ) 물건만 사야겠습니다.",
+      "question": "이 글의 내용과 같은 것을 고르십시오.",
       "options": [
-        "집에새물건들이많이필요합니다.",
-        "저는오늘새집에이사를왔습니다.",
-        "저는필요없는물건을정리했습니다.",
-        "상자에많이쓰는물건들이있습니다."
+        "집에 새 물건들이 많이 필요합니다.",
+        "저는 오늘 새 집에 이사를 왔습니다.",
+        "저는 필요 없는 물건을 정리했습니다.",
+        "상자에 많이 쓰는 물건들이 있습니다."
       ]
     },
     "explanationVi": "Câu 20 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 3 phù hợp nhất.",
@@ -1660,13 +2176,13 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "㉠에들어갈알맞은말을고르십시오.(3점)",
-      "question": "다음을 읽고 중심 내용을 고르십시오.",
+      "passage": "겨울에 기차를 타고 떠나는 '눈꽃 여행'이 있습니다. '눈꽃 여행'은 ( ㉠ ) 즐거운 시간을 보내고 다음 역으로 가는 여행입니다. 첫 번째 역에서 내리면 눈길을 산책하고 얼음낚시를 합니다. 다음 역에서는 눈사람을 만듭니다. 그리고 마지막 역에서는 따뜻한 차를 마십니다.",
+      "question": "㉠에 들어갈 알맞은 말을 고르십시오.",
       "options": [
-        "기차가지나가서",
-        "기차를기다려서",
-        "기차역에내려서",
-        "기차역에돌아와서"
+        "기차가 지나가서",
+        "기차를 기다려서",
+        "기차역에 내려서",
+        "기차역에 돌아와서"
       ]
     },
     "explanationVi": "Câu 21 (Đọc): theo đoạn văn \"21. \", đáp án 3 phù hợp nhất.",
@@ -1684,13 +2200,13 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "무엇에대한이야기인지고르십시오.(2점)",
-      "question": "다음을 읽고 중심 내용을 고르십시오.",
+      "passage": "겨울에 기차를 타고 떠나는 '눈꽃 여행'이 있습니다. '눈꽃 여행'은 ( ㉠ ) 즐거운 시간을 보내고 다음 역으로 가는 여행입니다. 첫 번째 역에서 내리면 눈길을 산책하고 얼음낚시를 합니다. 다음 역에서는 눈사람을 만듭니다. 그리고 마지막 역에서는 따뜻한 차를 마십니다.",
+      "question": "무엇에 대한 이야기인지 고르십시오.",
       "options": [
-        "기차안에서볼수있는것",
-        "기차를다시탈수있는곳",
-        "눈꽃여행을갈수있는날",
-        "눈꽃여행에서할수있는일"
+        "기차 안에서 볼 수 있는 것",
+        "기차를 다시 탈 수 있는 곳",
+        "눈꽃 여행을 갈 수 있는 날",
+        "눈꽃 여행에서 할 수 있는 일"
       ]
     },
     "explanationVi": "Câu 22 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 4 phù hợp nhất.",
@@ -1708,8 +2224,8 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "㉠에들어갈알맞은말을고르십시오.(2점)",
-      "question": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "저는 한국에 온 지 1년이 되었습니다. 가끔 고향 생각이 날 때는 서울타워에 올라가서 밤경치를 봅니다. 서울 시내는 ( ㉠ ) 밤경치가 아름답습니다. 그리고 서울타워에 갔다 오면 마음도 가벼워지고 기분도 좋아집니다.",
+      "question": "㉠에 들어갈 알맞은 말을 고르십시오.",
       "options": [
         "복잡하면",
         "복잡해서",
@@ -1732,13 +2248,13 @@
     "tier": "paid",
     "correct_ans": "1",
     "content_json": {
-      "passage": "이글의내용과같은것을고르십시오.(3점)",
-      "question": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "저는 한국에 온 지 1년이 되었습니다. 가끔 고향 생각이 날 때는 서울타워에 올라가서 밤경치를 봅니다. 서울 시내는 ( ㉠ ) 밤경치가 아름답습니다. 그리고 서울타워에 갔다 오면 마음도 가벼워지고 기분도 좋아집니다.",
+      "question": "이 글의 내용과 같은 것을 고르십시오.",
       "options": [
-        "서울타워에가서밤경치를봅니다.",
-        "고향생각이나면서울타워를봅니다.",
-        "서울타워에가면고향생각이납니다.",
-        "저는일년전에서울타워에갔습니다."
+        "서울타워에 가서 밤경치를 봅니다.",
+        "고향 생각이 나면 서울타워를 봅니다.",
+        "서울타워에 가면 고향 생각이 납니다.",
+        "저는 일 년 전에 서울타워에 갔습니다."
       ]
     },
     "explanationVi": "Câu 24 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 1 phù hợp nhất.",
@@ -1756,8 +2272,8 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "㉠에들어갈알맞은말을고르십시오.(2점)",
-      "question": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "제가 어렸을 때 우리 집 근처에 있는 작은 시장에 자주 갔습니다. ( ㉠ ) 백화점이 생긴 후에는 그 시장에 가지 않았습니다. 오늘은 오랜만에 그 시장에 가 보고 많이 놀랐습니다. 시장 안에 가게가 많고 살 수 있는 물건도 다양했습니다. 또 아주머니들이 맛있는 음식을 만들어서 팔고 있었습니다. 앞으로 집 근처 시장을 자주 이용하기로 했습니다.",
+      "question": "㉠에 들어갈 알맞은 말을 고르십시오.",
       "options": [
         "그래서",
         "그리고",
@@ -1780,13 +2296,13 @@
     "tier": "paid",
     "correct_ans": "1",
     "content_json": {
-      "passage": "이글의내용과같은것을고르십시오.(3점)",
-      "question": "다음을 읽고 내용과 같은 것을 고르십시오.",
+      "passage": "제가 어렸을 때 우리 집 근처에 있는 작은 시장에 자주 갔습니다. ( ㉠ ) 백화점이 생긴 후에는 그 시장에 가지 않았습니다. 오늘은 오랜만에 그 시장에 가 보고 많이 놀랐습니다. 시장 안에 가게가 많고 살 수 있는 물건도 다양했습니다. 또 아주머니들이 맛있는 음식을 만들어서 팔고 있었습니다. 앞으로 집 근처 시장을 자주 이용하기로 했습니다.",
+      "question": "이 글의 내용과 같은 것을 고르십시오.",
       "options": [
-        "저는이제시장에자주가려고합니다.",
-        "물건을사는아주머니들이많았습니다.",
-        "시장이생기기전에백화점에자주갔습니다.",
-        "전에는가게가많아서물건사기가편했습니다."
+        "저는 이제 시장에 자주 가려고 합니다.",
+        "물건을 사는 아주머니들이 많았습니다.",
+        "시장이 생기기 전에 백화점에 자주 갔습니다.",
+        "전에는 가게가 많아서 물건 사기가 편했습니다."
       ]
     },
     "explanationVi": "Câu 26 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 1 phù hợp nhất.",
@@ -1804,13 +2320,13 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "(가)그런데공항에서지갑을잃어버렸습니다.(나)지난주에친구들과같이여행을갔습니다.(다)지갑을다시찾아서정말다행이었습니다.(라)그때안내원이방송을해서지갑을찾아주었습니다.",
-      "question": "다음을 읽고 내용과 다른 것을 고르십시오.",
+      "passage": "(가) 그런데 공항에서 지갑을 잃어버렸습니다.\n(나) 지난주에 친구들과 같이 여행을 갔습니다.\n(다) 지갑을 다시 찾아서 정말 다행이었습니다.\n(라) 그때 안내원이 방송을 해서 지갑을 찾아 주었습니다.",
+      "question": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
       "options": [
-        "(나)－(가)－(다)－(라)",
-        "(나)－(가)－(라)－(다)",
-        "(나)－(다)－(가)－(라)",
-        "(나)－(다)－(라)－(가)"
+        "(나)-(가)-(다)-(라)",
+        "(나)-(가)-(라)-(다)",
+        "(나)-(다)-(가)-(라)",
+        "(나)-(다)-(라)-(가)"
       ]
     },
     "explanationVi": "Câu 27 (Đọc): theo đoạn văn \"(가)그런데공항에서지갑을잃어버렸습니다.\", đáp án 2 phù hợp nhất.",
@@ -1828,13 +2344,13 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "(가)그래서조금비싸지만더인기가많습니다.(나)요즘마트에특별한색의토마토들이많습니다.(다)그중에서특히노란색토마토가인기가있습니다.(라)노란색토마토는보통토마토보다맛이더답니다.",
-      "question": "다음을 읽고 내용과 다른 것을 고르십시오.",
+      "passage": "(가) 그래서 조금 비싸지만 더 인기가 많습니다.\n(나) 요즘 마트에 특별한 색의 토마토들이 많습니다.\n(다) 그 중에서 특히 노란색 토마토가 인기가 있습니다.\n(라) 노란색 토마토는 보통 토마토보다 맛이 더 답니다.",
+      "question": "다음을 순서대로 맞게 나열한 것을 고르십시오.",
       "options": [
-        "(나)－(다)－(가)－(라)",
-        "(나)－(다)－(라)－(가)",
-        "(나)－(가)－(다)－(라)",
-        "(나)－(가)－(라)－(다)"
+        "(나)-(다)-(가)-(라)",
+        "(나)-(다)-(라)-(가)",
+        "(나)-(가)-(다)-(라)",
+        "(나)-(가)-(라)-(다)"
       ]
     },
     "explanationVi": "Câu 28 (Đọc): theo đoạn văn \"(가)그래서조금비싸지만더인기가많습니다.\", đáp án 2 phù hợp nhất.",
@@ -1852,8 +2368,8 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "다음문장이들어갈곳을고르십시오.(2점)한번컴퓨터앞에앉으면밥도안먹고게임을할때도있었습니다.",
-      "question": "다음을 읽고 내용과 다른 것을 고르십시오.",
+      "passage": "우리 어머니와 아버지는 모두 일을 하셔서 집에 혼자 있는 날이 많았습니다. ( ㉠ ) 혼자 있으면 보통 게임을 하면서 시간을 보냈습니다. ( ㉡ ) 그런데 어머니가 강아지를 사 오시면서 제 생활이 달라졌습니다. ( ㉢ ) 강아지와 함께 놀고 같이 산책도 하면서 시간을 보내게 되었습니다. ( ㉣ ) 저는 게임보다 더 좋은 친구를 갖게 되었습니다.",
+      "question": "다음 문장이 들어갈 곳을 고르십시오.\n[한 번 컴퓨터 앞에 앉으면 밥도 안 먹고 게임을 할 때도 있었습니다.]",
       "options": [
         "㉠",
         "㉡",
@@ -1876,13 +2392,13 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "이글의내용과같은것을고르십시오.(3점)",
-      "question": "다음을 읽고 내용과 다른 것을 고르십시오.",
+      "passage": "우리 어머니와 아버지는 모두 일을 하셔서 집에 혼자 있는 날이 많았습니다. ( ㉠ ) 혼자 있으면 보통 게임을 하면서 시간을 보냈습니다. ( ㉡ ) 그런데 어머니가 강아지를 사 오시면서 제 생활이 달라졌습니다. ( ㉢ ) 강아지와 함께 놀고 같이 산책도 하면서 시간을 보내게 되었습니다. ( ㉣ ) 저는 게임보다 더 좋은 친구를 갖게 되었습니다.",
+      "question": "이 글의 내용과 같은 것을 고르십시오.",
       "options": [
-        "우리어머니는게임을좋아하십니다.",
-        "저는요즘어머니와함께산책을합니다.",
-        "우리어머니는집에계실때가많습니다.",
-        "저는강아지와보내는시간이즐겁습니다."
+        "우리 어머니는 게임을 좋아하십니다.",
+        "저는 요즘 어머니와 함께 산책을 합니다.",
+        "우리 어머니는 집에 계실 때가 많습니다.",
+        "저는 강아지와 보내는 시간이 즐겁습니다."
       ]
     },
     "explanationVi": "Câu 30 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 4 phù hợp nhất.",
@@ -1900,13 +2416,13 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "㉠에들어갈알맞은말을고르십시오.",
-      "question": "다음을 읽고 순서에 맞게 배열한 것을 고르십시오.",
+      "passage": "저는 어제 친구하고 재미있는 옷 가게에 갔습니다. 그 가게에서는 우리가 티셔츠의 그림을 직접 그릴 수 있습니다. 그림을 그려서 주면 그것을 티셔츠로 만들어 줍니다. 어제 우리는 티셔츠를 하나씩 만들어 입었습니다. 같은 티셔츠를 입으니까 친구가 더 소중하게 느껴졌습니다. 그 옷을 ( ㉠ ) 친구가 생각날 것 같습니다.",
+      "question": "㉠에 들어갈 알맞은 말을 고르십시오.",
       "options": [
-        "만든지",
-        "만든후에",
-        "입을때마다",
-        "입어봐서"
+        "만든 지",
+        "만든 후에",
+        "입을 때마다",
+        "입어 봐서"
       ]
     },
     "explanationVi": "Câu 31 (Đọc): theo đoạn văn \"31. \", đáp án 3 phù hợp nhất.",
@@ -1924,13 +2440,13 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "이글의내용과같은것을고르십시오.",
-      "question": "다음을 읽고 순서에 맞게 배열한 것을 고르십시오.",
+      "passage": "저는 어제 친구하고 재미있는 옷 가게에 갔습니다. 그 가게에서는 우리가 티셔츠의 그림을 직접 그릴 수 있습니다. 그림을 그려서 주면 그것을 티셔츠로 만들어 줍니다. 어제 우리는 티셔츠를 하나씩 만들어 입었습니다. 같은 티셔츠를 입으니까 친구가 더 소중하게 느껴졌습니다. 그 옷을 ( ㉠ ) 친구가 생각날 것 같습니다.",
+      "question": "이 글의 내용과 같은 것을 고르십시오.",
       "options": [
-        "저는어제친구와티셔츠를구경했습니다.",
-        "저는친구의티셔츠를사러가게에갔습니다.",
-        "가게에서우리가원하는그림을그려주었습니다.",
-        "우리는같은티셔츠를입고더가깝게느꼈습니다."
+        "저는 어제 친구와 티셔츠를 구경했습니다.",
+        "저는 친구의 티셔츠를 사러 가게에 갔습니다.",
+        "가게에서 우리가 원하는 그림을 그려 주었습니다.",
+        "우리는 같은 티셔츠를 입고 더 가깝게 느꼈습니다."
       ]
     },
     "explanationVi": "Câu 32 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 4 phù hợp nhất.",
@@ -1948,13 +2464,13 @@
     "tier": "paid",
     "correct_ans": "2",
     "content_json": {
-      "passage": "한국어학과에서는왜이글을썼습니까?(2점)",
-      "question": "다음을 읽고 순서에 맞게 배열한 것을 고르십시오.",
+      "passage": "(이메일) 받는사람: maria@hanguk.edu; john@hanguk.edu; liming@hanguk.edu; ... 제목: 유학생을 위한 한국 전통 음악회. 보낸사람: korean@hanguk.edu. 유학생 여러분, 안녕하십니까? 여러분을 위해서 전통 음악을 공부하는 한국 학생들이 공연을 합니다. 음악회는 다음 주 금요일에 있습니다. 오후 4시에 시작해서 6시까지 합니다. 3시 30분까지 한국대학교 강당으로 오시면 됩니다. 음악회가 끝나면 우리를 위해 연주해 준 학생들과 함께 저녁 식사를 할 겁니다. 많은 참석 바랍니다. 한국대학교 한국어학과",
+      "question": "한국어학과에서는 왜 이 글을 썼습니까?",
       "options": [
-        "음악회를계획하려고",
-        "음악회에초대하려고",
-        "음악회참석을확인하려고",
-        "음악회참석에감사하려고"
+        "음악회를 계획하려고",
+        "음악회에 초대하려고",
+        "음악회 참석을 확인하려고",
+        "음악회 참석에 감사하려고"
       ]
     },
     "explanationVi": "Câu 33 (Đọc): theo đoạn văn \"33. \", đáp án 2 phù hợp nhất.",
@@ -1972,13 +2488,13 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "이글의내용과같은것을고르십시오.(3점)",
-      "question": "다음을 읽고 순서에 맞게 배열한 것을 고르십시오.",
+      "passage": "(이메일) 받는사람: maria@hanguk.edu; john@hanguk.edu; liming@hanguk.edu; ... 제목: 유학생을 위한 한국 전통 음악회. 보낸사람: korean@hanguk.edu. 유학생 여러분, 안녕하십니까? 여러분을 위해서 전통 음악을 공부하는 한국 학생들이 공연을 합니다. 음악회는 다음 주 금요일에 있습니다. 오후 4시에 시작해서 6시까지 합니다. 3시 30분까지 한국대학교 강당으로 오시면 됩니다. 음악회가 끝나면 우리를 위해 연주해 준 학생들과 함께 저녁 식사를 할 겁니다. 많은 참석 바랍니다. 한국대학교 한국어학과",
+      "question": "이 글의 내용과 같은 것을 고르십시오.",
       "options": [
-        "음악회는세시삼십분에시작할겁니다.",
-        "유학생들이한국전통음악을연주할겁니다.",
-        "음악을공부하는학생들을위한음악회입니다.",
-        "음악회를한후에다함께저녁을먹을겁니다."
+        "음악회는 세 시 삼십 분에 시작할 겁니다.",
+        "유학생들이 한국 전통 음악을 연주할 겁니다.",
+        "음악을 공부하는 학생들을 위한 음악회입니다.",
+        "음악회를 한 후에 다 함께 저녁을 먹을 겁니다."
       ]
     },
     "explanationVi": "Câu 34 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 4 phù hợp nhất.",
@@ -1996,13 +2512,13 @@
     "tier": "paid",
     "correct_ans": "1",
     "content_json": {
-      "passage": "㉠에들어갈알맞은말을고르십시오.(2점)",
-      "question": "다음을 읽고 ( )에 들어갈 말로 알맞은 것을 고르십시오.",
+      "passage": "저는 자기 전에 하루를 정리하면서 메모를 합니다. 먼저 오늘 일어난 일 중에서 잘 한 일 세 가지를 씁니다. 그렇게 하면 힘든 하루를 조금 잊을 수 있습니다. 그 다음에는 내일 할 일을 ( ㉠ ). 그러면 중요한 일을 잊어버리지 않아서 좋습니다. 이렇게 메모를 하면 생각만 할 때보다 하루하루를 훨씬 더 잘 정리할 수 있습니다.",
+      "question": "㉠에 들어갈 알맞은 말을 고르십시오.",
       "options": [
-        "적어봅니다",
-        "적게됩니다",
-        "적을까합니다",
-        "적을것같습니다"
+        "적어 봅니다",
+        "적게 됩니다",
+        "적을까 합니다",
+        "적을 것 같습니다"
       ]
     },
     "explanationVi": "Câu 35 (Đọc): theo đoạn văn \"35. \", đáp án 1 phù hợp nhất.",
@@ -2020,13 +2536,13 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "이글의내용과같은것을고르십시오.(3점)",
-      "question": "다음을 읽고 ( )에 들어갈 말로 알맞은 것을 고르십시오.",
+      "passage": "저는 자기 전에 하루를 정리하면서 메모를 합니다. 먼저 오늘 일어난 일 중에서 잘 한 일 세 가지를 씁니다. 그렇게 하면 힘든 하루를 조금 잊을 수 있습니다. 그 다음에는 내일 할 일을 ( ㉠ ). 그러면 중요한 일을 잊어버리지 않아서 좋습니다. 이렇게 메모를 하면 생각만 할 때보다 하루하루를 훨씬 더 잘 정리할 수 있습니다.",
+      "question": "이 글의 내용과 같은 것을 고르십시오.",
       "options": [
-        "하루의잘못한일을써서정리합니다.",
-        "아침에일어나서오늘할일을씁니다.",
-        "잊어버린일들은자기전에메모합니다.",
-        "메모를하면서하루의일을생각합니다."
+        "하루의 잘못한 일을 써서 정리합니다.",
+        "아침에 일어나서 오늘 할 일을 씁니다.",
+        "잊어버린 일들은 자기 전에 메모합니다.",
+        "메모를 하면서 하루의 일을 생각합니다."
       ]
     },
     "explanationVi": "Câu 36 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 4 phù hợp nhất.",
@@ -2044,13 +2560,13 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "㉠에들어갈알맞은말을고르십시오.",
-      "question": "다음을 읽고 ( )에 들어갈 말로 알맞은 것을 고르십시오.",
+      "passage": "꽃이나 나무가 오래 살려면 물과 공기, 햇빛이 중요합니다. ( ㉠ ) 막으려면 화분을 한곳에 모아 놓아야 합니다. 물에 젖은 수건을 화분 아래에 놓는 것도 좋은 방법입니다. 또 집안에서 공기가 잘 통할 수 있게 방문을 열어 놓으면 좋습니다. 마지막으로, 여행을 오래 할 때는 햇빛이 잘 들어오지 않는 곳에 화분을 놓는 것이 좋습니다.",
+      "question": "㉠에 들어갈 알맞은 말을 고르십시오.",
       "options": [
-        "햇빛을보는것을",
-        "공기가들어오는것을",
-        "화분에꽃이피는것을",
-        "물이빨리없어지는것을"
+        "햇빛을 보는 것을",
+        "공기가 들어오는 것을",
+        "화분에 꽃이 피는 것을",
+        "물이 빨리 없어지는 것을"
       ]
     },
     "explanationVi": "Câu 37 (Đọc): theo đoạn văn \"37. \", đáp án 4 phù hợp nhất.",
@@ -2068,13 +2584,13 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "이글의내용과같은것을고르십시오.",
-      "question": "다음을 읽고 ( )에 들어갈 말로 알맞은 것을 고르십시오.",
+      "passage": "꽃이나 나무가 오래 살려면 물과 공기, 햇빛이 중요합니다. ( ㉠ ) 막으려면 화분을 한곳에 모아 놓아야 합니다. 물에 젖은 수건을 화분 아래에 놓는 것도 좋은 방법입니다. 또 집안에서 공기가 잘 통할 수 있게 방문을 열어 놓으면 좋습니다. 마지막으로, 여행을 오래 할 때는 햇빛이 잘 들어오지 않는 곳에 화분을 놓는 것이 좋습니다.",
+      "question": "이 글의 내용과 같은 것을 고르십시오.",
       "options": [
-        "수건을화분안에넣어놓아야합니다.",
-        "화분을여러방에나누어놓아야합니다.",
-        "방문을열어서공기가통하게해야합니다.",
-        "여행전에는화분을햇빛에놓고가야합니다."
+        "수건을 화분 안에 넣어 놓아야 합니다.",
+        "화분을 여러 방에 나누어 놓아야 합니다.",
+        "방문을 열어서 공기가 통하게 해야 합니다.",
+        "여행 전에는 화분을 햇빛에 놓고 가야 합니다."
       ]
     },
     "explanationVi": "Câu 38 (Đọc): theo đoạn văn \"제37회 한국어능력시험I  B형(듣기, 읽기)\", đáp án 3 phù hợp nhất.",
@@ -2092,13 +2608,13 @@
     "tier": "paid",
     "correct_ans": "4",
     "content_json": {
-      "passage": "㉠에들어갈알맞은말을고르십시오.",
-      "question": "다음을 읽고 ( )에 들어갈 말로 알맞은 것을 고르십시오.",
+      "passage": "저는 지난 주말에 아주 특별한 사진관에 갔습니다. 그 사진관에는 사진을 찍기 위한 모든 준비가 다 되어 있었습니다. 사진을 찍기 전에 화장도 해 주고 머리도 해 주었습니다. 그리고 저에게 어울리는 옷도 빌려 주었습니다. 거울 속의 제 모습이 마음에 들었습니다. 이렇게 멋진 모습으로 사진을 ( ㉠ ) 친구들에게도 소개할 생각입니다.",
+      "question": "㉠에 들어갈 알맞은 말을 고르십시오.",
       "options": [
-        "찍을까해서",
-        "찍으려고해서",
-        "찍어야하기때문에",
-        "찍을수있기때문에"
+        "찍을까 해서",
+        "찍으려고 해서",
+        "찍어야 하기 때문에",
+        "찍을 수 있기 때문에"
       ]
     },
     "explanationVi": "Câu 39 (Đọc): theo đoạn văn \"39. \", đáp án 4 phù hợp nhất.",
@@ -2116,13 +2632,13 @@
     "tier": "paid",
     "correct_ans": "3",
     "content_json": {
-      "passage": "이글의내용으로알수있는것은무엇입니까?",
-      "question": "다음을 읽고 ( )에 들어갈 말로 알맞은 것을 고르십시오.",
+      "passage": "저는 지난 주말에 아주 특별한 사진관에 갔습니다. 그 사진관에는 사진을 찍기 위한 모든 준비가 다 되어 있었습니다. 사진을 찍기 전에 화장도 해 주고 머리도 해 주었습니다. 그리고 저에게 어울리는 옷도 빌려 주었습니다. 거울 속의 제 모습이 마음에 들었습니다. 이렇게 멋진 모습으로 사진을 ( ㉠ ) 친구들에게도 소개할 생각입니다.",
+      "question": "이 글의 내용으로 알 수 있는 것은 무엇입니까?",
       "options": [
-        "사진관에서사진찍는방법을배울수있습니다.",
-        "사진이마음에들지않으면다시찍어도됩니다.",
-        "손님은특별한준비없이사진관에가도됩니다.",
-        "손님은기다리지않고사진을찍을수있습니다."
+        "사진관에서 사진 찍는 방법을 배울 수 있습니다.",
+        "사진이 마음에 들지 않으면 다시 찍어도 됩니다.",
+        "손님은 특별한 준비 없이 사진관에 가도 됩니다.",
+        "손님은 기다리지 않고 사진을 찍을 수 있습니다."
       ]
     },
     "explanationVi": "Câu 40 (Đọc): theo đoạn văn \"40. \", đáp án 3 phù hợp nhất.",

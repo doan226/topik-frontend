@@ -21,4 +21,10 @@ public interface FsrsCardRepository extends JpaRepository<FsrsCard, Long> {
     Optional<FsrsCard> findByIdAndUserId(Long id, Long userId);
 
     Optional<FsrsCard> findByUserIdAndExternalRef(Long userId, String externalRef);
+
+    List<FsrsCard> findByUserIdAndSourceOrderByDueAsc(Long userId, String source);
+
+    List<FsrsCard> findByUserIdAndSourceAndDueLessThanEqualOrderByDueAsc(Long userId, String source, Long dueMs);
+
+    long countByUserIdAndSourceAndDueLessThanEqual(Long userId, String source, Long dueMs);
 }

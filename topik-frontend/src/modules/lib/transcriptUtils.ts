@@ -237,31 +237,31 @@ export function buildTimedExamSections(
   return { sections, flatLines };
 }
 
-/** Nhãn 35 đoạn MP3: 1–20 đơn + 15 cặp 21_22 … 49_50 */
-export const LISTENING_SEGMENT_LABELS = [
-  ...Array.from({ length: 20 }, (_, i) => String(i + 1)),
-  ...Array.from({ length: 15 }, (_, i) => `${21 + i * 2}_${22 + i * 2}`),
-];
-
 export interface AudioSegment {
   questionNo: string;
   offsetMs: number;
   segmentIndex: number;
 }
 
-/** Gom câu hỏi theo exam_offset_ms duy nhất → 35 đoạn audio. */
+/**
+ * Gom câu hỏi theo exam_offset_ms duy nhất → các đoạn audio.
+ * Nhãn của mỗi đoạn được suy ra trực tiếp từ dữ liệu: các câu cùng chung một
+ * đoạn (cùng offset) được nối lại, ví dụ "25_26" (TOPIK I) hay "43_44" (TOPIK II).
+ * Cách này đúng cho mọi đề thay vì giả định bố cục cố định.
+ */
 export function buildAudioSegments(questions: any[]): AudioSegment[] {
-  const seen = new Map<number, string>();
+  const byOffset = new Map<number, number[]>();
   for (const q of questions) {
     const offset = Number(q?.content_json?.exam_offset_ms);
     if (!Number.isFinite(offset)) continue;
-    if (!seen.has(offset)) {
-      seen.set(offset, String(q?.question_no ?? ''));
-    }
+    const no = Number(q?.question_no);
+    const list = byOffset.get(offset) ?? [];
+    list.push(Number.isFinite(no) ? no : list.length + 1);
+    byOffset.set(offset, list);
   }
-  const sorted = [...seen.entries()].sort((a, b) => a[0] - b[0]);
-  return sorted.map(([offsetMs], segmentIndex) => ({
-    questionNo: LISTENING_SEGMENT_LABELS[segmentIndex] ?? String(segmentIndex + 1),
+  const sorted = [...byOffset.entries()].sort((a, b) => a[0] - b[0]);
+  return sorted.map(([offsetMs, nos], segmentIndex) => ({
+    questionNo: [...nos].sort((a, b) => a - b).join('_'),
     offsetMs,
     segmentIndex,
   }));

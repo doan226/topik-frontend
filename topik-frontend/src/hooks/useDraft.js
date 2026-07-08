@@ -25,6 +25,22 @@ export function clearDraft(userId, questionId) {
   }
 }
 
+/** List in-progress drafts for welcome-back prompts. */
+export function listDrafts(userId) {
+  if (!userId || typeof localStorage === 'undefined') return [];
+  const prefix = `topik_draft_${userId}_`;
+  const drafts = [];
+  for (let i = 0; i < localStorage.length; i += 1) {
+    const key = localStorage.key(i);
+    if (!key?.startsWith(prefix)) continue;
+    const questionId = key.slice(prefix.length);
+    const text = localStorage.getItem(key) || '';
+    if (!text.trim()) continue;
+    drafts.push({ questionId, charCount: text.replace(/\s/g, '').length, preview: text.slice(0, 40) });
+  }
+  return drafts;
+}
+
 export function useDraftSave(userId, questionId, text) {
   useEffect(() => {
     if (!userId || questionId == null) return;

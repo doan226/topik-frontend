@@ -63,8 +63,9 @@
     },
     {
       "path": "writing-question-bank.json",
-      "items": 56,
-      "status": "synced"
+      "items": 132,
+      "status": "synced",
+      "note": "40 official + 92 expansion (sets 1-23)"
     }
   ],
   "userInputRequired": "data/USER-INPUT-CHECKLIST.md",
