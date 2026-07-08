@@ -3,6 +3,7 @@ import OMRGrid from '../OMRGrid.jsx';
 import Timer from '../Timer.jsx';
 import ExamRoomSidebar from './ExamRoomSidebar';
 import Essay54ReportCard from './Essay54ReportCard';
+import ProgressAfterGrade from './ProgressAfterGrade';
 import HighlightedTextarea from './HighlightedTextarea';
 import WritingMicroGuide from './WritingMicroGuide';
 import { apiFetch, apiUrl } from '../api/client';
@@ -39,6 +40,9 @@ export default function ExamRoom({
   fixedQuestionType,
   initialTopik,
   onSwitchToTheory,
+  profile,
+  onProfileRefresh,
+  onNavigate,
 }) {
   const userId = getUserId(user);
   const writingAccess = hasWriting ?? isPremium;
@@ -55,6 +59,7 @@ export default function ExamRoom({
   const [quota, setQuota] = useState(null);
   const [showChecklist, setShowChecklist] = useState(false);
   const [rewriteVersion, setRewriteVersion] = useState(0);
+  const [lastAnswerId, setLastAnswerId] = useState(null);
   const [savedPhraseIds, setSavedPhraseIds] = useState(
     () => new Set(loadSavedVocab54(userId).map((i) => i.id))
   );
@@ -226,6 +231,8 @@ export default function ExamRoom({
           questionId: currentQuestion?.id ?? null,
           questionPrompt: currentQuestion?.prompt ?? '',
           referenceAnswer: currentQuestion?.answer ?? '',
+          rewriteVersion: rewriteVersion + 1,
+          parentAnswerId: rewriteVersion > 0 ? lastAnswerId : null,
         }),
       });
 
@@ -262,6 +269,9 @@ export default function ExamRoom({
       setGradingResult(data);
       setLastGradedText(currentAnswer);
       lastSubmitRef.current = currentAnswer;
+      if (data.answerId) {
+        setLastAnswerId(data.answerId);
+      }
       clearDraft(userId, currentQuestion.id);
       if (data.grammar_errors?.length) {
         addMistakesFromGrading(userId, data.grammar_errors, effectiveType);
@@ -275,6 +285,8 @@ export default function ExamRoom({
         maxScore,
       });
       showToast('AI đã chấm điểm xong bài làm của bạn!', 'success');
+
+      onProfileRefresh?.();
 
       apiFetch(`/api/v1/dashboard/quota/${userId}`)
         .then((r) => r.json())
@@ -515,6 +527,17 @@ export default function ExamRoom({
         onSavePhrase={handleSavePhrase}
         savedPhraseIds={savedPhraseIds}
       />
+
+      {gradingResult && !gradingResult.apiError && (
+        <ProgressAfterGrade
+          gradingResult={gradingResult}
+          questionType={effectiveType}
+          profile={profile}
+          onRewrite={handleRewriteV2}
+          onNavigate={onNavigate}
+          onReviewMistakes={() => onNavigate?.('dashboard')}
+        />
+      )}
 
       {showChecklist && (
         <div className="pre-submit-overlay" role="dialog" aria-modal="true">

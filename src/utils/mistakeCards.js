@@ -1,4 +1,5 @@
 import { grammarMappings } from './contentData';
+import { apiFetch } from '../api/client';
 
 const STORAGE_PREFIX = 'topik_mistake_cards_';
 const SRS_INTERVALS = [1, 3, 7, 14, 30];
@@ -88,6 +89,63 @@ export function loadMistakeCards(userId) {
 
 export function saveMistakeCards(userId, cards) {
   localStorage.setItem(`${STORAGE_PREFIX}${userId}`, JSON.stringify(cards));
+}
+
+export async function fetchMistakeCardsFromServer(userId) {
+  if (!userId) return [];
+  try {
+    const res = await apiFetch(`/api/v1/learner/mistakes/${userId}`);
+    if (!res.ok) return loadMistakeCards(userId);
+    const data = await res.json();
+    const cards = (data.cards || []).map((c) => ({
+      id: c.externalRef || `${c.wrong}→${c.correct}`,
+      wrong: c.wrong,
+      correct: c.correct,
+      reasonVi: c.reasonVi || '',
+      patternId: c.patternId || null,
+      questionType: c.questionType || 51,
+      source: 'ai-grading',
+      cardId: c.id,
+      nextReviewDate: c.due ? new Date(c.due).toISOString().slice(0, 10) : null,
+      reviewCount: 0,
+      isDue: c.isDue,
+    }));
+    if (cards.length) saveMistakeCards(userId, cards);
+    return cards.length ? cards : loadMistakeCards(userId);
+  } catch {
+    return loadMistakeCards(userId);
+  }
+}
+
+export async function syncMistakesToServer(userId, cards) {
+  if (!userId || !cards?.length) return;
+  try {
+    await apiFetch('/api/v1/learner/mistakes/sync', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(cards),
+    });
+  } catch {
+    /* offline */
+  }
+}
+
+export async function reviewMistakeCardRemote(userId, card, remembered = true) {
+  if (card?.cardId) {
+    try {
+      const res = await apiFetch(`/api/v1/learner/mistakes/${card.cardId}/review`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ remembered, rating: remembered ? 3 : 1 }),
+      });
+      if (res.ok) {
+        return fetchMistakeCardsFromServer(userId);
+      }
+    } catch {
+      /* fallback local */
+    }
+  }
+  return reviewMistakeCard(userId, card.id, remembered);
 }
 
 export function mergeMistakeCards(userId, newCards) {

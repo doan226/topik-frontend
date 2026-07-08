@@ -15,6 +15,8 @@ import PageHeader from './components/PageHeader';
 import { useToast } from './hooks/useToast';
 import { useQuestions } from './hooks/useQuestions';
 import { useEntitlements } from './hooks/useEntitlements';
+import { LearnerProfileProvider, useLearnerProfile } from './hooks/useLearnerProfile';
+import CoachBar from './components/CoachBar';
 import { getUserId, normalizeUser } from './utils/userId';
 import { apiFetch } from './api/client';
 import { clearAuth, getToken, setToken } from './api/auth';
@@ -194,12 +196,94 @@ export default function App() {
   const isPremium = hasWriting;
 
   return (
+    <LearnerProfileProvider userId={userId}>
+      <AppShell
+        user={user}
+        userId={userId}
+        isPremium={isPremium}
+        hasWriting={hasWriting}
+        hasHanja={hasHanja}
+        hasTopik1={hasTopik1}
+        gradingLimitDaily={gradingLimitDaily}
+        activeTab={activeTab}
+        listenReadSub={listenReadSub}
+        locationPathname={location.pathname}
+        writingModes={writingModes}
+        writingTopik={writingTopik}
+        questions={questions}
+        showOnboarding={showOnboarding}
+        showPremiumSuccess={showPremiumSuccess}
+        showUpgradeModal={showUpgradeModal}
+        isCheckingPayment={isCheckingPayment}
+        toasts={toasts}
+        onDismissToast={dismissToast}
+        onNavigate={navigateTo}
+        setActiveTab={setActiveTab}
+        setShowOnboarding={setShowOnboarding}
+        setShowPremiumSuccess={setShowPremiumSuccess}
+        setShowUpgradeModal={setShowUpgradeModal}
+        onLogout={handleLogout}
+        onUpgrade={() => setShowUpgradeModal(true)}
+        onUserUpdate={setUser}
+        showToast={showToast}
+        onCheckPayment={handleCheckPayment}
+        onPremiumSuccess={handlePremiumSuccess}
+        getWritingPageProps={getWritingPageProps}
+        routerNavigate={routerNavigate}
+        refreshEntitlements={refreshEntitlements}
+      />
+    </LearnerProfileProvider>
+  );
+}
+
+function AppShell({
+  user,
+  userId,
+  isPremium,
+  hasWriting,
+  hasHanja,
+  hasTopik1,
+  activeTab,
+  listenReadSub,
+  locationPathname,
+  questions,
+  showOnboarding,
+  showPremiumSuccess,
+  showUpgradeModal,
+  isCheckingPayment,
+  toasts,
+  onDismissToast,
+  onNavigate,
+  setActiveTab,
+  setShowOnboarding,
+  setShowPremiumSuccess,
+  setShowUpgradeModal,
+  onLogout,
+  onUpgrade,
+  onUserUpdate,
+  showToast,
+  onCheckPayment,
+  onPremiumSuccess,
+  getWritingPageProps,
+  routerNavigate,
+}: any) {
+  const { profile, refreshProfile } = useLearnerProfile();
+  const coachBadge = (profile?.dueMistakes ?? 0) + (profile?.pendingRewrites ?? 0);
+
+  React.useEffect(() => {
+    if (!profile || !showToast) return;
+    if (profile.daysSinceLastActivity >= 3 && profile.daysSinceLastActivity < 999) {
+      const key = `topik_welcome_back_${userId}`;
+      if (sessionStorage.getItem(key)) return;
+      sessionStorage.setItem(key, '1');
+      showToast(`Chào lại! Bạn vắng ${profile.daysSinceLastActivity} ngày — ${profile.nextBestAction?.label || 'tiếp tục luyện nhé'}`, 'info');
+    }
+  }, [profile?.daysSinceLastActivity, userId, showToast]);
+
+  return (
     <div className="topik-app">
-      {location.pathname === '/pricing' ? (
-        <PricingPage
-          userId={userId}
-          onUpgradeClick={() => setShowUpgradeModal(true)}
-        />
+      {locationPathname === '/pricing' ? (
+        <PricingPage userId={userId} onUpgradeClick={() => setShowUpgradeModal(true)} />
       ) : (
         <>
       <Navbar
@@ -207,15 +291,23 @@ export default function App() {
         setActiveTab={setActiveTab}
         user={user}
         isPremium={isPremium}
-        onLogout={handleLogout}
-        onUpgrade={() => setShowUpgradeModal(true)}
-        onUserUpdate={setUser}
+        onLogout={onLogout}
+        onUpgrade={onUpgrade}
+        onUserUpdate={onUserUpdate}
         showToast={showToast}
+        coachBadge={coachBadge}
       />
-      <Toast toasts={toasts} onDismiss={dismissToast} />
+      <CoachBar user={user} profile={profile} onNavigate={onNavigate} showToast={showToast} />
+      <Toast toasts={toasts} onDismiss={onDismissToast} />
 
       {showOnboarding && (
-        <Onboarding userId={userId} onComplete={() => setShowOnboarding(false)} />
+        <Onboarding
+          userId={userId}
+          onComplete={() => {
+            setShowOnboarding(false);
+            refreshProfile();
+          }}
+        />
       )}
 
       {showPremiumSuccess && (
@@ -242,9 +334,10 @@ export default function App() {
             userId={userId}
             isPremium={isPremium}
             hasHanja={hasHanja}
+            profile={profile}
             showToast={showToast}
             onUpgradeClick={() => setShowUpgradeModal(true)}
-            onNavigate={navigateTo}
+            onNavigate={onNavigate}
           />
         )}
         {WRITING_TABS.map((tabId) =>
@@ -258,6 +351,8 @@ export default function App() {
               showToast={showToast}
               onUpgradeClick={() => setShowUpgradeModal(true)}
               onShowHelp={() => setShowOnboarding(true)}
+              profile={profile}
+              onProfileRefresh={refreshProfile}
               {...getWritingPageProps(tabId)}
             />
           ) : null
@@ -328,8 +423,8 @@ export default function App() {
         userId={userId}
         isCheckingPayment={isCheckingPayment}
         onClose={() => setShowUpgradeModal(false)}
-        onCheckPayment={handleCheckPayment}
-        onPremiumSuccess={handlePremiumSuccess}
+        onCheckPayment={onCheckPayment}
+        onPremiumSuccess={onPremiumSuccess}
       />
     </div>
   );

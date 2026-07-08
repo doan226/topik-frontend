@@ -19,6 +19,9 @@ interface WritingQuestionPageProps {
   initialMode?: WritingMode;
   initialTopik?: number;
   onShowHelp?: () => void;
+  profile?: any;
+  onProfileRefresh?: () => void | Promise<unknown>;
+  onNavigate?: (tab: string, opts?: { writingMode?: string }) => void;
 }
 
 export default function WritingQuestionPage({
@@ -32,6 +35,9 @@ export default function WritingQuestionPage({
   initialMode = 'theory',
   initialTopik,
   onShowHelp,
+  profile,
+  onProfileRefresh,
+  onNavigate,
 }: WritingQuestionPageProps) {
   const navigate = useNavigate();
   const [mode, setMode] = useState<WritingMode>(initialMode);
@@ -63,6 +69,9 @@ export default function WritingQuestionPage({
       fixedQuestionType={questionType}
       initialTopik={initialTopik}
       onSwitchToTheory={() => goMode('theory')}
+      profile={profile}
+      onProfileRefresh={onProfileRefresh}
+      onNavigate={onNavigate}
     />
   );
 

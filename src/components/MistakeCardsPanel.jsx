@@ -4,7 +4,8 @@ import {
   mergeMistakeCards,
   extractMistakesFromHistory,
   getDueCards,
-  reviewMistakeCard,
+  fetchMistakeCardsFromServer,
+  reviewMistakeCardRemote,
 } from '../utils/mistakeCards';
 import { getPatternById } from '../utils/contentData';
 import { getWritingTabForQuestion } from '../navigation';
@@ -15,9 +16,14 @@ export default function MistakeCardsPanel({ userId, historyRows, onNavigate }) {
 
   useEffect(() => {
     if (!userId) return;
-    const fromHistory = extractMistakesFromHistory(historyRows);
-    const merged = mergeMistakeCards(userId, fromHistory);
-    setCards(merged.length ? merged : loadMistakeCards(userId));
+    let cancelled = false;
+    (async () => {
+      const fromHistory = extractMistakesFromHistory(historyRows);
+      mergeMistakeCards(userId, fromHistory);
+      const serverCards = await fetchMistakeCardsFromServer(userId);
+      if (!cancelled) setCards(serverCards.length ? serverCards : loadMistakeCards(userId));
+    })();
+    return () => { cancelled = true; };
   }, [userId, historyRows]);
 
   const goOmr = (questionType) => {
@@ -27,8 +33,8 @@ export default function MistakeCardsPanel({ userId, historyRows, onNavigate }) {
 
   const dueCount = getDueCards(cards).length;
 
-  const handleReview = (cardId, remembered) => {
-    const updated = reviewMistakeCard(userId, cardId, remembered);
+  const handleReview = async (card, remembered) => {
+    const updated = await reviewMistakeCardRemote(userId, card, remembered);
     setCards(updated);
   };
 
@@ -91,10 +97,10 @@ export default function MistakeCardsPanel({ userId, historyRows, onNavigate }) {
                     </p>
                   )}
                   <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-                    <button type="button" className="practice-nav-btn" onClick={() => handleReview(card.id, true)}>
+                    <button type="button" className="practice-nav-btn" onClick={() => handleReview(card, true)}>
                       ✓ Nhớ rồi
                     </button>
-                    <button type="button" className="practice-nav-btn" onClick={() => handleReview(card.id, false)}>
+                    <button type="button" className="practice-nav-btn" onClick={() => handleReview(card, false)}>
                       ↻ Ôn lại
                     </button>
                     <button

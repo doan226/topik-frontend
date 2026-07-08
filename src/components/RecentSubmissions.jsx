@@ -55,6 +55,16 @@ export default function RecentSubmissions({
           } catch {
             score = item.score || 0;
           }
+          let prevScore = null;
+          if (idx > 0) {
+            try {
+              const prevAi = JSON.parse(items[idx - 1].ai_feedback_json || '{}');
+              prevScore = prevAi.total_score ?? items[idx - 1].score ?? null;
+            } catch {
+              prevScore = items[idx - 1].score ?? null;
+            }
+          }
+          const delta = prevScore != null ? score - prevScore : null;
           const label = item.created_at
             ? `${item.created_at} · ${score}đ`
             : `Lần ${idx + 1} · ${score}đ`;
@@ -76,6 +86,11 @@ export default function RecentSubmissions({
               }}
             >
               {label}
+              {delta != null && (
+                <span style={{ marginLeft: 4, color: delta >= 0 ? '#16a34a' : '#dc2626' }}>
+                  ({delta >= 0 ? '+' : ''}{delta})
+                </span>
+              )}
             </button>
           );
         })}
