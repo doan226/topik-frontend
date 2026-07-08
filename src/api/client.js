@@ -34,12 +34,13 @@ export function apiUrl(path) {
 }
 
 export async function apiFetch(path, options = {}) {
+  const { skipAuthRedirect, ...fetchOptions } = options;
   const headers = {
-    ...(options.headers || {}),
+    ...(fetchOptions.headers || {}),
     ...getAuthHeaders(),
   };
-  const res = await fetch(apiUrl(path), { ...options, headers });
-  if (res.status === 401 && typeof window !== 'undefined') {
+  const res = await fetch(apiUrl(path), { ...fetchOptions, headers });
+  if (res.status === 401 && !skipAuthRedirect && typeof window !== 'undefined') {
     clearAuth();
     const path = window.location.pathname;
     if (path !== '/' && path !== '') {

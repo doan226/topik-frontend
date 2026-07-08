@@ -25,7 +25,7 @@ export function LearnerProfileProvider({ userId, children }) {
         }
         syncedRef.current = true;
       }
-      const res = await apiFetch(`/api/v1/learner/profile/${userId}`);
+      const res = await apiFetch(`/api/v1/learner/profile/${userId}`, { skipAuthRedirect: true });
       if (!res.ok) throw new Error('Không tải được hồ sơ học viên');
       const data = await res.json();
       setProfile(data);

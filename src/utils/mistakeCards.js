@@ -94,7 +94,7 @@ export function saveMistakeCards(userId, cards) {
 export async function fetchMistakeCardsFromServer(userId) {
   if (!userId) return [];
   try {
-    const res = await apiFetch(`/api/v1/learner/mistakes/${userId}`);
+    const res = await apiFetch(`/api/v1/learner/mistakes/${userId}`, { skipAuthRedirect: true });
     if (!res.ok) return loadMistakeCards(userId);
     const data = await res.json();
     const cards = (data.cards || []).map((c) => ({
@@ -124,6 +124,7 @@ export async function syncMistakesToServer(userId, cards) {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(cards),
+      skipAuthRedirect: true,
     });
   } catch {
     /* offline */
@@ -137,6 +138,7 @@ export async function reviewMistakeCardRemote(userId, card, remembered = true) {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ remembered, rating: remembered ? 3 : 1 }),
+        skipAuthRedirect: true,
       });
       if (res.ok) {
         return fetchMistakeCardsFromServer(userId);

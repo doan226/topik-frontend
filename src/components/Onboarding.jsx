@@ -50,6 +50,7 @@ export default function Onboarding({ userId, onComplete }) {
           targetLevel: targetLevel || null,
           onboardingCompleted: true,
         }),
+        skipAuthRedirect: true,
       });
     } catch {
       /* offline — still mark local */
